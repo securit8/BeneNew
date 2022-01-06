@@ -1,0 +1,653 @@
+/* Javascript */
+
+.reveal{
+  position: relative;
+  transform: translateY(40px);
+  opacity: 0;
+  transition:  all 0.8s ease;
+}
+
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+
+
+
+
+/* master */
+body {
+  background-color: #060D0D;
+}
+
+
+.Language-select{
+  margin-left: 85%;
+  text-align: right;
+  display: flex;
+  color: white;
+}
+
+.Ka{
+  padding-right: 3px;
+}
+
+.Ka a, .En a{
+  text-decoration: none;
+  color: gray;
+}
+
+.Ka a:hover, .En a:hover{
+  color: white;
+  transition: 0.5s;
+}
+
+.navbar{
+  list-style-type: none;
+  top: 5px;
+  padding-top: 15px;
+  display: block;
+  justify-content: flex-end;
+  
+}
+
+#navibar{
+  display: flex;
+  list-style: none;
+  padding: .5rem;
+}
+
+.navbar a{
+  font-size: 1rem;
+  font-family: MBCorpo Title;
+  color: gray;
+  padding: 5px;
+  text-decoration: none;
+}
+.navbar a:hover{
+  color:black;
+  transition: 0.7s;
+  background-color: white;
+}
+
+.navbar span{
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+.navbar button{
+  padding: 0;
+  background-color: black;
+  outline: none;
+  border: none;
+}
+
+.navbar i{
+  color: white;
+}
+.contact{
+  padding-right: 10px;
+}
+
+.search-i{
+height: 30px;
+cursor: pointer;
+}
+
+.search-i i:hover{
+  color: black;
+  transition: 0.7s;
+}
+
+
+.footer{
+  padding-left: 2rem;
+color: white;
+left: 10%;
+display: inline-flex;
+width: 100%;
+justify-content: space-between;
+background-color: rgb(26, 25, 25);
+}
+
+.footer ul{
+  list-style-type: none;
+}
+
+.contact-info-logo{
+  margin-top: 0.5rem;
+ margin-bottom: 1.3rem;
+}
+
+.contact-slogan{
+  margin-bottom: 1.1rem;
+  font-family: MBCorpo;
+  font-weight: 800;
+}
+
+.contact-text{
+  margin-bottom: 1rem;
+  border: rgb(59, 59, 59) solid 2px;
+  text-align: center;
+  padding-top: 9px;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact-text:hover{
+  background-color: #b4b1b1;
+  color: #060D0D;
+  transition: 0.6s;
+  border: #b4b1b1 solid 2px;
+  
+}
+
+.contact-text a{
+text-decoration: none;
+color:aliceblue;
+font-family: MBCorpo;
+}
+
+.contact-text a:hover{
+  color: #060D0D;
+}
+
+
+.our-social-meida{
+  display: block;
+}
+
+.footer-social-icons{
+  margin-left: 64%;
+  color: #4b4a4a;
+}
+
+.social-icons1{
+  display: flex;
+  padding-left: 20px;
+}
+
+
+.social-icons1 i{
+  padding-top: 1.5rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.social-icons2{
+  display: flex;
+  padding-left: 20px;
+}
+
+.social-icons2 i{
+  padding-right: 2rem;
+}
+
+.footer-navbar{
+  position:relative;
+right: 5%;
+bottom:4%;
+color: #7a7878;
+font-weight: 500;
+}
+
+.footer-navbar p{
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family: MBCorpo;
+}
+
+
+.footer-nav-inner{
+  display: flex;
+  margin-top: 3rem;
+}
+
+.footer-about{
+  padding-left: 0.75rem;
+  font-size: large;
+  text-align: center;
+  padding-right: 0.75rem;
+  cursor: pointer;
+}
+
+.footer-vehicles, .footer-rent, .footer-taxi, .footer-events, .footer-partners, .footer-contact, .footer-motors{
+  padding-left: 0.75rem;
+  font-size: large;
+  text-align: center;
+  padding-right: 0.75rem;
+  cursor: pointer;
+}
+
+.footer-about:hover, .footer-vehicles:hover, .footer-rent:hover, .footer-taxi:hover, .footer-events:hover, .footer-partners:hover, .footer-contact:hover{
+ background-color: #b4b1b1;
+ transition: 0.6s;
+ color: black;
+}
+
+.bene_logo {
+position: relative;
+width: 80%;
+left: 10px;
+top: 1.2rem;
+}
+
+.navigation{
+  top:20px;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-button{
+position:absolute;
+top: 37px;
+right: 5px;
+display: none;
+flex-direction: column;
+justify-content: space-between;
+width:30px;
+height:21px;
+cursor: pointer;
+}
+
+.toggle-button .bar{
+  width:100%;
+  height: 3px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 1225px) {
+  header{
+    margin-bottom: 19px;
+  }
+
+  .toggle-button{
+    display:flex;
+  }
+
+  .toggle-button span:hover{
+    cursor:pointer
+  }
+
+  .navbar{
+    z-index: 15;
+    transition: 0.5s;
+    width: 100%;
+  }
+
+  #navibar {
+    display:none;
+    transition: 0.4s ease;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+  }
+  .navigation{
+   flex-direction: column;
+   align-items: center;
+   right: 0;
+   padding-bottom: 4px;
+  }
+   .navbar span{
+     display: none;
+   }
+
+
+   .bene_logo{
+     width: 130%!important;
+     height: 130%!important;
+   }
+
+ .home, .about, .autopark, .rent, .academy, .events, .partners, .contact, .motors{
+   padding-bottom: 10px;
+ }
+
+
+
+
+
+}
+
+.inner-line-1{
+background-color: blanchedalmond;
+}
+
+
+
+
+.front-line-1{
+  display: flex;
+  justify-content: space-around;
+ position: absolute;
+ top: 20px;
+ padding-top: 6.5%;
+ padding-left: 5%;
+}
+
+.line-1 img{
+  width: 85%;
+}
+
+.line-1-info{
+  text-align: center;
+}
+
+
+.line-1-info h3{
+ font-family: MBCorpo;
+ font-weight:700;
+}
+
+.line-1-info p{
+  color: rgba(36, 160, 237, 1);
+  font-weight: 700;
+  font-family: MBCorpo;
+}
+
+#land{
+  padding-right: 4.5rem;
+}
+
+.line-1-btn{
+  padding-left: 10rem;
+}
+
+.line-1-btn button{
+  background-color: #24A0ED;
+  outline: none;
+  border: none;
+  padding-top: 9px;
+  width: 50%;
+  color: aliceblue;
+  font-family: MBCorpo;
+  font-size: large;
+  font-weight: 500;
+}
+
+#arrow{
+color: black;
+}
+
+.img-overlay{
+position: absolute;
+bottom: 5rem;
+}
+
+
+.ssearch-bar{
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 10px;
+  
+}
+
+.search-inner input{
+  position: relative;
+  left: 10%;
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: white;
+  margin-top: 3rem;
+}
+
+
+.carousel-indicators [data-bs-target] {
+  background-color:gray!important;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.index-part2-header{
+ margin-top: 5rem;
+ margin-bottom: 3rem;
+}
+
+.index-part2-header-inner{
+  text-align: center;
+  font-family: MBCorpo;
+  color:white;
+}
+
+.index-part2-info{
+  text-align: center;
+  font-family: MBCorpo;
+  color:white;
+}
+
+.part2-image-header{
+  padding-top: 1rem;
+  text-align: center;
+  padding-right: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.part2-image-info{
+  text-align: center;
+  padding-right: 5rem;
+  color: aliceblue;
+  font-family: MBCorpo;
+  padding-left: 1.8rem;
+}
+
+.index-part2-images-inner{
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 1%;
+  color: aliceblue;
+  font-family: MBCorpo;
+}
+
+.part2-image img{
+  width: 95%;
+}
+
+
+.index-part3{
+  width: 100%;
+ margin-top: 5rem;
+ background-color: rgb(26, 25, 25);
+}
+
+
+ 
+ .index-part3-header-inner{
+   margin-top: 5rem;
+   text-align: center;
+   font-family: MBCorpo;
+   color:white;
+ }
+
+ .index-part3-header-inner h2{
+   padding-top: 3rem;
+ }
+ 
+ .index-part3-info{
+   text-align: center;
+   font-family: MBCorpo;
+   color:white;
+ }
+
+ .index-part3-images{
+   width: 100%;
+   padding-left: 13%;
+   padding-right: 13%;
+ }
+
+
+ .images-line1{
+   margin-top: 2rem;
+   display:flex;
+   
+ }
+
+ .images-line1 img{
+   width: 100%;
+   padding-left: 1rem;
+ }
+
+ .images-line2{
+  margin-top: 2rem;
+  display:flex;
+  
+}
+
+.images-line2 img{
+  width: 100%;
+  padding-left: 1rem;
+  margin-bottom: 5rem;
+}
+
+.index-part4{
+  width:100%;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+
+.index-part4-header-inner{
+  text-align: center;
+  color: aliceblue;
+  font-family: MBCorpo;
+  margin-bottom: 1rem;
+}
+
+.index-part4-info{
+  text-align: center;
+  color: aliceblue;
+  font-family: MBCorpo;
+}
+
+.part4-image-inner{
+margin-left: 6%;
+
+}
+
+.part4-image-inner img{
+  width: 90%;
+  margin-bottom: 4rem;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+
+.part4-image-info h4{
+ color: aliceblue;
+ position: relative;
+ bottom: 9rem;
+font-family: MBCorpo;
+}
+
+.part4-image-info h5{
+  color: aliceblue;
+ position: relative;
+ bottom: 9rem;
+ font-family: MBCorpo;
+}
+
+
+
+/* Fleet */
+
+.fleet-list{
+  width: 100%;
+  background-color: aliceblue;
+}
+
+
+.fleet-header{
+  text-align: center;
+  color: rgb(12, 12, 12);
+  font-family: MBCorpo;
+  margin-bottom: 3rem;
+}
+
+
+.fleet-logo-inner{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-list-line{
+  display: flex;
+  margin-right: 1rem;
+}
+
+
+.lexus-logo, .mercedes-logo, .toyota-logo, .tesla-logo{
+  margin-left: 1.7rem;
+}
+
+
+.fleet-type{
+  width:100%;
+  margin-top: 2rem;
+}
+
+.fleet-type-list{
+display: flex;  
+justify-content: space-around;
+}
+
+.all:hover, .suv:hover, .sedan:hover, .minivan:hover, .minibus:hover, .bus:hover, .coupe:hover{
+ color:rgba(36, 160, 237, 1);
+ transition: 0.6s;
+ cursor: pointer;
+ text-shadow: rgb(32, 32, 122);
+}
+
+.fleet-class-header{
+  width: 100%;
+}
+
+.fleet-cars-inner{
+  margin-left: 5%;
+}
+
+.fleet-class{
+  text-align: center;
+}
+
+.fleet-cars-col1, .fleet-cars-col2, .fleet-cars-col3{
+  width: 30%;
+  padding: 1%;
+
+}
+.fleet-cars-col1{
+  margin-top: -0.4rem;
+}
+
+.fleet-cars-inner{
+  display: flex;
+  text-align: center;
+}
+
+.fleet-cars-col1 img{
+  width: 60%;
+}
+
+.fleet-cars-col2 img{
+  width: 60%;
+}
+
+.fleet-cars-col3 img{
+  width: 60%;
+}
+
+.fleet-mercedes{
+  margin-top: -0.15rem;
+}
+
+.fleet-car-type{
+  color:rgba(36, 160, 237, 1);
+}
