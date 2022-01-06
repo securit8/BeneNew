@@ -62,15 +62,13 @@
      </div>
     </div>
     <div class="carousel-item">
-      <img src="front\images\background.png" class="d-block w-100" alt="...">
+      <img src="front\images\toyotaB.png" class="d-block w-100" alt="...">
       <div class="img-overlay">
-      <img src="front\images\background2.png" class="d-block w-100" alt="...">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="front\images\background.png" class="d-block w-100" alt="...">
+      <img src="front\images\toyotaB.png" class="d-block w-100" alt="...">
       <div class="img-overlay">
-      <img src="front\images\background2.png" class="d-block w-100" alt="...">
       </div>
     </div>
   </div>
