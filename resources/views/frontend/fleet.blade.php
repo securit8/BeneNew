@@ -36,21 +36,21 @@
         <div class="fleet-logo-inner">
         <div class="logo-list-line reveal">
           <div class="lexus-logo">
-            <img src="public/front/images/fleet-logo1.png">
+            <img src="front/images/fleet-logo1.png">
           </div>
           <div class="mercedes-logo">
-            <img src="public/front/images/fleet-logo2.png">
+            <img src="front/images/fleet-logo2.png">
           </div>
           <div class="toyota-logo">
-            <img src="public/front/images/fleet-logo3.png">
+            <img src="front/images/fleet-logo3.png">
           </div>
           <div class="tesla-logo">
-            <img src="public/front/images/fleet-logo4.png">
+            <img src="front/images/fleet-logo4.png">
           </div>
         </div>
         </div>
       </div>
-    </div>
+  
   </div>
 
 <div class="fleet-type reveal">
@@ -145,7 +145,7 @@
       <div class="fleet-cars-inner">
         <div class="fleet-cars-col1">
         <div class="fleet-cars-pic1">
-          <img src="public/front/images/fleet3.png">
+          <img src="front/images/fleet3.png">
         </div>
         <div class="fleet-car-name">
           <h5>Toyota</h5>
@@ -160,7 +160,7 @@
 
         <div class="fleet-cars-col2">
           <div class="fleet-cars-pic1">
-          <img src="public/front/images/fleet2.png">
+          <img src="front/images/fleet2.png">
         </div>
         <div class="fleet-car-name">
           <h5>Toyota</h5>
@@ -176,7 +176,7 @@
         <div class="fleet-cars-col3">
           <div class="fleet-cars-pic1">
             <div class="fleet-mercedes">
-          <img src="public/front/images/fleet1.png">
+          <img src="front/images/fleet1.png">
           </div>
         </div>
         <div class="fleet-car-name">
@@ -203,7 +203,7 @@
       <div class="fleet-cars-inner">
         <div class="fleet-cars-col1">
         <div class="fleet-cars-pic1">
-          <img src="public/front/images/fleet3.png">
+          <img src="front/images/fleet3.png">
         </div>
         <div class="fleet-car-name">
           <h5>Toyota</h5>
@@ -218,7 +218,7 @@
 
         <div class="fleet-cars-col2">
           <div class="fleet-cars-pic1">
-          <img src="public/front/images/fleet2.png">
+          <img src="front/images/fleet2.png">
         </div>
         <div class="fleet-car-name">
           <h5>Toyota</h5>
@@ -234,7 +234,7 @@
         <div class="fleet-cars-col3">
           <div class="fleet-cars-pic1">
           <div class="fleet-mercedes">
-          <img src="public/front/images/fleet1.png">
+          <img src="front/images/fleet1.png">
         </div>
         </div>
         <div class="fleet-car-name">
@@ -261,7 +261,7 @@
       <div class="fleet-cars-inner">
         <div class="fleet-cars-col1">
         <div class="fleet-cars-pic1">
-          <img src="public/front/images/fleet3.png">
+          <img src="front/images/fleet3.png">
         </div>
         <div class="fleet-car-name">
           <h5>Toyota</h5>
@@ -276,7 +276,7 @@
 
         <div class="fleet-cars-col2">
           <div class="fleet-cars-pic1">
-          <img src="public/front/images/fleet2.png">
+          <img src="front/images/fleet2.png">
         </div>
         <div class="fleet-car-name">
           <h5>Toyota</h5>
@@ -292,7 +292,7 @@
         <div class="fleet-cars-col3">
           <div class="fleet-cars-pic1">
           <div class="fleet-mercedes">
-          <img src="public/front/images/fleet1.png">
+          <img src="front/images/fleet1.png">
         </div>
         </div>
         <div class="fleet-car-name">
@@ -319,7 +319,7 @@
       <div class="fleet-cars-inner">
         <div class="fleet-cars-col1">
         <div class="fleet-cars-pic1">
-          <img src="public/front/images/fleet3.png">
+          <img src="front/images/fleet3.png">
         </div>
         <div class="fleet-car-name">
           <h5>Toyota</h5>
@@ -334,7 +334,7 @@
 
         <div class="fleet-cars-col2">
           <div class="fleet-cars-pic1">
-          <img src="public/front/images/fleet2.png">
+          <img src="front/images/fleet2.png">
         </div>
         <div class="fleet-car-name">
           <h5>Toyota</h5>
@@ -350,7 +350,7 @@
         <div class="fleet-cars-col3">
           <div class="fleet-cars-pic1">
           <div class="fleet-mercedes">
-          <img src="public/front/images/fleet1.png">
+          <img src="front/images/fleet1.png">
         </div>
         </div>
         <div class="fleet-car-name">
@@ -377,7 +377,7 @@
       <div class="fleet-cars-inner">
         <div class="fleet-cars-col1">
         <div class="fleet-cars-pic1">
-          <img src="public/front/images/fleet3.png">
+          <img src="front/images/fleet3.png">
         </div>
         <div class="fleet-car-name">
           <h5>Toyota</h5>
@@ -392,7 +392,7 @@
 
         <div class="fleet-cars-col2">
           <div class="fleet-cars-pic1">
-          <img src="public/front/images/fleet2.png">
+          <img src="front/images/fleet2.png">
         </div>
         <div class="fleet-car-name">
           <h5>Toyota</h5>
@@ -408,7 +408,7 @@
         <div class="fleet-cars-col3">
           <div class="fleet-cars-pic1">
           <div class="fleet-mercedes">
-          <img src="public/front/images/fleet1.png"> 
+          <img src="front/images/fleet1.png"> 
         </div>
         </div>
         <div class="fleet-car-name">
