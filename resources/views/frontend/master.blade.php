@@ -30,13 +30,21 @@
 
     <div id="navibar">
   <div class="home"><a href="/">@lang('front.home')</a></div>
+  <div class ="nav-line"><p>|</p></div>
   <div class="about"><a href="{{route('frontend.about')}}">@lang('front.about')</a></div>
+  <div class ="nav-line"><p>|</p></div>
   <div class="autopark"><a href="{{route('frontend.fleet')}}">@lang('front.fleet')</a></div>
+  <div class ="nav-line"><p>|</p></div>
   <div class="rent"><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></div>
+  <div class ="nav-line"><p>|</p></div>
   <div class="academy"><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></div>
+  <div class ="nav-line"><p>|</p></div>
   <div class="events"><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></div>
+  <div class ="nav-line"><p>|</p></div>
   <div class="partners"><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></div>
+  <div class ="nav-line"><p>|</p></div>
   <div class="motors"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
+  <div class ="nav-line"><p>|</p></div>
   <div class="contact"><a href="{{route('frontend.contact')}}">@lang('front.contact')</a></div>
   <span class="search-i"><a href="#search"><i class="fas fa-search fa-lg"></i></a></span>
 </div>
@@ -64,7 +72,7 @@
     </div>
 
     <div class="contact-slogan">
-      <h6>Move With Luxury</h6>
+      <p>Move With Luxury</p>
     </div>
 
     <div class="contact-text">
@@ -102,30 +110,44 @@
     <div class="footer-about">
       <p>@lang('front.about')</p>
     </div>
+    
+    <div class ="footer-nav-line"><p>|</p></div>
 
     <div class="footer-vehicles">
       <p>@lang('front.fleet')</p>
     </div>
 
+    <div class ="footer-nav-line"><p>|</p></div>
+
     <div class="footer-rent">
     <p>@lang('front.rent')</p>
     </div>
+
+    <div class ="footer-nav-line"><p>|</p></div>
 
     <div class="footer-taxi">
     <p>@lang('front.taxi')</p>
     </div>
 
+    <div class ="footer-nav-line"><p>|</p></div>
+
     <div class="footer-events">
     <p>@lang('front.academy')</p>
     </div>
+
+    <div class ="footer-nav-line"><p>|</p></div>
 
     <div class="footer-partners">
     <p>@lang('front.partners')</p>
     </div>
 
+    <div class ="footer-nav-line"><p>|</p></div>
+
     <div class="footer-motors">
       <p>@lang('front.motors')</p>
     </div>
+
+    <div class ="footer-nav-line"><p>|</p></div>
 
     <div class="footer-contact">
     <p>@lang('front.contact')</p>

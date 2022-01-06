@@ -2,8 +2,8 @@
 return [
   /* header and footer*/
   'home' => 'Home',
-  'about' => 'About Us',
-  'fleet' => 'Fleet',
+  'about' => 'Company',
+  'fleet' => 'Vehicles',
   'rent' => 'Car Rent',
   'academy' => 'Academy',
   'taxi' => 'Taxi',

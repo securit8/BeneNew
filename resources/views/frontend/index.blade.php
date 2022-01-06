@@ -62,14 +62,24 @@
      </div>
     </div>
     <div class="carousel-item">
-      <img src="front\images\toyotaB.png" class="d-block w-100" alt="...">
       <div class="img-overlay">
+        <img src="front\images\background3.png" class="d-block w-100" alt="...">
+      </div>
+      <img src="front\images\toyotaB.png" class="d-block w-100" alt="...">
+      <div class="img-underlay">
+    <img src="front\images\background4.png" class="d-block w-100" alt="...">
       </div>
     </div>
     <div class="carousel-item">
-      <img src="front\images\toyotaB.png" class="d-block w-100" alt="...">
-      <div class="img-overlay">
+    
+    <div class="img-overlay">
+        <img src="front\images\background3.png" class="d-block w-100" alt="...">
       </div>
+      <img src="front\images\toyotaB.png" class="d-block w-100" alt="...">
+      <div class="img-underlay">
+    <img src="front\images\background4.png" class="d-block w-100" alt="...">
+      </div>
+      
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -94,11 +104,11 @@
 <div class="index-part2">
   <div class="index-part2-header">
     <div class="index-part2-header-inner">
-      <h2>მთავარი მრგლოვანი ტექსტი</h2>
+      <p>მთავარი მრგლოვანი ტექსტი</p>
     </div>
 
     <div class="index-part2-info">
-      <h5>მეორეხარისხოვანი ტექსტი</h5>
+      <p>მეორეხარისხოვანი ტექსტი</p>
     </div>
   </div>
   <div class="index-part2-images reveal">
@@ -142,11 +152,11 @@
 <div class="index-part3">
   <div class="index-part3-header">
     <div class="index-part3-header-inner reveal">
-      <h2>მთავარი მრგლოვანი ტექსტი</h2>
+      <p>მთავარი მრგლოვანი ტექსტი</p>
     </div>
 
     <div class="index-part3-info reveal">
-      <h5>მეორეხარისხოვანი ტექსტი</h5>
+      <p>მეორეხარისხოვანი ტექსტი</p>
     </div>
   </div>
 
@@ -216,11 +226,11 @@
 <div class="index-part4">
   <div class="index-part4-header">
     <div class="index-part4-header-inner reveal">
-    <h2>მთავარი მრგლოვანი ტექსტი</h2>
+    <p>მთავარი მრგლოვანი ტექსტი</p>
     </div>
 
     <div class="index-part4-info reveal">
-      <h5>მეორეხარისხოვანი ტექსტი</h5>
+      <p>მეორეხარისხოვანი ტექსტი</p>
     </div>
     </div>
   </div>
@@ -229,11 +239,11 @@
     <div class="part4-image-inner">
     <img src="front\images\part4.png" alt="">
     <div class="part4-image-info reveal">
-    <h4>მთავარი მრგლოვანი ტექსტი</h4>
+    <h5>მთავარი მრგლოვანი ტექსტი</p>
     </div>
 
-    <div class="part4-image-info reveal">
-      <h5>მეორეხარისხოვანი ტექსტი</h5>
+    <div class="part4-image-info2 reveal">
+      <p>მეორეხარისხოვანი ტექსტი</p>
     </div>
     </div>
     </div>

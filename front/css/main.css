@@ -60,9 +60,9 @@ body {
 }
 
 .navbar a{
-  font-size: 1rem;
-  font-family: MBCorpo Title;
-  color: gray;
+  font-size: 16px;
+  font-family: BPG Mrgvlovani 2010;
+  color: rgba(255, 255, 255, 1);
   padding: 5px;
   text-decoration: none;
 }
@@ -75,6 +75,14 @@ body {
 .navbar span{
   font-size: 13px;
   padding-top: 5px;
+}
+
+.nav-line p{
+  padding-top: 0.3rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: rgba(255, 255, 255, 1);
+  font-size: 9px;
 }
 
 .navbar button{
@@ -104,12 +112,12 @@ cursor: pointer;
 
 .footer{
   padding-left: 2rem;
-color: white;
+color: rgb(252, 252, 252);
 left: 10%;
 display: inline-flex;
 width: 100%;
 justify-content: space-between;
-background-color: rgb(26, 25, 25);
+background-color: #212529;
 }
 
 .footer ul{
@@ -123,13 +131,22 @@ background-color: rgb(26, 25, 25);
 
 .contact-slogan{
   margin-bottom: 1.1rem;
-  font-family: MBCorpo;
-  font-weight: 800;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+.contact-site p{
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+.contact-slogan p{
+  font-size: 18px;
 }
 
 .contact-text{
   margin-bottom: 1rem;
-  border: rgb(59, 59, 59) solid 2px;
+  border: rgba(255, 255, 255, 0.5) solid 2px;
   text-align: center;
   padding-top: 9px;
   cursor: pointer;
@@ -146,8 +163,8 @@ background-color: rgb(26, 25, 25);
 
 .contact-text a{
 text-decoration: none;
-color:aliceblue;
-font-family: MBCorpo;
+color:rgba(255, 255, 255, 1);
+font-family: BPG Mrgvlovani 2010;
 }
 
 .contact-text a:hover{
@@ -189,14 +206,15 @@ font-family: MBCorpo;
   position:relative;
 right: 5%;
 bottom:4%;
-color: #7a7878;
+color: rgb(109, 108, 108);
 font-weight: 500;
 }
 
 .footer-navbar p{
   padding-bottom: 0;
   margin-bottom: 0;
-  font-family: MBCorpo;
+  font-family: BPG Mrgvlovani 2010;
+  font-size: 16px;
 }
 
 
@@ -215,7 +233,7 @@ font-weight: 500;
 
 .footer-vehicles, .footer-rent, .footer-taxi, .footer-events, .footer-partners, .footer-contact, .footer-motors{
   padding-left: 0.75rem;
-  font-size: large;
+  font-size: 18px;
   text-align: center;
   padding-right: 0.75rem;
   cursor: pointer;
@@ -225,6 +243,12 @@ font-weight: 500;
  background-color: #b4b1b1;
  transition: 0.6s;
  color: black;
+}
+
+.footer-nav-line p{
+  color: rgb(109, 108, 108);
+  font-size: 11px;
+  padding-top: 4px;
 }
 
 .bene_logo {
@@ -339,14 +363,15 @@ background-color: blanchedalmond;
 
 
 .line-1-info h3{
- font-family: MBCorpo;
- font-weight:700;
+ font-family: Montserrat;
+ font-weight:600;
+
 }
 
 .line-1-info p{
   color: rgba(36, 160, 237, 1);
-  font-weight: 700;
-  font-family: MBCorpo;
+  font-weight: 500;
+  font-family: Montserrat;
 }
 
 #land{
@@ -364,7 +389,7 @@ background-color: blanchedalmond;
   padding-top: 9px;
   width: 50%;
   color: aliceblue;
-  font-family: MBCorpo;
+  font-family: BPG Mrgvlovani 2010;
   font-size: large;
   font-weight: 500;
 }
@@ -404,6 +429,16 @@ bottom: 5rem;
   border-radius: 50%;
 }
 
+.img-overlay {
+  position: absolute;
+ bottom: 0rem;
+}
+
+.img-underlay {
+  position:absolute;
+  top:0rem;
+}
+
 .index-part2-header{
  margin-top: 5rem;
  margin-bottom: 3rem;
@@ -411,21 +446,23 @@ bottom: 5rem;
 
 .index-part2-header-inner{
   text-align: center;
-  font-family: MBCorpo;
+  font-family: BPG Mrgvlovani 2010;
   color:white;
+  font-size: 40px;
 }
 
 .index-part2-info{
   text-align: center;
-  font-family: MBCorpo;
+  font-family: BPG Mrgvlovani 2010;
   color:white;
+  font-size: 25px;
 }
 
 .part2-image-header{
   padding-top: 1rem;
   text-align: center;
   padding-right: 1.2rem;
-  font-size: 1.2rem;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -433,8 +470,9 @@ bottom: 5rem;
   text-align: center;
   padding-right: 5rem;
   color: aliceblue;
-  font-family: MBCorpo;
+  font-family: BPG Mrgvlovani 2010;
   padding-left: 1.8rem;
+  font-size: 13px;
 }
 
 .index-part2-images-inner{
@@ -444,7 +482,7 @@ bottom: 5rem;
   margin-right: 15%;
   padding-left: 1%;
   color: aliceblue;
-  font-family: MBCorpo;
+  font-family: BPG Mrgvlovani 2010;
 }
 
 .part2-image img{
@@ -455,7 +493,7 @@ bottom: 5rem;
 .index-part3{
   width: 100%;
  margin-top: 5rem;
- background-color: rgb(26, 25, 25);
+ background-color: #212529;
 }
 
 
@@ -463,18 +501,20 @@ bottom: 5rem;
  .index-part3-header-inner{
    margin-top: 5rem;
    text-align: center;
-   font-family: MBCorpo;
+   font-family: Montserrat;
    color:white;
  }
 
- .index-part3-header-inner h2{
+ .index-part3-header-inner p{
    padding-top: 3rem;
+   font-size: 50px;
  }
  
  .index-part3-info{
    text-align: center;
-   font-family: MBCorpo;
+   font-family: Montserrat;
    color:white;
+   font-size: 25px;
  }
 
  .index-part3-images{
@@ -518,14 +558,16 @@ bottom: 5rem;
 .index-part4-header-inner{
   text-align: center;
   color: aliceblue;
-  font-family: MBCorpo;
+  font-family: Montserrat;
   margin-bottom: 1rem;
+  font-size: 50px;
 }
 
 .index-part4-info{
   text-align: center;
   color: aliceblue;
-  font-family: MBCorpo;
+  font-family: Montserrat;
+  font-size: 25px;
 }
 
 .part4-image-inner{
@@ -545,14 +587,24 @@ margin-left: 6%;
  color: aliceblue;
  position: relative;
  bottom: 9rem;
-font-family: MBCorpo;
+font-family: BPG Mrgvlovani 2010;
 }
 
 .part4-image-info h5{
   color: aliceblue;
  position: relative;
  bottom: 9rem;
- font-family: MBCorpo;
+ font-family: BPG Mrgvlovani 2010;
+ font-size: 25px;
+}
+
+.part4-image-info2 p{
+  color: aliceblue;
+  position: relative;
+  bottom: 9.5rem;
+  font-family: BPG Mrgvlovani 2010;
+  font-size: 20px;
+ }
 }
 
 
@@ -561,18 +613,26 @@ font-family: MBCorpo;
 
 .fleet-list{
   width: 100%;
-  background-color: aliceblue;
+  background-color:rgba(255, 255, 255, 1);
 }
 
+
+.fleet-header-outer{
+  background-color: rgba(255, 255, 255, 1);
+}
 
 .fleet-header{
   text-align: center;
   color: rgb(12, 12, 12);
-  font-family: MBCorpo;
-  margin-bottom: 3rem;
+  font-family: BPG Mrgvlovani Caps 2010;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: rgba(255, 255, 255, 1);
 }
 
-
+.fleet-logos{
+  background-color: rgba(255, 255, 255, 1);
+}
 .fleet-logo-inner{
   display: flex;
   justify-content: center;
@@ -596,7 +656,8 @@ font-family: MBCorpo;
 
 .fleet-type-list{
 display: flex;  
-justify-content: space-around;
+justify-content: space-evenly;
+font-family: Montserrat;
 }
 
 .all:hover, .suv:hover, .sedan:hover, .minivan:hover, .minibus:hover, .bus:hover, .coupe:hover{
@@ -606,8 +667,14 @@ justify-content: space-around;
  text-shadow: rgb(32, 32, 122);
 }
 
+.fleet-name-list2 hr, .fleet-name-list hr{
+  margin-left: 5%;
+  width: 90%;
+}
+
 .fleet-class-header{
   width: 100%;
+  font-family: Montserrat;
 }
 
 .fleet-cars-inner{
@@ -621,7 +688,7 @@ justify-content: space-around;
 .fleet-cars-col1, .fleet-cars-col2, .fleet-cars-col3{
   width: 30%;
   padding: 1%;
-
+  font-family: Montserrat;
 }
 .fleet-cars-col1{
   margin-top: -0.4rem;

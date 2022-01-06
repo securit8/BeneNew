@@ -34,7 +34,7 @@
     <div class="fleet-logo-outer">
       <div class="fleet-logo-middle">
         <div class="fleet-logo-inner">
-        <div class="logo-list-line reveal">
+        <div class="logo-list-line">
           <div class="lexus-logo">
             <img src="front/images/fleet-logo1.png">
           </div>
@@ -53,11 +53,11 @@
   
   </div>
 
-<div class="fleet-type reveal">
+<div class="fleet-type">
   <div class="fleet-type-outer">
     <div class="fleet-type-middle">
       <div class="fleet-type-inner">
-        <div class="fleet-type-list reveal">
+        <div class="fleet-type-list">
           <div class="all">
             <p>All</p>
           </div>
