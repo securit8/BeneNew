@@ -39,14 +39,14 @@
            </div>
            </div>
 
-           <div class="line-1">
+           <div class="line-1" id="cruiser">
            <img src="front\images\toyota.png">
            <div class="line-1-info" id="land">
            <h3>Toyota</h3>
            <p>Land Cruiser 300</p>
-           </div>
            <div class="line-1-btn">
              <button><p>დაჯავშნე</p></button>
+           </div>
            </div>
            </div>
 
@@ -239,7 +239,7 @@
     <div class="part4-image-inner">
     <img src="front\images\part4.png" alt="">
     <div class="part4-image-info reveal">
-    <h5>მთავარი მრგლოვანი ტექსტი</p>
+    <h5>მთავარი მრგლოვანი ტექსტი</h5>
     </div>
 
     <div class="part4-image-info2 reveal">
@@ -250,29 +250,6 @@
   </div>
 </div>
 
-
-<!-- <script>
-window.addEventListener('scroll', Reveal);
-
-function Reveal(){
-let  reveal = document.querySelectorAll('.reveal');
-
-for(var i = 0; i < reveal.length; i++){
-  var windowheight = window.innerHeight;
-  var revealtop = reveal[i].getBoundingClientRect().top;
-  var revealpoint = 70;
-
-  if(revealtop < windowheight - revealpoint){
-    reveal[i].classList.add('active');
-  }
-  else{
-    reveal[i].classList.remove('active');
-  }
-}
-}
-
-
-</script> -->
 
 
 <script>
