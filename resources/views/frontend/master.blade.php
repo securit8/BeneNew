@@ -49,7 +49,7 @@
   <span class="search-i"><a href="#search"><i class="fas fa-search fa-lg"></i></a></span>
 </div>
 </div>
-<div class="toggle-button" onclick="navigbar('navibar')">
+<div class="hamburger" id="myhamburger">
   <span class="bar"></span>
   <span class="bar"></span>
   <span class="bar"></span>
@@ -164,15 +164,17 @@
 </footer>
 
 
-<script>
-function navigbar(toggle) {
-   let navigbar = document.getElementById(toggle)
-  if (navibar.style.display === "none"){
-    navibar.style.display = "block"
-  } else {navibar.style.display ="none"}
 
- }
+<script>
+  const hamburger = document.getElementById('myhamburger');
+  const mobile = document.getElementById('navibar');
+
+  hamburger.addEventListener('click', () => {
+    mobile.classList.toggle('show');
+  });
 </script>
+
+
 <script>
 window.addEventListener('scroll', Reveal);
 
