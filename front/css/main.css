@@ -24,25 +24,54 @@ body {
 
 
 .Language-select{
-  margin-left: 85%;
+  width: 100%;
+  position: relative;
+  margin-left: 80%;
   text-align: right;
-  display: flex;
+ 
   color: white;
 }
 
-.Ka{
-  padding-right: 3px;
+.Language-select button{
+  background-color: #060D0D!important;
+  width: 30%;
+  display: inline-flex;
 }
 
-.Ka a, .En a{
-  text-decoration: none;
-  color: gray;
+.Language-select{
+  display: flex;
+}
+
+
+#langbtn{
+  display: none;
+}
+
+
+
+
+.Ka, .En{
+ width: 20%;
+}
+
+.Ka img, .En img{
+  width: 45%;
 }
 
 .Ka a:hover, .En a:hover{
+  background-color: #060D0D!important;
+}
+
+ .Ka a, .En a{
+  padding: 0;
+}
+
+
+/*  
+.Ka a:hover, .En a:hover{
   color: white;
   transition: 0.5s;
-}
+} */
 
 .navbar{
   list-style-type: none;
@@ -256,6 +285,7 @@ position: relative;
 width: 80%;
 left: 10px;
 top: 1.2rem;
+
 }
 
 .navigation{
@@ -316,6 +346,10 @@ cursor: pointer;
   font-size: 70%;
 }
 
+.carousel-indicators{
+  display: none;
+}
+
 /* .index-part2-images-inner{
   display: block!important;
 }
@@ -346,6 +380,27 @@ cursor: pointer;
   }
 
   
+
+  .Language-select{
+    left:0;
+    margin-left: 0;
+    position:relative;
+    bottom: 6rem;
+  }
+
+  .Language-select button{
+    width: 30%!important;
+  }
+
+
+  .Language-select img{
+    padding: 4px;
+    width: 80%;
+  }
+
+  .Ka, .En{
+    width: 100%;
+  }
      
   .hamburger{
     display:flex;
@@ -382,6 +437,7 @@ cursor: pointer;
    flex-direction: column;
    align-items: center;
    right: 0;
+   margin-right: 0;
    padding-bottom: 4px;
   }
    .navbar span{
@@ -414,6 +470,10 @@ cursor: pointer;
 
 
 @media (max-width: 411px){
+
+  .Ka img, .En img{
+    width: 100%;
+  }
 
   .front-line-1{
     margin-top: 0.7rem;
@@ -917,7 +977,7 @@ font-family: Montserrat;
 
 .all:hover, .suv:hover, .sedan:hover, .minivan:hover, .minibus:hover, .bus:hover, .coupe:hover{
  color:rgba(36, 160, 237, 1);
- transition: 0.6s;
+ transition: 0.4s;
  cursor: pointer;
  text-shadow: rgb(32, 32, 122);
 }

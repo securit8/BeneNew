@@ -17,19 +17,27 @@
   <div class="navigation">
   <div ><a href="/"><img class="bene_logo" src="front/images/logo.png" ></a></div>
 
+
+  
   <div class="navbar">
   <div class="Language-select">
+  <button type="button" onclick="changelang('langbtn')">
+  <i class="fas fa-globe fa-2x"></i>
+   <div id="langbtn">
+   <p></p>
   <div class="Ka">
-    <a href="locale/ka">KA</a>
-  </div>
+    <a href="locale/ka"><img src="{{asset('front/images/georgia.png') }}" alt=""></a>
+</div>
   <div class="En">
-  <a href="locale/en">EN</a>
-  </div>
+  <a href="locale/en"><img src="{{asset ('front/images/united-states.png') }}" alt=""></a>
+</div>
+</div>
+  </button>
 
 </div>
 
     <div id="navibar">
-  <div class="home"><a href="/">@lang('front.home')</a></div>
+  <div class="home"><a href="/home">@lang('front.home')</a></div>
   <div class ="nav-line"><p>|</p></div>
   <div class="about"><a href="{{route('frontend.about')}}">@lang('front.about')</a></div>
   <div class ="nav-line"><p>|</p></div>
@@ -68,7 +76,7 @@
 <div class="contact-info">
   <div class="contact-info-inner">
     <div class="contact-info-logo">
-      <img src="front/images/contact-logo.png" alt="">
+      <img src="{{asset('front/images/contact-logo.png')}}" alt="">
     </div>
 
     <div class="contact-slogan">
@@ -174,6 +182,16 @@
   });
 </script>
 
+<script>
+ function changelang(language) {
+   let langbtn = document.getElementById(language)
+  if (langbtn.style.display === "none"){
+    langbtn.style.display = "flex"
+  } else {langbtn.style.display ="none"}
+
+ }
+
+</script>
 
 <script>
 window.addEventListener('scroll', Reveal);

@@ -15,7 +15,7 @@ use App\Http\Controllers\RoutesController;
 |
 */
 
-Route::get('/', [RoutesController::class, 'index'])->name('frontend.index');
+Route::get('/home', [RoutesController::class, 'index'])->name('frontend.home');
 Route::get('/about', [RoutesController::class, 'about'])->name('frontend.about');
 Route::get('/fleet', [RoutesController::class, 'fleet'])->name('frontend.fleet');
 Route::get('/rent', [RoutesController::class, 'rent'])->name('frontend.rent');
@@ -72,4 +72,4 @@ Route::get('/w222', function() {
 
 // Localization Route
 
-Route::get("locale/{lange}", [LocalizationController::class, 'setLang']);
+Route::get("locale/{lange}", [LocalizationController::class, 'setlang']);
