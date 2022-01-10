@@ -37,7 +37,7 @@
 </div>
 
     <div id="navibar">
-  <div class="home"><a href="/home">@lang('front.home')</a></div>
+  <div class="home"><a href="/Benenew/home">@lang('front.home')</a></div>
   <div class ="nav-line"><p>|</p></div>
   <div class="about"><a href="{{route('frontend.about')}}">@lang('front.about')</a></div>
   <div class ="nav-line"><p>|</p></div>
