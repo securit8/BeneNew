@@ -19,6 +19,7 @@
 
 /* master */
 body {
+  overflow-x: hidden;
   background-color: #060D0D;
 }
 
