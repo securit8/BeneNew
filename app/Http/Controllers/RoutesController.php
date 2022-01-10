@@ -9,7 +9,7 @@ class RoutesController extends Controller
 {
 
 
-   public function index() {
+   public function home() {
         return view('frontend.home');
     }
 
