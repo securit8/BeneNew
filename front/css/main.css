@@ -48,7 +48,9 @@ body {
   display: none;
 }
 
-
+#langbtn.display{
+  display:flex;
+}
 
 
 .Ka, .En{

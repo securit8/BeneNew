@@ -21,7 +21,7 @@
   
   <div class="navbar">
   <div class="Language-select">
-  <button type="button" onclick="changelang('langbtn')">
+  <button type="button" id="changelang">
   <i class="fas fa-globe fa-2x"></i>
    <div id="langbtn">
    <p></p>
@@ -182,16 +182,17 @@
   });
 </script>
 
+
 <script>
- function changelang(language) {
-   let langbtn = document.getElementById(language)
-  if (langbtn.style.display === "none"){
-    langbtn.style.display = "flex"
-  } else {langbtn.style.display ="none"}
+  const language = document.getElementById('changelang');
+  const change = document.getElementById('langbtn');
 
- }
-
+  language.addEventListener('click', () => {
+    change.classList.toggle('display');
+  });
 </script>
+
+
 
 <script>
 window.addEventListener('scroll', Reveal);

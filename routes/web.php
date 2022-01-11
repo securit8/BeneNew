@@ -72,4 +72,4 @@ Route::get('/w222', function() {
 
 // Localization Route
 
-Route::get("locale/{lange}", [LocalizationController::class, 'setlang']);
+Route::get("locale/{lange}", [LocalizationController::class, 'setLang']);
