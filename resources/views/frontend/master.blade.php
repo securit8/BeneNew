@@ -22,7 +22,7 @@
   <div class="navbar">
   <div class="Language-select">
   <button type="button" id="changelang">
-  <i class="fas fa-globe fa-2x"></i>
+  <i class="fas fa-globe-americas"></i>
    <div id="langbtn">
    <p></p>
   <div class="Ka">

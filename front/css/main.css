@@ -36,7 +36,7 @@ body {
 .Language-select button{
   background-color: #060D0D!important;
   width: 30%;
-  display: inline-flex;
+  display: flex;
 }
 
 .Language-select{
@@ -55,6 +55,7 @@ body {
 
 .Ka, .En{
  width: 20%;
+ padding-bottom: 2rem;
 }
 
 .Ka img, .En img{
