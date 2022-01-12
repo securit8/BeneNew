@@ -23,15 +23,15 @@
   <div class="Language-select">
   <button type="button" id="changelang">
     <div class="language-icon">
-  <i class="fas fa-globe-americas"></i>
+    <img src="{{asset('front/images/earth.png') }}" alt="">
   </div>
    <div id="langbtn">
    <p></p>
   <div class="Ka">
-    <a href="locale/ka"><img src="{{asset('front/images/georgia.png') }}" alt=""></a>
+    <a href="locale/ka"><img src="{{asset('front/images/geo.png') }}" alt=""></a>
 </div>
   <div class="En">
-  <a href="locale/en"><img src="{{asset ('front/images/united-states.png') }}" alt=""></a>
+  <a href="locale/en"><img src="{{asset ('front/images/usa.png') }}" alt=""></a>
 </div>
 </div>
   </button>
