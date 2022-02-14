@@ -145,7 +145,7 @@
         </div>
 
         <div class="about-us-video">
-          <iframe src="https://www.youtube.com/embed/?v=W7vWuPWh4-Y" frameborder="0"></iframe>
+          <embed src="https://www.youtube.com/embed/W7vWuPWh4-Y?autoplay=1&mute=1" frameborder="0"></embed>
         </div>
     </div>
   </div>

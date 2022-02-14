@@ -590,7 +590,7 @@ padding-bottom: 15%;
 }
 
 
-.about-us-video iframe{
+.about-us-video embed{
   width: 522px;
   height: 325px;
 }
@@ -948,7 +948,7 @@ border-radius: 50%;
 
 .index-rent-carousel-item{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 margin-bottom: 5rem;
 width: 90%;
 margin-left: 5%;
@@ -964,6 +964,7 @@ margin-bottom: 1.5rem;
  text-align: center;
  background-color: rgba(252, 252, 253, 0.082);
  border-radius: 140px 60px 110px 70px;
+
 }
 
 .index-rent-item-toyota{
