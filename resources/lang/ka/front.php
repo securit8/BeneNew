@@ -18,7 +18,7 @@ return [
 // index
 
   'index-about' => 'ჩვენს შესახებ',
-  'index-text' => '„ბენე ექსკლუზივი“ არის კომპანია, რომელიც „ბენე ჯგუფი“-ს ქუდის ქვეშ წარმოიშვა და მის მსგავსად ლოგისტიკის დარგს ემსახურება. თავდაპირველი საქმიანობა მხოლოდ პრემიუმ კლასის ავტომანქანებით მომსახურებას გულისხმობდა, დღეს-დღეობით კი „ბენე ექსკლუზივი“ მრავალპროფილურ კომპანიას წარმოადგენს. ჩვენ საქმიანობას დაემატა ავტომანქანების გაქირავების სერვისი მძღოლის გარეშე, ბიზნეს პროექტებისა და ბიზნეს ივენთების ორგანიზება.', 
+  'index-text' => '"Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group". Initially, the services of our company were limited to premium class vehicles, however today "Bene-Exclusive" represents a multi-profile companu. Car renting as well as orginizing of Business Projects and Events have been added to our list of services.', 
   
   //rent page
   'rent-title' => 'ავტო-გაქირევება',

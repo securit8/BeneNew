@@ -70,7 +70,7 @@
 
 @yield('footer')
 
-
+<div class="footer-outer">
 <footer class="footer">
 <div class="contact-info">
   <div class="contact-info-inner">
@@ -144,6 +144,7 @@
     </div>
   
 </footer>
+</div>
 <div class="hr-line">
 <hr>
 </div>

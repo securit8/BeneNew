@@ -20,24 +20,92 @@
 @section('footer')
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
+    <div id="index-part1-carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
-      <div class="">
+      <div class="index-part1-carousel-inner">
 
+        <div class="carousel-part1-backgound">
+      <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-part1-shader">
+      <img src="{{asset('front/images/index-part1-backround.png') }}" alt="">
+      </div>
+      
+      <div class="index-slogan">
+         <div class="who-we-are"><p>We are Bene-Exclusive.</p></div>
+         <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
+        <div class="slogan-button">
+          <button>
+            <p>See more</p>
+             <i class="fas fa-arrow-right"></i>
+        </button>
+       </div>
 
       </div>
+      </div>
+
+       
+
     </div>
+
     <div class="carousel-item">
+    <div class="index-part1-carousel-inner">
+
+        <div class="carousel-part1-backgound">
       <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-part1-shader">
+      <img src="{{asset('front/images/index-part1-backround.png') }}" alt="">
+      </div>
+      
+      <div class="index-slogan">
+         <div class="who-we-are"><p>We are Bene-Exclusive.</p></div>
+         <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
+        <div class="slogan-button">
+          <button>
+            <p>See more</p>
+             <i class="fas fa-arrow-right"></i>
+        </button>
+       </div>
+
+      </div>
+      </div>
     </div>
+
     <div class="carousel-item">
+    <div class="index-part1-carousel-inner">
+
+        <div class="carousel-part1-backgound">
       <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-part1-shader">
+      <img src="{{asset('front/images/index-part1-backround.png') }}" alt="">
+      </div>
+      
+      <div class="index-slogan">
+         <div class="who-we-are"><p>We are Bene-Exclusive.</p></div>
+         <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
+        <div class="slogan-button">
+          <button>
+            <p>See more</p>
+             <i class="fas fa-arrow-right"></i>
+        </button>
+       </div>
+
+      </div>
+      </div>
+
     </div>
+
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
@@ -56,11 +124,11 @@
     <div class="part-1-inner">
         <div class="index-about-us-info">
           <div class="index-about-us-header">
-            <h4>@lang('front.index-about')</h4>
+            <p>@lang('front.index-about')</p>
           </div>
 
           <div class="index-about-us-title">
-            <h2>BENE EXCLUSIVE</h2>
+            <p>BENE EXCLUSIVE</p>
           </div>
 
           <div class="index-about-us-text">
@@ -89,7 +157,7 @@
     <div class="index-part-2-inner">
       <div class="index-news-header">
         <div class="index-news-header-title">
-          <h3>NEWSROOM</h3>
+          <p>NEWSROOM</p>
         </div>
 
         <div class="see-all-button">
@@ -214,7 +282,7 @@
 
             <div class="index-autopark-header">
             <div class="index-autopark-title">
-          <h3>NEWSROOM</h3>
+          <p>AUTOPARK</p>
         </div>
 
         <div class="see-all-button">
@@ -241,32 +309,88 @@
         <div class="carousel-item active">
         <div class="index-autopark-carousel-item">
           
-         <img src="{{asset('front/images/S-class.png') }}" class="d-block w-100" alt="...">
+        <div class="index-autopark-item-mercedez">
+         <img src="{{asset('front/images/autopark-merc.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>Mercedez-Benz</h6></li>
+           <li><p>S-class</p></li>
+         </ul>
+         </div>
 
-         <img src="{{asset('front/images/toyota.png') }}" class="d-block w-100" alt="...">   
+            <div class="index-autopark-item-toyota">
+         <img src="{{asset('front/images/autopark-land.png') }}" class="d-block w-100" alt="..."> 
+         <ul>
+           <li><h6>TOYOTA</h6></li>
+           <li><p>Land Cuiser</p></li>
+         </ul>
+         </div>
 
-         <img src="{{asset('front/images/toyotaS.png') }}" class="d-block w-100" alt="...">
+         <div class="index-autopark-item-toyotaS">
+         <img src="{{asset('front/images/autopark-toyota.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>TOYOTA</h6></li>
+           <li><p>Camry</p></li>
+         </ul>
+         </div>
 
        </div>
         </div>
 
         <div class="carousel-item">
         <div class="index-autopark-carousel-item">
-         <img src="{{asset('front/images/S-class.png') }}" class="d-block w-100" alt="...">
 
-         <img src="{{asset('front/images/toyota.png') }}" class="d-block w-100" alt="...">   
+        <div class="index-autopark-item-mercedez">
+         <img src="{{asset('front/images/autopark-merc.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>Mercedez-Benz</h6></li>
+           <li><p>S-class</p></li>
+         </ul>
+         </div>
 
-         <img src="{{asset('front/images/toyotaS.png') }}" class="d-block w-100" alt="...">
+         <div class="index-autopark-item-toyota">
+         <img src="{{asset('front/images/autopark-land.png') }}" class="d-block w-100" alt="..."> 
+         <ul>
+           <li><h6>TOYOTA</h6></li>
+           <li><p>Land Cruiser</p></li>
+         </ul>
+         </div>
+
+         <div class="index-autopark-item-toyotaS">
+         <img src="{{asset('front/images/autopark-toyota.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>TOYOTA</h6></li>
+           <li><p>Camry</p></li>
+         </ul>
+         </div>
        </div>
         </div>
 
         <div class="carousel-item"> 
           <div class="index-autopark-carousel-item">
-         <img src="{{asset('front/images/S-class.png') }}" class="d-block w-100" alt="...">
 
-         <img src="{{asset('front/images/toyota.png') }}" class="d-block w-100" alt="...">   
+          <div class="index-autopark-item-mercedez">
+         <img src="{{asset('front/images/autopark-merc.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>Mercedez-Benz</h6></li>
+           <li><p>S-class</p></li>
+         </ul>
+         </div>
 
-         <img src="{{asset('front/images/toyotaS.png') }}" class="d-block w-100" alt="...">
+         <div class="index-autopark-item-toyota">
+         <img src="{{asset('front/images/autopark-land.png') }}" class="d-block w-100" alt="..."> 
+         <ul>
+           <li><h6>TOYOTA</h6></li>
+           <li><p>Land Cruiser</p></li>
+         </ul>
+         </div>
+
+         <div class="index-autopark-item-toyotaS">
+         <img src="{{asset('front/images/autopark-toyota.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>TOYOTA</h6></li>
+           <li><p>Camry</p></li>
+         </ul>
+         </div>
        </div>
        </div>
 
@@ -300,7 +424,7 @@
 
             <div class="index-rent-header">
             <div class="index-rent-title">
-          <h3>CAR RENT</h3>
+          <p>CAR RENT</p>
         </div>
 
         <div class="see-all-button-rent">
@@ -327,32 +451,88 @@
         <div class="carousel-item active">
         <div class="index-rent-carousel-item">
           
+        <div class="index-rent-item-mercedez">
          <img src="{{asset('front/images/rent1.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>HYUNDAI</h6></li>
+           <li><p>Corola Automatic</p></li>
+         </ul>
+         </div>
 
-         <img src="{{asset('front/images/rent2.png') }}" class="d-block w-100" alt="...">   
+         <div class="index-rent-item-mercedez">
+         <img src="{{asset('front/images/rent2.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>KIA</h6></li>
+           <li><p>Sportage Automatic</p></li>
+         </ul>
+         </div>
 
+         <div class="index-rent-item-mercedez">
          <img src="{{asset('front/images/rent3.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>TOYOTA</h6></li>
+           <li><p>Santa Fe Automatic</p></li>
+         </ul>
+         </div>
 
        </div>
         </div>
 
         <div class="carousel-item">
         <div class="index-rent-carousel-item">
+        <div class="index-rent-item-mercedez">
          <img src="{{asset('front/images/rent1.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>HYUNDAI</h6></li>
+           <li><p>Corola Automatic</p></li>
+         </ul>
+         </div>
 
-         <img src="{{asset('front/images/rent2.png') }}" class="d-block w-100" alt="...">   
+         <div class="index-rent-item-mercedez">
+         <img src="{{asset('front/images/rent2.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>KIA</h6></li>
+           <li><p>Sportage Automatic</p></li>
+         </ul>
+         </div>  
 
+         <div class="index-rent-item-mercedez">
          <img src="{{asset('front/images/rent3.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>TOYOTA</h6></li>
+           <li><p>Santa Fe Automatic</p></li>
+         </ul>
+         </div>
+
        </div>
         </div>
 
         <div class="carousel-item"> 
           <div class="index-rent-carousel-item">
+         <div class="index-rent-item-mercedez">
          <img src="{{asset('front/images/rent1.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>HYUNDAI</h6></li>
+           <li><p>Corola Automatic</p></li>
+         </ul>
+         </div>
 
-         <img src="{{asset('front/images/rent2.png') }}" class="d-block w-100" alt="...">   
+         <div class="index-rent-item-toyota">
+         <img src="{{asset('front/images/rent2.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>KIA</h6></li>
+           <li><p>Sportage Automatic</p></li>
+         </ul>
+         </div>   
 
+         <div class="index-rent-item-mercedez">
          <img src="{{asset('front/images/rent3.png') }}" class="d-block w-100" alt="...">
+         <ul>
+           <li><h6>TOYOTA</h6></li>
+           <li><p>Santa Fe Automatic</p></li>
+         </ul>
+         </div>
+
        </div>
        </div>
 
@@ -466,7 +646,7 @@
 <div class="index-part-7">
   <div class="part-7-middle">
     <div class="part-7-inner">
-        <div class="index-event-header">EVENTS</div>
+        <div class="index-event-header"><p>EVENTS</p></div>
 
       <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -535,6 +715,24 @@
   </div>
 </div>
 
+
+
+<div class="index-part-8">
+  <div class="part-8-middle">
+    <div class="part-8-inner">
+      <div class="index-partners-header"><p>PARTNERS</p></div>
+
+      <div class="index-partners-logo">
+        <div><img src="{{asset('front/images/partners-logo-2.png') }}" alt=""></div>
+        <div><img src="{{asset('front/images/partners-logo-1.png') }}" alt=""></div>
+        <div><img src="{{asset('front/images/partners-logo-2.png') }}" alt=""></div>
+        <div><img src="{{asset('front/images/partners-logo-1.png') }}" alt=""></div>
+        <div><img src="{{asset('front/images/partners-logo-2.png') }}" alt=""></div>
+        <div><img src="{{asset('front/images/partners-logo-1.png') }}" alt=""></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
 window.addEventListener('scroll', reveal);
