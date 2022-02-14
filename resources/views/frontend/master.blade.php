@@ -39,8 +39,6 @@
 </div>
 
     <div id="navibar">
-  <div class="home"><a href="{{route('frontend.home')}}">@lang('front.home')</a></div>
-  <div class ="nav-line"><p>|</p></div>
   <div class="about"><a href="{{route('frontend.about')}}">@lang('front.about')</a></div>
   <div class ="nav-line"><p>|</p></div>
   <div class="autopark"><a href="{{route('frontend.fleet')}}">@lang('front.fleet')</a></div>
@@ -56,7 +54,6 @@
   <div class="motors"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
   <div class ="nav-line"><p>|</p></div>
   <div class="contact"><a href="{{route('frontend.contact')}}">@lang('front.contact')</a></div>
-  <span class="search-i"><a href="#search"><i class="fas fa-search fa-lg"></i></a></span>
 </div>
 </div>
 <div class="hamburger" id="myhamburger">
@@ -82,97 +79,78 @@
     </div>
 
     <div class="contact-slogan">
-      <p>Move With Luxury</p>
+      <p>@lang('front.slogan')</p>
     </div>
 
-    <div class="contact-text">
-      <a href="{{route('frontend.contact')}}"><p>Contact Us</p></a>
-    </div>
-
-    <div class="contact-site">
-      <p>© www.bene-exclusive.com</p>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-  <div class="our-social-meida">
+    <div class="our-social-meida">
     <div class="footer-social-icons">
   <div class="social-icons1">
-  <i class="fab fa-facebook-f fa-2x"></i>
-<i class="fab fa-instagram fa-2x"></i>
-<i class="fab fa-twitter fa-2x"></i>
+  <i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-linkedin"></i>
   </div>
-  <div class="social-icons2">
-<i class="fab fa-linkedin fa-2x"></i>
-<i class="fab fa-whatsapp fa-2x"></i>
-<i class="fab fa-snapchat-square fa-2x"></i>
+
+    
   </div>
-  </div>
+</div>
+
+
+    
+
+
+  
+ 
   
 
-<div class="footer-navbar">
-  <div class="footer-nav-inner">
 
-    <div class="footer-about">
-      <p>@lang('front.about')</p>
-    </div>
-    
-    <div class ="footer-nav-line"><p>|</p></div>
-
-    <div class="footer-vehicles">
-      <p>@lang('front.fleet')</p>
-    </div>
-
-    <div class ="footer-nav-line"><p>|</p></div>
-
-    <div class="footer-rent">
-    <p>@lang('front.rent')</p>
-    </div>
-
-    <div class ="footer-nav-line"><p>|</p></div>
-
-    <div class="footer-taxi">
-    <p>@lang('front.taxi')</p>
-    </div>
-
-    <div class ="footer-nav-line"><p>|</p></div>
-
-    <div class="footer-events">
-    <p>@lang('front.academy')</p>
-    </div>
-
-    <div class ="footer-nav-line"><p>|</p></div>
-
-    <div class="footer-partners">
-    <p>@lang('front.partners')</p>
-    </div>
-
-    <div class ="footer-nav-line"><p>|</p></div>
-
-    <div class="footer-motors">
-      <p>@lang('front.motors')</p>
-    </div>
-
-    <div class ="footer-nav-line"><p>|</p></div>
-
-    <div class="footer-contact">
-    <p>@lang('front.contact')</p>
-    </div>
-
-    
-
-  </div>
 
 </div>
 </div>
+<div class="footer-navigation-bar">
+      <div class="footer-navigation-bar-inner">
+        <div class="footer-autopark">
+          <h6>@lang('front.fleet')</h6>
+          <ul>
+          <li>ALL</li>
+          <li>SUV</li>
+          <li>Sedan</li>
+          <li>Minivan</li>
+          <li>Minibus</li>
+          <li>Bus</li>
+          <li>Coupe</li>
+          </ul>
+        </div>
 
+        <div class="footer-service-bar">
+          <h6>@lang('front.services')</h6>
+          <ul>
+          <li><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></li>
+          <li><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></li>
+          <li><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></li>
+          </ul>
+        </div>
 
+        <div class="footer-about-bar">
+          <h6>@lang('front.about')</h6>
+          <ul>
+          <li><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></li>
+          <li><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></li>
+          <li><a href="{{route('frontend.contact')}}">@lang('front.contact')</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  
 </footer>
+<div class="hr-line">
+<hr>
+</div>
 
+  <div class="copyright">
+    <p>&copy 2014-2022 @lang('front.copyright')</p>
+  </div>
 
 
 <script>

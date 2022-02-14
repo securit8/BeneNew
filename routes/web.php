@@ -2,7 +2,7 @@
 
 use Illuminate\Supoort\Facades\App;
 use Illuminate\Support\Facades\Route;
-use App\http\Controllers\LocalizationController;
+use App\Http\Controllers\LocalizationController;
 use App\Http\Controllers\RoutesController;
 /*
 |--------------------------------------------------------------------------

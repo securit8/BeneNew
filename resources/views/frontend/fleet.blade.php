@@ -96,7 +96,7 @@
           </div>
           <div class="coupe">
             <p>Coupe</p>
-          </div>
+          </div>          
         </div>
       </div>
     </div>
@@ -154,7 +154,7 @@
           <h6>Land Cruiser</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
         </div>
 
@@ -169,7 +169,7 @@
           <h6>Camry</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
       </div>
 
@@ -186,7 +186,7 @@
           <h6>S-class</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
       </div>
 
@@ -212,7 +212,7 @@
           <h6>Land Cruiser</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
         </div>
 
@@ -227,7 +227,7 @@
           <h6>Camry</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
       </div>
 
@@ -244,7 +244,7 @@
           <h6>S-class</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
       </div>
 
@@ -270,7 +270,7 @@
           <h6>Land Cruiser</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
         </div>
 
@@ -285,7 +285,7 @@
           <h6>Camry</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
       </div>
 
@@ -302,7 +302,7 @@
           <h6>S-class</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
       </div>
 
@@ -328,7 +328,7 @@
           <h6>Land Cruiser</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
         </div>
 
@@ -343,7 +343,7 @@
           <h6>Camry</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
       </div>
 
@@ -360,7 +360,7 @@
           <h6>S-class</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
       </div>
 
@@ -386,7 +386,7 @@
           <h6>Land Cruiser</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
         </div>
 
@@ -401,7 +401,7 @@
           <h6>Camry</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
       </div>
 
@@ -418,7 +418,7 @@
           <h6>S-class</h6>
         </div>
         <div class="fleet-cars-underline">
-          <hr>
+          
         </div>
       </div>
 

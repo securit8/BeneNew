@@ -84,11 +84,7 @@ body {
 }
 
 
-/*  
-.Ka a:hover, .En a:hover{
-  color: white;
-  transition: 0.5s;
-} */
+
 
 .navbar{
   list-style-type: none;
@@ -158,18 +154,25 @@ cursor: pointer;
 
 
 .footer{
-  padding-left: 2rem;
+justify-content: center;
+display:flex;
 color: rgb(252, 252, 252);
-left: 10%;
-display: inline-flex;
-width: 100%;
-justify-content: space-between;
-background-color: #212529;
+width: 80%;
+background-color: rgba(6, 13, 13, 1);
+padding-left:5%;
+margin:0;
+}
+
+.footer-navigation-bar-inner{
+  width: 150%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer ul{
   list-style-type: none;
 }
+
 
 .contact-info-logo{
   margin-top: 0.5rem;
@@ -179,43 +182,38 @@ background-color: #212529;
 .contact-slogan{
   margin-bottom: 1.1rem;
   font-family: Montserrat;
-  font-weight: 400;
+  font-size: 100%;
+  width:50%;
 }
 
-.contact-site p{
-  font-family: Montserrat;
-  font-size: 16px;
+.footer-autopark, .footer-service-bar, .footer-about-bar{
+  width: 100%;
 }
+
+.footer-service-bar, .footer-about-bar{
+margin-left: 15%;
+
+}
+
+
+.footer-autopark ul, .footer-service-bar ul{
+  padding-left: 0;
+  font-size: 13px;
+}
+
+.footer-about-bar ul{
+  padding-left: 0;
+}
+
+.footer-autopark a, .footer-service-bar a, .footer-about-bar a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
 
 .contact-slogan p{
-  font-size: 18px;
-}
-
-.contact-text{
-  margin-bottom: 1rem;
-  border: rgba(255, 255, 255, 0.5) solid 2px;
-  text-align: center;
-  padding-top: 9px;
-  cursor: pointer;
-  outline: none;
-}
-
-.contact-text:hover{
-  background-color: #b4b1b1;
-  color: #060D0D;
-  transition: 0.6s;
-  border: #b4b1b1 solid 2px;
-  
-}
-
-.contact-text a{
-text-decoration: none;
-color:rgba(255, 255, 255, 1);
-font-family: BPG Mrgvlovani 2010;
-}
-
-.contact-text a:hover{
-  color: #060D0D;
+  font-size: 14px;
+  word-wrap: break-word;
 }
 
 
@@ -224,8 +222,8 @@ font-family: BPG Mrgvlovani 2010;
 }
 
 .footer-social-icons{
-  margin-left: 64%;
-  color: #4b4a4a;
+  color: rgba(255, 255, 255, 0,8);
+
 }
 
 .social-icons1{
@@ -240,63 +238,18 @@ font-family: BPG Mrgvlovani 2010;
   padding-bottom: 2rem;
 }
 
-.social-icons2{
-  display: flex;
-  padding-left: 20px;
+.hr-line hr{
+  height: 1px;
+  width:80%;
+  color:aliceblue;
+  margin-left: 5%;
 }
 
-.social-icons2 i{
-  padding-right: 2rem;
+.copyright{
+  color:aliceblue;
+  margin-left: 5%;
 }
 
-.footer-navbar{
-  position:relative;
-right: 5%;
-bottom:4%;
-color: rgb(109, 108, 108);
-font-weight: 500;
-}
-
-.footer-navbar p{
-  padding-bottom: 0;
-  margin-bottom: 0;
-  font-family: BPG Mrgvlovani 2010;
-  font-size: 16px;
-}
-
-
-.footer-nav-inner{
-  display: flex;
-  margin-top: 3rem;
-}
-
-.footer-about{
-  padding-left: 0.75rem;
-  font-size: large;
-  text-align: center;
-  padding-right: 0.75rem;
-  cursor: pointer;
-}
-
-.footer-vehicles, .footer-rent, .footer-taxi, .footer-events, .footer-partners, .footer-contact, .footer-motors{
-  padding-left: 0.75rem;
-  font-size: 18px;
-  text-align: center;
-  padding-right: 0.75rem;
-  cursor: pointer;
-}
-
-.footer-about:hover, .footer-vehicles:hover, .footer-rent:hover, .footer-taxi:hover, .footer-events:hover, .footer-partners:hover, .footer-contact:hover{
- background-color: #b4b1b1;
- transition: 0.6s;
- color: black;
-}
-
-.footer-nav-line p{
-  color: rgb(109, 108, 108);
-  font-size: 11px;
-  padding-top: 4px;
-}
 
 .bene_logo {
 position: relative;
@@ -332,13 +285,9 @@ cursor: pointer;
   border-radius: 10px;
 }
 
-@media (max-width: 1325px){
-  .footer-navbar p{
-    font-size: 12px;
-  }
 
 
-}
+
 
 @media (max-width: 1277px){
   #navibar a{
@@ -352,42 +301,11 @@ cursor: pointer;
     margin-right: 25%;
   }
 
-  .index-part2{
-    width: 100%;
-  }
-
 .front-line-1{
  padding-top: 2%!important;
 }
 
-.index-part2-header-inner p{
-  font-size: 70%;
-}
 
-.carousel-indicators{
-  display: none;
-}
-
-/* .index-part2-images-inner{
-  display: block!important;
-}
-
-.part2-image img{
-  margin-left: 2.5rem;
-  width: 50%!important;
-}
-
-.index-part2-info p{
-  font-size: 70%;
-}
-
-.part2-image-header p{
-  font-size: 70%!important;
-}
-
-.part2-image-info p{
-  font-size: 70%!important;
-} */
 
  
 }
@@ -456,10 +374,6 @@ cursor: pointer;
 
   #navibar {
     display:none;
-    /* transition: 0.4s ease;
-    width: 100%;
-    text-align: center;
-    background-color: #060D0D; */
   }
 
   #navibar.show{
@@ -488,10 +402,6 @@ cursor: pointer;
    .line-1-btn button{
      width: 30%;
    }
-
-
-   
-
 
    .bene_logo{
      width: 130%!important;
@@ -537,452 +447,462 @@ padding-bottom: 15%;
     padding: 0;
   }
 
-  .front-line-1{
-    margin-top: 0.7rem;
-  }
-
-  .line-1 img{
-    width: 70%!important;
-    padding-left: 1rem;
-
-  }
-
-  .line-1-btn button{
-    width: 55%!important;
-    padding: 2%!important;
-  }
-
-  .line-1-btn p{
-    font-size: 65%!important;
-    margin: 0;
-    padding-bottom: 0;
-  }
-
-  .line-1-info p{
-   font-size: x-small;
-   margin-bottom: 0;
-  }
-
-  .line-1-info h3{
-    font-size: small!important;
-    margin-bottom: 0;
-   }
-
-   #land {
-     padding: 0;
-     margin-left: 2rem;
-     width: 100%;
-   }
-
-   #cruiser img{
-     margin-left: 1rem;
-   }
-
-   .carousel-indicators button{
-    display: none!important;
-    }   
-
-
-    .index-part2-images-inner{
-      display: block!important;
-    }
-    
-    .part2-image img{
-      margin-left: 3rem;
-      width: 50%!important;
-    }
-    
-    .index-part2-info p{
-      font-size: 70%;
-    }
-    
-    .part2-image-header p{
-      font-size: 70%!important;
-    }
-    
-    .part2-image-info p{
-      padding-left: 0.7rem;
-      font-size: 70%!important;
-    }
-
-
-    .index-part3-header-inner p{
-      font-size: 1.5rem!important;
-      padding-top: 0.5rem!important;
-    }
-
-    .index-part3-info p{
-      font-size: 1rem!important;
-    }
-
-    .index-part3-images {
-      padding-left: 0!important;
-      padding-right: 0!important;
-    }
-
-    .index-part3-images img{
-      padding-left: 1%!important;
-      padding-right: 1%!important;
-    }
-
-    .index-part4-header-inner p{
-      font-size: 65%!important;
-    }
-    
-    .index-part4-info p{
-      font-size: 75%!important;
-    }
-
-    .part4-image-info h5{
-      padding-top: 2.5rem!important;
-      font-size: 75%!important;
-    }
-
-
-    .part4-image-info2 p{
-      padding-top: 0.5rem!important;
-      font-size: 65%!important;
-    }
-
-    
-    .footer{
-      width: 100%!important;
-      padding-left: 0;
-    }
-
-    .our-social-meida {
-      position: absolute;
-      right: 10%;
-    }
-
-    .footer-social-icons i{
-      padding-right: 0.7rem;
-      padding-left: 0.3rem;
-    }
-
-    .contact-text{
-      width:50%;
-
-    }
-
-    /* fleet */
-    .fleet-type-list{
-      padding-left: 2%!important;
-      padding-right: 2%!important;
-    }
-
-    .fleet-type-list p{
-      font-size: 90%!important;
-    }
-
-    .fleet-line p{
-      font-size: 80%!important;
-    }
-
-    .fleet-cars-inner{
-      margin-left: 2%!important;
-      padding-left: 0!important;
-    }
-    
-    .fleet-cars-inner{
-    justify-content: space-between;
-    width: 95%!important;
-    }
-
-    .fleet-cars-col1 img{
-      width: 95%!important;
-    }
-
-    .fleet-cars-col2 img {
-      width: 87%!important;
-    }
-
-    .fleet-cars-col3 img {
-      width: 90%!important;
-    }
-
-    .fleet-car-name h5{
-      font-size: 80%!important;
-    }
-
-    .fleet-car-type h6{
-      font-size: 80%!important;
-    }
-    
 }
 
+ /* Index */
 
-
-.inner-line-1{
-background-color: blanchedalmond;
+ .carousel-arrow-icon{
+  width: 2rem!important;
+  background-color: rgb(216, 214, 214)!important;
+  border-radius: 80px;
 }
 
+  .index-part-1{
+    font-family: Monsserat;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 
 
+  
 
-.front-line-1{
+  .part-1-inner{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+  }
+  
+
+  .index-about-us-header h4{
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+
+  .index-about-us-title h2{
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+
+.index-about-us-info{
+  width:60%; 
+}
+
+.index-about-us-text{
+  margin-bottom: 2rem;
+  width:100%;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.index-about-us-button button{
+  background-color: rgba(6, 13, 13, 1);
   display: flex;
   justify-content: space-between;
- position: absolute;
- top: 0;
- padding-top: 6.5%;
- padding-left: 5%;
-}
-
-.line-1 img{
-  width: 85%;
-}
-
-.line-1-info{
-  text-align: center;
-}
-
-
-.line-1-info h3{
- font-family: Montserrat;
- font-weight:600;
-
-}
-
-.line-1-info p{
-  color: rgba(36, 160, 237, 1);
-  font-weight: 500;
-  font-family: Montserrat;
-}
-
-#land{
-  padding-right: 4.5rem;
-}
-
-.line-1-btn button{
-  background-color: #24A0ED;
-  outline: none;
-  border: none;
-  padding-top: 9px;
-  width: 30%;
-  color: aliceblue;
-  font-family: BPG Mrgvlovani 2010;
-  font-size: large;
-  font-weight: 500;
-}
-
-.line-1-btn p{
-  color: aliceblue;
-  font-family: BPG Mrgvlovani;
-}
-
-#arrow{
-color: black;
-}
-
-.img-overlay{
-position: absolute;
-bottom: 5rem;
-}
-
-
-.ssearch-bar{
-  width: 100%;
-  background-color: #1a1a1a;
-  padding: 10px;
-  
-}
-
-.search-inner input{
-  position: relative;
-  left: 10%;
-  width: 80%;
+  color: rgba(255, 255, 255, 1);
+  align-items: center;
   border: none;
   outline: none;
-  background-color: white;
-  margin-top: 3rem;
 }
 
-
-.carousel-indicators [data-bs-target] {
-  background-color:gray!important;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
+.index-about-us-button p{
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
-.img-overlay {
-  position: absolute;
- bottom: 0rem;
+.index-about-us-button i{
+  margin-left: 0.3rem;
+  margin-right: 0.4rem;
 }
-
-.img-underlay {
-  position:absolute;
-  top:0rem;
-}
-
-.index-part2-header{
- margin-top: 5rem;
- margin-bottom: 3rem;
-}
-
-.index-part2-header-inner{
-  text-align: center;
-  font-family: BPG Mrgvlovani 2010;
-  color:white;
-  font-size: 40px;
-}
-
-.index-part2-info{
-  text-align: center;
-  font-family: BPG Mrgvlovani 2010;
-  color:white;
-  font-size: 25px;
-}
-
-.part2-image-header{
-  padding-top: 1rem;
-  text-align: center;
-  padding-right: 1.2rem;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.part2-image-info{
-  text-align: center;
-  padding-right: 5rem;
-  color: aliceblue;
-  font-family: BPG Mrgvlovani 2010;
-  padding-left: 1.8rem;
-  font-size: 13px;
-}
-
-.index-part2-images-inner{
-  display: flex;
-  justify-content: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-left: 1%;
-  color: aliceblue;
-  font-family: BPG Mrgvlovani 2010;
-}
-
-.part2-image img{
-  width: 95%;
-}
-
-
-.index-part3{
-  width: 100%;
- margin-top: 5rem;
- background-color: #212529;
-}
-
-
- 
- .index-part3-header-inner{
-   margin-top: 5rem;
-   text-align: center;
-   font-family: Montserrat;
-   color:white;
- }
-
- .index-part3-header-inner p{
-   padding-top: 3rem;
-   font-size: 50px;
- }
- 
- .index-part3-info{
-   text-align: center;
-   font-family: Montserrat;
-   color:white;
-   font-size: 25px;
- }
-
- .index-part3-images{
-   width: 100%;
-   padding-left: 13%;
-   padding-right: 13%;
- }
-
-
- .images-line1{
-   margin-top: 2rem;
-   display:flex;
-   
- }
-
- .images-line1 img{
-   width: 100%;
-   padding-left: 1rem;
- }
-
- .images-line2{
+    
+.about-us-video{
   margin-top: 2rem;
-  display:flex;
+  margin-left: 4%;
+}
+
+
+.about-us-video iframe{
+  width: 522px;
+  height: 325px;
+}
+
+
+.index-part-2{
+  background-color: #FAFAFA;
+}
+
+.index-part-2-inner{
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 1rem;
+}
+
+.index-news-header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.see-all-button button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid;
+  background-color: rgba(250, 250, 250, 1);
+  border-color: rgba(36, 160, 237, 1);
+  outline: none;
+}
+
+.see-all-button p{
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-right: 0.4rem;
+  color: rgba(36, 160, 237, 1);
+  font-weight: 700;
+  font-family:  TBC Contractica;
+}
+
+.see-all-button i{
+  margin-left: 0.3rem;
+  margin-right: 0.4rem;
+  color: rgba(36, 160, 237, 1);
+}
+
+
+.index-news-body{
+display: flex;
+justify-content: space-between;
+}
+
+
+.index-news-article{
+  width: 23%;
+  margin-bottom: 3rem;
+  box-shadow: 0px 8px 8px 0px rgba(6, 13, 13, 0.08);
+}
+
+
+.index-news-article img{
+width: 100%;
+}
+
+.index-news-text{
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  font-family: TBC Contractica;
+}
+
+.news-date p{
+color: rgb(98, 99, 99);
+}
+
+.index-news-text h6{
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.index-news-text p{
+  font-size: 12px;
+}
+
+.index-read-more{
+  display: flex;
+  align-items: center;
+  color: rgba(36, 160, 237, 1);
+}
+
+.index-read-more h5{
+  margin-right: 0.5rem;
+}
+
+
+.index-part-3{
+  background-color: rgb(248, 244, 244);
+}
+
+.index-part-3-inner{
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.index-autopark-header{
+  width:80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  font-family: Montserrat;
+}
+
+.index-autopark-carousel-inner{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
   
 }
 
-.images-line2 img{
+#index-autopark-carousel-indicators button{
+ background-color: black;
+ width: 5px;
+ height:5px;
+ border-radius: 50%;
+}
+
+.index-autopark-carousel-item{
+display: flex;
+justify-content: space-around;
+margin-bottom: 2rem;
+}
+
+.index-autopark-carousel-item img{
+width: 23%!important;
+margin-bottom: 1.5rem;
+}
+
+
+
+.index-part-4{
+  background-color: rgba(6, 13, 13, 1);
+}
+
+.index-part-4-inner{
   width: 100%;
-  padding-left: 1rem;
-  margin-bottom: 5rem;
-}
-
-.index-part4{
-  width:100%;
-  margin-top: 7rem;
-  margin-bottom: 2rem;
-  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 
-.index-part4-header-inner{
-  text-align: center;
-  color: aliceblue;
+.see-all-button-rent button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid;
+  background-color: rgba(6, 13, 13, 1);
+  border-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.see-all-button-rent p{
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-right: 0.4rem;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-family:  TBC Contractica;
+}
+
+.see-all-button-rent i{
+  margin-left: 0.3rem;
+  margin-right: 0.4rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+.index-rent-header{
+  width:80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-rent-title{
+  color: rgba(255, 255, 255, 1);
   font-family: Montserrat;
-  margin-bottom: 1rem;
-  font-size: 50px;
 }
 
-.index-part4-info{
-  text-align: center;
-  color: aliceblue;
-  font-family: Montserrat;
-  font-size: 25px;
-}
 
-.part4-image-inner{
-margin-left: 6%;
-
-}
-
-.part4-image-inner img{
+.index-rent-carousel-inner{
   width: 90%;
-  margin-bottom: 4rem;
-  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
+#index-rent-carousel-indicators button{
+ background-color: rgb(238, 238, 238);
+ width: 5px;
+ height:5px;
+ border-radius: 50%;
+}
+
+.index-rent-carousel-item{
+display: flex;
+justify-content: space-around;
+margin-bottom: 2rem;
+}
+
+.index-rent-carousel-item img{
+width: 23%!important;
+margin-bottom: 1.5rem;
 }
 
 
-.part4-image-info h4{
- color: aliceblue;
- position: relative;
- bottom: 9rem;
-font-family: BPG Mrgvlovani 2010;
+.part-5-inner{
+  width: 85%;
+  margin-left: 7.5%;
 }
 
-.part4-image-info h5{
-  color: aliceblue;
- position: relative;
- bottom: 9rem;
- font-family: BPG Mrgvlovani 2010;
- font-size: 25px;
+ 
+.index-academy-info{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+    
+.home-academy-text{
+  grid-column: 6 / 10;
 }
 
-.part4-image-info2 p{
-  color: aliceblue;
-  position: relative;
-  bottom: 9.5rem;
-  font-family: BPG Mrgvlovani 2010;
-  font-size: 20px;
- }
+.academy-image-outer{
+  grid-column: 1 / 6;
 }
+
+.academy-image{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-row: 1;
+}
+
+.academy-background-image{
+  grid-column: 1 / 5;
+}
+
+.academy-logo-image{
+  align-self: center;
+  grid-column: 1 / 6;
+}
+
+.academy-background-image, .academy-logo-image{
+  grid-row: 1 /2;
+}
+
+.academy-background-image img{
+width:100%;
+}
+
+.academy-logo-image img{
+  width: 90%;
+}
+
+.index-academy-title h5{
+font-family: Montserrat;
+font-weight: 700;
+color: rgba(252, 252, 253, 1);
+margin-bottom: 1rem;
+}
+
+.index-academy-text p{
+color: rgba(252, 252, 253, 1);
+font-size: 14px;
+font-weight: Montserrat;
+}
+
+.index-academy-button button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid;
+  background-color: rgba(6, 13, 13, 1);
+  border-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.index-academy-button p{
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-right: 0.4rem;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-family:  TBC Contractica;
+}
+
+.index-academy-button i{
+  margin-left: 0.3rem;
+  margin-right: 0.4rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+.index-part-6{
+  font-family: Monsserat;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.part-6-inner{
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+}
+
+
+.index-taxi-header h4{
+  color: rgb(95, 95, 95);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+
+.index-taxi-title h2{
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+
+.index-taxi-info{
+width:60%; 
+}
+
+.index-taxi-text{
+margin-bottom: 2rem;
+width:100%;
+font-size: 14px;
+line-height: 24px;
+}
+
+.index-taxi-button button{
+background-color: rgba(6, 13, 13, 1);
+display: flex;
+justify-content: space-between;
+color: rgba(255, 255, 255, 1);
+align-items: center;
+border: none;
+outline: none;
+}
+
+.index-taxi-button p{
+margin-left: 0.4rem;
+margin-top: 0.2rem;
+margin-bottom: 0.2rem;
+}
+
+.index-taxi-button i{
+margin-left: 0.3rem;
+margin-right: 0.4rem;
+}
+  
+.index-taxi-image{
+margin-top: 2rem;
+margin-left: 4%;
+}
+
+
+.index-taxi-image img{
+width:80%;
+}
+
+
 
 
 
@@ -1033,8 +953,10 @@ font-family: BPG Mrgvlovani 2010;
 
 .fleet-type-list{
 display: flex;  
-justify-content: space-evenly;
+justify-content: space-between;
 font-family: Montserrat;
+width: 80%;
+margin-left: 10%;
 }
 
 .all:hover, .suv:hover, .sedan:hover, .minivan:hover, .minibus:hover, .bus:hover, .coupe:hover{
@@ -1045,8 +967,8 @@ font-family: Montserrat;
 }
 
 .fleet-name-list2 hr, .fleet-name-list hr{
-  margin-left: 5%;
-  width: 90%;
+  margin-left: 10%;
+  width: 80%;
 }
 
 .fleet-class-header{
@@ -1094,4 +1016,336 @@ font-family: Montserrat;
 
 .fleet-car-type{
   color:rgba(36, 160, 237, 1);
+}
+
+
+/* contact page */
+
+.contact-page{
+width:100%;
+}
+
+.contact-page img{
+  width:100%;
+}
+
+
+
+.contact-backgorund img{
+width: 100%;
+
+}
+
+
+
+
+
+.contact-elements{
+  width:100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.contact-elements img{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+}
+
+.contact-header{
+  width:300px;
+  padding-bottom: 10px;
+}
+
+.contact-header p{
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Montserrat;
+}
+
+.location{
+  width: 15%;
+  position: relative;
+  top:15%;
+  left:15%;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+}
+
+.location-name, .location-mail, .location-phone{
+  display:flex;
+}
+
+.location-name i, .location-mail i, .location-phone i{
+  padding-right: 3px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.location p{
+  color:white;
+  font-family: Montserrat;
+}
+
+
+.contact-window{
+  background-color:rgba(255, 255, 255, 1);
+  height: 91%;
+  width: 70%;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+}
+
+
+.contact-window-header{
+  margin-bottom: 2.5rem;
+}
+
+
+.contact-inputs{
+  padding-top: 1rem;
+}
+
+.contact-window-header p{
+  padding-top: 1rem;
+  padding-left: 9%;
+  font-size: 150%;
+}
+
+
+.input-name, .input-email, .input-number{
+  display: flex;
+  margin-bottom: 4.5%;
+}
+
+
+.input-message {
+  margin-bottom: 4%;
+}
+
+
+.input-name p{
+  margin-left: 7.5%;
+  padding-top: 0.5rem;
+  font-family: BPG Mrgvlovani;
+  opacity: 0.8;
+}
+
+ .input-email input, .input-number input, .input-message input, .input-name input {
+  width: 85%;
+  margin-left: 7.5%;
+  padding-top: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-family: BPG Mrgvlovani;
+  border-bottom: 1px solid;
+}
+
+.input-email i, .input-number i, .input-message i, .input-name i{
+  position: absolute;
+  padding-top: 1.3rem;
+  padding-left: 1%;
+
+}
+
+.input-message{
+  padding-bottom: 13%;
+}
+
+
+.input-send-button{
+  position: relative;
+  left:60%;
+  bottom: 5%;
+  width:40%;
+}
+
+.input-send-button button{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(6, 13, 13, 1);
+}
+
+.input-send-button p{
+  font-family: BPG Mrgvlovani;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-right: 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  font-size: 100%;
+}
+
+.input-send-button i{
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 0.7rem;
+  padding-bottom: 0.4rem;
+}
+
+
+/* fleet */
+.fleet-type-list{
+  padding-left: 2%!important;
+  padding-right: 2%!important;
+}
+
+.fleet-type-list p{
+  font-size: 90%!important;
+}
+
+.fleet-line p{
+  font-size: 80%!important;
+}
+
+.fleet-cars-inner{
+  margin-left: 2%!important;
+  padding-left: 0!important;
+}
+
+.fleet-cars-inner{
+justify-content: space-between;
+width: 95%!important;
+}
+
+.fleet-cars-col1 img{
+  width: 95%!important;
+}
+
+.fleet-cars-col2 img {
+  width: 87%!important;
+}
+
+.fleet-cars-col3 img {
+  width: 90%!important;
+}
+
+.fleet-car-name h5{
+  font-size: 80%!important;
+}
+
+.fleet-car-type h6{
+  font-size: 80%!important;
+}
+
+}
+
+
+
+
+
+/* Car-Rent */
+
+
+.car-rent-inner{
+  background-color: #101616;
+  color:rgba(255, 255, 255, 1);
+  width:100%;
+}
+
+.car-rent-title-inner{
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.car-rent-logo-list-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Nissan-logo, .Toyota-logo, .Kia-logo{
+margin-left: 1.7rem;
+}
+
+.car-rent-line{
+  width:80%;
+  margin-left: 10%;
+}
+
+.car-rent-vehicles-row1-middle{
+  display: grid;
+}
+
+.fleet-type-list{
+  text-align: center;
+}
+
+.car-rent-class{
+  text-align: center;
+}
+
+.car-rent-vehicles{
+align-items: center;
+width: 85%;
+margin-left: 10%;
+}
+
+.car-rent-vehicles img{
+width: 80%;
+}
+
+
+
+.car-rent-vehicles-row1-inner, .car-rent-vehicles-row2-inner, .car-rent-vehicles-row3-inner{
+  display:flex;
+  justify-content: space-around;
+
+}
+
+
+.car-rent-vehicles-row3, .car-rent-vehicles-row2, .car-rent-vehicles-row1{
+margin-bottom: 2rem;
+}
+
+.car-rent-row3-car2, .car-rent-row2-car2, .car-rent-row1-car2{
+  margin-left: 3rem;
+}
+
+.car-rent-row3-car2 img, .car-rent-row2-car2 img, .car-rent-row1-car2 img{
+  margin-left: 3rem;
+}
+
+.car-rent-row3-car3, .car-rent-row2-car3, .car-rent-row1-car3{
+  margin-left: 3rem;
+}
+
+.car-rent-row3-car3 img, .car-rent-row2-car3 img, .car-rent-row1-car3 img{
+  margin-left: 3rem;
+}
+
+.car-rent-name, .car-rent-vehicle-type{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.rent-toyota-specs{
+ 
+}
+
+.rent-huyndai-specs{
+
+}
+
+.rent-kia-specs{
+  margin-top: 2.2rem;
+}
+
+.car-rent-name{
+  margin-top: 1.5rem;
+  font-family: Montserrat;
+}
+
+.car-rent-vehicle-type{
+  color: rgb(73, 72, 72);
 }
