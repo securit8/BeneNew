@@ -15,47 +15,54 @@
 
   <header class="container-fluid">
   <div class="navigation">
-  <div ><a href="/"><img class="bene_logo" src="front/images/logo.png" ></a></div>
+  
 
 
   
-  <div class="navbar">
-  <div class="Language-select">
-  <button type="button" id="changelang">
-    <div class="language-icon">
-    <img src="{{asset('front/images/earth.png') }}" alt="">
-  </div>
-   <div id="langbtn">
-   <p></p>
-  <div class="Ka">
-    <a href="locale/ka"><img src="{{asset('front/images/geo.png') }}" alt=""></a>
-</div>
-  <div class="En">
-  <a href="locale/en"><img src="{{asset ('front/images/usa.png') }}" alt=""></a>
-</div>
-</div>
-  </button>
-
-</div>
-
+<div class="navbar">
+<div class="bene_logo"><a href="/"><img src="{{asset('front/images/logo.png') }}" ></a></div>
+   
+  
     <div id="navibar">
-  <div class="about"><a href="{{route('frontend.about')}}">@lang('front.about')</a></div>
-  <div class ="nav-line"><p>|</p></div>
-  <div class="autopark"><a href="{{route('frontend.fleet')}}">@lang('front.fleet')</a></div>
-  <div class ="nav-line"><p>|</p></div>
-  <div class="rent"><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></div>
-  <div class ="nav-line"><p>|</p></div>
-  <div class="academy"><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></div>
-  <div class ="nav-line"><p>|</p></div>
-  <div class="events"><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></div>
-  <div class ="nav-line"><p>|</p></div>
-  <div class="partners"><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></div>
-  <div class ="nav-line"><p>|</p></div>
-  <div class="motors"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
-  <div class ="nav-line"><p>|</p></div>
-  <div class="contact"><a href="{{route('frontend.contact')}}">@lang('front.contact')</a></div>
+
+      <div class="about"><a href="{{route('frontend.about')}}">@lang('front.about')</a></div>
+      <div class ="nav-line"><p>|</p></div>
+      <div class="news"><a href="{{route('frontend.news')}}">@lang('front.news')</a></div>
+      <div class ="nav-line"><p>|</p></div>
+      <div class="autopark"><a href="{{route('frontend.fleet')}}">@lang('front.fleet')</a></div>
+      <div class ="nav-line"><p>|</p></div>
+      <div class="rent"><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></div>
+      <div class ="nav-line"><p>|</p></div>
+      <div class="academy"><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></div>
+      <div class ="nav-line"><p>|</p></div>
+      <div class="events"><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></div>
+      <div class ="nav-line"><p>|</p></div>
+      <div class="partners"><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></div>
+      <div class ="nav-line"><p>|</p></div>
+      <div class="motors"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
+      <div class ="nav-line"><p>|</p></div>
+      <div class="contact"><a href="{{route('frontend.contact')}}">@lang('front.contact')</a></div>
+    </div>
+
+    <div class="Language-select">
+
+      <div id="langbtn">
+
+          <div class="Ka">
+            <a href="locale/ka">GE</a>
+          </div>
+          <div class="En">
+            <a href="locale/en">EN</a>
+          </div>
+          <div class="Ru">
+            <a href="locale/ru">RU</a>
+          </div>
+      </div>
+
+    </div>
+  
 </div>
-</div>
+
 <div class="hamburger" id="myhamburger">
   <span class="bar"></span>
   <span class="bar"></span>
@@ -71,46 +78,37 @@
 @yield('footer')
 
 <div class="footer-outer">
-<footer class="footer">
-<div class="contact-info">
-  <div class="contact-info-inner">
-    <div class="contact-info-logo">
-      <img src="{{asset('front/images/contact-logo.png')}}" alt="">
-    </div>
+  <footer class="footer">
+    <div class="contact-info">
+      <div class="contact-info-inner">
+        <div class="contact-info-logo">
+          <img src="{{asset('front/images/contact-logo.png')}}" alt="">
+        </div>
 
-    <div class="contact-slogan">
-      <p>@lang('front.slogan')</p>
-    </div>
+        <div class="contact-slogan">
+          <p>@lang('front.slogan')</p>
+        </div>
 
-    <div class="our-social-meida">
-    <div class="footer-social-icons">
-  <div class="social-icons1">
-  <i class="fab fa-facebook-f"></i>
-<i class="fab fa-instagram"></i>
-<i class="fab fa-twitter"></i>
-<i class="fab fa-linkedin"></i>
-  </div>
-
-    
-  </div>
-</div>
-
+        <div class="our-social-meida">
+          <div class="footer-social-icons">
+            <div class="social-icons1">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-linkedin"></i>
+           </div>
 
     
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-  
- 
-  
-
-
-
-</div>
-</div>
-<div class="footer-navigation-bar">
+    <div class="footer-navigation-bar">
       <div class="footer-navigation-bar-inner">
         <div class="footer-autopark">
-          <h6>@lang('front.fleet')</h6>
+          <p>@lang('front.fleet')</p>
           <ul>
           <li>ALL</li>
           <li>SUV</li>
@@ -123,7 +121,7 @@
         </div>
 
         <div class="footer-service-bar">
-          <h6>@lang('front.services')</h6>
+          <p>@lang('front.services')</p>
           <ul>
           <li><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></li>
           <li><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></li>
@@ -132,7 +130,7 @@
         </div>
 
         <div class="footer-about-bar">
-          <h6>@lang('front.about')</h6>
+          <p>@lang('front.about')</p>
           <ul>
           <li><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></li>
           <li><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></li>
@@ -142,9 +140,9 @@
 
       </div>
     </div>
-  
-</footer>
+  </footer>
 </div>
+
 <div class="hr-line">
 <hr>
 </div>
@@ -165,13 +163,24 @@
 
 
 <script>
+  const activePage = window.location.pathname;
+  const navLinks = document.querySelectorAll('a').
+  forEach(link =>{
+   if(link.href.includes(`${activePage}`)){
+    link.classList.add('current');
+   }
+  })
+</script>
+
+
+<!-- <script>
   const language = document.getElementById('changelang');
   const change = document.getElementById('langbtn');
 
   language.addEventListener('click', () => {
     change.classList.toggle('display');
   });
-</script>
+</script> -->
 
 
 

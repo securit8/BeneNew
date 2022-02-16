@@ -17,6 +17,7 @@ use App\Http\Controllers\RoutesController;
 
 Route::get('/', [RoutesController::class, 'index'])->name('frontend.home');
 Route::get('/about', [RoutesController::class, 'about'])->name('frontend.about');
+Route::get('/news', [RoutesController::class, 'news'])->name('frontend.news');
 Route::get('/fleet', [RoutesController::class, 'fleet'])->name('frontend.fleet');
 Route::get('/rent', [RoutesController::class, 'rent'])->name('frontend.rent');
 Route::get('/academy', [RoutesController::class, 'academy'])->name('frontend.academy');

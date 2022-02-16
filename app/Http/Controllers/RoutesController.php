@@ -17,6 +17,10 @@ class RoutesController extends Controller
         return view('frontend.about');
     }
 
+    public function news() {
+        return view('frontend.news');
+    }
+
     public function fleet(){
         return view('frontend.fleet');
     }

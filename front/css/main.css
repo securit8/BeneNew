@@ -23,248 +23,252 @@ body {
   background-color: #060D0D;
 }
 
-
-.Language-select{
+header{
+  position: sticky;
+  top: 0px;
+  z-index: 2;
   width: 100%;
-  position: absolute;
-  left: 90%;
-  text-align: right;
-  bottom:3.5rem;
- display: flex;
- 
 }
 
-.language-icon {
-  width: 40px;
-  height: 30px;
+.container-fluid{
+  width: 100%;
+  padding: 0;
+  z-index: 5;
 }
 
-.language-icon img{
-  border-radius: 50%;
-  background-color: aliceblue;
-  width: 20px;
-  height: 20px;
+
+.navigation{
+  background-color: rgba(6, 13, 13, 1);
 
 }
-
-.Language-select button{
-  background-color: #060D0D!important;
-  width: 30%;
-  display: flex;
-}
-
-.Language-select{
-  display: flex;
-}
-
 
 #langbtn{
-  display: none;
+  display: flex;
 }
 
-#langbtn.display{
-  display:flex;
-}
-
-
-.Ka, .En{
- width: 24px;
- margin-right: 0.8rem;
-}
-
-.Ka img, .En img{
-  width: 20px;
+.Ka a, .En a{
+  font-size: 13px;
+  color:rgb(238, 238, 238);
 }
 
 
 
- .Ka a, .En a{
-  padding: 0!important;
-  padding-top:0;
-}
-
-
+ 
 
 
 .navbar{
-  list-style-type: none;
-  top: 5px;
-  padding-top: 15px;
-  margin-top: 2rem;
-  display: block;
-  justify-content: flex-end;
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  padding-top: 0;
   
+}
+
+.bene_logo, #navibar, .Language-select{
+  grid-row: 1 / 2;
+}
+
+.bene_logo{
+  grid-column: 2 / 4;
+}
+
+.Language-select{
+  padding-top: 4rem;
+  grid-column: 19 / 21;
+}
+
+
+.bene_logo img{
+  width:100%;
 }
 
 #navibar{
   display: flex;
-  list-style: none;
-  padding: .5rem;
+  justify-content: space-between;
+  grid-column: 5/ 18;
+  padding-top: 3rem;
 }
+
 
 .navbar a{
-  font-size: 16px;
-  font-family: BPG Mrgvlovani;
-  color: rgba(255, 255, 255, 1);
-  padding: 5px;
-  text-decoration: none;
+    font-size: 14px;
+    font-family: Montserrat;
+    color: rgba(255, 255, 255, 0.74);
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 400;
 }
+  
 .navbar a:hover{
-  color:black;
-  transition: 0.7s;
-  background-color: white;
+      transition: 0.7s;
+      color: white;
 }
 
-.navbar span{
-  font-size: 13px;
-  padding-top: 5px;
+
+.about, .news, .autopark, .rent, .academy, .events, .partners, .motors, .nav-line, .contact{
+  padding-top: 2rem;
 }
 
-.nav-line p{
-  padding-top: 0.3rem;
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  color: rgba(255, 255, 255, 1);
-  font-size: 9px;
+a:is(:link, :active, :visited).current{
+      color: white;
 }
 
-.navbar button{
-  padding: 0;
-  background-color: black;
-  outline: none;
-  border: none;
-}
 
-.navbar i{
-  color: white;
-}
-.contact{
-  padding-right: 10px;
-}
 
-.search-i{
-height: 30px;
-cursor: pointer;
-}
 
-.search-i i:hover{
-  color: black;
-  transition: 0.7s;
+.footer-outer{
+  width: 100%;
+  background-color: rgba(6, 13, 13, 1);
 }
-
 
 .footer{
-justify-content: center;
-display:flex;
-color: rgb(252, 252, 252);
-width: 80%;
-background-color: rgba(6, 13, 13, 1);
-padding-left:5%;
-margin:0;
+  width:90%;
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  padding-top: 2rem;
 }
 
-.footer-navigation-bar-inner{
-  width: 150%;
+.contact-info, .footer-navigation-bar{
+  grid-row: 1 / 2;
+}
+
+.contact-info{
+  grid-column: 1 / 9;
+}
+
+.contact-info-logo{
+  padding-bottom: 2rem;
+}
+
+.contact-slogan p{
+  width: 80%;
+  font-size: 14px;
+  font-family: Montserrat;
+  color: rgba(255, 255, 255, 1);
+}
+
+.social-icons1{
+  padding-top: 2rem;
+  width: 40%;
   display: flex;
   justify-content: space-around;
 }
 
-.footer ul{
-  list-style-type: none;
+.social-icons1 i{
+color: rgba(255, 255, 255, 1);
+width: 100%;
 }
 
 
-.contact-info-logo{
-  margin-top: 0.5rem;
- margin-bottom: 1.3rem;
+
+.footer-navigation-bar{
+  grid-column: 10 / 21;
 }
 
-.contact-slogan{
-  margin-bottom: 1.1rem;
-  font-family: Montserrat;
-  font-size: 100%;
-  width:50%;
+.footer-navigation-bar-inner{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
 }
 
 .footer-autopark, .footer-service-bar, .footer-about-bar{
-  width: 100%;
+  grid-row: 1 / 2;
 }
 
-.footer-service-bar, .footer-about-bar{
-margin-left: 15%;
-
+.footer-autopark{
+  grid-column: 1 / 3;
 }
 
+.footer-autopark p{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: rgba(255, 255, 255, 1);
+}
 
-.footer-autopark ul, .footer-service-bar ul{
+.footer-autopark ul{
   padding-left: 0;
-  font-size: 13px;
+}
+
+.footer-autopark li{
+  font-size: 14px;
+  font-family: Montserrat;
+  color: rgba(255, 255, 255, 1);
+  list-style-type: none;
+}
+
+.footer-service-bar{
+  grid-column: 4 / 6;
+}
+
+.footer-service-bar p{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-service-bar ul{
+  padding-left: 0;
+}
+
+.footer-service-bar li{
+  font-size: 14px;
+  font-family: Montserrat;
+  color: rgba(255, 255, 255, 1);
+  list-style-type: none;
+}
+
+.footer-service-bar a{
+  text-decoration: 0;
+}
+
+
+.footer-about-bar{
+  grid-column: 7 / 11;
+}
+
+
+.footer-about-bar p{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: rgba(255, 255, 255, 1);
 }
 
 .footer-about-bar ul{
-  padding-left: 0;
+padding-left: 0;
 }
 
-.footer-autopark a, .footer-service-bar a, .footer-about-bar a{
-  text-decoration: none;
-  color: aliceblue;
-}
-
-
-.contact-slogan p{
+.footer-about-bar li{
   font-size: 14px;
-  word-wrap: break-word;
+  font-family: Montserrat;
+  color: rgba(255, 255, 255, 1);
+  list-style-type: none;
+}
+
+.footer-about-bar a{
+  text-decoration: 0;
 }
 
 
-.our-social-meida{
-  display: block;
-}
-
-.footer-social-icons{
-  color: rgba(255, 255, 255, 0,8);
-
-}
-
-.social-icons1{
-  display: flex;
-  padding-left: 20px;
-}
-
-
-.social-icons1 i{
-  padding-top: 1.5rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-}
-
-.hr-line hr{
-  height: 1px;
-  width:80%;
-  color:aliceblue;
+.hr-line{
+  width: 90%;
   margin-left: 5%;
+  color: rgba(255, 255, 255, 1);
 }
+
 
 .copyright{
-  color:aliceblue;
   margin-left: 5%;
 }
 
-
-.bene_logo {
-position: relative;
-width: 80%;
-left: 10px;
-top: 1.2rem;
-
+.copyright p{
+  color:rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-family: Montserrat;
 }
 
-.navigation{
-  top:20px;
-  width: 98%;
-  display: flex;
-  justify-content: space-between;
-}
 
 .hamburger{
 position:absolute;
@@ -818,7 +822,7 @@ font-weight: 700;
 }
 
 .index-autopark-carousel-inner{
- width: 90%;
+ width: 100%;
  margin-left: 5%;
  margin-right: 5%;
  padding-bottom: 2rem;
@@ -837,18 +841,18 @@ border-radius: 50%;
 display: flex;
 justify-content: space-around;
 margin-bottom: 5rem;
-width: 90%;
+width: 80%;
 margin: 5%;
 }
 
 .index-autopark-carousel-item img{
  padding-left: 1.5rem;
-width: 95%!important;
+width: 100%!important;
 
 }
 
 .index-autopark-item-mercedez, .index-autopark-item-toyota, .index-autopark-item-toyotaS{
- width: 40%!important;
+ width: 30%!important;
  text-align: center;
  background-color: rgba(36, 160, 237, 0.082);
  border-radius: 140px 60px 110px 70px;
@@ -950,17 +954,18 @@ border-radius: 50%;
 display: flex;
 justify-content: space-between;
 margin-bottom: 5rem;
-width: 90%;
+width: 85%;
 margin-left: 5%;
 }
 
 .index-rent-carousel-item img{
-width: 95%!important;
+width: 90%!important;
 margin-bottom: 1.5rem;
+padding-left: 1.5rem!important;
 }
 
 .index-rent-item-mercedez, .index-rent-item-toyota, .index-rent-item-toyotaS{
- width: 40%!important;
+ width: 30%!important;
  text-align: center;
  background-color: rgba(252, 252, 253, 0.082);
  border-radius: 140px 60px 110px 70px;

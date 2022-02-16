@@ -2,7 +2,8 @@
 return [
   /* header and footer*/
   'home' => 'Home',
-  'about' => 'Company',
+  'about' => 'About Bene',
+  'news' => 'Newsroom',
   'fleet' => 'Vehicles',
   'rent' => 'Car Rent',
   'academy' => 'Academy',
