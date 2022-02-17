@@ -14,7 +14,7 @@
             <div class="car-rent-title">
                 <div class="car-rent-title-middle">
                     <div class="car-rent-title-inner">
-                        <h2>@lang('front.rent-title')</h2>
+                        <p>@lang('front.rent-title')</p>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                 <div class="car-rent-type-middle">
                     <div class="car-rent-type-inner">
                         
-                    <div class="fleet-type-list">
+                    <div class="rent-type-list">
                         <div class="all">
                             <p>All</p>
                         </div>
