@@ -85,16 +85,17 @@ header{
 #navibar{
   display: flex;
   justify-content: space-between;
-  grid-column: 7/ 18;
+  grid-column: 6/ 18;
   padding-top: 3rem;
 }
 
 
 .navbar a{
-    font-size: 14px;
+    font-size: 13px;
     font-family: Montserrat;
     color: rgba(255, 255, 255, 0.74);
     padding: 5px;
+    font-style: normal;
     text-decoration: none;
     font-weight: 400;
 }
@@ -141,22 +142,27 @@ a:is(:link, :active, :visited).current{
   padding-bottom: 2rem;
 }
 
+.contact-info-logo img{
+  width: 25%;
+}
+
 .contact-slogan p{
-  width: 80%;
-  font-size: 14px;
+  width: 70%;
+  font-size: 13px;
   font-family: Montserrat;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.753);
 }
 
 .social-icons1{
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   width: 40%;
   display: flex;
   justify-content: space-around;
 }
 
 .social-icons1 i{
-color: rgba(255, 255, 255, 1);
+color: rgba(255, 255, 255, 0.795);
 width: 100%;
 }
 
@@ -193,7 +199,7 @@ width: 100%;
 .footer-autopark li{
   font-size: 14px;
   font-family: Montserrat;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.774);
   list-style-type: none;
 }
 
@@ -215,12 +221,12 @@ width: 100%;
 .footer-service-bar li{
   font-size: 14px;
   font-family: Montserrat;
-  color: rgba(255, 255, 255, 1);
   list-style-type: none;
 }
 
 .footer-service-bar a{
   text-decoration: 0;
+  color: rgba(255, 255, 255, 0.74)!important;
 }
 
 
@@ -243,12 +249,12 @@ padding-left: 0;
 .footer-about-bar li{
   font-size: 14px;
   font-family: Montserrat;
-  color: rgba(255, 255, 255, 1);
   list-style-type: none;
 }
 
 .footer-about-bar a{
   text-decoration: 0;
+  color: rgba(255, 255, 255, 0.719)!important;
 }
 
 
@@ -264,7 +270,7 @@ padding-left: 0;
 }
 
 .copyright p{
-  color:rgba(255, 255, 255, 1);
+  color:rgba(255, 255, 255, 0.795);
   font-size: 14px;
   font-family: Montserrat;
 }
@@ -458,14 +464,26 @@ padding-bottom: 15%;
   width: 2rem!important;
   background-color: rgb(216, 214, 214)!important;
   border-radius: 80px;
+  height: 2rem!important;
+  width: 2rem!important;
+  align-items: center;
+  padding-top: 2px;
 }
 
-  .index-part-1{
-    font-family: Monsserat;
-    background-color: rgba(255, 255, 255, 1);
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+.index-part-1{
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   }
+
+
+.part-1-inner{
+ width: 80%;
+ margin-left: 10%;
+ display: flex;
+  }
+  
+ 
 
 .index-part1-carousel-inner{
   display: grid;
@@ -487,20 +505,28 @@ padding-bottom: 15%;
 
 .index-slogan{
   grid-column: 2 / 4;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .who-we-are{
-  font-size: 32px;
+  font-size: 26px;
   font-family: Montserrat;
-  font-weight: 700;
+ font-weight: 600;
   color: rgba(255, 255, 255, 1);
+}
+
+.who-we-are p{
+  margin-bottom: 0;
 }
 
 .our-motto{
   font-size: 14px;
   font-weight: Montserrat;
   color: rgba(255, 255, 255, 1);
+}
+
+.our-moto p{
+  font-weight: Montserrat;
 }
 
 .slogan-button button{
@@ -514,9 +540,9 @@ padding-bottom: 15%;
   }
   
   .slogan-button p{
-    margin-left: 1rem;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
+    margin-left: 0.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
   }
   
   .slogan-button i{
@@ -535,36 +561,42 @@ padding-bottom: 15%;
   grid-row: 1 / 2;
 }
 
+.index-about-us-header p{
+  color: rgba(6, 13, 13, 0.5);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  Font-family: Montserrat;
+}
 
-  .part-1-inner{
-    width: 80%;
-    margin-left: 10%;
-    display: flex;
-  }
-  
-
-  .index-about-us-header h4{
-    color: rgb(95, 95, 95);
-    font-weight: 600;
-    margin-bottom: 1rem;
-  }
-
-
-  .index-about-us-title h2{
-    font-weight: 700;
-    margin-bottom: 1rem;
+.index-about-us-title p{
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-size: 32px;
+  font-family: Montserrat;
+  color: #060D0D;
   }
 
 
 .index-about-us-info{
-  width:60%; 
+width:60%; 
 }
 
 .index-about-us-text{
-  margin-bottom: 2rem;
-  width:100%;
-  font-size: 14px;
+margin-bottom: 2rem;
+width:100%;
+font-size: 13px;
+line-height: 24px;
+font-family: Montserrat;
+color: rgba(6, 13, 13, 1);
+}
+
+.index-about-us-text p{
+  font-size: 13px;
   line-height: 24px;
+  font-family: Montserrat;
+  font-weight: 400;
 }
 
 .index-about-us-button button{
@@ -578,9 +610,11 @@ padding-bottom: 15%;
 }
 
 .index-about-us-button p{
-  margin-left: 0.4rem;
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+  font-size: 13px;
+  margin-left: 0.6rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  font-family: Montserrat;
 }
 
 .index-about-us-button i{
@@ -600,105 +634,7 @@ padding-bottom: 15%;
 }
 
 
-.index-part-2{
-  background-color: #FAFAFA;
-}
 
-.index-part-2-inner{
-  width: 80%;
-  margin-left: 10%;
-}
-
-.index-news-header{
-  display: flex;
-  justify-content: space-between;
-}
-
-/* Index */
-
-.carousel-arrow-icon{
-  height: 2rem!important;
- width: 2rem!important;
- background-color: rgb(216, 214, 214)!important;
- border-radius: 80px;
- align-items: center;
- padding-top: 2px;
-}
-
- .index-part-1{
-   font-family: Monsserat;
-   background-color: rgba(255, 255, 255, 1);
-   padding-top: 6rem;
-   padding-bottom: 6rem;
- }
-
-
- 
-
- .part-1-inner{
-   width: 80%;
-   margin-left: 10%;
-   display: flex;
- }
- 
-
- .index-about-us-header p{
-   color: rgb(95, 95, 95);
-   font-weight: 600;
-   margin-bottom: 1rem;
-   font-size: 18px;
- }
-
-
- .index-about-us-title p{
-   font-weight: 700;
-   margin-bottom: 1rem;
-   font-size: 32px;
- }
-
-
-.index-about-us-info{
- width:60%; 
-}
-
-.index-about-us-text{
- margin-bottom: 2rem;
- width:100%;
- font-size: 14px;
- line-height: 24px;
-}
-
-.index-about-us-button button{
- background-color: rgba(6, 13, 13, 1);
- display: flex;
- justify-content: space-between;
- color: rgba(255, 255, 255, 1);
- align-items: center;
- border: none;
- outline: none;
-}
-
-.index-about-us-button p{
- margin-left: 0.4rem;
- margin-top: 0.2rem;
- margin-bottom: 0.2rem;
-}
-
-.index-about-us-button i{
- margin-left: 0.3rem;
- margin-right: 0.4rem;
-}
-   
-.about-us-video{
- margin-top: 2rem;
- margin-left: 4%;
-}
-
-
-.about-us-video iframe{
- width: 522px;
- height: 325px;
-}
 
 
 .index-part-2{
@@ -720,6 +656,7 @@ padding-bottom: 15%;
 .index-news-header-title p{ 
 font-size: 24px;
 font-weight: 700;
+font-family: Montserrat;
 }
 
 .see-all-button button{
@@ -739,7 +676,8 @@ font-weight: 700;
  margin-right: 0.4rem;
  color: rgba(36, 160, 237, 1);
  font-weight: 700;
- font-family:  TBC Contractica;
+ font-family:  Montserrat;
+ font-size: 13px;
 }
 
 .see-all-button i{
@@ -773,7 +711,9 @@ width: 100%;
 }
 
 .news-date p{
-color: rgb(98, 99, 99);
+color: rgba(6, 13, 13, 0.5);
+font-family: Montserrat;
+font-weight: bold;
 }
 
 .index-news-text h6{
@@ -819,6 +759,7 @@ color: rgb(98, 99, 99);
 .index-autopark-title p{
 font-size: 24px;
 font-weight: 700;
+font-family: Montserrat;
 }
 
 .index-autopark-carousel-inner{
@@ -846,7 +787,6 @@ margin: 5%;
 }
 
 .index-autopark-carousel-item img{
- padding-left: 1.5rem;
 width: 100%!important;
 
 }
@@ -871,10 +811,14 @@ width: 100%!important;
 .index-autopark-item-mercedez h6, .index-autopark-item-toyota h6, .index-autopark-item-toyotaS h6{
  font-size: 24px!important;
  font-weight: 700!important;
+ font-family: Montserrat;
 }
 
 .index-autopark-item-mercedez p, .index-autopark-item-toyota p, .index-autopark-item-toyotaS p{
  color:rgba(36, 160, 237, 1);
+ font-family: Montserrat;
+ font-weight: 400;
+ font-size: 15px;
 }
 
 
@@ -888,9 +832,17 @@ width: 100%!important;
  padding-bottom: 2rem;
 }
 
+
+.index-rent-title{
+color: rgba(255, 255, 255, 1);
+font-family: Montserrat;
+ }
+
 .index-rent-title p{ 
 font-size: 24px;
 font-weight: 700;
+font-family: Montserrat;
+font-weight: bold;
 }
 
 
@@ -911,7 +863,8 @@ font-weight: 700;
  margin-right: 0.4rem;
  color: rgba(255, 255, 255, 1);
  font-weight: 700;
- font-family:  TBC Contractica;
+ font-family:  Montserrat;
+ font-size: 13px;
 }
 
 .see-all-button-rent i{
@@ -926,11 +879,6 @@ font-weight: 700;
  margin-left: 10%;
  display: flex;
  justify-content: space-between;
-}
-
-.index-rent-title{
- color: rgba(255, 255, 255, 1);
- font-family: Montserrat;
 }
 
 
@@ -991,6 +939,9 @@ padding-left: 1.5rem!important;
 
 .index-rent-item-mercedez p, .index-rent-item-toyota p, .index-rent-item-toyotaS p{
  color: rgba(255, 255, 255, 0.493);
+ font-family: Montserrat;
+ font-size: 15px;
+ font-weight: 400;
 }
 
 
@@ -1049,17 +1000,20 @@ width:100%;
  width: 80%;
 }
 
-.index-academy-title h5{
+.index-academy-title p{
+  font-size: 24px;
 font-family: Montserrat;
 font-weight: 700;
-color: rgba(252, 252, 253, 1);
+color: rgba(255, 255, 255, 1);
 margin-bottom: 1rem;
 }
 
 .index-academy-text p{
 color: rgba(252, 252, 253, 1);
-font-size: 14px;
-font-weight: Montserrat;
+font-size: 13px;
+font-family: Montserrat;
+font-weight: 400;
+line-height: 24px;
 }
 
 .index-academy-button button{
@@ -1079,7 +1033,8 @@ font-weight: Montserrat;
  margin-right: 0.4rem;
  color: rgba(255, 255, 255, 1);
  font-weight: 700;
- font-family:  TBC Contractica;
+ font-family:  Montserrat;
+ font-size: 13px;
 }
 
 .index-academy-button i{
@@ -1090,7 +1045,7 @@ font-weight: Montserrat;
 
 
 .index-part-6{
- font-family: Monsserat;
+ font-family: Montserrat;
  background-color: rgba(255, 255, 255, 1);
  padding-top: 6rem;
  padding-bottom: 6rem;
@@ -1110,7 +1065,9 @@ font-weight: Montserrat;
 }
 
 
-.index-taxi-title h2{
+.index-taxi-title p{
+  font-size: 24px;
+  font-family: Montserrat;
  font-weight: 700;
  margin-bottom: 1rem;
 }
@@ -1123,12 +1080,17 @@ width:60%;
 .index-taxi-text{
 margin-bottom: 2rem;
 width:100%;
-font-size: 14px;
+}
+
+.index-taxi-text p{
+font-size: 13px;
 line-height: 24px;
+font-family: Montserrat;
+font-weight: 400;
 }
 
 .index-taxi-button button{
-background-color: rgba(6, 13, 13, 1);
+background-color: rgba(36, 178, 76, 1);
 display: flex;
 justify-content: space-between;
 color: rgba(255, 255, 255, 1);
@@ -1138,14 +1100,16 @@ outline: none;
 }
 
 .index-taxi-button p{
-margin-left: 0.4rem;
-margin-top: 0.2rem;
-margin-bottom: 0.2rem;
+margin-left: 0.9rem;
+margin-top: 0.7rem;
+margin-bottom: 0.7rem;
+font-family:  Montserrat;
+ font-size: 12px;
 }
 
 .index-taxi-button i{
-margin-left: 0.3rem;
-margin-right: 0.4rem;
+margin-left: 0.5rem;
+margin-right: 0.9rem;
 }
  
 .index-taxi-image{
@@ -1167,9 +1131,11 @@ width:80%;
  text-align: center;
  margin-bottom: 3.5rem;
  padding-top: 2rem;
- font-family: Montserrat;
- font-weight: 700;
- font-size: 24px;
+}
+.index-event-header p{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .index-event-carousel-inner{
@@ -1220,6 +1186,12 @@ margin-bottom: 3rem;
  padding-bottom: 2rem;
 }
 
+.index-partners-header p{
+  font-family: Montserrat;
+ font-weight: 700;
+ font-size: 24px;
+}
+
 .index-partners-logo{
  display: flex;
  justify-content: space-between;
@@ -1229,7 +1201,6 @@ padding-bottom: 2rem;
 .index-partners-logo img{
 width: 75%;
 }
-
 
 
 /* About Us */
@@ -1271,6 +1242,7 @@ font-family:Montserrat;
   font-weight: 700;
   margin-bottom: 1rem;
   font-size: 32px;
+  font-family: Montserrat;
 }
 
 
@@ -1279,10 +1251,10 @@ width:60%;
 }
 
 .home-about-us-text{
-font-family: Monsserat;
+font-family: Montserrat;
 padding-top: 1rem;
 margin-bottom: 2rem;
-width:100%;
+width:90%;
 font-size: 14px;
 line-height: 24px;
 }
@@ -1304,15 +1276,15 @@ height: 325px;
 }
 
 .about-page-part-2-inner{
-  width: 80%;
-  margin-left: 10%;
-  padding-top: 5rem;
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 1rem;
   padding-bottom: 5rem;
 }
 
 .about-page-events{
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   
 }
 
@@ -1321,7 +1293,8 @@ height: 325px;
 }
 
 .about-page-events-picture {
-  grid-column: 1 / 5;
+  padding-top: 3rem;
+  grid-column: 1 / 6;
 }
 
 .about-page-events-picture img{
@@ -1329,14 +1302,15 @@ height: 325px;
 }
 
 .about-page-events-text{
-  grid-column: 6 / 10;
+  padding-top: 1rem;
+  grid-column: 7 / 11;
 }
 
 .about-page-company-name p{
 font-size: 18px;
 font-family: Montserrat;
 font-weight: 700;
-color:rgba(7, 6, 6, 0.089);
+color:rgba(6, 13, 13, 0.5);
 }
 
 .about-page-events-title p{
@@ -1347,8 +1321,10 @@ color:rgba(7, 6, 6, 0.089);
 
 
 .about-page-events-info p{
-  font-size: 14px;
+  font-size: 13px;
   font-family: Montserrat;
+  line-height: 24px;
+  
 }
 
 
@@ -1357,15 +1333,15 @@ color:rgba(7, 6, 6, 0.089);
 }
 
 .about-page-part-3-inner{
-  width:80%;
-  margin-left: 10%;
+  width:90%;
+  margin-left: 5%;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
 .about-vehicle-renewals{
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(10, 1fr);
 }
 
 .about-vehicle-renewal-info, .about-vehicle-renewal-image{
@@ -1377,7 +1353,7 @@ color:rgba(7, 6, 6, 0.089);
 }
 
 .about-vehicle-renewal-image{
-  grid-column: 6 / 10;
+  grid-column: 6 / 11;
 }
 
 .about-vehicle-renewal-image img{
@@ -1392,7 +1368,8 @@ width:100%;
 
 .about-vehicle-renewal-text p{
 font-family: Montserrat;
-font-size: 14px;
+font-size: 13px;
+line-height: 24px;
 }
 
 .about-news-body{

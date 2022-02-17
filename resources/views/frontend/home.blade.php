@@ -132,7 +132,12 @@
           </div>
 
           <div class="index-about-us-text">
-            <p>@lang('front.index-text')</p>
+             <p>
+               "Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group". 
+                Initially, the services of our company were limited to premium class vehicles, however today "Bene-Ecxlusive" 
+                represents a multi-profile company. Car renting as well as orginizing of Business Projects and Events have been added
+                to our list of services.
+              </p>
           </div>
 
           <div class="index-about-us-button">
@@ -578,7 +583,7 @@
               <div class="home-academy-text">
 
                 <div class="index-academy-title">
-                  <h5>ACADEMY</h5>
+                  <p>ACADEMY</p>
                 </div>
 
                 <div class="index-academy-text">
@@ -614,12 +619,12 @@
           
 
           <div class="index-taxi-title">
-            <h2>TAXI</h2>
+            <p>TAXI</p>
           </div>
 
           <div class="index-taxi-text">
             <p> 90% of our fleet is electric vehicles with zero emissions. We have fixed prices guaranteed. You can pay with us at the cash desk,
-                or by card, both at the box office and directly with the driver. Airport taxi is available 24/7
+                or by card, both at the box office and directly with the driver. Airport taxi is available 24/7<br>
                 Taxis are available from the airport to the city, as well as from anywhere in Tbilisi to the airport
                 Our vehicles have a large luggage compartment, which ensures comfortable transportation
                 We offer the latest models of sedans and minivans - Tesla, Mercedes-Benz, Changan and Toyota</p>
@@ -627,7 +632,7 @@
 
           <div class="index-taxi-button">
               <button>
-                <p>See more</p>
+                <p>Go to Webpage</p>
                 <i class="fas fa-arrow-right"></i>
               </button>
           </div>
