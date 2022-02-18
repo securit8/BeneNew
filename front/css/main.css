@@ -28,6 +28,7 @@ header{
   top: 0px;
   z-index: 2;
   width: 100%;
+  padding-bottom: 0;
 }
 
 .container-fluid{
@@ -59,9 +60,8 @@ header{
 .navbar{
   width:100%;
   display: grid;
-  grid-template-columns: repeat(20, 1fr);
+  grid-template-columns: repeat(22, 1fr);
   padding-top: 0;
-  
 }
 
 .bene_logo, #navibar, .Language-select{
@@ -73,31 +73,33 @@ header{
 }
 
 .Language-select{
-  padding-top: 4rem;
-  grid-column: 19 / 21;
+  padding-top: 2.05rem;
+  grid-column: 20 / 23;
 }
 
 
 .bene_logo img{
-  width:100%;
+  background-color: rgba(6, 13, 13, 1);
+  width:82%;
 }
 
 #navibar{
   display: flex;
   justify-content: space-between;
-  grid-column: 6/ 18;
-  padding-top: 3rem;
+  grid-column: 7 / 19;
+  padding-top: 1.4rem;
 }
 
 
 .navbar a{
-    font-size: 13px;
+    font-size: 12px;
     font-family: Montserrat;
     color: rgba(255, 255, 255, 0.74);
     padding: 5px;
     font-style: normal;
     text-decoration: none;
     font-weight: 400;
+    padding-bottom: 0;
 }
   
 .navbar a:hover{
@@ -107,15 +109,17 @@ header{
 
 
 .about, .news, .autopark, .rent, .academy, .events, .partners, .motors, .nav-line, .contact{
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
 
 a:is(:link, :active, :visited).current{
       color: white;
 }
 
-
-
+.nav-line{
+  font-size: 9px;
+ padding-top: 1.9rem;
+}
 
 .footer-outer{
   width: 100%;
