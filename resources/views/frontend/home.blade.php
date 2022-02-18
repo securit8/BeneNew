@@ -667,20 +667,37 @@
               <div class="carousel-item active">
               <div class="index-event-carousel-item">
                 
-              <img src="{{asset('front/images/event-2.png') }}" class="d-block w-100" alt="...">
+              <div class="event-1">
+                  <div class="event-1-backrgound">
+                    <img src="{{asset('front/images/event-1-background.png') }}" class="" alt="...">
+                  </div>
+
+                  <div class="event-1-logo">
+                    <img src="{{asset('front/images/event-1-logo.png') }}" class="" alt="...">
+                  </div>
+
+                </div>
 
               <img src="{{asset('front/images/event-2.png') }}" class="d-block w-100" alt="...">   
 
-              <img src="{{asset('front/images/event-2.png') }}" class="d-block w-100" alt="...">
+              <img src="{{asset('front/images/event-3.png') }}" class="d-block w-100" alt="...">
 
             </div>
               </div>
 
               <div class="carousel-item">
               <div class="index-event-carousel-item">
-              <img src="{{asset('front/images/event-3.png') }}" class="d-block w-100" alt="...">
+                <div class="event-1">
+                  <div class="event-1-backrgound">
+                    <img src="{{asset('front/images/event-1-background.png') }}" class="" alt="...">
+                  </div>
 
-              <img src="{{asset('front/images/event-3.png') }}" class="d-block w-100" alt="...">   
+                  <div class="event-1-logo">
+                    <img src="{{asset('front/images/event-1-logo.png') }}" class="" alt="...">
+                  </div>
+
+                </div>
+              <img src="{{asset('front/images/event-2.png') }}" class="d-block w-100" alt="...">   
 
               <img src="{{asset('front/images/event-3.png') }}" class="d-block w-100" alt="...">
             </div>
@@ -688,11 +705,19 @@
 
               <div class="carousel-item"> 
                 <div class="index-event-carousel-item">
-              <img src="{{asset('front/images/event-2.png') }}" class="d-block w-100" alt="...">
+                <div class="event-1">
+                  <div class="event-1-backrgound">
+                    <img src="{{asset('front/images/event-1-background.png') }}" class="" alt="...">
+                  </div>
 
+                  <div class="event-1-logo">
+                    <img src="{{asset('front/images/event-1-logo.png') }}" class="" alt="...">
+                  </div>
+
+                </div>
               <img src="{{asset('front/images/event-2.png') }}" class="d-block w-100" alt="...">   
 
-              <img src="{{asset('front/images/event-2.png') }}" class="d-block w-100" alt="...">
+              <img src="{{asset('front/images/event-3.png') }}" class="d-block w-100" alt="...">
             </div>
             </div>
 
