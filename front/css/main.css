@@ -104,7 +104,7 @@ header{
   
 .navbar a:hover{
       transition: 0.7s;
-      color: white;
+      color: rgba(255, 255, 255, 1);
 }
 
 
@@ -113,12 +113,13 @@ header{
 }
 
 a:is(:link, :active, :visited).current{
-      color: white;
+      color: rgba(255, 255, 255, 1);
 }
 
 .nav-line{
   font-size: 9px;
  padding-top: 1.9rem;
+ color: rgba(255, 255, 255, 0.74);
 }
 
 .footer-outer{
