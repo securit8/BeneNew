@@ -111,7 +111,7 @@
     <div class="footer-navigation-bar">
       <div class="footer-navigation-bar-inner">
         <div class="footer-autopark">
-          <p>@lang('front.fleet')</p>
+          <p>AUTOPARK</p>
           <ul>
           <li>ALL</li>
           <li>SUV</li>
@@ -124,7 +124,7 @@
         </div>
 
         <div class="footer-service-bar">
-          <p>@lang('front.services')</p>
+          <p>SERVICES</p>
           <ul>
           <li><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></li>
           <li><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></li>
@@ -133,7 +133,7 @@
         </div>
 
         <div class="footer-about-bar">
-          <p>@lang('front.about')</p>
+          <p>ABOUT US</p>
           <ul>
           <li><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></li>
           <li><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></li>

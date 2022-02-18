@@ -18,6 +18,12 @@
 
 
 /* master */
+
+body .ka{
+  font-family: Montserrat;
+}
+
+
 body {
   overflow-x: hidden;
   background-color: #060D0D;
@@ -60,7 +66,7 @@ header{
 .navbar{
   width:100%;
   display: grid;
-  grid-template-columns: repeat(22, 1fr);
+  grid-template-columns: repeat(34, 1fr);
   padding-top: 0;
 }
 
@@ -69,37 +75,41 @@ header{
 }
 
 .bene_logo{
-  grid-column: 2 / 4;
+ 
+  grid-column: 3 / 7;
 }
 
 .Language-select{
   padding-top: 2.05rem;
-  grid-column: 20 / 23;
+  grid-column: 31 / 34;
 }
 
 
 .bene_logo img{
+  padding-top: 0.5rem;
+  padding-right: 0.1rem;
   background-color: rgba(6, 13, 13, 1);
-  width:82%;
+  width:63.2%;
 }
 
 #navibar{
   display: flex;
   justify-content: space-between;
-  grid-column: 7 / 19;
+  grid-column: 13 / 30;
   padding-top: 1.4rem;
 }
 
 
 .navbar a{
-    font-size: 12px;
+    font-size: 11px;
     font-family: Montserrat;
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(255, 255, 255, 0.514);
     padding: 5px;
     font-style: normal;
     text-decoration: none;
     font-weight: 400;
     padding-bottom: 0;
+    
 }
   
 .navbar a:hover{
@@ -128,8 +138,8 @@ a:is(:link, :active, :visited).current{
 }
 
 .footer{
-  width:90%;
-  margin-left: 5%;
+  width:85%;
+  margin-left: 7.5%;
   display: grid;
   grid-template-columns: repeat(20, 1fr);
   padding-top: 2rem;
@@ -153,7 +163,7 @@ a:is(:link, :active, :visited).current{
 
 .contact-slogan p{
   width: 70%;
-  font-size: 13px;
+  font-size: 11px;
   font-family: Montserrat;
   color: rgba(255, 255, 255, 0.753);
 }
@@ -191,10 +201,11 @@ width: 100%;
 }
 
 .footer-autopark p{
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: 600;
   font-family: Montserrat;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 0;
 }
 
 .footer-autopark ul{
@@ -202,10 +213,11 @@ width: 100%;
 }
 
 .footer-autopark li{
-  font-size: 14px;
+  font-size: 11px;
   font-family: Montserrat;
   color: rgba(255, 255, 255, 0.774);
   list-style-type: none;
+  padding-bottom: 0.2rem;
 }
 
 .footer-service-bar{
@@ -213,10 +225,11 @@ width: 100%;
 }
 
 .footer-service-bar p{
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: 600;
   font-family: Montserrat;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 0;
 }
 
 .footer-service-bar ul{
@@ -224,9 +237,10 @@ width: 100%;
 }
 
 .footer-service-bar li{
-  font-size: 14px;
+  font-size: 11px;
   font-family: Montserrat;
   list-style-type: none;
+  padding-bottom: 0.2rem;
 }
 
 .footer-service-bar a{
@@ -241,10 +255,11 @@ width: 100%;
 
 
 .footer-about-bar p{
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: 600;
   font-family: Montserrat;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 0;
 }
 
 .footer-about-bar ul{
@@ -252,9 +267,10 @@ padding-left: 0;
 }
 
 .footer-about-bar li{
-  font-size: 14px;
+  font-size: 11px;
   font-family: Montserrat;
   list-style-type: none;
+  padding-bottom: 0.2rem;
 }
 
 .footer-about-bar a{
@@ -264,19 +280,19 @@ padding-left: 0;
 
 
 .hr-line{
-  width: 82%;
-  margin-left: 9%;
+  width: 80%;
+  margin-left: 10%;
   color: rgba(255, 255, 255, 1);
 }
 
 
 .copyright{
-  margin-left: 9%;
+  margin-left: 10%;
 }
 
 .copyright p{
   color:rgba(255, 255, 255, 0.795);
-  font-size: 14px;
+  font-size: 11px;
   font-family: Montserrat;
 }
 
@@ -475,33 +491,21 @@ padding-bottom: 15%;
   padding-top: 2px;
 }
 
-.index-part-1{
-  background-color: rgba(255, 255, 255, 1);
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  }
 
-
-.part-1-inner{
- width: 80%;
- margin-left: 10%;
- display: flex;
-  }
-  
  
 
 .index-part1-carousel-inner{
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(20, 1fr);
 }
 
 
 .carousel-part1-backgound{
-  grid-column: 1 / 8;
+  grid-column: 1 / 21;
 }
   
 .carousel-part1-shader{
-  grid-column: 1 / 8;
+  grid-column: 1 / 21;
 }
 
 .carousel-part1-shader img{
@@ -509,25 +513,26 @@ padding-bottom: 15%;
 }
 
 .index-slogan{
-  grid-column: 2 / 4;
-  margin-top: 7rem;
+  grid-column: 3 / 13;
+  margin-top: 8rem;
+  margin-left: 3rem;
 }
 
 .who-we-are{
-  font-size: 26px;
+  font-size: 23px;
   font-family: Montserrat;
  font-weight: 600;
   color: rgba(255, 255, 255, 1);
 }
 
 .who-we-are p{
-  margin-bottom: 0;
+  margin-bottom: 0.7rem;
 }
 
 .our-motto{
-  font-size: 14px;
+  font-size: 11px;
   font-weight: Montserrat;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.603);
 }
 
 .our-moto p{
@@ -538,21 +543,26 @@ padding-bottom: 15%;
     background-color: rgba(6, 13, 13, 1);
     display: flex;
     justify-content: space-between;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.5);
     align-items: center;
     border: 0.5px solid;
     outline: none;
   }
   
   .slogan-button p{
-    margin-left: 0.8rem;
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 0.9rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
   }
   
-  .slogan-button i{
-    margin-left: 1em;
-    margin-right: 0.5rem;
+  .slogan-button img{
+    margin-left: 0.3rem;
+    margin-right: 0.6rem;
+    color: rgb(255, 255, 255);
+    width: 13%;
   }
 
   #index-part1-carousel-indicators button{
@@ -566,11 +576,32 @@ padding-bottom: 15%;
   grid-row: 1 / 2;
 }
 
+
+.index-part-1{
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  }
+
+
+.part-1-inner{
+ width: 75%;
+ margin-left: 12.5%;
+ display: grid;
+ grid-template-columns: repeat(20, 1fr);
+}
+
+
+.index-about-us-info, .about-us-video{
+  grid-row: 1 / 2;
+}
+
+
 .index-about-us-header p{
   color: rgba(6, 13, 13, 0.5);
   font-weight: 700;
   margin-bottom: 1rem;
-  font-size: 18px;
+  font-size: 13px;
   Font-family: Montserrat;
 }
 
@@ -578,13 +609,15 @@ padding-bottom: 15%;
   font-weight: 700;
   margin-bottom: 1rem;
   font-style: normal;
-  font-size: 32px;
+  font-size: 22px;
   font-family: Montserrat;
   color: #060D0D;
   }
 
 
 .index-about-us-info{
+  grid-column: 1 / 18;
+  padding-top: 2rem;
 width:60%; 
 }
 
@@ -598,8 +631,8 @@ color: rgba(6, 13, 13, 1);
 }
 
 .index-about-us-text p{
-  font-size: 13px;
-  line-height: 24px;
+  font-size: 11px;
+  line-height: 20px;
   font-family: Montserrat;
   font-weight: 400;
 }
@@ -622,20 +655,23 @@ color: rgba(6, 13, 13, 1);
   font-family: Montserrat;
 }
 
-.index-about-us-button i{
+.index-about-us-button img{
   margin-left: 0.3rem;
-  margin-right: 0.4rem;
+  margin-right: 0.6rem;
+  color: rgb(255, 255, 255);
+  width: 13%;
 }
     
 .about-us-video{
-  margin-top: 2rem;
+  grid-column: 11 / 20;
+  margin-top: 1rem;
   margin-left: 4%;
 }
 
 
 .about-us-video embed{
-  width: 522px;
-  height: 325px;
+  width: 485px;
+  height: 311px;
 }
 
 
@@ -647,9 +683,9 @@ color: rgba(6, 13, 13, 1);
 }
 
 .index-part-2-inner{
- width: 80%;
- margin-left: 10%;
- padding-top: 1rem;
+ width: 75%;
+ margin-left: 12.5%;
+ padding-top: 3rem;
 }
 
 .index-news-header{
@@ -659,7 +695,7 @@ color: rgba(6, 13, 13, 1);
 }
 
 .index-news-header-title p{ 
-font-size: 24px;
+font-size: 18px;
 font-weight: 700;
 font-family: Montserrat;
 }
@@ -670,31 +706,31 @@ font-family: Montserrat;
  align-items: center;
  border: 0.5px solid;
  background-color: rgba(250, 250, 250, 1);
- border-color: rgba(36, 160, 237, 1);
+ border-color: rgba(36, 160, 237, 0.5);
  outline: none;
 }
 
 .see-all-button p{
  margin-left: 0.4rem;
- margin-top: 0.2rem;
- margin-bottom: 0.2rem;
+ margin-top: 0.5rem;
+ margin-bottom: 0.5rem;
  margin-right: 0.4rem;
- color: rgba(36, 160, 237, 1);
+ color: rgb(36, 160, 237);
  font-weight: 700;
  font-family:  Montserrat;
- font-size: 13px;
+ font-size: 12px;
 }
 
-.see-all-button i{
+.see-all-button img{
  margin-left: 0.3rem;
  margin-right: 0.4rem;
- color: rgba(36, 160, 237, 1);
+ width: 17%;
 }
 
 
 .index-news-body{
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 }
 
 
@@ -713,6 +749,7 @@ width: 100%;
  padding-left: 0.7rem;
  padding-right: 0.7rem;
  font-family: TBC Contractica;
+ background-color: rgba(255, 255, 255, 1);
 }
 
 .news-date p{
@@ -722,58 +759,99 @@ font-weight: bold;
 }
 
 .index-news-text h6{
+  font-family: Montserrat;
+  font-size: 12px!important;
  font-weight: 700;
  margin-bottom: 1rem;
+ color:rgba(6, 13, 13, 0.753);
+
 }
 
 .index-news-text p{
- font-size: 12px;
+ font-size: 9px;
+ color:rgba(6, 13, 13, 0.753);
 }
 
 .index-read-more{
  display: flex;
  align-items: center;
- color: rgba(36, 160, 237, 1);
+ color: rgba(36, 160, 237, 0.699);
+ padding-bottom: 0.5rem;
 }
 
 .index-read-more h5{
+  font-size: 11px!important;
  margin-right: 0.5rem;
+ font-weight: 700!important;
+ font-family: Montserrat;
+}
+
+.index-read-more img{
+  width: 7%;
+  padding-bottom: 0.6rem;
 }
 
 
 .index-part-3{
- background-color: rgb(248, 244, 244);
+ background-color: rgba(255, 255, 255, 1);
 }
 
 .index-part-3-inner{
  width: 100%;
  padding-top: 1rem;
- padding-bottom: 2rem;
+ padding-bottom: 1rem;
 }
 
 .index-autopark-header{
- width:80%;
- margin-left: 10%;
+ width:75%;
+ margin-left: 12.5%;
  display: flex;
  justify-content: space-between;
  font-family: Montserrat;
- margin-bottom: 2rem;
+ padding-top: 4rem;
+ margin-bottom: -3rem;
 }
 
 
+
+.see-autopark-all-button button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: rgba(36, 160, 237, 0.5);
+  outline: none;
+ }
+ 
+ .see-autopark-all-button p{
+  margin-left: 0.4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.4rem;
+  color: rgb(36, 160, 237);
+  font-weight: 700;
+  font-family:  Montserrat;
+  font-size: 12px;
+ }
+ 
+ .see-autopark-all-button img{
+  margin-left: 0.3rem;
+  margin-right: 0.4rem;
+  width: 17%;
+ }
+
+
 .index-autopark-title p{
-font-size: 24px;
+font-size: 20px;
 font-weight: 700;
 font-family: Montserrat;
 }
 
 .index-autopark-carousel-inner{
  width: 100%;
- margin-left: 5%;
- margin-right: 5%;
  padding-bottom: 2rem;
  margin-bottom: 2rem;
- 
 }
 
 #index-autopark-carousel-indicators button{
@@ -789,6 +867,7 @@ justify-content: space-around;
 margin-bottom: 5rem;
 width: 80%;
 margin: 5%;
+margin-left: 10%;
 }
 
 .index-autopark-carousel-item img{
@@ -801,6 +880,7 @@ width: 100%!important;
  text-align: center;
  background-color: rgba(36, 160, 237, 0.082);
  border-radius: 140px 60px 110px 70px;
+ padding-top: 2rem;
 }
 
 .index-autopark-item-toyota{
@@ -814,8 +894,8 @@ width: 100%!important;
 }
 
 .index-autopark-item-mercedez h6, .index-autopark-item-toyota h6, .index-autopark-item-toyotaS h6{
- font-size: 24px!important;
- font-weight: 700!important;
+ font-size: 19px!important;
+ font-weight: 600!important;
  font-family: Montserrat;
 }
 
@@ -823,7 +903,7 @@ width: 100%!important;
  color:rgba(36, 160, 237, 1);
  font-family: Montserrat;
  font-weight: 400;
- font-size: 15px;
+ font-size: 13px;
 }
 
 
@@ -833,8 +913,8 @@ width: 100%!important;
 
 .index-part-4-inner{
  width: 100%;
- padding-top: 1rem;
- padding-bottom: 2rem;
+ padding-top: 3rem;
+ padding-bottom: 1rem;
 }
 
 
@@ -844,7 +924,7 @@ font-family: Montserrat;
  }
 
 .index-rent-title p{ 
-font-size: 24px;
+font-size: 17px;
 font-weight: 700;
 font-family: Montserrat;
 font-weight: bold;
@@ -880,40 +960,44 @@ font-weight: bold;
 
 
 .index-rent-header{
- width:80%;
- margin-left: 10%;
+ width:75%;
+ margin-left: 12.5%;
  display: flex;
  justify-content: space-between;
+ padding-bottom: 0.2rem;
+ margin-bottom: -4rem;
 }
 
 
 .index-rent-carousel-inner{
- width: 90%;
- margin-left: 5%;
- margin-right: 5%;
+ width: 95%;
+ margin-left: 3%;
+ margin-right: 3%;
  padding-bottom: 2rem;
  margin-bottom: 2rem;
  
 }
 
 #index-rent-carousel-indicators button{
-background-color: rgb(238, 238, 238);
-width: 5px;
-height:5px;
+background-color: rgb(36, 160, 237);
+width: 6px;
+height:6px;
 border-radius: 50%;
+margin-bottom: 0;
 }
 
 .index-rent-carousel-item{
 display: flex;
 justify-content: space-between;
-margin-bottom: 5rem;
-width: 85%;
-margin-left: 5%;
+padding-bottom: 5rem;
+width: 80%;
+margin-left: 10%;
+margin-top: 5rem;
 }
 
 .index-rent-carousel-item img{
-width: 90%!important;
-margin-bottom: 1.5rem;
+width: 100%!important;
+margin-bottom: 1rem;
 padding-left: 1.5rem!important;
 }
 
@@ -921,13 +1005,13 @@ padding-left: 1.5rem!important;
  width: 30%!important;
  text-align: center;
  background-color: rgba(252, 252, 253, 0.082);
- border-radius: 140px 60px 110px 70px;
-
+ border-radius: 120px 30px 90px 30px;
+padding-top: 2rem;
 }
 
 .index-rent-item-toyota{
  background-color: rgba(252, 252, 253, 0.082);
- border-radius: 80px 140px 70px 120px;
+ border-radius: 80px 50px 120px 80px;
 }
 
 .index-rent-item-mercedez li, .index-rent-item-toyota li, .index-rent-item-toyotaS li{
@@ -937,15 +1021,15 @@ padding-left: 1.5rem!important;
 }
 
 .index-rent-item-mercedez h6, .index-rent-item-toyota h6, .index-rent-item-toyotaS h6{
- font-size: 24px!important;
- font-weight: 700!important;
+ font-size: 17px!important;
+ font-weight: 600!important;
  
 }
 
 .index-rent-item-mercedez p, .index-rent-item-toyota p, .index-rent-item-toyotaS p{
  color: rgba(255, 255, 255, 0.493);
  font-family: Montserrat;
- font-size: 15px;
+ font-size: 13px;
  font-weight: 400;
 }
 
@@ -959,23 +1043,27 @@ background-color: rgba(252, 252, 253, 0.082);
 
 
 .part-5-inner{
- width: 85%;
- margin-left: 7.5%;
+ width: 75%;
+ margin-left: 12.5%;
  
 }
 
 
 .index-academy-info{
  display: grid;
- grid-template-columns: repeat(9, 1fr);
+ grid-template-columns: repeat(14, 1fr);
+}
+
+.home-academy-text, .academy-image-outer{
+  grid-row: 1 / 2;
 }
    
 .home-academy-text{
- grid-column: 6 / 10;
+ grid-column: 9 / 15;
 }
 
 .academy-image-outer{
- grid-column: 1 / 6;
+ grid-column: 1 / 10;
 }
 
 .academy-image{
@@ -1006,7 +1094,7 @@ width:100%;
 }
 
 .index-academy-title p{
-  font-size: 24px;
+  font-size: 20px;
 font-family: Montserrat;
 font-weight: 700;
 color: rgba(255, 255, 255, 1);
@@ -1015,10 +1103,10 @@ margin-bottom: 1rem;
 
 .index-academy-text p{
 color: rgba(252, 252, 253, 1);
-font-size: 13px;
+font-size: 11px;
 font-family: Montserrat;
 font-weight: 400;
-line-height: 24px;
+line-height: 20px;
 }
 
 .index-academy-button button{
@@ -1027,41 +1115,47 @@ line-height: 24px;
  align-items: center;
  border: 0.5px solid;
  background-color: rgba(6, 13, 13, 1);
- border-color: rgba(255, 255, 255, 1);
+ border-color: rgba(255, 255, 255, 0.5);
  outline: none;
 }
 
 .index-academy-button p{
  margin-left: 0.4rem;
- margin-top: 0.2rem;
- margin-bottom: 0.2rem;
+ margin-top: 0.4rem;
+ margin-bottom: 0.4rem;
  margin-right: 0.4rem;
- color: rgba(255, 255, 255, 1);
- font-weight: 700;
+ color: rgb(255, 255, 255);
+ font-weight: 500;
  font-family:  Montserrat;
  font-size: 13px;
 }
 
-.index-academy-button i{
+.index-academy-button img{
  margin-left: 0.3rem;
  margin-right: 0.4rem;
  color: rgba(255, 255, 255, 1);
+ width: 14%;
 }
 
 
 .index-part-6{
  font-family: Montserrat;
  background-color: rgba(255, 255, 255, 1);
- padding-top: 6rem;
+ padding-top: 2rem;
  padding-bottom: 6rem;
 }
 
 .part-6-inner{
- width: 80%;
- margin-left: 10%;
- display: flex;
+ width: 75%;
+ margin-left: 12.5%;
+ display: grid;
+ grid-template-columns: repeat(20, 1fr);
 }
 
+
+.index-taxi-info, .index-taxi-image{
+  grid-row: 1 / 2;
+}
 
 .index-taxi-header p{
  color: rgb(95, 95, 95);
@@ -1071,7 +1165,7 @@ line-height: 24px;
 
 
 .index-taxi-title p{
-  font-size: 24px;
+  font-size: 19px;
   font-family: Montserrat;
  font-weight: 700;
  margin-bottom: 1rem;
@@ -1079,19 +1173,22 @@ line-height: 24px;
 
 
 .index-taxi-info{
-width:60%; 
+  padding-top: 3rem;
+grid-column: 1 / 10;
+width:100%; 
 }
 
 .index-taxi-text{
-margin-bottom: 2rem;
+margin-bottom: 1rem;
 width:100%;
 }
 
 .index-taxi-text p{
-font-size: 13px;
-line-height: 24px;
+font-size: 10px;
+line-height: 19px;
 font-family: Montserrat;
 font-weight: 400;
+color: rgba(6, 13, 13, 1);
 }
 
 .index-taxi-button button{
@@ -1106,10 +1203,11 @@ outline: none;
 
 .index-taxi-button p{
 margin-left: 0.9rem;
-margin-top: 0.7rem;
-margin-bottom: 0.7rem;
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
 font-family:  Montserrat;
- font-size: 12px;
+font-size: 12px;
+font-weight: 700;
 }
 
 .index-taxi-button i{
@@ -1118,13 +1216,14 @@ margin-right: 0.9rem;
 }
  
 .index-taxi-image{
+  grid-column: 11 / 21;
 margin-top: 2rem;
 margin-left: 4%;
 }
 
 
 .index-taxi-image img{
-width:80%;
+width:100%;
 }
 
 
@@ -1134,19 +1233,19 @@ width:80%;
 
 .index-event-header{
  text-align: center;
- margin-bottom: 3.5rem;
- padding-top: 2rem;
+ margin-bottom: 2rem;
+ padding-top: 3rem;
 }
 .index-event-header p{
   font-family: Montserrat;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 19px;
 }
 
 .index-event-carousel-inner{
- width: 90%;
- margin-left: 5%;
- margin-right: 5%;
+ width: 87%;
+ margin-left: 6.5%;
+ margin-right: 6.5%;
  padding-bottom: 2rem;
  margin-bottom: 2rem;
  
@@ -1160,19 +1259,21 @@ border-radius: 50%;
 }
 
 .index-event-carousel-item{
-  padding-top: 2rem;
+padding-top: 2rem;
 display: flex;
 justify-content: space-around;
 margin-bottom: 2rem;
+width: 90%;
+margin-left: 5%;
 }
 
 .index-event-carousel-item img{
-width: 23%!important;
+width: 30%!important;
 margin-bottom: 3rem;
 }
 
 .event-1{
-  width: 24%;
+  width: 30%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
@@ -1193,22 +1294,22 @@ margin-bottom: 3rem;
 }
 
 .event-1-backrgound img{
-  width:97%!important;
+  width:100%!important;
 }
 
 .event-1-logo img{
   
-  width: 75%!important;
+  width: 80%!important;
 }
 
 
 .index-part-8{
- background-color: rgb(21, 21, 22);
+ background-color: rgba(252, 252, 253, 0.048);
 }
 
 .part-8-inner{
- width: 80%;
- margin-left: 10%;
+ width: 75%;
+ margin-left: 12.5%;
 }
 
 .index-partners-header{
@@ -1216,7 +1317,7 @@ margin-bottom: 3rem;
  text-align: center;
  font-family: Montserrat;
  font-weight: 700;
- padding-top: 2rem;
+ padding-top: 4rem;
  font-size: 24px;
  padding-bottom: 2rem;
 }
@@ -1224,13 +1325,13 @@ margin-bottom: 3rem;
 .index-partners-header p{
   font-family: Montserrat;
  font-weight: 700;
- font-size: 24px;
+ font-size: 17px;
 }
 
 .index-partners-logo{
  display: flex;
  justify-content: space-between;
-padding-bottom: 2rem;
+padding-bottom: 4rem;
 }
 
 .index-partners-logo img{

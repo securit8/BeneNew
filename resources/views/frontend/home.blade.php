@@ -44,7 +44,7 @@
         <div class="slogan-button">
           <button>
             <p>See more</p>
-             <i class="fas fa-arrow-right"></i>
+            <img src="{{asset('front/images/arrow-right.png') }}" alt="">
         </button>
        </div>
 
@@ -72,7 +72,7 @@
         <div class="slogan-button">
           <button>
             <p>See more</p>
-             <i class="fas fa-arrow-right"></i>
+             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
         </button>
        </div>
 
@@ -97,7 +97,7 @@
         <div class="slogan-button">
           <button>
             <p>See more</p>
-             <i class="fas fa-arrow-right"></i>
+            <img src="{{asset('front/images/arrow-right.png') }}" alt="">
         </button>
        </div>
 
@@ -124,7 +124,7 @@
     <div class="part-1-inner">
         <div class="index-about-us-info">
           <div class="index-about-us-header">
-            <p>@lang('front.index-about')</p>
+            <p>ABOUT US</p>
           </div>
 
           <div class="index-about-us-title">
@@ -143,7 +143,7 @@
           <div class="index-about-us-button">
               <button>
                 <p>See more</p>
-                <i class="fas fa-arrow-right"></i>
+                <img src="{{asset('front/images/arrow-right.png') }}" alt="">
               </button>
           </div>
           
@@ -167,8 +167,8 @@
 
         <div class="see-all-button">
           <button>
-            <p>See all</p>
-            <i class="fas fa-arrow-right"></i>
+            <p>See All</p>
+            <img src="{{asset('front/images/blue-short-arrow.png') }}" alt="">
           </button>
         </div>
 
@@ -194,7 +194,7 @@
 
               <div class="index-read-more">
                 <h5>Read more</h5>
-                <i class="fas fa-arrow-right"></i>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
             </div>
           </div>
@@ -217,7 +217,7 @@
 
               <div class="index-read-more">
                 <h5>Read more</h5>
-                <i class="fas fa-arrow-right"></i>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
             </div>
           </div>
@@ -241,7 +241,7 @@
 
               <div class="index-read-more">
                 <h5>Read more</h5>
-                <i class="fas fa-arrow-right"></i>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@
 
               <div class="index-read-more">
                 <h5>Read more</h5>
-                <i class="fas fa-arrow-right"></i>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
             </div>
           </div>
@@ -290,10 +290,10 @@
           <p>AUTOPARK</p>
         </div>
 
-        <div class="see-all-button">
+        <div class="see-autopark-all-button">
           <button>
             <p>See all</p>
-            <i class="fas fa-arrow-right"></i>
+            <img src="{{asset('front/images/blue-short-arrow.png') }}" alt="">
           </button>
         </div>
             </div>
@@ -317,7 +317,7 @@
         <div class="index-autopark-item-mercedez">
          <img src="{{asset('front/images/autopark-merc.png') }}" class="d-block w-100" alt="...">
          <ul>
-           <li><h6>Mercedez-Benz</h6></li>
+           <li><h6>MERCEDES-BENZ</h6></li>
            <li><p>S-class</p></li>
          </ul>
          </div>
@@ -347,7 +347,7 @@
         <div class="index-autopark-item-mercedez">
          <img src="{{asset('front/images/autopark-merc.png') }}" class="d-block w-100" alt="...">
          <ul>
-           <li><h6>Mercedez-Benz</h6></li>
+           <li><h6>MERCEDES-BENZ</h6></li>
            <li><p>S-class</p></li>
          </ul>
          </div>
@@ -376,7 +376,7 @@
           <div class="index-autopark-item-mercedez">
          <img src="{{asset('front/images/autopark-merc.png') }}" class="d-block w-100" alt="...">
          <ul>
-           <li><h6>Mercedez-Benz</h6></li>
+           <li><h6>MERCEDES-BENZ</h6></li>
            <li><p>S-class</p></li>
          </ul>
          </div>
@@ -598,7 +598,7 @@
                 <div class="index-academy-button">
                     <button>
                       <p>See more</p>
-                      <i class="fas fa-arrow-right"></i>
+                        <img src="{{asset('front/images/arrow-right.png') }}" alt=""> 
                     </button>
                 </div>
               </div>
