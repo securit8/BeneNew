@@ -28,23 +28,23 @@
   
     <div id="navibar">
 
-      <div class="about"><a href="{{route('frontend.about')}}">@lang('front.about')</a></div>
+      <div class="about {{Request::is('about') ? 'current' : ''}}"><a href="{{route('frontend.about')}}">@lang('front.about')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="news"><a href="{{route('frontend.news')}}">@lang('front.news')</a></div>
+      <div class="news {{Request::is('news') ? 'current' : ''}}"><a href="{{route('frontend.news')}}">@lang('front.news')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="autopark"><a href="{{route('frontend.fleet')}}">@lang('front.fleet')</a></div>
+      <div class="autopark {{Request::is('fleet') ? 'current' : ''}}"><a href="{{route('frontend.fleet')}}">@lang('front.fleet')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="rent"><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></div>
+      <div class="rent {{Request::is('rent') ? 'current' : ''}}"><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="academy"><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></div>
+      <div class="academy {{Request::is('academy') ? 'current' : ''}}"><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="events"><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></div>
+      <div class="events {{Request::is('taxi') ? 'current' : ''}}"><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="partners"><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></div>
+      <div class="partners {{Request::is('partners') ? 'current' : ''}}"><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="motors"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
+      <div class="motors {{Request::is('motors') ? 'current' : ''}}"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="contact"><a href="{{route('frontend.contact')}}">@lang('front.contact')</a></div>
+      <div class="contact {{Request::is('contact') ? 'current' : ''}}"><a href="{{route('frontend.contact')}}">@lang('front.contact')</a></div>
     </div>
 
     <div class="Language-select">
@@ -155,14 +155,14 @@
   </div>
 
 
-<script>
+<!-- <script>
   const hamburger = document.getElementById('myhamburger');
   const mobile = document.getElementById('navibar');
 
   hamburger.addEventListener('click', () => {
     mobile.classList.toggle('show');
   });
-</script>
+</script> -->
 
 
 <script>
