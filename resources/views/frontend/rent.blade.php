@@ -57,43 +57,52 @@
                     <div class="car-rent-type-inner">
                         
                     <div class="rent-type-list">
-                        <div class="all">
+                        <div class="rent-all">
                             <p>All</p>
                         </div>
-                        <div class="fleet-line">
+
+                        <div class="rent-line">
                             <p>|</p>
                         </div>
-                        <div class="suv">
+
+                        <div class="rent-suv">
                             <p>SUV</p>
                         </div>
-                        <div class="fleet-line">
+                        
+                        <div class="rent-line">
                         <p>|</p>
                         </div>
-                        <div class="sedan">
+                        
+                        <div class="rent-sedan">
                             <p>Sedan</p>
                         </div>
-                        <div class="fleet-line">
+                        
+                        <div class="rent-line">
                         <p>|</p>
                         </div>
-                        <div class="minivan">
+                        
+                        <div class="rent-minivan">
                             <p>Minivan</p>
                         </div>
-                        <div class="fleet-line">
+                        
+                        <div class="rent-line">
                         <p>|</p>
                         </div>
-                        <div class="minibus">
+                        
+                        <div class="rent-minibus">
                             <p>Minibus</p>
                         </div>
-                        <div class="fleet-line">
+                        <div class="rent-line">
                         <p>|</p>
                         </div>
-                        <div class="bus">
+                        
+                        <div class="rent-bus">
                             <p>Bus</p>
                         </div>
-                        <div class="fleet-line">
+                        <div class="rent-line">
                         <p>|</p>
                         </div>
-                        <div class="coupe">
+                        <div class="rent-coupe">
                             <p>Coupe</p>
                         </div>
                         
@@ -113,7 +122,7 @@
                 <div class="car-rent-class-middle">
                     <div class="car-rent-class-inner">
                         <div class="car-rent-class">
-                            <h4>All</h4>
+                            <p>All</p>
                         </div>
                     </div>
                 </div>
@@ -140,7 +149,7 @@
                                         <img src="{{asset('front/images/rent1.png')}}" alt="">
                                         <div class="rent-toyota-specs">  
                                         <div class="car-rent-name">
-                                            <h5>TOYOTA</h5>
+                                            <p>TOYOTA</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Corolla Automatic</p>
@@ -157,7 +166,7 @@
                                         <img src="{{asset('front/images/rent2.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="car-rent-name">
-                                            <h5>KIA</h5>
+                                            <p>KIA</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Sportage Automatic</p>
@@ -174,7 +183,7 @@
                                         <img src="{{asset('front/images/rent3.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="car-rent-name">
-                                            <h5>HYUNDAI</h5>
+                                            <p>HYUNDAI</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Santa Fe Automatic</p>
@@ -200,7 +209,7 @@
                                         <img src="{{asset('front/images/rent3.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="car-rent-name">
-                                            <h5>HYUNDAI</h5>
+                                            <p>HYUNDAI</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Santa Fe Automatic</p>
@@ -216,7 +225,7 @@
                                         <img src="{{asset('front/images/rent1.png')}}" alt="">
                                         <div class="rent-toyota-specs">  
                                         <div class="car-rent-name">
-                                            <h5>TOYOTA</h5>
+                                            <p>TOYOTA</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Corolla Automatic</p>
@@ -232,7 +241,7 @@
                                         <img src="{{asset('front/images/rent2.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="car-rent-name">
-                                            <h5>KIA</h5>
+                                            <p>KIA</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Sportage Automatic</p>
@@ -258,7 +267,7 @@
                                         <img src="{{asset('front/images/rent2.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="car-rent-name">
-                                            <h5>KIA</h5>
+                                            <p>KIA</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Sportage Automatic</p>
@@ -274,7 +283,7 @@
                                         <img src="{{asset('front/images/rent3.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="car-rent-name">
-                                            <h5>HYUNDAI</h5>
+                                            <p>HYUNDAI</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Santa Fe Automatic</p>
@@ -290,7 +299,7 @@
                                         <img src="{{asset('front/images/rent1.png')}}" alt="">
                                         <div class="rent-toyota-specs">  
                                         <div class="car-rent-name">
-                                            <h5>TOYOTA</h5>
+                                            <p>TOYOTA</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Corolla Automatic</p>

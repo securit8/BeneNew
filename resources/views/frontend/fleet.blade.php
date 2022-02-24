@@ -125,7 +125,7 @@
                 <div class="car-fleet-class-middle">
                     <div class="car-fleet-class-inner">
                         <div class="car-fleet-class">
-                            <h4>All</h4>
+                            <p>All</p>
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                                         <img src="{{asset('front/images/fleet2.png')}}" alt="">
                                         <div class="rent-toyota-specs">  
                                         <div class="car-fleet-name">
-                                            <h5>TOYOTA</h5>
+                                            <p>TOYOTA</p>
                                         </div>
                                         <div class="car-fleet-vehicle-type">
                                             <p>Camry</p>
@@ -169,7 +169,7 @@
                                         <img src="{{asset('front/images/fleet3.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="car-fleet-name">
-                                            <h5>TOYOTA</h5>
+                                            <p>TOYOTA</p>
                                         </div>
                                         <div class="car-fleet-vehicle-type">
                                             <p>Land Cruiser</p>
@@ -186,7 +186,7 @@
                                         <img src="{{asset('front/images/fleet4.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="car-fleet-name">
-                                            <h5>MERCEDES-BENZ</h5>
+                                            <p>MERCEDES-BENZ</p>
                                         </div>
                                         <div class="car-fleet-vehicle-type">
                                             <p>V-class</p>
@@ -212,7 +212,7 @@
                                         <img src="{{asset('front/images/fleet2.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="car-fleet-name">
-                                            <h5>TOYOTA</h5>
+                                            <p>TOYOTA</p>
                                         </div>
                                         <div class="car-fleet-vehicle-type">
                                             <p>Camry</p>
@@ -228,7 +228,7 @@
                                         <img src="{{asset('front/images/fleet3.png')}}" alt="">
                                         <div class="rent-toyota-specs">  
                                         <div class="car-fleet-name">
-                                            <h5>TOYOTA</h5>
+                                            <p>TOYOTA</p>
                                         </div>
                                         <div class="car-fleet-vehicle-type">
                                             <p>Land Cruiser</p>
@@ -244,7 +244,7 @@
                                         <img src="{{asset('front/images/fleet4.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="car-fleet-name">
-                                            <h5>MERCEDEZ-BENZ</h5>
+                                            <p>MERCEDEZ-BENZ</p>
                                         </div>
                                         <div class="car-fleet-vehicle-type">
                                             <p>V-class</p>
@@ -270,7 +270,7 @@
                                         <img src="{{asset('front/images/fleet2.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="car-fleet-name">
-                                            <h5>TOYOTA</h5>
+                                            <p>TOYOTA</p>
                                         </div>
                                         <div class="car-fleet-vehicle-type">
                                             <p>Camry</p>
@@ -286,7 +286,7 @@
                                         <img src="{{asset('front/images/fleet3.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="car-fleet-name">
-                                            <h5>TOYOTA</h5>
+                                            <p>TOYOTA</p>
                                         </div>
                                         <div class="car-fleet-vehicle-type">
                                             <p>Land Cruiser</p>
@@ -302,7 +302,7 @@
                                         <img src="{{asset('front/images/fleet4.png')}}" alt="">
                                         <div class="rent-toyota-specs">  
                                         <div class="car-fleet-name">
-                                            <h5>MERCEDEZ-BENZ</h5>
+                                            <p>MERCEDEZ-BENZ</p>
                                         </div>
                                         <div class="car-fleet-vehicle-type">
                                             <p>V-class</p>

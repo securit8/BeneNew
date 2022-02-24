@@ -134,18 +134,18 @@
     </div>
 </div>
 
-<div class="index-part-2">
-  <div class="index-part-2-middle">
-    <div class="index-part-2-inner">
-      <div class="index-news-header">
-        <div class="index-news-header-title">
+<div class="about-news-part-2">
+  <div class="about-news-part-2-middle">
+    <div class="about-news-part-2-inner">
+      <div class="about-news-header">
+        <div class="about-news-header-title">
           <p>NEWSROOM</p>
         </div>
 
-        <div class="see-all-button">
+        <div class="news-see-all-button">
           <button>
             <p>See all</p>
-            <i class="fas fa-arrow-right"></i>
+            <img src="{{asset('front/images/blue-short-arrow.png') }}" alt="">
           </button>
         </div>
 
@@ -153,13 +153,13 @@
       </div>
 
       
-      <div class="index-news-body">
-          <div class="index-news-article">
-            <div class="index-news-image">
+      <div class="about-news-body">
+          <div class="about-news-body-article">
+            <div class="about-news-image">
               <img src="{{asset('front/images/news-1.png') }}" alt="">
             </div>
 
-            <div class="index-news-text">
+            <div class="about-news-text">
               <div class="news-date">
               <p>February 4, 2022</p>
               </div>
@@ -169,7 +169,7 @@
               <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
 
 
-              <div class="index-read-more">
+              <div class="about-read-more">
                 <h5>Read more</h5>
                 <i class="fas fa-arrow-right"></i>
               </div>
@@ -177,12 +177,12 @@
           </div>
 
 
-          <div class="index-news-article">
-            <div class="index-news-image">
+          <div class="about-news-body-article">
+            <div class="about-news-image">
               <img src="{{asset('front/images/news-2.png') }}" alt="">
             </div>
 
-            <div class="index-news-text">
+            <div class="about-news-text">
               <div class="news-date">
               <p>February 4, 2022</p>
               </div>
@@ -192,7 +192,7 @@
               <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
 
 
-              <div class="index-read-more">
+              <div class="about-read-more">
                 <h5>Read more</h5>
                 <i class="fas fa-arrow-right"></i>
               </div>
@@ -201,12 +201,12 @@
 
 
 
-          <div class="index-news-article">
-            <div class="index-news-image">
+          <div class="about-news-body-article">
+            <div class="about-news-image">
               <img src="{{asset('front/images/news-3.png') }}" alt="">
             </div>
 
-            <div class="index-news-text">
+            <div class="about-news-text">
               <div class="news-date">
               <p>February 4, 2022</p>
               </div>
@@ -216,7 +216,7 @@
               <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
 
 
-              <div class="index-read-more">
+              <div class="about-read-more">
                 <h5>Read more</h5>
                 <i class="fas fa-arrow-right"></i>
               </div>
@@ -225,12 +225,12 @@
 
 
 
-          <div class="index-news-article">
-            <div class="index-news-image">
+          <div class="about-news-body-article">
+            <div class="about-news-image">
               <img src="{{asset('front/images/news-4.png') }}" alt="">
             </div>
 
-            <div class="index-news-text">
+            <div class="about-news-text">
               <div class="news-date">
               <p>February 4, 2022</p>
               </div>
@@ -240,7 +240,7 @@
               <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
 
 
-              <div class="index-read-more">
+              <div class="about-read-more">
                 <h5>Read more</h5>
                 <i class="fas fa-arrow-right"></i>
               </div>
