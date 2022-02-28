@@ -29,13 +29,8 @@
           </div>
 
           <div class="home-about-us-text">
-            <p>"Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group".
-                Initially, the services of our company were limited to premium class vehicles, however today "Bene-Ecxlusive" 
-                represents a multi-profile company. Car renting as well as orginizing of Business Projects and Events have been
-                added to our list of services. Exclusive" is a company specializing in logistics working under the
-                umbrella of "Bene-Group". Initially, the services of our company were limited to premium class vehicles,
-                however today "Bene-Ecxlusive" represents a multi-profile company. Car renting as well as orginizing of
-                Business Projects and Events have been added to our list of services.
+            <p>
+              @lang('front.index-about-text')
             </p>
 
           </div>
@@ -78,13 +73,7 @@
 
                     <div class="about-page-events-info">
                         <p>
-                         "Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group".
-                          Initially, the services of our company were limited to premium class vehicles, however today "Bene-Ecxlusive"
-                          represents a multi-profile company. Car renting as well as orginizing of Business Projects and Events have 
-                          been added to our list of services. "Bene-Exclusive" is a company specializing in logistics working under the
-                          umbrella of "Bene-Group". Initially, the services of our company were limited to premium class vehicles, however
-                          today "Bene-Ecxlusive" represents a multi-profile company. Car renting as well as orginizing of Business Projects 
-                          and Events have been added to our list of services.
+                         @lang('front.about-events')
                         </p>
                     </div>
                 </div>

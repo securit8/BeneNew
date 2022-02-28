@@ -155,14 +155,14 @@
   </div>
 
 
-<!-- <script>
+<script>
   const hamburger = document.getElementById('myhamburger');
   const mobile = document.getElementById('navibar');
 
   hamburger.addEventListener('click', () => {
     mobile.classList.toggle('show');
   });
-</script> -->
+</script>
 
 
 <script>
