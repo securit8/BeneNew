@@ -53,14 +53,18 @@ header{
   display: flex;
 }
 
-.Ka a, .En a{
+.Ka a, .En a, .Ru a{
   font-size: 13px;
   color:rgb(238, 238, 238);
 }
 
 
-
+.En, .Ru{
+  padding-left: 12px;
+}
  
+
+
 
 
 .navbar{
@@ -95,7 +99,7 @@ header{
 #navibar{
   display: flex;
   justify-content: space-around;
-  grid-column: 9 / 30;
+  grid-column: 10 / 31;
   padding-top: 2rem;
   padding-bottom: 0.4rem;
 }
@@ -132,8 +136,11 @@ padding-left: -20!important;
 }
 
 .nav-line{
-  margin-left: -5px;
-  margin-right: -5px;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  font-size: 9px;
+  padding-top: 2rem;
+  color: rgba(255, 255, 255, 0.342);
 }
 
 
@@ -150,8 +157,8 @@ padding-left: -20!important;
 }
 
 .contact{
-  margin-right: -9px;
-  margin-left: 25px!important;
+  margin-right: 15px!important;
+  margin-left: -5px!important;
 }
 
 .contact img{
