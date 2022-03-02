@@ -81,7 +81,7 @@ header{
 
 .Language-select{
   padding-top: 2.05rem;
-  grid-column: 31 / 34;
+  grid-column: 32 / 35;
 }
 
 
@@ -95,7 +95,7 @@ header{
 #navibar{
   display: flex;
   justify-content: space-around;
-  grid-column: 10 / 30;
+  grid-column: 11 / 31;
   padding-top: 1.4rem;
 }
 
@@ -103,7 +103,7 @@ header{
 .navbar a{
     font-size: 13px;
     font-family: Montserrat;
-    color: rgba(255, 255, 255, 0.514);
+    color: rgba(255, 255, 255, 0.705);
     padding: 5px;
     font-style: normal;
     text-decoration: none;
@@ -119,6 +119,7 @@ header{
 }
 
 .navbar p{
+  padding-top: 2px;
 font-size: 7px!important;
 padding-right: 5px!important;
 padding-left: -20!important;
