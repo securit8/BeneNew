@@ -10,11 +10,11 @@ return [
   'taxi' => 'Taxi',
   'partners' => 'Partners',
   'contact' => 'Contact Us',
-  'motors' => 'Motors',
+  'motors' => 'Bene Motors',
   'slogan' => '"Bene Exclusive" is a company that originated under the "Bene Group" and serves the logistics industry like it',
   'services' => 'Services',
   'copyright' => 'All Rights Reserved',
-  'electric' => 'electric',
+  'electric' => 'Electric',
   'events' => 'Events',
 
 

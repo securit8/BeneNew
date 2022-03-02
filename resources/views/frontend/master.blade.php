@@ -32,7 +32,7 @@
       <div class ="nav-line"><p>|</p></div>
       <div class="autopark {{Request::is('fleet') ? 'current' : ''}}"><a href="{{route('frontend.fleet')}}">@lang('front.fleet')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="autopark {{Request::is('electric') ? 'current' : ''}}"><a href="{{route('frontend.electric')}}"><img src="{{asset('front/images/electro-logo.png')}}">@lang('front.electric')</a></div>
+      <div class="electric {{Request::is('electric') ? 'current' : ''}}"><a href="{{route('frontend.electric')}}"><img src="{{asset('front/images/electro-logo.png')}}">@lang('front.electric')</a></div>
       <div class ="nav-line"><p>|</p></div>
       <div class="rent {{Request::is('rent') ? 'current' : ''}}"><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></div>
       <div class ="nav-line"><p>|</p></div>

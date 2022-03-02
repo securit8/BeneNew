@@ -80,8 +80,8 @@ header{
 }
 
 .Language-select{
-  padding-top: 2.05rem;
-  grid-column: 32 / 35;
+  padding-top: 2.8rem;
+  grid-column: 31 / 34;
 }
 
 
@@ -95,8 +95,9 @@ header{
 #navibar{
   display: flex;
   justify-content: space-around;
-  grid-column: 11 / 31;
-  padding-top: 1.4rem;
+  grid-column: 9 / 30;
+  padding-top: 2rem;
+  padding-bottom: 0.4rem;
 }
 
 
@@ -119,7 +120,6 @@ header{
 }
 
 .navbar p{
-  padding-top: 2px;
 font-size: 7px!important;
 padding-right: 5px!important;
 padding-left: -20!important;
@@ -131,14 +131,15 @@ padding-left: -20!important;
 }
 
 
-.about, .news, .autopark, .rent, .academy, .events, .partners, .motors, .nav-line, .contact{
+.about, .news, .autopark, .electric, .rent, .academy, .events, .partners, .motors, .nav-line, .contact{
   padding-top: 1.5rem;
 
 }
 
-.about a, .news a, .autopark a, .rent a, .academy a, .events a, .partners a, .motors a, .nav-line{
-padding-left: 0;
-padding-right: 0;
+
+.electric{
+  padding-left: 0.3rem!important;
+  padding-right: 0.3rem!important;
 }
 
 .contact{
