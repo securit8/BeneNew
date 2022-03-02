@@ -89,19 +89,19 @@ header{
   padding-top: 0.5rem;
   padding-right: 0.1rem;
   background-color: rgba(6, 13, 13, 1);
-  width:63.2%;
+  width:63.2%!important;
 }
 
 #navibar{
   display: flex;
   justify-content: space-between;
-  grid-column: 13 / 30;
+  grid-column: 8 / 30;
   padding-top: 1.4rem;
 }
 
 
 .navbar a{
-    font-size: 11px;
+    font-size: 13px;
     font-family: Montserrat;
     color: rgba(255, 255, 255, 0.514);
     padding: 5px;
@@ -110,6 +110,16 @@ header{
     font-weight: 400;
     padding-bottom: 0;
     
+}
+
+.navbar img{
+  width: 13px;
+  margin-right: 5px;
+  margin-left: -10px!important;
+}
+
+.navbar p{
+font-size: 7px!important;
 }
   
 .navbar a:hover{
@@ -120,6 +130,11 @@ header{
 
 .about, .news, .autopark, .rent, .academy, .events, .partners, .motors, .nav-line, .contact{
   padding-top: 1.5rem;
+}
+
+.contact{
+  margin-right: -9px;
+  margin-left: 33px!important;
 }
 
 .current a{
@@ -632,7 +647,7 @@ color: rgba(6, 13, 13, 1);
 }
 
 .index-about-us-text p{
-  font-size: 11px;
+  font-size: 13px;
   line-height: 20px;
   font-family: Montserrat;
   font-weight: 400;

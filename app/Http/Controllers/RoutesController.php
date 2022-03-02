@@ -48,5 +48,13 @@ class RoutesController extends Controller
     public function contact(){
         return view('frontend.contact');
     }
+
+    public function electric(){
+        return view('frontend.electric');
+    }
+    
+    public function events(){
+        return view('frontend.events');
+    }
 }
 

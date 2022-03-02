@@ -25,7 +25,8 @@ Route::get('/taxi', [RoutesController::class, 'taxi'])->name('frontend.taxi');
 Route::get('/partners', [RoutesController::class, 'partners'])->name('frontend.partners');
 Route::get('/motors', [RoutesController::class, 'motors'])->name('frontend.motors');
 Route::get('/contact', [RoutesController::class, 'contact'])->name('frontend.contact');
-
+Route::get('/electric', [RoutesController::class, 'electric'])->name('frontend.electric');
+Route::get('/events', [RoutesController::class, 'events'])->name('frontend.events');
 
 
 
