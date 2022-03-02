@@ -95,7 +95,7 @@ header{
 #navibar{
   display: flex;
   justify-content: space-around;
-  grid-column: 9 / 30;
+  grid-column: 10 / 30;
   padding-top: 1.4rem;
 }
 
@@ -113,7 +113,7 @@ header{
 }
 
 .navbar img{
-  width: 13px;
+  width: 12px;
   margin-right: 5px;
   margin-left: -10px!important;
 }
