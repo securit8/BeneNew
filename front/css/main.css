@@ -94,8 +94,8 @@ header{
 
 #navibar{
   display: flex;
-  justify-content: space-between;
-  grid-column: 8 / 30;
+  justify-content: space-around;
+  grid-column: 9 / 30;
   padding-top: 1.4rem;
 }
 
@@ -120,6 +120,8 @@ header{
 
 .navbar p{
 font-size: 7px!important;
+padding-right: 5px!important;
+padding-left: -20!important;
 }
   
 .navbar a:hover{
@@ -130,11 +132,17 @@ font-size: 7px!important;
 
 .about, .news, .autopark, .rent, .academy, .events, .partners, .motors, .nav-line, .contact{
   padding-top: 1.5rem;
+
+}
+
+.about a, .news a, .autopark a, .rent a, .academy a, .events a, .partners a, .motors a, .nav-line{
+padding-left: 0;
+padding-right: 0;
 }
 
 .contact{
   margin-right: -9px;
-  margin-left: 33px!important;
+  margin-left: 25px!important;
 }
 
 .current a{
