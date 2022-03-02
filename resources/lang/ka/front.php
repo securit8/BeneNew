@@ -9,7 +9,7 @@ return [
   'academy' => 'Academy',
   'taxi' => 'Taxi',
   'partners' => 'Partners',
-  'contact' => 'Contact Us',
+  'contact' => 'Contact',
   'motors' => 'Bene Motors',
   'slogan' => '"Bene Exclusive" is a company that originated under the "Bene Group" and serves the logistics industry like it',
   'services' => 'Services',

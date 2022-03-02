@@ -113,11 +113,6 @@ header{
     
 }
 
-.navbar img{
-  width: 12px;
-  margin-right: 5px;
-  margin-left: -10px!important;
-}
 
 .navbar p{
 font-size: 7px!important;
@@ -142,9 +137,22 @@ padding-left: -20!important;
   padding-right: 0.3rem!important;
 }
 
+.electric img{
+  width: 15px;
+  height: 18.33px;
+  margin-right: 5px;
+  margin-left: -10px!important;
+}
+
 .contact{
   margin-right: -9px;
   margin-left: 25px!important;
+}
+
+.contact img{
+  width: 16.67px;
+  height: 16.67px;
+  margin-right: 5px;
 }
 
 .current a{
