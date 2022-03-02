@@ -145,14 +145,14 @@ padding-left: -20!important;
 
 
 .electric{
-  padding-left: 0.3rem!important;
-  padding-right: 0.3rem!important;
+  padding-left: 0.5rem!important;
+  padding-right: 0.2rem!important;
 }
 
 .electric img{
   width: 15px;
   height: 18.33px;
-  margin-right: 5px;
+  margin-right: 8px;
   margin-left: -10px!important;
 }
 
@@ -646,16 +646,16 @@ padding-bottom: 15%;
 .index-about-us-header p{
   color: rgba(6, 13, 13, 0.5);
   font-weight: 700;
-  margin-bottom: 1rem;
-  font-size: 13px;
+  margin-bottom: 0.2rem;
+  font-size: 16px;
   Font-family: Montserrat;
 }
 
 .index-about-us-title p{
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-style: normal;
-  font-size: 22px;
+  font-size: 26px;
   font-family: Montserrat;
   color: #060D0D;
   }
@@ -1084,7 +1084,7 @@ padding-top: 1rem;
 .index-part-5{
  padding-top: 3rem;
  padding-bottom: 3rem;
-background-color: rgba(252, 252, 253, 0.082);
+background-color: rgba(252, 252, 253, 0.02);
 }
 
 
@@ -1148,8 +1148,8 @@ margin-bottom: 1rem;
 }
 
 .index-academy-text p{
-color: rgba(252, 252, 253, 1);
-font-size: 10px;
+color: rgba(252, 252, 253, 0.705);
+font-size: 11px;
 font-family: Montserrat;
 font-weight: 400;
 line-height: 20px;
