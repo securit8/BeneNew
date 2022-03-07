@@ -1944,7 +1944,7 @@ margin-left: 1.7rem;
  color: rgba(0, 0, 0, 0.75);
 }
 
-.fleet-type-list p{
+/* .fleet-type-list p{
   font-family: Montserrat;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.75);
@@ -2191,7 +2191,128 @@ margin-left: 1.7rem;
 .car-spec-line{
   display: flex;
   justify-content: flex-start;
+} */
+
+
+.car-fleet-vehicles-inner{
+  width:75%;
+  margin-left: 12.5%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
+
+.fleet-element-1{
+  background-color: rgba(255, 255, 255, 1);
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  padding-bottom: 2rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.164);
+  margin-bottom: 2rem;
+}
+
+.fleet-element-2{
+  background-color: rgba(255, 255, 255, 1);
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  padding-bottom: 2rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.164);
+  margin-bottom: 2rem;
+}
+
+.fleet-element-3{
+  background-color: rgba(255, 255, 255, 1);
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  padding-bottom: 2rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.164);
+  margin-bottom: 2rem;
+}
+
+.fleet-element-info, .fleet-element-image{
+grid-row: 1 / 2;
+}
+
+.fleet-element-info{
+  grid-column: 3 / 15;
+}
+
+.element-info-header{
+  display: flex;
+  padding-top: 2rem;
+}
+
+.element-info-header img{
+  width: 24px;
+  height: 23px;
+  margin-top: 0.4rem;
+}
+
+.element-info-header p{
+ font-size: 26px;
+ font-weight: 700;
+ font-family: Montserrat;
+ padding-right: 1rem;
+ margin-bottom: 0;
+}
+
+.element-info-tags{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.element-info-tags p{
+ color: #00adef;
+ background-color: rgba(36, 160, 237, 0.103);
+ padding-top: 0.05rem;
+ padding-left: 0.5rem;
+ padding-right: 0.5rem;
+ padding-bottom: 0.05rem;
+}
+
+.element-info-text p{
+  font-size: 13px;
+  font-family: Montserrat;
+  color: rgba(6, 13, 13, 0.76);
+  padding-bottom: 1rem;
+  line-height: 17px;
+}
+
+
+.element-info-button button{
+  display: flex;
+  background-color: rgba(6, 13, 13, 1);
+  width: 45%;
+  justify-content: center;
+  border: none;
+  outline: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.element-info-button p{
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 0;
+ padding-right: 1rem;
+}
+
+.element-info-button img{
+  padding-top: 0.1rem;
+}
+
+.fleet-element-image{
+  padding-top: 7rem;
+  grid-column: 17 / 31;
+}
+
+
+
+
+
+
+
 
 /* contact page */
 
@@ -2371,8 +2492,8 @@ width: 100%;
 
 
 .car-rent-inner{
-  background-color: #101616;
-  color:rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.897);
+  color:#000000;
   width:100%;
 }
 
@@ -2453,18 +2574,16 @@ margin-left: 1.7rem;
 
 .car-rent-vehicles-row1-inner{
   display: grid;
-  grid-template-columns: repeat(30, 1fr);
-  padding-top: 1rem;
+  grid-template-columns: repeat(40, 1fr);
 }
 
-.car-rent-row1-car1:hover, .car-rent-row1-car2:hover, .car-rent-row1-car3:hover{
-  background-color: rgba(252, 252, 253, 0.082);
-}
 
 .car-rent-row1-car1, .car-rent-row1-car2, .car-rent-row1-car3{
   grid-row: 1 / 2;
   text-align: center;
-  border-radius: 140px 60px 110px 70px;
+  background-color:rgba(255, 255, 255, 1) ;
+  padding-top: 3rem;
+  box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.164);
 }
 
 
@@ -2473,35 +2592,38 @@ margin-left: 1.7rem;
 }
 
 .car-rent-row1-car1 img, .car-rent-row1-car2 img, .car-rent-row1-car3 img{
-  width: 100%;
+  width: 75%;
+}
+
+.car-rent-row1-car1:hover, .car-rent-row1-car2:hover, .car-rent-row1-car3:hover{
+  
+  cursor: pointer;
 }
 
 .car-rent-row1-car1{
-  grid-column: 2 / 11;
+  grid-column: 2 / 14;
 }
 
 .car-rent-row1-car2{
-  grid-column: 12 / 21;
+  grid-column: 15 / 27;
 }
 
 .car-rent-row1-car3{
-  grid-column: 22 / 31;
+  grid-column: 28 / 40;
 }
 
 .car-rent-vehicles-row2-inner{
   display: grid;
-  grid-template-columns: repeat(30, 1fr);
-  padding-top: 1rem;
-}
-
-.car-rent-row2-car1:hover, .car-rent-row2-car2:hover, .car-rent-row2-car3:hover{
-  background-color: rgba(252, 252, 253, 0.082);
+  grid-template-columns: repeat(40, 1fr);
+  padding-top: 2rem;
 }
 
 .car-rent-row2-car1, .car-rent-row2-car2, .car-rent-row2-car3{
   grid-row: 1 / 2;
   text-align: center;
-  border-radius: 140px 60px 110px 70px;
+  background-color:rgba(255, 255, 255, 1) ;
+  padding-top: 3rem;
+  box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.164);
 }
 
 .car-rent-row2-car1 p, .car-rent-row2-car2 p, .car-rent-row2-car3 p{
@@ -2509,37 +2631,41 @@ margin-left: 1.7rem;
 }
 
 .car-rent-row2-car1 img, .car-rent-row2-car2 img, .car-rent-row2-car3 img{
-  width: 100%;
+  width: 75%;
+}
+
+.car-rent-row2-car1:hover, .car-rent-row2-car2:hover, .car-rent-row2-car3:hover{
+  
+  cursor: pointer;
 }
 
 .car-rent-row2-car1{
-  grid-column: 2 / 11;
+  grid-column: 2 / 14;
 }
 
 .car-rent-row2-car2{
-  grid-column: 12 / 21;
+  grid-column: 15 / 27;
 }
 
 .car-rent-row2-car3{
-  grid-column: 22 / 31;
+  grid-column: 28 / 40;
 }
 
 
 
 .car-rent-vehicles-row3-inner{
   display: grid;
-  grid-template-columns: repeat(30, 1fr);
-  padding-top: 1rem;
+  grid-template-columns: repeat(40, 1fr);
+  padding-top: 2rem;
 }
 
-.car-rent-row3-car1:hover, .car-rent-row3-car2:hover, .car-rent-row3-car3:hover{
-  background-color: rgba(252, 252, 253, 0.082);
-}
 
 .car-rent-row3-car1, .car-rent-row3-car2, .car-rent-row3-car3{
   grid-row: 1 / 2;
   text-align: center;
-  border-radius: 140px 60px 110px 70px;
+  background-color:rgba(255, 255, 255, 1) ;
+  padding-top: 3rem;
+  box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.164);
 }
 
 .car-rent-row3-car1 p, .car-rent-row3-car2 p, .car-rent-row3-car3 p{
@@ -2547,39 +2673,112 @@ margin-left: 1.7rem;
 }
 
 .car-rent-row3-car1 img, .car-rent-row3-car2 img, .car-rent-row3-car3 img{
-  width: 100%;
+  width: 75%;
+}
+
+.car-rent-row3-car1:hover, .car-rent-row3-car2:hover, .car-rent-row3-car3:hover{
+  
+  cursor: pointer;
 }
 
 .car-rent-row3-car1{
-  grid-column:  2 / 11;
+  grid-column: 2 / 14;
 }
 
 .car-rent-row3-car2{
-  grid-column: 12 / 21;
+  grid-column: 15 / 27;
 }
 
 .car-rent-row3-car3{
-  grid-column: 22 / 31;
+  grid-column: 28 / 40;
+}
+
+.car-rent-row1-car2 img,  .car-rent-row2-car2 img,  .car-rent-row3-car2 img{
+  width:65%;
+}
+
+.rent-vehicle-type p{
+  margin-bottom: 0;
+  font-size: 11px;
+  color: rgba(6, 13, 13, 0.76);
+  font-weight: 600;
+}
+
+.car-rent-name p{
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 .car-rent-vehicle-type p{
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 13px;
+  font-size: 11px;
+  color: rgb(0, 0, 0);
 }
 
 .car-rent-class{
   text-align: center;
-  padding-bottom: 0.5rem;
   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.car-rent-class p {
-font-size: 20px;
-margin-bottom: 0;
+.car-rent-class p{
+  margin-bottom: 0;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
 }
 
-.car-rent-name p{
-font-weight: 600;
+.rent-vehicle-specs{
+  display: grid;
+  grid-template-columns: repeat(22, 1fr);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.vehicle-specs-line1, .vehicle-specs-line2{
+  grid-row:  1/ 2;
+}  
+
+.vehicle-specs-line-1 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2 / 14;
+}
+
+.vehicle-specs-line-1 img{
+  width: 16px;
+  padding-bottom: 1rem;
+  
+}
+
+.vehicle-specs-line-1 p{
+  font-size: 11px;
+  font-family: Montserrat;
+  padding-left: 10px;
+}
+
+.vehicle-specs-line-2{
+  display: flex;
+  flex-direction: column;
+  grid-column: 14/ 23;
+}
+
+.vehicle-specs-line-2 img{
+  padding-bottom: 1rem;
+  width: 16px;
+
+}
+
+.vehicle-specs-line-2 p{
+  font-size: 11px;
+  font-family: Montserrat;
+  padding-left: 10px;
+}
+
+
+.car-spec-line{
+  display: flex;
+  justify-content: flex-start;
 }
 
 

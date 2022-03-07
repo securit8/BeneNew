@@ -142,8 +142,101 @@
                 <div class="car-fleet-vehicles-middle">
                     <div class="car-fleet-vehicles-inner">
 
+                        <div class="fleet-element-1">
+                            <div class="fleet-element-info">
+                                
+                                <div class="element-info-header">
+                                    <p>MERCEDES-BENZ</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                </div>
+                                
+                                <div class="element-info-tags">
+                                    <p>S class</p> 
+                                    <p>Sedan</p>
+                                    <p>2021</p>
+                                </div>
+                                
+                                <div class="element-info-text">
+                                    <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                        ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                        Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                        ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                </div>
+                                
+                                <div class="element-info-button">
+                                    <button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button>
+                                </div>
+                                
+                            </div>
 
-                        <div class="car-fleet-vehicles-row1">
+                            <div class="fleet-element-image">
+                                <img src="{{asset('front/images/fleet1.png')}}" alt="">
+                            </div>
+                        </div>
+
+                        <div class="fleet-element-2">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>MERCEDES-BENZ</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>S class</p> 
+                                        <p>Sedan</p>
+                                        <p>2021</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                            ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                            Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                            ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                        <button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-image">
+                                    <img src="{{asset('front/images/fleet3.png')}}" alt="">
+                                </div>
+                            </div>
+
+                        <div class="fleet-element-3">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>MERCEDES-BENZ</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>S class</p> 
+                                        <p>Sedan</p>
+                                        <p>2021</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                            ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                            Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                            ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                        <button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-image">
+                                    <img src="{{asset('front/images/fleet1.png')}}" alt="">
+                                </div>
+                        </div>
+
+
+                        <!-- <div class="car-fleet-vehicles-row1">
                             <div class="car-fleet-vehicles-row1-middle">
                                 <div class="car-fleet-vehicles-row1-inner">
                                     
@@ -303,9 +396,9 @@
 
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="car-fleet-vehicles-row2 reveal">
+                        <!-- <div class="car-fleet-vehicles-row2 reveal">
                             <div class="car-fleet-vehicles-row2-middle">
                                 <div class="car-fleet-vehicles-row2-inner">
                                     
@@ -462,10 +555,10 @@
 
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
 
-                        <div class="car-fleet-vehicles-row3 reveal">
+                        <!-- <div class="car-fleet-vehicles-row3 reveal">
                             <div class="car-fleet-vehicles-row3-middle">
                                 <div class="car-fleet-vehicles-row3-inner">
                                     
@@ -621,7 +714,7 @@
 
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
