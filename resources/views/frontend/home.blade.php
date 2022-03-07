@@ -277,7 +277,7 @@
 
 
 
-<div class="index-part-3">
+<!-- <div class="index-part-3">
   <div class="index-part-3-middle">
     <div class="index-part-3-inner">
 
@@ -412,14 +412,14 @@
             
     </div>
   </div>
-</div>
+</div> -->
 
 
 
 
 
 
-<div class="index-part-4">
+<!-- <div class="index-part-4">
   <div class="index-part-4-middle">
     <div class="index-part-4-inner">
 
@@ -554,7 +554,7 @@
             
     </div>
   </div>
-</div>
+</div> -->
 
 
 

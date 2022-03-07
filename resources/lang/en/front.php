@@ -33,6 +33,11 @@ return [
 '',
 
 
+
+// fleet page
+'vehicles' => 'VEHICLES',
+
+
   //rent page
   'rent-title' => 'Car Rent',
 

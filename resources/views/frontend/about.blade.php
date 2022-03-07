@@ -30,7 +30,7 @@
 
           <div class="home-about-us-text">
             <p>
-              @lang('front.index-about-text')
+              @lang('front.about-us-text')
             </p>
 
           </div>
