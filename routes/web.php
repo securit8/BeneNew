@@ -29,10 +29,13 @@ Route::get('/electric', [RoutesController::class, 'electric'])->name('frontend.e
 Route::get('/events', [RoutesController::class, 'events'])->name('frontend.events');
 
 
+Route::get('/article1', [RoutesController::class, 'article1'])->name('frontend.news-article1');
 
-Route::get('/S-class', function() {
-  return view('frontend.S-class');
-});
+
+
+Route::get('/S-class', [RoutesController::class, 'Sclass'])->name('frontend.S-class');
+
+
 
 Route::get('/sprinter', function() {
   return view('frontend.sprinter');

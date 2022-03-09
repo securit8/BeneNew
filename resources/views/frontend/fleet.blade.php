@@ -163,7 +163,7 @@
                                 </div>
                                 
                                 <div class="element-info-button">
-                                    <button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button>
+                                <a href="{{route('frontend.S-class')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                 </div>
                                 
                             </div>
@@ -171,6 +171,7 @@
                             <div class="fleet-element-image">
                                 <img src="{{asset('front/images/fleet1.png')}}" alt="">
                             </div>
+                            
                         </div>
 
                         <div class="fleet-element-2">
@@ -194,7 +195,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                        <button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button>
+                                    <a href="{{route('frontend.S-class')}}"> <button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -225,7 +226,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                        <button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button>
+                                    <a href="{{route('frontend.S-class')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>

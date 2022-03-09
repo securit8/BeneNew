@@ -30,6 +30,8 @@
 
       <div class="about {{Request::is('about') ? 'current' : ''}}"><a href="{{route('frontend.about')}}">@lang('front.about')</a></div>
       <div class ="nav-line"><p>|</p></div>
+      <!-- <div class="about {{Request::is('news') ? 'current' : ''}}"><a href="{{route('frontend.news')}}">@lang('front.news')</a></div>
+      <div class ="nav-line"><p>|</p></div> -->
       <div class="autopark {{Request::is('fleet') ? 'current' : ''}}"><a href="{{route('frontend.fleet')}}">@lang('front.fleet')</a></div>
       <div class ="nav-line"><p>|</p></div>
       <div class="electric {{Request::is('electric') ? 'current' : ''}}"><a href="{{route('frontend.electric')}}"><img src="{{asset('front/images/electro-logo.png')}}">@lang('front.electric')</a></div>

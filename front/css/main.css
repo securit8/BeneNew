@@ -2302,6 +2302,10 @@ grid-row: 1 / 2;
   padding-top: 0.1rem;
 }
 
+.element-info-button a{
+  text-decoration: none;
+}
+
 .fleet-element-image{
   padding-top: 7rem;
   grid-column: 17 / 31;
@@ -2815,6 +2819,10 @@ margin-left: 1.7rem;
   grid-template-columns: repeat(20, 1fr);
 }
 
+.newsroom-line-1 a, .newsroom-line-2 a, .newsroom-line-3 a, .newsroom-line-4 a{
+  text-decoration: none;
+}
+
 .newsroom-line-1-article-1, .newsroom-line-1-article-2, .newsroom-line-1-article-3, .newsroom-line-1-article-4{
   grid-row: 1 / 2;
   width: 90%;
@@ -2996,4 +3004,329 @@ grid-column: 11 / 16;
     padding-bottom: 0.6rem;
   }
 
+/* article */
 
+.article-outer{
+  background-color: rgb(255, 255, 255);
+}
+
+.article-middle{
+  width: 75%;
+  margin-left: 12.5%;
+  padding-bottom: 1.5rem;
+}
+
+.article-inner{
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+}
+
+.article-body, .other-articles{
+  grid-row: 1 / 2;
+}
+
+.article-body{
+  grid-column: 2 / 31;
+}
+
+.article-body img{
+  width: 100%;
+}
+
+.article-date p{
+  padding-top: 1.5rem;
+font-size: 12px;
+font-family: Montserrat;
+color: rgba(6, 13, 13, 0.5);
+font-weight: 600;
+}
+
+.article-title p{
+  font-weight: 700;
+  font-size: 23px;
+  font-family: Montserrat;
+  padding-bottom: 1rem;
+  color: #000000;
+}
+
+.article-text-title p{
+  padding-top: 1.5rem;
+font-size: 23px;
+font-weight: 700;
+font-family: Montserrat;
+color: #000000;
+}
+
+.article-text-body p{
+ font-size: 12px;
+ line-height: 22px;
+ font-family: Montserrat;
+ color: #000000;
+}
+
+.other-articles{
+  grid-column: 32 / 41;
+  padding-top: 9.5rem;
+}
+
+.other-article-1, .other-article-2, .other-article-3{
+  padding-bottom: 2rem;
+}
+
+.other-articles-header p{
+ font-family: Montserrat;
+ font-weight: 700;
+ font-size: 18px;
+ color: #000000;
+}
+
+.other-article-image img{
+  width: 100%;
+  }
+  
+  .other-article-text{
+   padding-left: 0.9rem;
+   padding-right: 0.9rem;
+   font-family: TBC Contractica;
+   background-color: rgba(255, 255, 255, 1);
+   box-shadow: 0px 8px 16px 0px rgba(6, 13, 13, 0.082);
+  }
+  
+  
+  .other-article-date p{
+  color: rgba(6, 13, 13, 0.5)!important;
+  font-family: Montserrat;
+  font-weight: bold;
+  padding-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  }
+  
+  .other-article-text h6{
+    font-family: Montserrat;
+    font-size: 13px!important;
+   font-weight: 700;
+   margin-bottom: 0.5rem;
+   color:rgba(6, 13, 13, 0.801);
+  
+  }
+  
+  .other-article-text p{
+   font-size: 9px;
+   color:rgba(6, 13, 13, 0.753);
+   line-height: 13px;
+  }
+  
+  .other-article-more{
+   display: flex;
+   align-items: center;
+   color: rgba(36, 160, 237, 0.699);
+   padding-bottom: 0.5rem;
+  }
+  
+  .other-article-more h5{
+    font-size: 11px!important;
+   margin-right: 0.5rem;
+   font-weight: 700!important;
+   font-family: Montserrat;
+  }
+  
+  .other-article-more img{
+    width: 7%;
+    padding-bottom: 0.6rem;
+  }
+
+/* specs -- S-class */
+
+
+#carouselExampleIndicators-specs img{
+  width: 100%;
+}
+
+.spec-carousel-buttons img{
+ border-radius: 50%!important;
+ width: 35%!important;
+}
+
+.spec-carousel-sliders button{
+  border-radius: 50%!important;
+  width: 5px!important;
+  height: 5px!important;
+}
+
+.vehicle-spec-body-outer{
+  background-color: rgb(255, 255, 255);
+}
+
+.vehicle-spec-body-middle{
+  width: 72%;
+  margin-left: 14%;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.vehicle-spec-body-info{
+  background-color: rgba(238, 238, 238, 1);
+  padding-bottom: 5rem;
+}
+
+.vehicle-spec-body-info-inner {
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  padding-bottom: 2rem;
+}
+
+.vehicle-spec-body-text, .vehicle-spec-body-image{
+  grid-row:  1 / 2;
+}
+
+.vehicle-spec-body-text{
+  grid-column: 2 / 19;
+}
+
+.vehicle-spec-body-title{
+  margin-top: 2rem;
+  display: flex;
+}
+
+.vehicle-spec-body-title p{
+  font-weight: 700;
+  font-size: 23px;
+  font-family: Montserrat;
+  color: #000000;
+  margin-right: 0.6rem;
+  margin-bottom: 0;
+}
+
+.vehicle-spec-body-title img{
+  margin-top: 0.5rem;
+  width: 18px;
+  height: 17px;
+}
+
+.vehicle-spec-body-tags {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+
+.vehicle-spec-body-info-text p{
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(6, 13, 13, 0.753);
+  font-family: Montserrat;
+}
+
+.vehicle-spec-body-tags p{
+  color: #00adef;
+  background-color: rgba(36, 160, 237, 0.103);
+}
+
+.vehicle-spec-body-image{
+  grid-column: 22 / 40;
+}
+
+.vehicle-spec-body-image img{
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.vehicle-spesific-specs{
+  width: 95%;
+  margin-left: 2.5%;
+  box-shadow: 0px 16px 16px 0px rgba(6, 13, 13, 0.082);
+}
+
+.vehicle-spesific-specs-info{
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.vehicle-spesific-specs-info-text{
+  display: flex;
+  width: 50%;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.vehicle-spesific-specs-info-text p{
+  margin-bottom: 0;
+  font-size: 11px;
+  padding-left: 1rem;
+}
+
+.vehicle-spesific-specs-info-arrow img{
+  margin-right: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+
+#spec-sheet{
+  display: none;
+}
+
+#spec-sheet.display{
+  display:flex;
+    flex-direction: column;
+}
+
+.sheet-line-1, .sheet-line-2, .sheet-line-3, .sheet-line-4, .sheet-line-5, .sheet-line-6, .sheet-line-7, .sheet-line-8, .sheet-line-9{
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+}
+
+.sheet-line-2, .sheet-line-4, .sheet-line-6, .sheet-line-8{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.sheet-part-1, .sheet-part-2{
+  grid-row: 1 / 2;
+}
+
+.sheet-part-1{
+  grid-column: 2 / 12;
+  font-weight: 700;
+  font-family: Montserrat;
+  color: #000000;
+  padding-top: 1rem;
+}
+
+.sheet-part-2{
+  grid-column: 15 / 41;
+  font-size: 11px;
+  font-family: Montserrat;
+  color: #000000;
+  padding-top: 1rem;
+}
+
+.book-button {
+  padding-top: 3rem;
+}
+
+.book-button button{
+  background-color: rgba(6, 13, 13, 1);
+  border: none;
+  outline: none;
+  display: flex;
+  color:rgba(255, 255, 255, 1);
+  width:25%;
+  margin-left: 37.2%;
+  display: flex;
+  justify-content: center;
+}
+
+.book-button p{
+  margin-bottom: 0;
+  margin-right: 1rem;
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: Montserrat;
+}
+
+.book-button img{
+  margin-top: 0.7rem;
+}

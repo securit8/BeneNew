@@ -20,7 +20,7 @@
         <div class="newsroom-line-1">
             
             <div class="newsroom-line-1-article-1">
-
+                    <a href="{{route('frontend.news-article1')}}">
                 <div class="newsroom-article-image">
                 <img src="{{asset('front/images/news-1.png') }}" alt="">
                 </div>
@@ -40,6 +40,8 @@
                     <img src="{{asset('front/images/news-arrow.png') }}" alt="">
                 </div>
              </div>
+
+                    </a>
             
             </div>
 

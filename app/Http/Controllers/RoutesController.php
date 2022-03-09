@@ -56,5 +56,13 @@ class RoutesController extends Controller
     public function events(){
         return view('frontend.events');
     }
+
+    public function article1(){
+        return view('frontend.news-article1');
+    }
+
+    public function Sclass(){
+        return view('frontend.S-class');
+    }
 }
 
