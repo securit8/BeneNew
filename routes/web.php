@@ -35,7 +35,7 @@ Route::get('/article1', [RoutesController::class, 'article1'])->name('frontend.n
 
 Route::get('/S-class', [RoutesController::class, 'Sclass'])->name('frontend.S-class');
 
-
+Route::get('/brands', [RoutesController::class, 'brands'])->name('frontend.brands');
 
 Route::get('/sprinter', function() {
   return view('frontend.sprinter');

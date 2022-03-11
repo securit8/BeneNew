@@ -64,5 +64,9 @@ class RoutesController extends Controller
     public function Sclass(){
         return view('frontend.S-class');
     }
+
+    public function brands(){
+        return view('frontend.brands');
+    }
 }
 
