@@ -1,7 +1,7 @@
 
 @extends('frontend/master')
 
-@section('title', 'S-class')
+@section('title', 'Land Cruiser 200')
 @section('content')
 
 
@@ -86,7 +86,7 @@
                   </div>
 
                   <div class="vehicle-spec-body-image">
-                    <img src="{{asset('front/images/TESLA-MODEL-3-2019.png') }}" alt="">
+                    <img src="{{asset('front/images/Toyota-Land-Cruiser-200-2018.png') }}" alt="">
                   </div>
                 </div>
 

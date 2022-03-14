@@ -24,6 +24,7 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselEcampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
   </div>
   <div class="carousel-inner">
@@ -31,7 +32,36 @@
       <div class="index-part1-carousel-inner">
 
         <div class="carousel-part1-backgound">
-      <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
+          <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-part1-shader">
+          <img src="{{asset('front/images/index-part1-backround.png') }}" alt="">
+        </div>
+      
+        <div class="index-slogan">
+           <div class="who-we-are"><p>We are Bene-Exclusive.</p></div>
+           <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
+          <div class="slogan-button">
+          <button>
+            <a href="{{route('frontend.about')}}">
+            <p>See more</p>
+            <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+            </a>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+    
+
+    <div class="carousel-item">
+    <div class="index-part1-carousel-inner">
+
+        <div class="carousel-part1-backgound">
+      <img src="{{asset('front/images/home-background-2.png') }}" class="d-block w-100" alt="...">
         </div>
 
         <div class="carousel-part1-shader">
@@ -39,27 +69,26 @@
       </div>
       
       <div class="index-slogan">
-         <div class="who-we-are"><p>We are Bene-Exclusive.</p></div>
+         <div class="who-we-are"><p>Bene Fleet.</p></div>
          <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
         <div class="slogan-button">
           <button>
+            <a href="{{route('frontend.fleet')}}">
             <p>See more</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+            </a>
         </button>
        </div>
 
       </div>
       </div>
-
-       
-
     </div>
 
     <div class="carousel-item">
     <div class="index-part1-carousel-inner">
 
         <div class="carousel-part1-backgound">
-      <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
+      <img src="{{asset('front/images/index-motors.png') }}" class="d-block w-100" alt="...">
         </div>
 
         <div class="carousel-part1-shader">
@@ -67,43 +96,51 @@
       </div>
       
       <div class="index-slogan">
-         <div class="who-we-are"><p>We are Bene-Exclusive.</p></div>
+         <div class="who-we-are"><p>Bene Motors.</p></div>
          <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
         <div class="slogan-button">
           <button>
+            <a href="{{route('frontend.motors')}}">
             <p>See more</p>
-             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+            <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+            </a>
         </button>
        </div>
 
       </div>
       </div>
+
+      
+
+
     </div>
 
     <div class="carousel-item">
-    <div class="index-part1-carousel-inner">
+      <div class="index-part1-carousel-inner">
+        
+      <div class="carousel-part1-backgound">
+        <img src="{{asset('front/images/home-background-4.png') }}" class="d-block w-100"alt="">
+      </div>
 
-        <div class="carousel-part1-backgound">
-      <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
-        </div>
-
-        <div class="carousel-part1-shader">
-      <img src="{{asset('front/images/index-part1-backround.png') }}" alt="">
+      <div class="carousel-part1-shader">
+        <img src="{{asset('front/images/index-part1-backround.png') }}" alt="">
       </div>
       
       <div class="index-slogan">
-         <div class="who-we-are"><p>We are Bene-Exclusive.</p></div>
+         <div class="who-we-are"><p>Mercedes-Benz Business Week.</p></div>
          <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
         <div class="slogan-button">
           <button>
+            <a href="{{route('frontend.events')}}">
             <p>See more</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+            </a>
         </button>
        </div>
 
       </div>
-      </div>
 
+      </div>
     </div>
 
   </div>
@@ -139,8 +176,10 @@
 
           <div class="index-about-us-button">
               <button>
-                <p>See more</p>
-                <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+              <a href="{{route('frontend.about')}}">
+              <p>See more</p>
+              <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+              </a>
               </button>
           </div>
           
@@ -164,8 +203,10 @@
 
         <div class="see-all-button">
           <button>
+            <a href="{{route('frontend.news')}}">
             <p>See All</p>
             <img src="{{asset('front/images/blue-short-arrow.png') }}" alt="">
+            </a>
           </button>
         </div>
 
@@ -594,8 +635,10 @@
 
                 <div class="index-academy-button">
                     <button>
+                      <a href="{{route('frontend.academy')}}">
                       <p>See more</p>
                         <img src="{{asset('front/images/arrow-right.png') }}" alt=""> 
+                      </a>
                     </button>
                 </div>
               </div>

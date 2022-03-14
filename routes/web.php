@@ -34,40 +34,32 @@ Route::get('/article1', [RoutesController::class, 'article1'])->name('frontend.n
 
 
 Route::get('/S-class', [RoutesController::class, 'Sclass'])->name('frontend.S-class');
+Route::get('/S-class2016', [RoutesController::class, 'Sclass2016'])->name('frontend.S-class2016');
+Route::get('/v-class', [RoutesController::class, 'vclass'])->name('frontend.v-class');
+Route::get('/sptinter', [RoutesController::class, 'sprinter'])->name('frontend.sprinter');
+Route::get('/camry', [RoutesController::class, 'camry'])->name('frontend.camry');
+Route::get('/tesla', [RoutesController::class, 'tesla'])->name('frontend.tesla');
+Route::get('/tourismo', [RoutesController::class, 'tourismo'])->name('frontend.tourismo');
+Route::get('/temsa', [RoutesController::class, 'temsa'])->name('frontend.temsa');
+Route::get('/e-class', [RoutesController::class, 'eclass'])->name('frontend.e-class');
+Route::get('/land', [RoutesController::class, 'land'])->name('frontend.land');
+Route::get('/land200', [RoutesController::class, 'land200'])->name('frontend.land200');
+
+
+Route::get('/event-moiare', [RoutesController::class, 'moiare'])->name('frontend.event-moiare');
+
 
 Route::get('/brands', [RoutesController::class, 'brands'])->name('frontend.brands');
 
-Route::get('/sprinter', function() {
-  return view('frontend.sprinter');
-});
 
-Route::get('/camry', function() {
-  return view('frontend.camry');
-});
 
-Route::get('/temsa', function() {
-  return view('frontend.temsa');
-});
 
-Route::get('/tourismo', function() {
-  return view('frontend.tourismo');
-});
 
-Route::get('/tesla', function() {
-  return view('frontend.tesla');
-});
-
-Route::get('/e-class', function() {
-  return view('frontend.e-class');
-});
 
 Route::get('/viano', function() {
   return view('frontend.viano');
 });
 
-Route::get('/land', function() {
-  return view('frontend.land');
-});
 
 Route::get('/w222', function() {
   return view('frontend.w222');

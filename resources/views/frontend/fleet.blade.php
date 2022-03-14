@@ -168,13 +168,44 @@
                                 
                             </div>
 
-                            <div class="fleet-element-image">
-                                <img src="{{asset('front/images/fleet1.png')}}" alt="">
+                            <div class="fleet-element-1-image">
+                                <img src="{{asset('front/images/Mercedes-Benz-S-Class-W-223-2021.png')}}" alt="">
                             </div>
                             
                         </div>
 
-                        <div class="fleet-element-2">
+                        <div class="fleet-element-2 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>Toyota Land Cruiser 300</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>Land Cruiser</p> 
+                                        <p>Sedan</p>
+                                        <p>2021</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                            ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                            Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                            ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.land')}}"> <button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-2-image">
+                                    <img src="{{asset('front/images/Toyota-Land-Cruiser-300-2021.png')}}" alt="">
+                                </div>
+                            </div>
+
+                        <div class="fleet-element-3 reveal">
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
@@ -184,7 +215,7 @@
                                     <div class="element-info-tags">
                                         <p>S class</p> 
                                         <p>Sedan</p>
-                                        <p>2021</p>
+                                        <p>2016</p>
                                     </div>
                                     
                                     <div class="element-info-text">
@@ -195,27 +226,29 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.S-class')}}"> <button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.S-class2016')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
 
-                                <div class="fleet-element-image">
-                                    <img src="{{asset('front/images/fleet3.png')}}" alt="">
+                                <div class="fleet-element-3-image">
+                                    <img src="{{asset('front/images/Mercedes-Benz-S-class-2016.png')}}" alt="">
                                 </div>
-                            </div>
+                        </div>
 
-                        <div class="fleet-element-3">
+
+
+                        <div class="fleet-element-4 reveal">
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>MERCEDES-BENZ</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
+                                        <p>MERCEDES-BENZ</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
-                                        <p>S class</p> 
+                                        <p>E class</p> 
                                         <p>Sedan</p>
-                                        <p>2021</p>
+                                        <p>2018</p>
                                     </div>
                                     
                                     <div class="element-info-text">
@@ -226,13 +259,245 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.S-class')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.e-class')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
 
-                                <div class="fleet-element-image">
-                                    <img src="{{asset('front/images/fleet1.png')}}" alt="">
+                                <div class="fleet-element-4-image">
+                                    <img src="{{asset('front/images/Mercedes-Benz-E-class-250-2018.png')}}" alt="">
+                                </div>
+                        </div>
+
+
+
+                        <div class="fleet-element-5 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>TOYOTA CAMRY</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>E class</p> 
+                                        <p>Sedan</p>
+                                        <p>2018</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                            ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                            Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                            ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.camry')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-5-image">
+                                    <img src="{{asset('front/images/Toyota-Camry-Sport-Edition-Hybrid-2019.png')}}" alt="">
+                                </div>
+                        </div>
+
+
+
+                        <div class="fleet-element-6 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>TESLA</p> <img src="{{asset('front/images/fleet-logo2.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>E class</p> 
+                                        <p>Sedan</p>
+                                        <p>2018</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                            ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                            Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                            ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.tesla')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-6-image">
+                                    <img src="{{asset('front/images/TESLA-MODEL-3-2019.png')}}" alt="">
+                                </div>
+                        </div>
+
+
+
+                        <div class="fleet-element-7 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>TOYOTA LAND CRUISER 200</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>E class</p> 
+                                        <p>Sedan</p>
+                                        <p>2018</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                            ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                            Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                            ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.land200')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-7-image">
+                                    <img src="{{asset('front/images/Toyota-Land-Cruiser-200-2018.png')}}" alt="">
+                                </div>
+                        </div>
+
+
+
+
+                        <div class="fleet-element-8 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>MERCEDES-BENZ V CLASS</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>E class</p> 
+                                        <p>Sedan</p>
+                                        <p>2018</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                            ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                            Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                            ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.v-class')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-8-image">
+                                    <img src="{{asset('front/images/Mercedes-Benz-V-class-2019.png')}}" alt="">
+                                </div>
+                        </div>
+
+
+
+                        <div class="fleet-element-9 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>MERCEDES-BENZ SPRINTER</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>E class</p> 
+                                        <p>Sedan</p>
+                                        <p>2018</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                            ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                            Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                            ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.sprinter')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-9-image">
+                                    <img src="{{asset('front/images/Mercedes-Benz-Sprinter-515-CDI-2019.png')}}" alt="">
+                                </div>
+                        </div>
+
+
+
+                        <div class="fleet-element-10 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>MERCEDES-BENZ TOURISMO</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>E class</p> 
+                                        <p>Sedan</p>
+                                        <p>2018</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                            ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                            Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                            ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.tourismo')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-10-image">
+                                    <img src="{{asset('front/images/Mercedes-Bens-Bus-Tourismo-2019.png')}}" alt="">
+                                </div>
+                        </div>
+
+
+
+                        <div class="fleet-element-11 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>TEMSA PRESTIJ</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>E class</p> 
+                                        <p>Sedan</p>
+                                        <p>2018</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
+                                            ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
+                                            Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.<br><br>
+                                            ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.temsa')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-11-image">
+                                    <img src="{{asset('front/images/Temsa-PRestij-SD-2019.png')}}" alt="">
                                 </div>
                         </div>
 

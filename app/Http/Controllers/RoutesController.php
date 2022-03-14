@@ -65,8 +65,52 @@ class RoutesController extends Controller
         return view('frontend.S-class');
     }
 
+    public function Sclass2016(){
+        return view('frontend.S-class2016');
+    }
+
+    public function sprinter(){
+        return view('frontend.sprinter');
+    }
+
+    public function camry(){
+        return view('frontend.camry');
+    }
+
+    public function tesla(){
+        return view('frontend.tesla');
+    }
+
+    public function tourismo(){
+        return view('frontend.tourismo');
+    }
+
+    public function temsa(){
+        return view('frontend.temsa');
+    }
+
+    public function eclass(){
+        return view('frontend.e-class');
+    }
+
+    public function land(){
+        return view('frontend.land');
+    }
+
+    public function land200(){
+        return view('frontend.land200');
+    }
+
+    public function vclass(){
+        return view('frontend.v-class');
+    }
+
     public function brands(){
         return view('frontend.brands');
+    }
+
+    public function moiare(){
+        return view('frontend.event-moiare');
     }
 }
 

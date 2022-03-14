@@ -39,6 +39,8 @@
       <img src="{{asset('front/images/spec-carousel-1.png')}}" class="" alt="...">
     </div>
 
+    
+
 
   </div>
 
@@ -86,7 +88,7 @@
                   </div>
 
                   <div class="vehicle-spec-body-image">
-                    <img src="{{asset('front/images/vehicle-spec-image.png') }}" alt="">
+                    <img src="{{asset('front/images/Mercedes-Benz-S-Class-W-223-2021.png') }}" alt="">
                   </div>
                 </div>
 

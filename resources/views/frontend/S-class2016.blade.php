@@ -1,7 +1,7 @@
 
 @extends('frontend/master')
 
-@section('title', 'S-class')
+@section('title', 'S-class-2016')
 @section('content')
 
 
@@ -86,7 +86,7 @@
                   </div>
 
                   <div class="vehicle-spec-body-image">
-                    <img src="{{asset('front/images/TESLA-MODEL-3-2019.png') }}" alt="">
+                    <img src="{{asset('front/images/Mercedes-Benz-S-class-2016.png') }}" alt="">
                   </div>
                 </div>
 
