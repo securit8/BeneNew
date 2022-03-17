@@ -199,12 +199,26 @@ padding-left: -20!important;
   grid-column: 2 / 9;
 }
 
+.contact-logo-info{
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+}
+
+.contact-info-logo, .contact-slogan{
+  grid-row: 1 / 2;
+}
+
 .contact-info-logo{
   padding-bottom: 2rem;
+  grid-column: 1 / 10;
 }
 
 .contact-info-logo img{
-  width: 25%;
+  width: 20%;
+}
+
+.contact-slogan{
+  grid-column: 5 / 30;
 }
 
 .contact-slogan p{
@@ -1391,6 +1405,22 @@ margin-bottom: 3rem;
   width: 80%!important;
 }
 
+.container ul{
+  list-style: none;
+}
+
+.container a{
+  text-decoration: none;
+}
+
+.container{
+  width: 100%;
+}
+
+
+.box{
+
+}
 
 .index-part-8{
  background-color: rgba(252, 252, 253, 0.048);
@@ -3705,3 +3735,239 @@ border: 1px solid rgb(126 126 126 / 7%);
   grid-column: 5 / 16;
   width:100%
 }
+
+
+
+/* taxi page */
+
+.taxi-page-header {
+  background-color:rgba(16, 22, 22, 1);
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.taxi-page-header-title{
+padding-top: 1.5rem;
+color:rgba(252, 252, 253, 1);
+font-weight: 700;
+font-family:Montserrat;
+}
+
+.taxi-page-header-title p{
+  font-size: 18px;
+}
+
+.taxi-part-1{
+  font-family: Monsserat;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.taxi-part-1-middle{
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+.taxi-part-1-inner{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+}
+
+.taxi-about-us-info, .taxi-about-us-video{
+  grid-row: 1 / 2;
+}
+
+
+.taxi-about-us-title p{
+  padding-top: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 22px;
+  font-family: Montserrat;
+  color: rgba(6, 13, 13, 1);
+}
+
+
+.taxi-about-us-info{
+  padding-top: 0.5rem;
+grid-column: 1 / 15; 
+}
+
+
+
+.taxi-about-us-text{
+font-family: Montserrat;
+margin-bottom: 2rem;
+width:100%;
+font-size: 12px;
+line-height: 18px;
+font-weight: 400;
+color: rgba(6, 13, 13, 1);
+}
+
+.taxi-about-us-text p{
+  font-family: Montserrat;
+  font-size: 12px;
+}
+
+.taxi-about-us-video{
+  padding-top: 1rem;
+  grid-column: 16/ 31;
+  width: 100%;
+  clip: rect(0px,6000px,200px,0px);
+}
+
+
+.taxi-about-us-video img{
+width:100%;
+clip: rect(0px,600px,200px,0px);
+}
+
+
+.taxi-page-part-2{
+  background-color: rgba(16, 22, 22, 1);
+}
+
+.taxi-page-part-2-middle{
+width: 75%;
+margin-left: 12.5%;
+}
+
+.taxi-page-part-2-inner{
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.taxi-page-events{
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  
+}
+
+.taxi-page-events-picture, .taxi-page-events-text{
+  grid-row: 1 / 2;
+}
+
+.taxi-page-events-picture {
+  padding-top: 3rem;
+  grid-column: 1 / 15;
+}
+
+.taxi-page-events-picture img{
+  width: 100%;
+}
+
+.taxi-page-events-text{
+  padding-top: 4rem;
+  grid-column: 16 / 31;
+  width: 100%;
+}
+
+.taxi-page-company-name p{
+font-size: 15px;
+font-family: Montserrat;
+font-weight: 700;
+color:rgba(6, 13, 13, 0.5);
+margin-bottom: 0.5rem;
+}
+
+.taxi-page-events-title p{
+  font-size: 23px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: rgba(252, 252, 253, 1);
+}
+
+
+.taxi-page-events-info p{
+  font-size: 12px;
+  font-family: Montserrat;
+  line-height: 16px;
+  color: rgba(252, 252, 253, 1);
+  
+}
+
+
+.taxi-page-part-3{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.taxi-page-part-3-middle{
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+.taxi-page-part-3-inner{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.taxi-vehicle-renewals{
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+}
+
+.taxi-vehicle-renewal-info, .taxi-vehicle-renewal-image{
+  grid-row: 1 / 2;
+}
+
+.taxi-vehicle-renewal-info{
+  padding-top: 2rem;
+  grid-column: 1 / 15;
+}
+
+.taxi-vehicle-renewal-image{
+  grid-column: 16 / 31;
+}
+
+.taxi-vehicle-renewal-image img{
+width:100%;
+}
+
+.taxi-vehicle-renewal-title p{
+ font-family: Montserrat;
+ font-weight: 700;
+ font-size: 23px;
+ color: rgba(6, 13, 13, 1);
+}
+
+.taxi-vehicle-renewal-text p{
+font-family: Montserrat;
+font-size: 12px;
+line-height: 16px;
+}
+
+
+.taxi-news-part-2{
+  background-color: rgba(255, 255, 255, 1);
+ }
+ 
+ .taxi-news-part-2-middle{
+   width: 75%;
+   margin-left: 12.5%;
+ }
+ 
+ .taxi-news-part-2-inner{
+  width: 100%;
+  padding-top: 3rem;
+ }
+
+
+ .taxi-news-header-title p{ 
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Montserrat;
+  color:rgba(16, 22, 22, 1);
+  }
+
+
+  #carouselExampleIndicators-taxi img{
+    width: 100%;
+  }
+
+  #carouselExampleIndicators-specs button{
+    border-radius: 50%;
+  }

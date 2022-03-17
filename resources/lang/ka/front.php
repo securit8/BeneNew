@@ -11,7 +11,7 @@ return [
   'partners' => 'Partners',
   'contact' => 'Contact',
   'motors' => 'Bene Motors',
-  'slogan' => '"Bene Exclusive" is a company that originated under the "Bene Group" and serves the logistics industry like it',
+  'call-center' => 'ქოლ ცენტრი: +995 32 2 052 100',
   'services' => 'Services',
   'copyright' => 'All Rights Reserved',
   'electric' => 'Electric',
@@ -79,5 +79,17 @@ return [
 
    // newsroom page
 'newsroom-header' => 'სიახლეები',
+
+
+
+// taxi page
+
+'taxi-page-text-1' => '2019 წლიდან ჩვენმა კომპანიამ მოიპოვა თბილისის საერთაშორისო აეროპორტის ტაქსით მომსახურების ექსკლუზიური უფლება. 2022 წლიდან კი იგივე უფლება მივიღეთ ქუთაისის საერთაშორისო აეროპორტშიც.<br><br>
+                      ჩვენ ტაქსით მომსახურებისას ვიყენებთ ძირითადად ელექტრომობილებს, გვაქვს ფიქსირებული ტარიფები, აღრიცხვის და დაჯავშნის ერთიანი სისტემა, მგზავრობა კი სანდო და უსაფრთხოა.
+                      ',
+
+'taxi-page-text-2' => 'აეროპორტის ტაქსის გარდა, ჩვენ კორპორატიულ კლიენტებსაც ვთავაზობთ ტაქსით მომსახურებას როგორც თბილისის, ასევე მთელი საქართველოს მასშტაბით ქოლ ცენტრისა და სპეციალური აპლიკაციის საშუალებით.',
+
+
 ];
  ?>

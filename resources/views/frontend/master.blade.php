@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
- <script src="https://kit.fontawesome.com/0a96adf822.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/5c894f6509.js" crossorigin="anonymous"></script>
 
     <title> @yield('title')</title>
   </head>
@@ -34,7 +34,7 @@
       <div class ="nav-line"><p>|</p></div> -->
       <div class="autopark {{Request::is('fleet') ? 'current' : ''}}"><a href="{{route('frontend.fleet')}}">@lang('front.fleet')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="electric {{Request::is('electric') ? 'current' : ''}}"><a href="{{route('frontend.electric')}}"><img src="{{asset('front/images/electro-logo.png')}}">@lang('front.electric')</a></div>
+      <div class="electric {{Request::is('electric') ? 'current' : ''}}"><a href="{{route('frontend.electric')}}"><img src="{{asset('front/images/line.svg')}}">@lang('front.electric')</a></div>
       <div class ="nav-line"><p>|</p></div>
       <div class="motors {{Request::is('motors') ? 'current' : ''}}"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
       <div class ="nav-line"><p>|</p></div>
@@ -48,7 +48,7 @@
       <div class ="nav-line"><p>|</p></div>
       <div class="partners {{Request::is('partners') ? 'current' : ''}}"><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></div>
 
-      <div class="contact {{Request::is('contact') ? 'current' : ''}}"><a href="{{route('frontend.contact')}}"><img src="{{asset('front/images/headphones.png')}}" >@lang('front.contact')</a></div>
+      <div class="contact {{Request::is('contact') ? 'current' : ''}}"><a href="{{route('frontend.contact')}}"><img src="{{asset('front/images/line-1.svg')}}" >@lang('front.contact')</a></div>
     </div>
 
     <div class="Language-select">
@@ -88,21 +88,23 @@
   <footer class="footer">
     <div class="contact-info">
       <div class="contact-info-inner">
+        <div class="contact-logo-info">
         <div class="contact-info-logo">
-          <img src="{{asset('front/images/logo.png')}}" alt="">
+          <img src="{{asset('front/images/line-1.svg')}}" alt="">
         </div>
 
         <div class="contact-slogan">
-          <p>@lang('front.slogan')</p>
+          <p>@lang('front.call-center')</p>
+        </div>
         </div>
 
         <div class="our-social-meida">
           <div class="footer-social-icons">
             <div class="social-icons1">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-instagram"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-facebook-f fa-lg"></i>
+              <i class="fab fa-instagram fa-lg"></i>
+              <i class="fa-brands fa-youtube fa-lg"></i>
+              <i class="fab fa-linkedin fa-lg"></i>
            </div>
 
     

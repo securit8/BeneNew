@@ -671,7 +671,7 @@
         </div>
 
         <div class="index-taxi-image">
-          <img src="{{asset('front/images/taxi-image.png') }}" alt="">
+          <img src="{{asset('front/images/viber-image-index-taxi.jpg') }}" alt="">
         </div>
     </div>
   </div>
@@ -684,7 +684,7 @@
     <div class="part-7-inner">
         <div class="index-event-header"><p>@lang('front.index-events')</p></div>
 
-      <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
+      <!-- <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <div id="index-event-carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -766,6 +766,12 @@
                   
           </div>
         </div>
+      </div> -->
+
+      <div class="container">
+          <div class="box">
+
+          </div>
       </div>
 
 
