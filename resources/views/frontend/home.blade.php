@@ -654,7 +654,7 @@
           
 
           <div class="index-taxi-title">
-            <p>TAXI</p>
+            <p>@lang('front.front-taxi')</p>
           </div>
 
           <div class="index-taxi-text">
@@ -663,7 +663,7 @@
 
           <div class="index-taxi-button">
               <button>
-                <p>Go to Webpage</p>
+                <p>@lang('front.show-more')</p>
                 <i class="fas fa-arrow-right"></i>
               </button>
           </div>
@@ -682,7 +682,7 @@
 <div class="index-part-7">
   <div class="part-7-middle">
     <div class="part-7-inner">
-        <div class="index-event-header"><p>EVENTS</p></div>
+        <div class="index-event-header"><p>@lang('front.index-events')</p></div>
 
       <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -781,7 +781,7 @@
 <div class="index-part-8">
   <div class="part-8-middle">
     <div class="part-8-inner">
-      <div class="index-partners-header"><p>PARTNERS</p></div>
+      <div class="index-partners-header"><p>@lang('front.index-partners')</p></div>
 
       <div class="index-partners-logo">
         <div><img src="{{asset('front/images/partners-logo-2.png') }}" alt=""></div>

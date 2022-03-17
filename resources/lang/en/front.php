@@ -30,7 +30,9 @@ return [
 
 'index-academy' => 'ACADEMY',
 'newsroom' => 'NEWSROOM',
-
+'front-taxi' => 'AIRPORT TAXI',
+'index-events' => 'EVENTS AND PROJECTS',
+'index-partners' => 'PARTNERS',
 
 // home page
 '',

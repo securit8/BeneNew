@@ -34,7 +34,9 @@ return [
 
 'index-academy' => 'აკადემია',
 'newsroom' => 'სიახლეები',
-
+'front-taxi' => 'აეროპორტის ტაქსი',
+'index-events' => 'ღონისძიებები და პროექტები',
+'index-partners' => 'პარტნიორები',
 
                   
 
