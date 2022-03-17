@@ -33,7 +33,7 @@ return [
                   ',
 
 'index-academy' => 'აკადემია',
-'NEWSROOM' => 'სიახლეები',
+'newsroom' => 'სიახლეები',
 
 
                   
