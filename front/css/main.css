@@ -3968,6 +3968,8 @@ line-height: 16px;
     width: 100%;
   }
 
-  #carouselExampleIndicators-specs button{
+  .taxi-carousel-sliders button{
     border-radius: 50%;
+    width: 7px!important;
+    height: 7px!important;
   }

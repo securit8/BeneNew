@@ -37,14 +37,13 @@
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="2" aria-label="Slide 3"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
   </div>
 
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/taxi-carousel-image-1.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/viber-image-taxi-page-2.jpg')}}" class="" alt="...">
     </div>
 
 
@@ -60,11 +59,6 @@
 
     <div class="carousel-item">
         <img src="{{asset('front/images/taxi-carousel-image-4.jpg')}}" alt="">
-    </div>
-    
-
-    <div class="carousel-item">
-        <img src="{{asset('front/images/taxi-carousel-image-5.jpg')}}" alt="">
     </div>
 
 
@@ -116,7 +110,7 @@
 
 
 
-<div class="about-page-part-2">
+<!-- <div class="about-page-part-2">
     <div class="about-page-part-2-middle">
         <div class="about-page-part-2-inner">
             <div class="about-page-events">
@@ -148,7 +142,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 
@@ -156,7 +150,7 @@
 
 
 
-<div class="taxi-news-part-2">
+<!-- <div class="taxi-news-part-2">
   <div class="taxi-news-part-2-middle">
     <div class="taxi-news-part-2-inner">
       <div class="about-news-header">
@@ -274,7 +268,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <div class="index-part-8">
