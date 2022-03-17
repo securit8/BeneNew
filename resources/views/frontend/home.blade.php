@@ -41,7 +41,6 @@
       
         <div class="index-slogan">
            <div class="who-we-are"><p>We are Bene-Exclusive.</p></div>
-           <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
           <div class="slogan-button">
           <button>
             <a href="{{route('frontend.about')}}">
@@ -70,7 +69,6 @@
       
       <div class="index-slogan">
          <div class="who-we-are"><p>Bene Fleet.</p></div>
-         <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
         <div class="slogan-button">
           <button>
             <a href="{{route('frontend.fleet')}}">
@@ -97,7 +95,6 @@
       
       <div class="index-slogan">
          <div class="who-we-are"><p>Bene Motors.</p></div>
-         <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
         <div class="slogan-button">
           <button>
             <a href="{{route('frontend.motors')}}">
@@ -128,7 +125,6 @@
       
       <div class="index-slogan">
          <div class="who-we-are"><p>Mercedes-Benz Business Week.</p></div>
-         <div class="our-motto"><p>Your way to comfort, We follow the dream Move with luxury!</p></div>
         <div class="slogan-button">
           <button>
             <a href="{{route('frontend.events')}}">

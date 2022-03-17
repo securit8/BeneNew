@@ -623,9 +623,8 @@ padding-bottom: 15%;
   }
   
   .slogan-button p{
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.705);
     font-size: 12px;
-    font-weight: 600;
     margin-left: 0.9rem;
     margin-top: 0.4rem;
     margin-bottom: 0.5rem;
@@ -1841,7 +1840,7 @@ margin-left: 12.5%;
 }
 
 .academy-text-section{
-  padding-top: 3rem;
+  padding-top: 0rem;
   grid-column: 16 / 31;
 }
 
@@ -1882,7 +1881,7 @@ color:rgba(6, 13, 13, 1);
 }
 
 .academy-anything-else-info{
-  padding-top: 3rem;
+  padding-top: 0rem;
   grid-column: 1 / 15;
 }
 
