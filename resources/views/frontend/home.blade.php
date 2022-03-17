@@ -658,7 +658,7 @@
           </div>
 
           <div class="index-taxi-text">
-            <p> @lang('front.index-taxi')</p>
+            <p> @lang('front.index-taxi-text')</p>
           </div>
 
           <div class="index-taxi-button">
@@ -700,12 +700,10 @@
                 
               <div class="event-1">
                   <div class="event-1-backrgound">
-                    <img src="{{asset('front/images/event-1-background.png') }}" class="" alt="...">
+                    <img src="{{asset('front/images/proeqti2.jpg') }}" class="" alt="...">
                   </div>
 
-                  <div class="event-1-logo">
-                    <img src="{{asset('front/images/event-1-logo.png') }}" class="" alt="...">
-                  </div>
+                  
 
                 </div>
 
