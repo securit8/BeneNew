@@ -84,7 +84,7 @@
 
           <div class="academy-text-section">
               <div class="academy-title">
-                  <p>@lang('front.index-academy')</p>
+                 
               </div>
 
               <div class="academy-text">
@@ -108,9 +108,7 @@
 
                 <div class="academy-anything-else-info">
                     <div class="anything-else-title">
-                        <p>
-                        @lang('front.index-academy')
-                        </p>
+                        
                     </div>
 
                     <div class="anyghing-else-text">
@@ -132,7 +130,7 @@
 
 
 
-<div class="academy-part-3">
+<!-- <div class="academy-part-3">
     <div class="academy-part-3-middle">
         <div class="academy-part-3-inner">
 
@@ -167,7 +165,7 @@
 
         </div>
     </div>
-</div>
+</div> -->
 
 
 
