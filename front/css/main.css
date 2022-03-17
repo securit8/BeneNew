@@ -671,7 +671,7 @@ padding-bottom: 15%;
   font-weight: 700;
   margin-bottom: 0.5rem;
   font-style: normal;
-  font-size: 26px;
+  font-size: 18px;
   font-family: Montserrat;
   color: #060D0D;
   }
@@ -739,7 +739,7 @@ color: rgba(6, 13, 13, 1);
 
 
 .about-us-video embed{
-  width: 485px;
+  width: 500px;
   height: 311px;
 }
 
