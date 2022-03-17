@@ -5,7 +5,7 @@ return [
   'about' => 'About Bene',
   'news' => 'Newsroom',
   'fleet' => 'Fleet',
-  'rent' => 'Car-Hire',
+  'rent' => 'Car Hire',
   'academy' => 'Academy',
   'taxi' => 'Taxi',
   'partners' => 'Partners',

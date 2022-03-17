@@ -161,11 +161,11 @@
     <div class="part-1-inner">
         <div class="index-about-us-info">
           <div class="index-about-us-header">
-            <p>ABOUT US</p>
+
           </div>
 
           <div class="index-about-us-title">
-            <p>BENE EXCLUSIVE</p>
+            <p>ABOUT US</p>
           </div>
 
           <div class="index-about-us-text">

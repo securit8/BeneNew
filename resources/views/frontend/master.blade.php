@@ -36,6 +36,8 @@
       <div class ="nav-line"><p>|</p></div>
       <div class="electric {{Request::is('electric') ? 'current' : ''}}"><a href="{{route('frontend.electric')}}"><img src="{{asset('front/images/electro-logo.png')}}">@lang('front.electric')</a></div>
       <div class ="nav-line"><p>|</p></div>
+      <div class="motors {{Request::is('motors') ? 'current' : ''}}"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
+      <div class ="nav-line"><p>|</p></div>
       <div class="rent {{Request::is('rent') ? 'current' : ''}}"><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></div>
       <div class ="nav-line"><p>|</p></div>
       <div class="academy {{Request::is('academy') ? 'current' : ''}}"><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></div>
@@ -45,8 +47,7 @@
       <div class="events {{Request::is('events') ? 'current' : ''}}"><a href="{{route('frontend.events')}}">@lang('front.events')</a></div>
       <div class ="nav-line"><p>|</p></div>
       <div class="partners {{Request::is('partners') ? 'current' : ''}}"><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></div>
-      <div class ="nav-line"><p>|</p></div>
-      <div class="motors {{Request::is('motors') ? 'current' : ''}}"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
+
       <div class="contact {{Request::is('contact') ? 'current' : ''}}"><a href="{{route('frontend.contact')}}"><img src="{{asset('front/images/headphones.png')}}" >@lang('front.contact')</a></div>
     </div>
 
