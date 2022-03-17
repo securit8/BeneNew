@@ -625,12 +625,7 @@
                 </div>
 
                 <div class="index-academy-text">
-                  <p> The new training course at Bene Academy starts on November 10th.<br>
-                      Applicants will undergo both theoretical and practical training.<br>
-                      The cost of the theoretical course is 400GEL, while the practical course is 600GEL.<br>
-                      Join us, there are only 3 places left.<br>
-                      For information, inforamtion about you (name, surname, phone number, e-mail) is published at reservations@bene-exclusive.com 
-                      In the subject field, enter "Drivers' School". Our manager will contact you the most and talk to select motivated participants.</p>
+                  <p> @lang('front.academy-part-1')</p>
                 </div>
 
                 <div class="index-academy-button">
