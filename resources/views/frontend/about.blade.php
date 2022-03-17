@@ -40,7 +40,7 @@
         </div>
 
         <div class="home-about-us-video">
-          <embed src="https://www.youtube.com/embed/W7vWuPWh4-Y?autoplay=1&mute=1" frameborder="0"></embed>
+          <img src="{{asset('front/images/about-image-1.jpg')}}" alt="">
         </div>
     </div>
   </div>
@@ -73,7 +73,7 @@
 
                     <div class="about-page-events-info">
                         <p>
-                         @lang('front.about-events')
+                         @lang('front.about-us-text-2')
                         </p>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
 
 
 
-<div class="about-page-part-3">
+<!-- <div class="about-page-part-3">
     <div class="about-page-part-3-middle">
         <div class="about-page-part-3-inner">
 
@@ -121,7 +121,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="about-news-part-2">
   <div class="about-news-part-2-middle">
