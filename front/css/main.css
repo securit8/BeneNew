@@ -201,7 +201,7 @@ padding-left: -20!important;
 
 .contact-logo-info{
   display: grid;
-  grid-template-columns: repeat(30, 1fr);
+  grid-template-columns: repeat(40, 1fr);
 }
 
 .contact-info-logo, .contact-slogan{
@@ -214,11 +214,11 @@ padding-left: -20!important;
 }
 
 .contact-info-logo img{
-  width: 20%;
+  width: 23%;
 }
 
 .contact-slogan{
-  grid-column: 5 / 30;
+  grid-column: 5 / 40;
 }
 
 .contact-slogan p{
@@ -233,7 +233,7 @@ padding-left: -20!important;
   padding-bottom: 2rem;
   width: 40%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .social-icons1 i{
@@ -245,6 +245,8 @@ width: 120%;
   transition: 0.3s;
   color: #00adef;
 }
+
+
 
 
 

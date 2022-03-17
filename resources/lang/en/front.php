@@ -11,7 +11,7 @@ return [
   'partners' => 'Partners',
   'contact' => 'Contact',
   'motors' => 'Bene Motors',
-  'call-center' => 'CALL CENTER: +995 32 2 052 100',
+  'call-center' => 'CALL CENTER: (+995 32) 2052 100',
   'services' => 'Services',
   'copyright' => 'All Rights Reserved',
   'electric' => 'Electric',

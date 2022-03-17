@@ -101,7 +101,7 @@
         <div class="our-social-meida">
           <div class="footer-social-icons">
             <div class="social-icons1">
-              <i class="fab fa-facebook-f fa-lg"></i>
+            <i class="fa-brands fa-facebook fa-lg"></i>
               <i class="fab fa-instagram fa-lg"></i>
               <i class="fa-brands fa-youtube fa-lg"></i>
               <i class="fab fa-linkedin fa-lg"></i>

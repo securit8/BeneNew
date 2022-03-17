@@ -70,13 +70,7 @@
 
             <div class="academy-image-outer">
             <div class="academy-image">
-              <div class="academy-background-image">
-              <img src="{{asset('front/images/academy-background.png') }}" alt="">
-              </div>
-
-              <div class="academy-logo-image">
-              <img src="{{asset('front/images/academy-logo.png') }}" alt="">
-              </div>
+              <embed src="https://www.youtube.com/embed/YymUYNEjgJ0autoplay=1&mute=1" type="">
 
             </div>
           </div>
