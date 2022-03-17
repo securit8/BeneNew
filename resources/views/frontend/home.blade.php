@@ -726,9 +726,9 @@
                   </div>
 
                 </div>
-              <img src="{{asset('front/images/event-2.png') }}" class="d-block w-100" alt="...">   
+              <img src="{{asset('front/images/proeqti3.jpg') }}" class="d-block w-100" alt="...">   
 
-              <img src="{{asset('front/images/event-3.png') }}" class="d-block w-100" alt="...">
+              <img src="{{asset('front/images/proeqti4.jpg') }}" class="d-block w-100" alt="...">
             </div>
               </div>
 
@@ -744,7 +744,7 @@
                   </div>
 
                 </div>
-              <img src="{{asset('front/images/event-2.png') }}" class="d-block w-100" alt="...">   
+              <img src="{{asset('front/images/proeqti5.jpg') }}" class="d-block w-100" alt="...">   
 
               <img src="{{asset('front/images/event-3.png') }}" class="d-block w-100" alt="...">
             </div>
