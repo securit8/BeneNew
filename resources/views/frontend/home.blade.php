@@ -40,10 +40,10 @@
         </div>
       
         <div class="index-slogan">
-           <div class="who-we-are"><p>We are Bene-Exclusive.</p></div>
+           <div class="who-we-are"><p>@lang('front.carousel-academy')</p></div>
           <div class="slogan-button">
           <button>
-            <a href="{{route('frontend.about')}}">
+            <a href="{{route('frontend.academy')}}">
             <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </a>
@@ -68,7 +68,7 @@
       </div>
       
       <div class="index-slogan">
-         <div class="who-we-are"><p>Bene Fleet.</p></div>
+         <div class="who-we-are"><p>@lang('front.carousel-fleet')</p></div>
         <div class="slogan-button">
           <button>
             <a href="{{route('frontend.fleet')}}">
@@ -94,7 +94,7 @@
       </div>
       
       <div class="index-slogan">
-         <div class="who-we-are"><p>Bene Motors.</p></div>
+         <div class="who-we-are"><p>@lang('front.bene-motors')</p></div>
         <div class="slogan-button">
           <button>
             <a href="{{route('frontend.motors')}}">

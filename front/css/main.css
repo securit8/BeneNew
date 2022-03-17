@@ -596,12 +596,12 @@ padding-bottom: 15%;
 .who-we-are{
   font-size: 23px;
   font-family: Montserrat;
- font-weight: 600;
+ font-weight: 400;
   color: rgba(255, 255, 255, 1);
 }
 
 .who-we-are p{
-  margin-bottom: 0.7rem;
+  margin-bottom: 2rem;
 }
 
 .our-motto{

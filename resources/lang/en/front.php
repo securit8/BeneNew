@@ -21,7 +21,8 @@ return [
 
 
 // index
-
+'carousel-academy' =>'BENE ACADEMY',
+'carousel-fleet' => 'FLEET',
 'index-about' => 'ABOUT US',
 'index-about-text' => '"Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group". Initially, the services of our company were limited to premium class vehicles, however today "Bene-Exclusive" represents a multi-profile companu. Car renting as well as orginizing of Business Projects and Events have been added to our list of services.',
 'index-taxi-text' => '90% of our fleet is electric vehicles with zero emissions. We have fixed prices guaranteed. You can pay with us at the cash desk, or by card, both at the box office and directly with the driver. Airport taxi is available 24/7
@@ -61,13 +62,14 @@ return [
                      ',
 
   // academy page
+
   'academy-part-1' => 'სტუმრების უსაფრთხო და კომფორტულ გადაადგილებაში გადამწყვეტ როლს მძღოლის გამოცდილება და მაღალი კვალიფიკაცია თამაშობს. მგზავრებს დაცულობისა და სანდოობის განცდას უქმნის და მათ მოგზაურობას დადებითი ემოციებით ავსებს მაღალხარისხიანი მომსახურება.<br><br> 
   ბაზრის ანალიზი დღეს ტრანსპორტით მომსახურების სფეროში კვალიფიციური კადრების სიმცირეს ადასტურებს. სწორედ ამიტომ შევქმენით ახალი პროექტი - ბენე აკადემია, რომლის მიზანია, მოამზადოს მძღოლები და გააცნოს დარგში არსებული თანამედროვე სტანდარტები.',
 
 'academy-part-2' => 'სასწავლო პროგრამა მოიცავს თეორიულ სწავლებასა და პრაქტიკულ ნაწილს - უცხო ენის ინტენსიურ კურსს, ექსტრემალურ სიტუაციებში მართვისა და მოქმედების წესების, უსაფრთხოების, ეტიკეტისა და მრავალი სხვა აუცილებელი უნარ-ჩვევის დაუფლებას, რაც დაეხმარება მძღოლს პროფესიონალიზმის ამაღლებაში.<br><br>
   სწავლების დასასრულს ყველა მონაწილეს ნაჩვენები შედეგების მიხედვით გადაეცემა შესაბამისი  სერტიფიკატი და მიეცემა საშუალება, დასაქმდეს მძღოლის პოზიციაზე ბენე ექსკლუზივში.',
 
-  
+
    // contact page
    'contact-header' => 'Contact Information',
    'input-name' => 'Name',
@@ -86,6 +88,12 @@ return [
                       ჩვენ ტაქსით მომსახურებისას ვიყენებთ ძირითადად ელექტრომობილებს, გვაქვს ფიქსირებული ტარიფები, აღრიცხვის და დაჯავშნის ერთიანი სისტემა, მგზავრობა კი სანდო და უსაფრთხოა.<br><br>
                       აეროპორტის ტაქსის გარდა, ჩვენ კორპორატიულ კლიენტებსაც ვთავაზობთ ტაქსით მომსახურებას როგორც თბილისის, ასევე მთელი საქართველოს მასშტაბით ქოლ ცენტრისა და სპეციალური აპლიკაციის საშუალებით.',
 
+
+
+
+// bene motors
+
+'bene-motors' => 'BENE MOTORS',
 
 
 ];
