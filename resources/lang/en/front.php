@@ -16,17 +16,20 @@ return [
   'copyright' => 'All Rights Reserved',
   'electric' => 'Electric',
   'events' => 'Events',
+  'show-more' => 'Show More',
 
 
 
 // index
 
-'index-about' => 'About Us',
+'index-about' => 'ABOUT US',
 'index-about-text' => '"Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group". Initially, the services of our company were limited to premium class vehicles, however today "Bene-Exclusive" represents a multi-profile companu. Car renting as well as orginizing of Business Projects and Events have been added to our list of services.',
 'index-taxi' => '90% of our fleet is electric vehicles with zero emissions. We have fixed prices guaranteed. You can pay with us at the cash desk, or by card, both at the box office and directly with the driver. Airport taxi is available 24/7
                 Taxis are available from the airport to the city, as well as from anywhere in Tbilisi to the airport Our vehicles have a large luggage compartment, which ensures comfortable transportation We offer the latest models of sedans and minivans - Tesla, Mercedes-Benz, Changan and Toyota',
 
 
+'index-academy' => 'ACADEMY',
+'newsroom' => 'NEWSROOM',
 
 
 // home page

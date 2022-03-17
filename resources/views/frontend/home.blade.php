@@ -45,7 +45,7 @@
           <div class="slogan-button">
           <button>
             <a href="{{route('frontend.about')}}">
-            <p>See more</p>
+            <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </a>
           </button>
@@ -74,7 +74,7 @@
         <div class="slogan-button">
           <button>
             <a href="{{route('frontend.fleet')}}">
-            <p>See more</p>
+            <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </a>
         </button>
@@ -101,7 +101,7 @@
         <div class="slogan-button">
           <button>
             <a href="{{route('frontend.motors')}}">
-            <p>See more</p>
+            <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </a>
         </button>
@@ -132,7 +132,7 @@
         <div class="slogan-button">
           <button>
             <a href="{{route('frontend.events')}}">
-            <p>See more</p>
+            <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </a>
         </button>
@@ -165,7 +165,7 @@
           </div>
 
           <div class="index-about-us-title">
-            <p>ABOUT US</p>
+            <p>@lang('front.index-about')</p>
           </div>
 
           <div class="index-about-us-text">
@@ -177,7 +177,7 @@
           <div class="index-about-us-button">
               <button>
               <a href="{{route('frontend.about')}}">
-              <p>See more</p>
+              <p>@lang('front.show-more')</p>
               <img src="{{asset('front/images/arrow-right.png') }}" alt="">
               </a>
               </button>
@@ -198,13 +198,13 @@
     <div class="index-part-2-inner">
       <div class="index-news-header">
         <div class="index-news-header-title">
-          <p>NEWSROOM</p>
+          <p>@lang('front.newsroom')</p>
         </div>
 
         <div class="see-all-button">
           <button>
             <a href="{{route('frontend.news')}}">
-            <p>See All</p>
+            <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/blue-short-arrow.png') }}" alt="">
             </a>
           </button>
@@ -330,7 +330,7 @@
 
         <div class="see-autopark-all-button">
           <button>
-            <p>See all</p>
+            <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/blue-short-arrow.png') }}" alt="">
           </button>
         </div>
@@ -472,7 +472,7 @@
 
         <div class="see-all-button-rent">
           <button>
-            <p>See all</p>
+            <p>@lang('front.show-more')</p>
             <i class="fas fa-arrow-right"></i>
           </button>
         </div>
@@ -621,7 +621,7 @@
               <div class="home-academy-text">
 
                 <div class="index-academy-title">
-                  <p>ACADEMY</p>
+                  <p>@lang('front.index-academy')</p>
                 </div>
 
                 <div class="index-academy-text">
@@ -631,7 +631,7 @@
                 <div class="index-academy-button">
                     <button>
                       <a href="{{route('frontend.academy')}}">
-                      <p>See more</p>
+                      <p>@lang('front.show-more')</p>
                         <img src="{{asset('front/images/arrow-right.png') }}" alt=""> 
                       </a>
                     </button>
