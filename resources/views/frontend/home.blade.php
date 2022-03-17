@@ -36,14 +36,14 @@
         </div>
 
         <div class="carousel-part1-shader">
-          <img src="{{asset('front/images/index-part1-backround.png') }}" alt="">
+          <img src="{{asset('front/images/home-carousel-slider-new.jpg') }}" alt="">
         </div>
       
         <div class="index-slogan">
-           <div class="who-we-are"><p>@lang('front.carousel-academy')</p></div>
+           <div class="who-we-are"><p>@lang('front.carousel-fleet')</p></div>
           <div class="slogan-button">
           <button>
-            <a href="{{route('frontend.academy')}}">
+            <a href="{{route('frontend.fleet')}}">
             <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </a>
@@ -60,7 +60,7 @@
     <div class="index-part1-carousel-inner">
 
         <div class="carousel-part1-backgound">
-      <img src="{{asset('front/images/home-carousel-slider-new.jpg') }}" class="d-block w-100" alt="...">
+      <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
         </div>
 
         <div class="carousel-part1-shader">
@@ -68,10 +68,10 @@
       </div>
       
       <div class="index-slogan">
-         <div class="who-we-are"><p>@lang('front.carousel-fleet')</p></div>
+         <div class="who-we-are"><p>@lang('front.carousel-academy')</p></div>
         <div class="slogan-button">
           <button>
-            <a href="{{route('frontend.fleet')}}">
+            <a href="{{route('frontend.academy')}}">
             <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </a>
@@ -86,7 +86,7 @@
     <div class="index-part1-carousel-inner">
 
         <div class="carousel-part1-backgound">
-      <img src="{{asset('front/images/home-carousel-image-2.jpg') }}" class="d-block w-100" alt="...">
+      <img src="{{asset('front/images/home-background-4.png') }}" class="d-block w-100" alt="...">
         </div>
 
         <div class="carousel-part1-shader">
@@ -94,10 +94,10 @@
       </div>
       
       <div class="index-slogan">
-         <div class="who-we-are"><p>@lang('front.bene-motors')</p></div>
+         <div class="who-we-are"><p>@lang('front.carousel-events')</p></div>
         <div class="slogan-button">
           <button>
-            <a href="{{route('frontend.motors')}}">
+            <a href="{{route('frontend.events')}}">
             <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </a>
@@ -116,7 +116,7 @@
       <div class="index-part1-carousel-inner">
         
       <div class="carousel-part1-backgound">
-        <img src="{{asset('front/images/home-background-4.png') }}" class="d-block w-100"alt="">
+        <img src="{{asset('front/images/home-carousel-image-2.jpg') }}" class="d-block w-100"alt="">
       </div>
 
       <div class="carousel-part1-shader">
@@ -124,10 +124,10 @@
       </div>
       
       <div class="index-slogan">
-         <div class="who-we-are"><p>Mercedes-Benz Business Week.</p></div>
+         <div class="who-we-are"><p>@lang('front.bene-motors')</p></div>
         <div class="slogan-button">
           <button>
-            <a href="{{route('frontend.events')}}">
+            <a href="{{route('frontend.motors')}}">
             <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </a>

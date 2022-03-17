@@ -23,6 +23,7 @@ return [
 // index
 'carousel-academy' =>'BENE ACADEMY',
 'carousel-fleet' => 'FLEET',
+'carousel-events' => 'EVENTS',
 'index-about' => 'ABOUT US',
 'index-about-text' => '"Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group". Initially, the services of our company were limited to premium class vehicles, however today "Bene-Exclusive" represents a multi-profile companu. Car renting as well as orginizing of Business Projects and Events have been added to our list of services.',
 'index-taxi-text' => '90% of our fleet is electric vehicles with zero emissions. We have fixed prices guaranteed. You can pay with us at the cash desk, or by card, both at the box office and directly with the driver. Airport taxi is available 24/7
