@@ -684,7 +684,7 @@ width:60%;
 }
 
 .index-about-us-text{
-margin-bottom: 2rem;
+margin-bottom: 1rem;
 width:95%;
 font-size: 13px;
 line-height: 24px;
@@ -1292,7 +1292,6 @@ margin-top: 0.5rem;
 margin-bottom: 0.5rem;
 font-family:  Montserrat;
 font-size: 12px;
-font-weight: 700;
 }
 
 .index-taxi-button i{
