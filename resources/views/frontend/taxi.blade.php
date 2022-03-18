@@ -102,21 +102,18 @@
 
 
 
-<!-- <div class="about-page-part-2">
+<div class="about-page-part-2">
     <div class="about-page-part-2-middle">
         <div class="about-page-part-2-inner">
             <div class="about-page-events">
 
                 <div class="about-page-events-picture">
-                    <img src="{{asset('front/images/viber-image-taxi-page-2.jpg') }}" alt="">
+                    <img src="{{asset('front/images/taxi-image-part-2.jpg') }}" alt="">
                 </div>
 
 
                 <div class="about-page-events-text">
                     <div class="about-page-company-name">
-                        <p>
-                            BENE EXCLUSIVE
-                        </p>
                     </div>
 
                     <div class="about-page-events-title">
@@ -134,7 +131,7 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
 
 
