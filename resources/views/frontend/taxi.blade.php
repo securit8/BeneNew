@@ -107,7 +107,7 @@
         <div class="about-page-part-2-inner">
             <div class="about-page-events">
 
-                <div class="about-page-events-picture">
+                <div class="taxi-page-events-picture">
                     <img src="{{asset('front/images/taxi-image-part-2.jpg') }}" alt="">
                 </div>
 
