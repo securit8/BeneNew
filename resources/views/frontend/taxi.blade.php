@@ -7,15 +7,7 @@
 @endsection
 
 @section('footer')
-<div class="taxi-page-header">
-    <div class="taxi-page-header-middle">
-        <div class="taxi-page-header-inner">
-            <div class="taxi-page-header-title">
-                <p>@lang('front.front-taxi')</p>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 
 
@@ -70,6 +62,16 @@
 </div>
 
 
+<div class="taxi-page-header">
+    <div class="taxi-page-header-middle">
+        <div class="taxi-page-header-inner">
+            <div class="taxi-page-header-title">
+                <p>@lang('front.front-taxi')</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="taxi-part-1">
   <div class="taxi-part-1-middle">
     <div class="taxi-part-1-inner">
@@ -92,7 +94,7 @@
         </div>
 
         <div class="taxi-about-us-video">
-          <img src="{{asset('front/images/taxi/ფოტო-6.png')}}" alt="">
+          <img src="{{asset('front/images/taxi-image-part-1.jpg')}}" alt="">
         </div>
     </div>
   </div>

@@ -32,11 +32,11 @@
       <div class="index-part1-carousel-inner">
 
         <div class="carousel-part1-backgound">
-          <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
+          <img src="{{asset('front/images/ფოტო.png') }}" class="d-block w-100" alt="...">
         </div>
 
         <div class="carousel-part1-shader">
-          <img src="{{asset('front/images/home-carousel-slider-new.jpg') }}" alt="">
+          <img src="{{asset('front/images/index-part1-backround.png') }}" alt="">
         </div>
       
         <div class="index-slogan">
