@@ -74,7 +74,7 @@
 
             <div class="academy-image-outer">
             <div class="academy-image">
-              <embed src="https://www.youtube.com/embed/YymUYNEjgJ0autoplay=1&mute=1" type="">
+              <embed src="https://www.youtube.com/embed/YymUYNEjgJ0?autoplay=1&mute=1" type="">
 
             </div>
           </div>

@@ -1170,6 +1170,11 @@ background-color: rgba(252, 252, 253, 0.02);
  grid-row: 1;
 }
 
+.academy-image embed{
+  width: 450px;
+  height: 270px;
+}
+
 .academy-background-image{
  grid-column: 1 / 6;
 }

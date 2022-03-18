@@ -94,7 +94,7 @@
         </div>
 
         <div class="taxi-about-us-video">
-          <img src="{{asset('front/images/taxi-image-part-1.jpg')}}" alt="">
+          <img src="{{asset('front/images/taxi/ფოტო-6.png')}}" alt="">
         </div>
     </div>
   </div>
