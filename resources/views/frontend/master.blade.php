@@ -101,10 +101,10 @@
         <div class="our-social-meida">
           <div class="footer-social-icons">
             <div class="social-icons1">
-            <i class="fa-brands fa-facebook fa-lg"></i>
-              <i class="fab fa-instagram fa-lg"></i>
-              <i class="fa-brands fa-youtube fa-lg"></i>
-              <i class="fab fa-linkedin fa-lg"></i>
+              <a href="https://www.facebook.com/beneexclusive"><i class="fa-brands fa-facebook fa-lg"></i></a>
+              <a href="https://www.instagram.com/beneexclusive/"><i class="fab fa-instagram fa-lg"></i></a>
+              <a href="https://www.youtube.com/channel/UCJRjBx9nvcjHrd8JNDeLpvQ"><i class="fa-brands fa-youtube fa-lg"></i></a>
+              <a href="https://www.linkedin.com/company/bene-exclusive/"><i class="fab fa-linkedin fa-lg"></i></a>
            </div>
 
     
