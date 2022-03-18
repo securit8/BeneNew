@@ -116,7 +116,7 @@
       <div class="index-part1-carousel-inner">
         
       <div class="carousel-part1-backgound">
-        <img src="{{asset('front/images/home-carousel-image-2.jpg') }}" class="d-block w-100"alt="">
+        <img src="{{asset('front/images/home-carousel-image-2.png') }}" class="d-block w-100"alt="">
       </div>
 
       <div class="carousel-part1-shader">
