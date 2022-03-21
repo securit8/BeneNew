@@ -788,7 +788,7 @@
 <div class="index-part-8">
   <div class="part-8-middle">
     <div class="part-8-inner">
-      <div class="index-partners-header"><p>@lang('front.index-partners')</p></div>
+      
 
       <div class="index-partners-logo">
         <div class="logo-pocket">
@@ -846,7 +846,7 @@
 
       </div>
 
-        <div class="index-partners-logo">
+        <div class="index-partners-logo" id="logo-last-line">
           <div class="logo-pocket">
             <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/11.png') }}" alt=""></div>        
             <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/11.png') }}" alt=""></div>
@@ -874,60 +874,7 @@
       </div>
 
 
-      <div class="index-partners-logo">
-          <div class="logo-pocket">
-            <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/16.png') }}" alt=""></div>        
-            <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/16.png') }}" alt=""></div>
-          </div>
-
-          <div class="logo-pocket">
-            <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/17.png') }}" alt=""></div>        
-            <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/17.png') }}" alt=""></div>
-          </div>
-
-          <div class="logo-pocket">
-            <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/18.png') }}" alt=""></div>        
-            <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/18.png') }}" alt=""></div>
-          </div>
-
-          <div class="logo-pocket">
-            <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/19.png') }}" alt=""></div>        
-            <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/19.png') }}" alt=""></div>
-          </div>
-
-          <div class="logo-pocket">
-            <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/20.png') }}" alt=""></div>        
-            <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/20.png') }}" alt=""></div>
-          </div>
-      </div>
-
-
-      <div class="index-partners-logo" id="logo-last-line">
-          <div class="logo-pocket">
-            <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/21.png') }}" alt=""></div>        
-            <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/21.png') }}" alt=""></div>
-          </div>
-
-          <div class="logo-pocket">
-            <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/22.png') }}" alt=""></div>        
-            <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/22.png') }}" alt=""></div>
-          </div>
-
-          <div class="logo-pocket">
-            <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/23.png') }}" alt=""></div>        
-            <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/23.png') }}" alt=""></div>
-          </div>
-
-          <div class="logo-pocket">
-            <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/24.png') }}" alt=""></div>        
-            <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/24.png') }}" alt=""></div>
-          </div>
-
-          <div class="logo-pocket">
-            <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/25.png') }}" alt=""></div>        
-            <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/25.png') }}" alt=""></div>
-          </div>
-      </div>
+      
 
     </div>
   </div>

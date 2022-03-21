@@ -40,7 +40,7 @@
         </div>
 
         <div class="home-about-us-video">
-          <img src="{{asset('front/images/about-image-1.jpg')}}" alt="">
+          <img src="{{asset('front/images/abolut.jpg')}}" alt="">
         </div>
     </div>
   </div>
@@ -244,21 +244,6 @@
 </div>
 
 
-<div class="index-part-8">
-  <div class="part-8-middle">
-    <div class="part-8-inner">
-      <div class="index-partners-header"><p>PARTNERS</p></div>
 
-      <div class="index-partners-logo">
-        <div><img src="{{asset('front/images/partners-logo-2.png') }}" alt=""></div>
-        <div><img src="{{asset('front/images/partners-logo-1.png') }}" alt=""></div>
-        <div><img src="{{asset('front/images/partners-logo-2.png') }}" alt=""></div>
-        <div><img src="{{asset('front/images/partners-logo-1.png') }}" alt=""></div>
-        <div><img src="{{asset('front/images/partners-logo-2.png') }}" alt=""></div>
-        <div><img src="{{asset('front/images/partners-logo-1.png') }}" alt=""></div>
-      </div>
-    </div>
-  </div>
-</div>
 
 @endsection

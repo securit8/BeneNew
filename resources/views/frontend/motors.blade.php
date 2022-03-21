@@ -1,7 +1,7 @@
 
 @extends('frontend/master')
 
-@section('title', 'Academy')
+@section('title', 'Bene-Motors')
 @section('content')
 
 
@@ -12,7 +12,7 @@
     <div class="academy-page-header-middle">
         <div class="academy-page-header-inner">
             <div class="academy-page-header-title">
-                <p>BENE MOTORS</p>
+                <p>@lang('front.motors')</p>
             </div>
         </div>
     </div>
@@ -40,7 +40,7 @@
 
           <div class="academy-text-section">
               <div class="academy-title">
-                  <p>ACADEMY</p>
+                 
               </div>
 
               <div class="academy-text">
@@ -133,22 +133,6 @@
 
 
 
-<div class="index-part-8">
-  <div class="part-8-middle">
-    <div class="part-8-inner">
-      <div class="index-partners-header"><p>PARTNERS</p></div>
-
-      <div class="index-partners-logo">
-        <div><img src="{{asset('front/images/partners-logo-2.png') }}" alt=""></div>
-        <div><img src="{{asset('front/images/partners-logo-1.png') }}" alt=""></div>
-        <div><img src="{{asset('front/images/partners-logo-2.png') }}" alt=""></div>
-        <div><img src="{{asset('front/images/partners-logo-1.png') }}" alt=""></div>
-        <div><img src="{{asset('front/images/partners-logo-2.png') }}" alt=""></div>
-        <div><img src="{{asset('front/images/partners-logo-1.png') }}" alt=""></div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 
