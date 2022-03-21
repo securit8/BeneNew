@@ -763,13 +763,20 @@
           </div>
         </div>
       </div> -->
-
-      <div class="container">
-          <div class="box">
-
-          </div>
+      
+      <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="{{asset('front/images/proeqti1.jpg')}}" alt=""></div>
+        <div class="swiper-slide"><img src="{{asset('front/images/proeqti2.jpg')}}" alt=""></div>
+        <div class="swiper-slide"><img src="{{asset('front/images/proeqti3.jpg')}}" alt=""></div>
+        <div class="swiper-slide"><img src="{{asset('front/images/proeqti4.jpg')}}" alt=""></div>
+        <div class="swiper-slide"><img src="{{asset('front/images/proeqti5.jpg')}}" alt=""></div>
+       
       </div>
-
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+      </div>
 
 
     </div>
@@ -925,6 +932,10 @@
     </div>
   </div>
 </div>
+
+
+
+
 
 <script>
 window.addEventListener('scroll', reveal);
