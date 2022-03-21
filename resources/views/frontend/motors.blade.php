@@ -1,12 +1,4 @@
-@extends('frontend/master')
 
-@section('title', 'Bene-Motors')
-@section('content')
-
-
-@endsection
-
-@section('footer')
 @extends('frontend/master')
 
 @section('title', 'Academy')
@@ -157,11 +149,6 @@
     </div>
   </div>
 </div>
-
-
-@endsection
-
-
 
 
 
