@@ -3818,14 +3818,14 @@ border: 1px solid rgb(126 126 126 / 7%);
 /* taxi page */
 
 .taxi-page-header {
-  background-color:rgba(16, 22, 22, 1);
+  background-color:rgba(255, 255, 255, 1);
   padding-bottom: 0.5rem;
   text-align: center;
 }
 
 .taxi-page-header-title{
 padding-top: 1.5rem;
-color:rgba(252, 252, 253, 1);
+color:rgba(16, 22, 22, 1);
 font-weight: 700;
 font-family:Montserrat;
 }
@@ -3875,6 +3875,7 @@ grid-column: 1 / 15;
 
 
 .taxi-about-us-text{
+  padding-top: 4vh;
 font-family: Montserrat;
 margin-bottom: 2rem;
 width:100%;

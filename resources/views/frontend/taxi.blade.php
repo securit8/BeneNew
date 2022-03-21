@@ -78,13 +78,12 @@
         <div class="taxi-about-us-info">
           
 
-          <div class="taxi-about-us-title">
-            <p>BENE EXCLUSIVE</p>
-          </div>
+         
 
           <div class="taxi-about-us-text">
             <p>
               @lang('front.taxi-page-text-1')
+              @lang('front.taxi-page-text-2')
             </p>
 
           </div>
@@ -94,7 +93,7 @@
         </div>
 
         <div class="taxi-about-us-video">
-          <img src="{{asset('front/images/taxi/ფოტო-6.png')}}" alt="">
+          <img src="{{asset('front/images/taxi/taxi1.jpg')}}" alt="">
         </div>
     </div>
   </div>
@@ -102,36 +101,6 @@
 
 
 
-<div class="about-page-part-2">
-    <div class="about-page-part-2-middle">
-        <div class="about-page-part-2-inner">
-            <div class="about-page-events">
-
-                <div class="taxi-page-events-picture">
-                    <img src="{{asset('front/images/taxi-image-part-2.jpg') }}" alt="">
-                </div>
-
-
-                <div class="about-page-events-text">
-                    <div class="about-page-company-name">
-                    </div>
-
-                    <div class="about-page-events-title">
-                        <p>
-                            EVENTS
-                        </p>
-                    </div>
-
-                    <div class="about-page-events-info">
-                        <p>
-                         @lang('front.taxi-page-text-2')
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
