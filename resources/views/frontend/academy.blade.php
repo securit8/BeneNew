@@ -20,17 +20,17 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/ფოტო-4.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/academy/3.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/ფოტო-2.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/academy/1.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/ფოტო-1.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/academy/4.jpg')}}" class="" alt="...">
     </div>
 
 
@@ -118,7 +118,7 @@
                 </div>
 
                 <div class="anything-else-image">
-                    <img src="{{asset('front/images/ფოტო-3.png') }}" alt="">
+                    <img src="{{asset('front/images/academy/2.jpg') }}" alt="">
                 </div>
             </div>
 

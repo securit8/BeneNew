@@ -2391,7 +2391,7 @@ grid-row: 1 / 2;
 
 .element-info-header{
   display: flex;
-  padding-top: 7rem;
+  padding-top: 10vh;
 }
 
 .element-info-header img{

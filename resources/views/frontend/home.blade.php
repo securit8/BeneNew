@@ -32,7 +32,7 @@
       <div class="index-part1-carousel-inner">
 
         <div class="carousel-part1-backgound">
-          <img src="{{asset('front/images/ფოტო.png') }}" class="d-block w-100" alt="...">
+          <img src="{{asset('front/images/5.jpg') }}" class="d-block w-100" alt="...">
         </div>
 
         <div class="carousel-part1-shader">
@@ -60,7 +60,7 @@
     <div class="index-part1-carousel-inner">
 
         <div class="carousel-part1-backgound">
-      <img src="{{asset('front/images/home-background-1.png') }}" class="d-block w-100" alt="...">
+      <img src="{{asset('front/images/1.jpg') }}" class="d-block w-100" alt="...">
         </div>
 
         <div class="carousel-part1-shader">
@@ -86,7 +86,7 @@
     <div class="index-part1-carousel-inner">
 
         <div class="carousel-part1-backgound">
-      <img src="{{asset('front/images/home-background-4.png') }}" class="d-block w-100" alt="...">
+      <img src="{{asset('front/images/2.jpg') }}" class="d-block w-100" alt="...">
         </div>
 
         <div class="carousel-part1-shader">
@@ -116,7 +116,7 @@
       <div class="index-part1-carousel-inner">
         
       <div class="carousel-part1-backgound">
-        <img src="{{asset('front/images/home-carousel-image-2.png') }}" class="d-block w-100"alt="">
+        <img src="{{asset('front/images/4.jpg') }}" class="d-block w-100"alt="">
       </div>
 
       <div class="carousel-part1-shader">
@@ -667,7 +667,7 @@
         </div>
 
         <div class="index-taxi-image">
-          <img src="{{asset('front/images/viber-image-index-taxi.jpg') }}" alt="">
+          <img src="{{asset('front/images/taxi/taxi.png') }}" alt="">
         </div>
     </div>
   </div>
