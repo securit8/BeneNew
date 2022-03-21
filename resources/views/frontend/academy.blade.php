@@ -30,7 +30,7 @@
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/academy/4.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/academy/2.jpg')}}" class="" alt="...">
     </div>
 
 
@@ -118,7 +118,7 @@
                 </div>
 
                 <div class="anything-else-image">
-                    <img src="{{asset('front/images/academy/2.jpg') }}" alt="">
+                    <img src="{{asset('front/images/academy/5.jpg') }}" alt="">
                 </div>
             </div>
 
