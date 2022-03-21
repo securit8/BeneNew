@@ -604,12 +604,10 @@
           <div class="academy-image-outer">
             <div class="academy-image">
               <div class="academy-background-image">
-              <img src="{{asset('front/images/academy-background.png') }}" alt="">
+              <img src="{{asset('front/images/academy/5.jpg') }}" alt="">
               </div>
 
-              <div class="academy-logo-image">
-              <img src="{{asset('front/images/academy-logo.png') }}" alt="">
-              </div>
+             
 
             </div>
           </div>
