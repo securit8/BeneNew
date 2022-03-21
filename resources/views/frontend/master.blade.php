@@ -240,18 +240,6 @@
 </script>
 
 
-<!-- <script>
-  const language = document.getElementById('changelang');
-  const change = document.getElementById('langbtn');
-
-  language.addEventListener('click', () => {
-    change.classList.toggle('display');
-  });
-</script> -->
-
-
-
-
 
 <script>
 window.addEventListener('scroll', Reveal);
