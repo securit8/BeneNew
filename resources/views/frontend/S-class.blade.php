@@ -202,14 +202,7 @@
 
 
 
-<script>
-  const arrow = document.getElementById('arrow-down');
-  const drop = document.getElementById('spec-sheet');
 
-  arrow.addEventListener('click', () => {
-    drop.classList.toggle('display');
-  });
-</script>
 
 
 

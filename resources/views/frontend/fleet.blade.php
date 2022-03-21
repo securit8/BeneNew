@@ -989,26 +989,5 @@
     </div>
 </div>
 
-<script>
-window.addEventListener('scroll', Reveal);
 
-function Reveal(){
-let  reveal = document.querySelectorAll('.reveal');
-
-for(var i = 0; i < reveal.length; i++){
-  var windowheight = window.innerHeight;
-  var revealtop = reveal[i].getBoundingClientRect().top;
-  var revealpoint = 70;
-
-  if(revealtop < windowheight - revealpoint){
-    reveal[i].classList.add('active');
-  }
-  else{
-    reveal[i].classList.remove('active');
-  }
-}
-}
-
-
-</script>
 @endsection
