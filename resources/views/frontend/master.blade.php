@@ -87,6 +87,7 @@
 
 @yield('footer')
 
+
 <div class="footer-outer">
   <footer class="footer">
     <div class="contact-info">
@@ -98,6 +99,7 @@
 
         <div class="contact-slogan">
           <p>@lang('front.call-center')</p>
+          <p>@lang('front.footer-text')</p>
         </div>
         </div>
 
@@ -117,51 +119,20 @@
     </div>
 
 
-    <div class="footer-navigation-bar">
-      <div class="footer-navigation-bar-inner">
-        <div class="footer-autopark">
-          <p>@lang('front.fleet')</p>
-          <div class="footer-autopark-links">
-          <p>@lang('front.all')</p>
-          <p>@lang('front.suv')</p>
-          <p>@lang('front.sedan')</p>
-          <p>@lang('front.minivan')</p>
-          <p>@lang('front.minibus')</p>
-          <p>@lang('front.bus')</p>
-          <p>@lang('front.coupe')</p>
+          <div class="hr-line">
+            <hr>
           </div>
-        </div>
 
-        <div class="footer-service-bar">
-          <p>@lang('front.services')</p>
-          <div class="footer-service-links">
-          <p><a href="{{route('frontend.car-rent')}}">@lang('front.rent')</a></p>
-          <p><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></p>
-          <p><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></p>
-          </div>
-        </div>
-
-        <div class="footer-about-bar">
-          <p>@lang('front.about-company')</p>
-          <div class="footer-about-links">
-          <p><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></p>
-          <p><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></p>
-          <p><a href="{{route('frontend.contact')}}">@lang('front.contact')</a></p>
-          </div>
-        </div>
-
-      </div>
+    <div class="copyright">
+    <p>&copy @lang('front.copyright')</p>
     </div>
+   
   </footer>
 </div>
 
-<div class="hr-line">
-<hr>
-</div>
 
-  <div class="copyright">
-    <p>&copy 2014-2022 @lang('front.copyright')</p>
-  </div>
+
+ 
 
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 

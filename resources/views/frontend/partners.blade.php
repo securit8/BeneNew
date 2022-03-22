@@ -13,11 +13,26 @@
         <div class="partners-page-inner">
         
         <div class="partners-page-title">
+            <div class="partners-page-header">
             <p>@lang('front.partners')</p>
+            </div>
+
+            <div class="partners-text">
+            <p>@lang('front.partners-text')</p>
+            </div>
+
+
         </div>    
 
-        <div class="partners-text">
-            <p>@lang('front.partners-text')</p>
+        
+        <div class="partners-page-image">
+          <div class="partners-background-image">
+          <img src="{{asset('front/images/partners-img-background.png')}}" alt="">
+          </div>
+
+          <div class="partners-logo">
+            <img src="{{asset('front/images/partners-logo.png')}}" alt="">
+          </div>
         </div>
         </div>
     </div>
@@ -85,7 +100,7 @@
 
       </div>
 
-        <div class="index-partners-logo" id="logo-last-line">
+        <div class="index-partners-logo">
           <div class="logo-pocket">
             <div class="unhovered-partner-logo"><img src="{{asset('front/images/logo/დაჰოვერებამდე/11.png') }}" alt=""></div>        
             <div class="hover-partner-logo"><img src="{{asset('front/images/logo/hovering/11.png') }}" alt=""></div>

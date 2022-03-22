@@ -122,7 +122,7 @@ header{
 
 .navbar p{
 font-size: 7px!important;
-padding-right: 5px!important;
+padding-right: 0vh!important;
 padding-left: -20!important;
 }
   
@@ -185,24 +185,14 @@ padding-left: -20!important;
 }
 
 .footer{
-  width:85%;
-  margin-left: 7.5%;
-  display: grid;
-  grid-template-columns: repeat(20, 1fr);
+  width:80%;
+  margin-left: 10%;
   padding-top: 2rem;
-}
-
-.contact-info, .footer-navigation-bar{
-  grid-row: 1 / 2;
-}
-
-.contact-info{
-  grid-column: 2 / 9;
 }
 
 .contact-logo-info{
   display: grid;
-  grid-template-columns: repeat(40, 1fr);
+  grid-template-columns: repeat(20, 1fr);
 }
 
 .contact-info-logo, .contact-slogan{
@@ -210,179 +200,38 @@ padding-left: -20!important;
 }
 
 .contact-info-logo{
-  padding-bottom: 2rem;
-  grid-column: 1 / 10;
+  grid-column: 1 / 2;
 }
 
 .contact-info-logo img{
-  width: 23%;
+  width: 5vh;
 }
 
 .contact-slogan{
-  grid-column: 5 / 40;
-}
-
-.contact-slogan p{
-  width: 70%;
+  grid-column: 2 / 15;
   font-size: 12px;
   font-family: Montserrat;
-  color: rgba(255, 255, 255, 0.753);
+  color: rgba(255, 255, 255, 1);
 }
 
 .social-icons1{
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  width: 40%;
+  width: 30vh;
+  margin-left: 8vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .social-icons1 i{
-color: rgba(255, 255, 255, 0.795);
-width: 120%;
+  text-decoration: none;
+  color:rgba(255, 255, 255, 1);
 }
 
 .social-icons1 i:hover{
-  transition: 0.3s;
-  color: #00adef;
+  color:#00adef;
 }
-
-
-
-
-
-.footer-navigation-bar{
-  grid-column: 10 / 21;
-}
-
-.footer-navigation-bar-inner{
-  display: grid;
-  grid-template-columns: repeat(20, 1fr);
-}
-
-.footer-autopark, .footer-service-bar, .footer-about-bar{
-  grid-row: 1 / 2;
-}
-
-.footer-autopark{
-  display: flex;
-  flex-direction: column;
-  grid-column: 1 / 5;
-  text-align: center;
-}
-
-
-.footer-autopark{
-  grid-column: 1 / 5;
-}
-
-.footer-autopark p{
-  font-size: 13px;
-  font-weight: 600;
-  font-family: Montserrat;
-  color: rgba(255, 255, 255, 1);
-  margin-bottom: 0;
-  text-align: start;
-}
-
-
-.footer-autopark-links p{
-  font-size: 12px;
-  font-family: Montserrat;
-  color: rgba(255, 255, 255, 0.774);
-  list-style-type: none;
-  padding-top: 0.13rem;
-  padding-bottom: 0.13rem;
-  text-align: start;
-  font-weight: 400;
-}
-
-.footer-service-bar{
-  grid-column: 8 / 14;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-
-
-
-.footer-service-bar p{
-  font-size: 13px;
-  font-weight: 600;
-  font-family: Montserrat;
-  color: rgba(255, 255, 255, 1);
-  margin-bottom: 0;
-  text-align: start;
-}
-
-
-
-.footer-service-links p{
-  font-size: 12px;
-  font-family: Montserrat;
-  list-style-type: none;
-  padding-top: 0.13rem;
-  padding-bottom: 0.13rem;
-  text-align: start;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.74);
-}
-
-.footer-service-bar a{
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.74);
-}
-
-.footer-service-bar a:hover{
-  color: #00adef!important;
-  transition: 0.4s!important;
-}
-
-
-.footer-about-bar{
-  grid-column: 15 / 21;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.footer-about-bar p{
-  font-size: 13px;
-  font-weight: 600;
-  font-family: Montserrat;
-  color: rgba(255, 255, 255, 1);
-  margin-bottom: 0;
-  text-align: start;
-}
-
-
-
-.footer-about-links p{
-  font-size: 12px;
-  font-family: Montserrat;
-  list-style-type: none;
-  padding-top: 0.13rem;
-  padding-bottom: 0.13rem;
-  text-align: start;
-  font-weight: 400;
-}
-
-.footer-about-bar a{
-  text-decoration: 0;
-  color: rgba(255, 255, 255, 0.719)!important;
-}
-
-.footer-about-bar a:hover{
-  color: #00adef!important;
-  transition: 0.4s!important;
-}
-
 
 .hr-line{
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -1557,7 +1406,7 @@ font-family:Montserrat;
 }
 
 .home-part-1{
-  font-family: Monsserat;
+  font-family: Montserrat;
   background-color: rgba(255, 255, 255, 1);
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -2544,167 +2393,230 @@ grid-row: 1 / 2;
 width:100%;
 }
 
-.contact-page img{
-  width:100%;
-}
-
-.contact-backgorund img{
-width: 100%;
-
-}
-
-.contact-elements{
-  width:100%;
+.contact-backgorund{
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat(40, 1fr);
 }
 
-.contact-elements img{
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 1;
+.contact-page-background-image, .contact-window, .contact-page-title{
+  grid-row: 1 / 2;
 }
 
-.contact-header{
-  width:300px;
-  padding-bottom: 10px;
-}
-
-.contact-header p{
-  font-size: 25px;
+.contact-page-title{
+  grid-column: 6 / 15;
+  font-size: 24px;
   font-weight: 700;
   font-family: Montserrat;
+  color: rgba(252, 252, 253, 1);
+  z-index: 15;
 }
 
-.location{
-  width: 15%;
-  position: relative;
-  top:15%;
-  left:15%;
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 1;
-}
 
-.location-name, .location-mail, .location-phone{
-  display:flex;
-  font-size: 13px;
+.contact-page-background-image{
+  grid-column: 1 / 41;
 }
-
-.location-name i, .location-mail i, .location-phone i{
-  padding-right: 3px;
-  color: rgba(255, 255, 255, 1);
+.contact-page-background-image img{
+  width: 100%;
 }
-
-.location p{
-  color:white;
-  font-family: Montserrat;
-}
-
 
 .contact-window{
-  background-color:rgba(255, 255, 255, 1);
-  height: 91%;
-  width: 70%;
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start: 1;
-}
-
-
-.contact-window-header{
-  margin-bottom: 2.5rem;
-}
-
-
-.contact-inputs{
-  padding-top: 1rem;
-}
-
-.contact-window-header p{
-  padding-top: 1rem;
-  padding-left: 9%;
-  font-size: 150%;
-}
-
-
-.input-name, .input-email, .input-number{
+  grid-column: 25/ 39;
+  background-color: rgba(252, 252, 253, 1);
   display: flex;
-  margin-bottom: 4.5%;
+  flex-direction: column;
+  width: 100%;
+  height: 37vh;
+}
+
+.contact-widow-header {
+  font-size: 24px;
+  color: #000000;
+  font-family: Montserrat;
+  margin-left: 6vh;
+}
+
+.contact-widow-header p{
+  margin-bottom: 0.2rem;
 }
 
 
-.input-message {
-  margin-bottom: 4%;
-}
-
-
-.input-name p{
-  margin-left: 7.5%;
-  padding-top: 0.5rem;
-  font-family: BPG Mrgvlovani;
-  opacity: 0.8;
-}
-
- .input-email input, .input-number input, .input-message input, .input-name input {
-  width: 85%;
-  margin-left: 7.5%;
-  padding-top: 1rem;
+.input-name input, .input-mail input, .input-phone input, .input-message input{
+  width: 80%;
+  background-color: rgba(252, 252, 253, 1);
   border-top: none;
   border-left: none;
   border-right: none;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 2vh;
+  font-size: 12px;
   outline: none;
-  font-family: BPG Mrgvlovani;
-  border-bottom: 1px solid;
 }
 
-.input-email i, .input-number i, .input-message i, .input-name i{
-  position: absolute;
-  padding-top: 1.3rem;
-  padding-left: 1%;
-
-}
-
-.input-message{
-  padding-bottom: 13%;
-}
-
-
-.input-send-button{
-  position: relative;
-  left:60%;
-  bottom: 5%;
-  width:40%;
-}
-
-.input-send-button button{
+.input-name, .input-mail, .input-phone, .input-message{
   display: flex;
   justify-content: center;
-  width:100%;
-  border: none;
-  outline: none;
-  color: rgba(255, 255, 255, 1);
+}
+
+.input-name i, .input-mail i, .input-phone i, .input-message i{
+  margin-top: 0.5vh;
+  margin-right: 0.2vh;
+}
+
+.input-button{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.input-button button{
+  grid-column: 8 / 11;
+    background-color: rgba(6, 13, 13, 1);
+    align-items: center;
+    border: 0.5px solid;
+    outline: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.input-button p{
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 13px;
+    margin-left: 0.9rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.input-button img{
+    margin-left: 0.5rem;
+    margin-right: 0.6rem;
+    margin-top: 0.5rem;
+    color: rgb(255, 255, 255);
+    width: 16px;
+    height: 16px;
+}
+
+
+.contact-page-2{
+  width: 100%;
+}
+
+.contact-page-2-middle{
+  background-color: rgb(255, 255, 255);
+}
+
+.contact-page-2-inner{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.contact-info-line hr{
+  color: #000000;
+  margin-top: 0;
+}
+
+.contact-info-header{
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #000000;
+}
+
+.contact-info-titles{
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  color: #000000;
+}
+
+.contact-info-titles p{
+  margin-bottom: 0.2rem;
+  font-family: Montserrat;
+  color: #000000;
+  font-size: 16px;
+}
+
+.location-part-1, .location-part-2, .location-part-3{
+  display: flex;
+  font-size: 13px;
+  font-family: Montserrat;
+  color: #000000;
+}
+
+.contact-page-3-inner{
+display: grid;
+grid-template-columns: repeat(40, 1fr);
+}
+
+.contact-page-3-background, .become-member, .upload-cv{
+  grid-row: 1 / 2;
+}
+
+.contact-page-3-background{
+  grid-column: 1 / 41;
+}
+
+.become-member{
+  margin-top: 2rem;
+  grid-column: 25 / 35;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+}
+
+.cv-text{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.cv-text p{
+  color: #000000!important;
+  font-size: 12px;
+  font-family: Montserrat;
+  margin: 0;
+}
+
+.upload-cv{
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  grid-column: 4 / 12;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.upload-cv button{
   background-color: rgba(6, 13, 13, 1);
+  align-items: center;
+  border: 0.5px solid;
+  outline: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
 }
 
-.input-send-button p{
-  font-family: BPG Mrgvlovani;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  padding-right: 1rem;
-  padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
-  font-size: 100%;
+.upload-cv p{
+  color: rgba(255, 255, 255, 0.705);
+    font-size: 13px;
+    margin-left: 0.1rem;
+    margin-bottom: 0.5rem;
 }
 
-.input-send-button i{
-  padding-bottom: 0;
-  margin-bottom: 0;
-  padding-top: 0.7rem;
-  padding-bottom: 0.4rem;
+.upload-cv img{
+  margin-left: 0.5rem;
+    margin-right: 0.6rem;
+    margin-top: 0.2rem;
+    color: rgb(255, 255, 255);
+    width: 16px;
+    height: 16px;
 }
 
+.contact-page-3-background img{
+width: 100%;
+}
 
 /* Car-Rent */
 
@@ -3840,7 +3752,7 @@ font-family:Montserrat;
 }
 
 .taxi-part-1{
-  font-family: Monsserat;
+  font-family: Montserrat;
   background-color: rgba(255, 255, 255, 1);
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -4068,19 +3980,57 @@ line-height: 16px;
   .partners-page-inner{
     width: 75%;
     margin-left: 12.5%;
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+    padding-top: 3rem;
   }
 
+  .partners-page-title, .partners-text, .partners-page-image{
+    grid-row: 1 / 2;
+  }
+
+.partners-page-title{
+  grid-column: 1 / 18;
+  font-size: 24px;
+  color:rgba(255, 255, 255, 0.753);
+  font-family: Montserrat;
+}
 
 
   .partners-text p{
     margin-bottom: 0;
+    font-size: 12px;
     color:rgba(255, 255, 255, 0.753);
     font-family: Montserrat;
   }
 
 
+  .partners-page-image{
+    grid-column: 20 / 41;
+    display: grid;
+    grid-template-columns: repeat(40, 1fr);
+  }
 
+.partners-background-image, .partners-logo{
+  grid-row: 1 / 2;
+}
 
+.partners-background-image{
+  grid-column: 1 / 41;
+}
+
+.partners-background-image img{
+  width: 80%;
+}
+
+.partners-logo{
+  margin-top: 25%;
+  grid-column: 9 / 30;
+}
+
+.partners-logo img{
+  width: 70%;
+}
   /* electric page */
 
   .electric-page-header {
@@ -4101,7 +4051,7 @@ line-height: 16px;
   }
   
   .electric-part-1{
-    font-family: Monsserat;
+    font-family: Montserrat;
     background-color: rgba(255, 255, 255, 1);
     padding-top: 2rem;
     padding-bottom: 3rem;

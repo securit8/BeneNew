@@ -59,7 +59,7 @@
     <div class="academy-page-header-middle">
         <div class="academy-page-header-inner">
             <div class="academy-page-header-title">
-                <p>@lang('front.motors')</p>
+                <p>@lang('front.bene-motors')</p>
             </div>
         </div>
     </div>
@@ -92,7 +92,7 @@
 
               <div class="academy-text">
                   <p>
-                  @lang('front.academy-part-1')
+                  @lang('front.motors-text-1')
                   </p>
               </div>
           </div>
@@ -102,7 +102,7 @@
     </div>
 </div>
 
-<div class="academy-part-2">
+<!-- <div class="academy-part-2">
     <div class="academy-part-2-middle">
         <div class="academy-part-2-inner">
 
@@ -176,7 +176,7 @@
 
         </div>
     </div>
-</div>
+</div> -->
 
 
 

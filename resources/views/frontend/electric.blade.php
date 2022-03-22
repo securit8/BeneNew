@@ -40,7 +40,7 @@
         </div>
 
         <div class="electric-about-us-video">
-          <img src="{{asset('front/images/abolut.jpg')}}" alt="">
+          <img src="{{asset('front/images/electro-1.webp')}}" alt="">
         </div>
     </div>
   </div>
@@ -54,7 +54,7 @@
             <div class="electric-page-events">
 
                 <div class="electric-page-events-picture">
-                    <img src="{{asset('front/images/about-2.png') }}" alt="">
+                    <img src="{{asset('front/images/electro-2.webp') }}" alt="">
                 </div>
 
 
