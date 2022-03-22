@@ -121,33 +121,33 @@
       <div class="footer-navigation-bar-inner">
         <div class="footer-autopark">
           <p>@lang('front.fleet')</p>
-          <ul>
-          <li>@lang('front.all')</li>
-          <li>@lang('front.suv')</li>
-          <li>@lang('front.sedan')</li>
-          <li>@lang('front.minivan')</li>
-          <li>@lang('front.minibus')</li>
-          <li>@lang('front.bus')</li>
-          <li>@lang('front.coupe')</li>
-          </ul>
+          <div class="footer-autopark-links">
+          <p>@lang('front.all')</p>
+          <p>@lang('front.suv')</p>
+          <p>@lang('front.sedan')</p>
+          <p>@lang('front.minivan')</p>
+          <p>@lang('front.minibus')</p>
+          <p>@lang('front.bus')</p>
+          <p>@lang('front.coupe')</p>
+          </div>
         </div>
 
         <div class="footer-service-bar">
           <p>@lang('front.services')</p>
-          <ul>
-          <li><a href="{{route('frontend.car-rent')}}">@lang('front.rent')</a></li>
-          <li><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></li>
-          <li><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></li>
-          </ul>
+          <div class="footer-service-links">
+          <p><a href="{{route('frontend.car-rent')}}">@lang('front.rent')</a></p>
+          <p><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></p>
+          <p><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></p>
+          </div>
         </div>
 
         <div class="footer-about-bar">
           <p>@lang('front.about-company')</p>
-          <ul>
-          <li><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></li>
-          <li><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></li>
-          <li><a href="{{route('frontend.contact')}}">@lang('front.contact')</a></li>
-          </ul>
+          <div class="footer-about-links">
+          <p><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></p>
+          <p><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></p>
+          <p><a href="{{route('frontend.contact')}}">@lang('front.contact')</a></p>
+          </div>
         </div>
 
       </div>
