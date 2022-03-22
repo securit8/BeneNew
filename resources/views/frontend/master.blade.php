@@ -120,20 +120,20 @@
     <div class="footer-navigation-bar">
       <div class="footer-navigation-bar-inner">
         <div class="footer-autopark">
-          <p>AUTOPARK</p>
+          <p>@lang('front.fleet')</p>
           <ul>
-          <li>ALL</li>
-          <li>SUV</li>
-          <li>Sedan</li>
-          <li>Minivan</li>
-          <li>Minibus</li>
-          <li>Bus</li>
-          <li>Coupe</li>
+          <li>@lang('front.all')</li>
+          <li>@lang('front.suv')</li>
+          <li>@lang('front.sedan')</li>
+          <li>@lang('front.minivan')</li>
+          <li>@lang('front.minibus')</li>
+          <li>@lang('front.bus')</li>
+          <li>@lang('front.coupe')</li>
           </ul>
         </div>
 
         <div class="footer-service-bar">
-          <p>SERVICES</p>
+          <p>@lang('front.services')</p>
           <ul>
           <li><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></li>
           <li><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></li>
@@ -142,7 +142,7 @@
         </div>
 
         <div class="footer-about-bar">
-          <p>ABOUT US</p>
+          <p>@lang('front.about-company')</p>
           <ul>
           <li><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></li>
           <li><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></li>

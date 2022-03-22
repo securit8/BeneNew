@@ -11,7 +11,7 @@
     <div class="home-page-header-middle">
         <div class="home-page-header-inner">
             <div class="home-page-header-title">
-                <p>ABOUT COMPANY</p>
+                <p>@lang('front.about-company')</p>
             </div>
         </div>
     </div>
@@ -25,7 +25,7 @@
           
 
           <div class="home-about-us-title">
-            <p>BENE EXCLUSIVE</p>
+            <p>@lang('front.bene')</p>
           </div>
 
           <div class="home-about-us-text">
@@ -60,14 +60,12 @@
 
                 <div class="about-page-events-text">
                     <div class="about-page-company-name">
-                        <p>
-                            BENE EXCLUSIVE
-                        </p>
+                        
                     </div>
 
                     <div class="about-page-events-title">
                         <p>
-                            EVENTS
+                            @lang('front.events')
                         </p>
                     </div>
 
@@ -86,7 +84,7 @@
 
 
 
-<!-- <div class="about-page-part-3">
+
     <div class="about-page-part-3-middle">
         <div class="about-page-part-3-inner">
 
@@ -128,12 +126,12 @@
     <div class="about-news-part-2-inner">
       <div class="about-news-header">
         <div class="about-news-header-title">
-          <p>NEWSROOM</p>
+          <p>@lang('front.news')</p>
         </div>
 
         <div class="news-see-all-button">
           <button>
-            <p>See all</p>
+            <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/blue-short-arrow.png') }}" alt="">
           </button>
         </div>
@@ -159,7 +157,7 @@
 
 
               <div class="about-read-more">
-                <h5>Read more</h5>
+                <h5>@lang('front.read-more')</h5>
                 <i class="fas fa-arrow-right"></i>
               </div>
             </div>
@@ -182,7 +180,7 @@
 
 
               <div class="about-read-more">
-                <h5>Read more</h5>
+                <h5>@lang('front.read-more')</h5>
                 <i class="fas fa-arrow-right"></i>
               </div>
             </div>
@@ -206,7 +204,7 @@
 
 
               <div class="about-read-more">
-                <h5>Read more</h5>
+                <h5>@lang('front.read-more')</h5>
                 <i class="fas fa-arrow-right"></i>
               </div>
             </div>
@@ -230,7 +228,7 @@
 
 
               <div class="about-read-more">
-                <h5>Read more</h5>
+                <h5>@lang('front.read-more')</h5>
                 <i class="fas fa-arrow-right"></i>
               </div>
             </div>

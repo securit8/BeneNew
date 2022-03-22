@@ -1522,20 +1522,20 @@ padding-bottom: 0.2rem;
 
 
 .home-page-header {
-  background-color:rgba(16, 22, 22, 1);
+  background-color:rgba(255, 255, 255, 1);
   padding-bottom: 0.5rem;
   text-align: center;
 }
 
 .home-page-header-title{
 padding-top: 1.5rem;
-color:rgba(252, 252, 253, 1);
+color:rgba(16, 22, 22, 1);
 font-weight: 700;
 font-family:Montserrat;
 }
 
 .home-page-header-title p{
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .home-part-1{
@@ -1782,7 +1782,8 @@ line-height: 16px;
  .news-see-all-button img{
   margin-left: 0.3rem;
   margin-right: 0.4rem;
-  width: 17%;
+  width: 17px;
+  height: 17px;
  }
  
  
@@ -1845,6 +1846,7 @@ line-height: 16px;
   margin-right: 0.5rem;
   font-weight: 700!important;
   font-family: Montserrat;
+  margin-bottom: 0.1rem;
  }
  
  .about-read-more img{
@@ -3816,7 +3818,7 @@ font-family:Montserrat;
 }
 
 .taxi-page-header-title p{
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .taxi-part-1{
@@ -4035,4 +4037,180 @@ line-height: 16px;
     border-radius: 50%;
     width: 7px!important;
     height: 7px!important;
+  }
+
+
+
+  /* partners page */
+
+
+  .partners-page-outer{
+    background-color: rgba(252, 252, 253, 0.048);
+  }
+  .partners-page-inner{
+    width: 75%;
+    margin-left: 12.5%;
+  }
+
+
+
+  .partners-text p{
+    margin-bottom: 0;
+    color:rgba(255, 255, 255, 0.753);
+    font-family: Montserrat;
+  }
+
+
+
+
+  /* electric page */
+
+  .electric-page-header {
+    background-color:rgba(255, 255, 255, 1);
+    padding-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .electric-page-header-title{
+  padding-top: 1.5rem;
+  color:rgba(16, 22, 22, 1);
+  font-weight: 700;
+  font-family:Montserrat;
+  }
+  
+  .electric-page-header-title p{
+    font-size: 24px;
+  }
+  
+  .electric-part-1{
+    font-family: Monsserat;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .electric-part-1-middle{
+    width: 75%;
+    margin-left: 12.5%;
+  }
+  
+  .electric-part-1-inner{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+  }
+  
+  .electric-about-us-info, .electric-about-us-video{
+    grid-row: 1 / 2;
+  }
+  
+  
+  .electric-about-us-title p{
+    padding-top: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 22px;
+    font-family: Montserrat;
+    color: rgba(6, 13, 13, 1);
+  }
+  
+  
+  .electric-about-us-info{
+    padding-top: 0.5rem;
+  grid-column: 1 / 15; 
+  }
+  
+  
+  
+  .electric-about-us-text{
+  font-family: Montserrat;
+  padding-top: 7vh;
+  width:100%;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: rgba(6, 13, 13, 1);
+  }
+  
+  .electric-about-us-text p{
+    font-family: Montserrat;
+    font-size: 12px;
+  }
+  
+  .electric-about-us-video{
+    padding-top: 1rem;
+    grid-column: 16/ 31;
+    width: 100%;
+    clip: rect(0px,6000px,200px,0px);
+  }
+  
+  
+  .electric-about-us-video img{
+  width:100%;
+  clip: rect(0px,600px,200px,0px);
+  }
+  
+  
+  .electric-page-part-2{
+    background-color: rgba(16, 22, 22, 1);
+  }
+  
+  .electric-page-part-2-middle{
+  width: 75%;
+  margin-left: 12.5%;
+  }
+  
+  .electric-page-part-2-inner{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+  
+  .electric-page-events{
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    
+  }
+  
+  .electric-page-events-picture, .electric-page-events-text{
+    grid-row: 1 / 2;
+  }
+  
+  .electric-page-events-picture {
+    padding-top: 3rem;
+    grid-column: 1 / 15;
+  }
+  
+  .electric-page-events-picture img{
+    width: 100%;
+  }
+  
+  .electric-page-events-text{
+    padding-top: 4rem;
+    grid-column: 16 / 31;
+    width: 100%;
+  }
+  
+  .electric-page-company-name p{
+  font-size: 15px;
+  font-family: Montserrat;
+  font-weight: 700;
+  color:rgba(6, 13, 13, 0.5);
+  margin-bottom: 0.5rem;
+  }
+  
+  .electric-page-events-title p{
+    font-size: 23px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: rgba(252, 252, 253, 1);
+  }
+  
+  
+  .electric-page-events-info p{
+    font-size: 12px;
+    font-family: Montserrat;
+    line-height: 16px;
+    color: rgba(252, 252, 253, 1);
+    
   }
