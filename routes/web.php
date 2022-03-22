@@ -19,7 +19,7 @@ Route::get('/', [RoutesController::class, 'index'])->name('frontend.home');
 Route::get('/about', [RoutesController::class, 'about'])->name('frontend.about');
 Route::get('/news', [RoutesController::class, 'news'])->name('frontend.news');
 Route::get('/fleet', [RoutesController::class, 'fleet'])->name('frontend.fleet');
-Route::get('/rent', [RoutesController::class, 'rent'])->name('frontend.rent');
+Route::get('/car-rent', [RoutesController::class, 'rent'])->name('frontend.car-rent');
 Route::get('/academy', [RoutesController::class, 'academy'])->name('frontend.academy');
 Route::get('/taxi', [RoutesController::class, 'taxi'])->name('frontend.taxi');
 Route::get('/partners', [RoutesController::class, 'partners'])->name('frontend.partners');

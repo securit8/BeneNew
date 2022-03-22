@@ -41,7 +41,7 @@
       <div class ="nav-line"><p>|</p></div>
       <div class="motors {{Request::is('motors') ? 'current' : ''}}"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
       <div class ="nav-line"><p>|</p></div>
-      <div class="rent {{Request::is('rent') ? 'current' : ''}}"><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></div>
+      <div class="rent {{Request::is('rent') ? 'current' : ''}}"><a href="{{route('frontend.car-rent')}}">@lang('front.rent')</a></div>
       <div class ="nav-line"><p>|</p></div>
       <div class="academy {{Request::is('academy') ? 'current' : ''}}"><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></div>
       <div class ="nav-line"><p>|</p></div>
@@ -135,7 +135,7 @@
         <div class="footer-service-bar">
           <p>@lang('front.services')</p>
           <ul>
-          <li><a href="{{route('frontend.rent')}}">@lang('front.rent')</a></li>
+          <li><a href="{{route('frontend.car-rent')}}">@lang('front.rent')</a></li>
           <li><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></li>
           <li><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></li>
           </ul>

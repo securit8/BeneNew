@@ -26,7 +26,7 @@ class RoutesController extends Controller
     }
 
     public function rent(){
-        return view('frontend.rent');
+        return view('frontend.car-rent');
     }
     
     public function academy(){
