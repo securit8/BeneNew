@@ -1330,20 +1330,13 @@ margin-bottom: 3rem;
  margin-left: 12.5%;
 }
 
-.index-partners-header{
- color:rgba(255, 255, 255, 1);
- text-align: center;
- font-family: Montserrat;
- font-weight: 700;
- padding-top: 4rem;
- font-size: 24px;
- padding-bottom: 2rem;
-}
 
-.index-partners-header p{
+.index-partners-header{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
   font-family: Montserrat;
- font-weight: 700;
- font-size: 17px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .index-partners-logo{
@@ -2437,8 +2430,8 @@ width:100%;
   color: #000000;
   font-family: Montserrat;
   margin-left: 6vh;
-  margin-bottom: 1.5rem;
-  margin-top: 0.5rem;
+  margin-bottom: 1.5vh;
+  margin-top: 0.5vh;
 }
 
 .contact-widow-header p{
@@ -2498,7 +2491,7 @@ width:100%;
 .input-button img{
     margin-left: 0.5rem;
     margin-right: 0.6rem;
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
     color: rgb(255, 255, 255);
     width: 16px;
     height: 16px;
@@ -2611,13 +2604,12 @@ grid-template-columns: repeat(40, 1fr);
   color: rgba(255, 255, 255, 0.705);
     font-size: 13px;
     margin-left: 0.1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.1rem;
 }
 
 .upload-cv img{
   margin-left: 0.5rem;
     margin-right: 0.6rem;
-    margin-top: 0.2rem;
     color: rgb(255, 255, 255);
     width: 16px;
     height: 16px;

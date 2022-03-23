@@ -786,7 +786,9 @@
 <div class="index-part-8">
   <div class="part-8-middle">
     <div class="part-8-inner">
-      
+      <div class="index-partners-header">
+      <p>@lang('front.partners')</p>
+      </div>
 
       <div class="index-partners-logo">
         <div class="logo-pocket">
