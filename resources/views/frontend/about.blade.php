@@ -25,7 +25,7 @@
           
 
           <div class="home-about-us-title">
-            <p>@lang('front.bene')</p>
+          
           </div>
 
           <div class="home-about-us-text">
@@ -64,9 +64,7 @@
                     </div>
 
                     <div class="about-page-events-title">
-                        <p>
-                            @lang('front.events')
-                        </p>
+                       
                     </div>
 
                     <div class="about-page-events-info">
@@ -85,7 +83,7 @@
 
 
 
-    <div class="about-page-part-3-middle">
+    <!-- <div class="about-page-part-3-middle">
         <div class="about-page-part-3-inner">
 
             <div class="about-vehicle-renewals">

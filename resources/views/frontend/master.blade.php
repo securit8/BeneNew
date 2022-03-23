@@ -99,9 +99,7 @@
         </div>
         </div>
 
-        <div class="hr-line">
-            <hr>
-          </div>
+       
 
 
         <div class="our-social-meida">

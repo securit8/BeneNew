@@ -112,9 +112,15 @@
                     </div>
 
                     <div class="anyghing-else-text">
-                        <p>
-                        @lang('front.motors-text-2')
-                        </p>
+                        <p>@lang('front.motors-text-2')</p>
+                       <ul>
+                           <li>@lang('front.motors-text-3')</li>
+                           <li>@lang('front.motors-text-4')</li>
+                           <li>@lang('front.motors-text-5')</li>
+                           <li>@lang('front.motors-text-6')</li>
+                           <li>@lang('front.motors-text-7')</li>
+                           <li>@lang('front.motors-text-8')</li>
+                       </ul>
                     </div>
                     
                 </div>
@@ -163,7 +169,7 @@
 
         </div>
     </div>
-</div> --> -->
+</div> -->
 
 
 

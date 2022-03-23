@@ -190,18 +190,19 @@ padding-left: -20!important;
   text-align: start;
   font-size: 13px;
   font-family: Montserrat;
-  color: rgb(255, 255, 255);
+  color: rgba(252, 252, 253, 0.699);
 }
 
 .contact-slogan p{
   margin-bottom: 0rem;
-  margin-top: 2rem;
+  padding-top: 1rem;
 }
 
 .hr-line hr{
   width: 75%;
   margin-left: 12.5%;
-  color: rgb(255, 255, 255);;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0.5rem;
 }
 
 .our-social-meida{
@@ -209,6 +210,8 @@ padding-left: -20!important;
   justify-content: space-between;
   width: 75%;
   margin-left: 12.5%;
+  margin-bottom: 0.5rem;
+  margin-top: 0.9rem;
 }
 
 .contact-number{
@@ -218,7 +221,7 @@ padding-left: -20!important;
 
 .contact-number p{
   font-size: 12px;
-  color: rgb(255, 255, 255);
+  color: rgba(252, 252, 253, 0.699);
   font-family: Montserrat;
   margin-left: 0.5rem;
 }
@@ -246,7 +249,7 @@ padding-left: -20!important;
 
 .copyright{
   font-size: 12px;
-  color: rgb(255, 255, 255);
+  color: rgba(252, 252, 253, 0.699);
   font-family: Montserrat;
 }
 
@@ -1449,6 +1452,7 @@ font-size: 12px;
 line-height: 20px;
 font-weight: 400;
 color: rgba(6, 13, 13, 1);
+padding-top: 4vh;
 }
 
 .home-about-us-text p{
@@ -1830,6 +1834,15 @@ color: rgba(252, 252, 253, 1);
 
 .anyghing-else-text p{
   padding-top: 2rem;
+font-size: 12px;
+font-family: Montserrat;
+color: rgba(252, 252, 253, 0.699);
+line-height: 20px;
+margin-left: 4.7vh;
+}
+
+.anyghing-else-text li{
+  padding-top: 0.2rem;
 font-size: 12px;
 font-family: Montserrat;
 color: rgba(252, 252, 253, 0.699);
@@ -2404,10 +2417,9 @@ width:100%;
 .contact-page-title{
   grid-column: 6 / 15;
   font-size: 24px;
-  font-weight: 700;
   font-family: Montserrat;
   color: rgba(252, 252, 253, 1);
-  z-index: 15;
+  z-index: 2;
 }
 
 
@@ -2521,7 +2533,6 @@ width:100%;
 .contact-info-header{
   font-size: 24px;
   font-family: Montserrat;
-  font-weight: 700;
   color: #000000;
 }
 
@@ -2564,7 +2575,6 @@ grid-template-columns: repeat(40, 1fr);
   margin-top: 2rem;
   grid-column: 20 / 30;
   font-size: 24px;
-  font-weight: 700;
   color: rgb(255, 255, 255);
   font-family: Montserrat;
 }
