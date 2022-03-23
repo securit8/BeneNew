@@ -74,7 +74,7 @@
             <div class="academy-image-outer">
             <div class="academy-image">
               <div class="academy-background-image">
-              <img src="{{asset('front/images/motors-page-1.jpg') }}" alt="">
+              <img src="{{asset('front/images/motors-page-2.jpg') }}" alt="">
               </div>
 
             </div>
@@ -98,7 +98,8 @@
     </div>
 </div>
 
-<!-- <div class="academy-part-2">
+
+<div class="academy-part-2">
     <div class="academy-part-2-middle">
         <div class="academy-part-2-inner">
 
@@ -107,27 +108,19 @@
 
                 <div class="academy-anything-else-info">
                     <div class="anything-else-title">
-                        <p>
-                            ANYTHING ELSE
-                        </p>
+                       
                     </div>
 
                     <div class="anyghing-else-text">
                         <p>
-                        "Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group".
-                         Initially, the services of our company were limited to premium class vehicles, however today "Bene-Ecxlusive" 
-                         represents a multi-profile company. Car renting as well as orginizing of Business Projects and Events have been
-                         added to our list of services. Exclusive" is a company specializing in logistics working under the
-                         umbrella of "Bene-Group". Initially, the services of our company were limited to premium class vehicles,
-                         however today "Bene-Ecxlusive" represents a multi-profile company. Car renting as well as orginizing of
-                         Business Projects and Events have been added to our list of services.
+                        @lang('front.motors-text-2')
                         </p>
                     </div>
                     
                 </div>
 
                 <div class="anything-else-image">
-                    <img src="{{asset('front/images/academy-1.png') }}" alt="">
+                    <img src="{{asset('front/images/motors-page-3.jpg') }}" alt="">
                 </div>
             </div>
 
@@ -135,9 +128,7 @@
     </div>
 </div>
 
-
-
-<div class="academy-part-3">
+<!-- <div class="academy-part-3">
     <div class="academy-part-3-middle">
         <div class="academy-part-3-inner">
 
@@ -172,7 +163,7 @@
 
         </div>
     </div>
-</div> -->
+</div> --> -->
 
 
 

@@ -12,28 +12,20 @@
     <div class="partners-page-middle">
         <div class="partners-page-inner">
         
-        <div class="partners-page-title">
-            <div class="partners-page-header">
-            <p>@lang('front.partners')</p>
-            </div>
+          <div class="partners-page-title">
+              <div class="partners-page-header">
+              <p>@lang('front.partners')</p>
+              </div>
 
-            <div class="partners-text">
-            <p>@lang('front.partners-text')</p>
-            </div>
+              <div class="partners-text">
+              <p>@lang('front.partners-text')</p>
+              </div>
 
 
-        </div>    
+          </div>    
 
         
-        <div class="partners-page-image">
-          <div class="partners-background-image">
-          <img src="{{asset('front/images/partners-img-background.png')}}" alt="">
-          </div>
-
-          <div class="partners-logo">
-            <img src="{{asset('front/images/partners-logo.png')}}" alt="">
-          </div>
-        </div>
+        
         </div>
     </div>
 </div>

@@ -184,68 +184,63 @@ padding-left: -20!important;
   background-color: rgba(6, 13, 13, 1);
 }
 
-.footer{
-  width:80%;
-  margin-left: 10%;
-  padding-top: 2rem;
-}
-
-.contact-logo-info{
-  display: grid;
-  grid-template-columns: repeat(20, 1fr);
-}
-
-.contact-info-logo, .contact-slogan{
-  grid-row: 1 / 2;
-}
-
-.contact-info-logo{
-  grid-column: 1 / 2;
-}
-
-.contact-info-logo img{
-  width: 5vh;
-}
-
 .contact-slogan{
-  grid-column: 2 / 15;
-  font-size: 12px;
+  text-align: center;
+  font-size: 13px;
   font-family: Montserrat;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
 }
 
-.social-icons1{
-  width: 30vh;
-  margin-left: 8vh;
+.contact-slogan p{
+  margin-bottom: 0rem;
+  margin-top: 2rem;
+}
+
+.our-social-meida{
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin-left: 2.5%;
+}
+
+.contact-number{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-number p{
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  margin-left: 0.5rem;
+}
+
+.contact-number img{
+  width: 3vh;
+  height: 3vh;
+}
+
+
+.social-icons1{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .social-icons1 i{
-  text-decoration: none;
-  color:rgba(255, 255, 255, 1);
+  margin-left: 1rem;
+  color: rgb(255, 255, 255);
 }
 
 .social-icons1 i:hover{
-  color:#00adef;
+  color: #00adef;
+  transition: 0.3s;
 }
-
-.hr-line{
-  width: 100%;
-  color: rgba(255, 255, 255, 1);
-}
-
 
 .copyright{
-  text-align: center;
-}
-
-.copyright p{
-  color:rgba(255, 255, 255, 0.795);
-  font-size: 11px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
   font-family: Montserrat;
 }
-
 
 .hamburger{
 position:absolute;
@@ -2448,6 +2443,7 @@ width:100%;
   border-left: none;
   border-right: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.562);
+  opacity: 0.7;
   margin-bottom: 2vh;
   font-size: 12px;
   outline: none;
@@ -2458,9 +2454,11 @@ width:100%;
   justify-content: center;
 }
 
-.input-name i, .input-mail i, .input-phone i, .input-message i{
-  margin-top: 0.5vh;
-  margin-right: 0.2vh;
+.input-name img, .input-mail i, .input-phone img, .input-message img{
+  margin-top: 0.7vh;
+  margin-right: 0.4vh;
+  width: 2vh;
+  height:2vh;
 }
 
 .input-button{
@@ -2532,7 +2530,7 @@ width:100%;
 .contact-info-titles p{
   margin-bottom: 0.2rem;
   font-family: Montserrat;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.75);
   font-size: 16px;
 }
 
@@ -2542,6 +2540,7 @@ width:100%;
   font-family: Montserrat;
   color: #000000;
 }
+
 
 .contact-page-3-inner{
 display: grid;
@@ -2558,7 +2557,7 @@ grid-template-columns: repeat(40, 1fr);
 
 .become-member{
   margin-top: 2rem;
-  grid-column: 25 / 35;
+  grid-column: 20 / 30;
   font-size: 24px;
   font-weight: 700;
   color: rgb(255, 255, 255);

@@ -28,7 +28,7 @@
 
                     <div class="contact-window-input">
                         <div class="input-name">
-                            <i class="fa-solid fa-user"></i>
+                           <img src="{{asset('front/images/person-icon.png')}}" alt="">
                             <input type="text" placeholder="@lang('front.input-name')">
                         </div>
 
@@ -38,12 +38,12 @@
                         </div>
 
                         <div class="input-phone">
-                        <i class="fa-solid fa-phone"></i>
+                        <img src="{{asset('front/images/phone-icon.png')}}" alt="">
                             <input type="text" placeholder="@lang('front.input-text')">
                         </div>
 
                         <div class="input-message">
-                        <i class="fa-solid fa-message"></i>
+                        <img src="{{asset('front/images/message-icon.png')}}" alt="">
                             <input type="text" placeholder="@lang('front.input-send')">
                         </div>
 

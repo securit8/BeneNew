@@ -23,7 +23,7 @@
 
                     <div class="project-info">
                         <div class="project-title">
-                            <p>მოიარე</p>
+                            <p>@lang('front.moiare')</p>
                         </div>
                         <div class="project-text">
                             <p>როდესაც განვითარება და განტვირთვა მნიშვნელოვანი როგორც არასდროს.</p>
@@ -31,7 +31,7 @@
                         <div class="project-button">
                                 <button> 
                                 <a href="{{route('frontend.event-moiare')}}">
-                                    <p>See More</p>
+                                    <p>@lang('front.show-more')</p>
                                     <img src="{{asset('front/images/arrow-right.png') }}" alt="">
                                     </a>
                                 </button>
@@ -55,7 +55,7 @@
                             <div class="project-button">
                                 <button> 
                                     <a href="{{route('frontend.event-moiare')}}">
-                                    <p>See More</p>
+                                    <p>@lang('front.show-more')</p>
                                     <img src="{{asset('front/images/arrow-right.png') }}" alt="">
                                     </a>
                                 </button>
@@ -71,7 +71,7 @@
 
                         <div class="project-info">
                             <div class="project-title">
-                                <p>MERCEDES-BENZ EVENT</p>
+                                <p>@lang('front.mersedes-event')</p>
                             </div>
 
                             <div class="project-text">
@@ -80,7 +80,7 @@
                             <div class="project-button">
                                 <button> 
                                     <a href="{{route('frontend.event-moiare')}}">
-                                    <p>See More</p>
+                                    <p>@lang('front.show-more')</p>
                                     <img src="{{asset('front/images/arrow-right.png') }}" alt="">
                                     </a>
                                 </button>
@@ -96,7 +96,7 @@
 
                         <div class="project-info">
                             <div class="project-title">
-                                <p>MERCEDES-BENZ BUSSINESS WEEK</p>
+                                <p>@lang('front.mersedes-business-week')</p>
                             </div>
 
                             <div class="project-text">
@@ -105,7 +105,7 @@
                             <div class="project-button">
                                 <button> 
                                     <a href="{{route('frontend.event-moiare')}}">
-                                    <p>See More</p>
+                                    <p>@lang('front.show-more')</p>
                                     <img src="{{asset('front/images/arrow-right.png') }}" alt="">
                                     </a>
                                 </button>   
@@ -121,7 +121,7 @@
 
                         <div class="project-info">
                             <div class="project-title">
-                                <p>DISTRIBUTION AND LOGISTICS FORUM</p>
+                                <p>@lang('front.distribution')</p>
                             </div>
                             <div class="project-text">
                                 <p>Distribution and Logistics Forum - ყოველწლიური ფორუმია,რომელიც ლოგისტიკურ დარგში არსებული პრობლემების გადაწყვეტას და სამომავლო გეგმების დასახვას ემსახურება.</p>
@@ -130,7 +130,7 @@
                             <div class="project-button">
                                 <button> 
                                      <a href="{{route('frontend.event-moiare')}}">
-                                    <p>See More</p>
+                                    <p>@lang('front.show-more')</p>
                                     <img src="{{asset('front/images/arrow-right.png') }}" alt="">
                                     </a>
                                 </button>
