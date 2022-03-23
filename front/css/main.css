@@ -196,11 +196,17 @@ padding-left: -20!important;
   margin-top: 2rem;
 }
 
+.hr-line hr{
+  width: 75%;
+  margin-left: 12.5%;
+  color: rgb(255, 255, 255);;
+}
+
 .our-social-meida{
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin-left: 2.5%;
+  width: 75%;
+  margin-left: 12.5%;
 }
 
 .contact-number{
@@ -574,14 +580,14 @@ width:60%;
 margin-bottom: 1rem;
 width:95%;
 font-size: 13px;
-line-height: 24px;
+line-height: 20px;
 font-family: Montserrat;
 color: rgba(6, 13, 13, 1);
 }
 
 .index-about-us-text p{
   font-size: 12px;
-  line-height: 17px;
+  line-height: 20px;
   font-family: Montserrat;
   font-weight: 400;
 }
@@ -1158,7 +1164,7 @@ width:100%;
 
 .index-taxi-text p{
 font-size: 12px;
-line-height: 19px;
+line-height: 20px;
 font-family: Montserrat;
 font-weight: 400;
 color: rgba(6, 13, 13, 1);
@@ -1445,7 +1451,7 @@ font-family: Montserrat;
 margin-bottom: 2rem;
 width:100%;
 font-size: 12px;
-line-height: 18px;
+line-height: 20px;
 font-weight: 400;
 color: rgba(6, 13, 13, 1);
 }
@@ -1528,7 +1534,7 @@ margin-bottom: 0.5rem;
 .about-page-events-info p{
   font-size: 12px;
   font-family: Montserrat;
-  line-height: 16px;
+  line-height: 20px;
   color: rgba(252, 252, 253, 1);
   
 }
@@ -1580,7 +1586,7 @@ width:100%;
 .about-vehicle-renewal-text p{
 font-family: Montserrat;
 font-size: 12px;
-line-height: 16px;
+line-height: 20px;
 }
 
 .about-news-body{
@@ -1781,6 +1787,7 @@ color:rgba(6, 13, 13, 1);
   font-family:Montserrat;
   font-size: 12px;
   color:rgba(6, 13, 13, 1);
+  line-height: 20px;
 }
 
 .academy-part-2{
@@ -1831,6 +1838,7 @@ color: rgba(252, 252, 253, 1);
 font-size: 12px;
 font-family: Montserrat;
 color: rgba(252, 252, 253, 0.699);
+line-height: 20px;
 }
 
 
@@ -2277,7 +2285,7 @@ grid-row: 1 / 2;
   font-family: Montserrat;
   color: rgba(6, 13, 13, 0.76);
   padding-bottom: 1rem;
-  line-height: 17px;
+  line-height: 20px;
 }
 
 
@@ -2416,12 +2424,12 @@ width:100%;
 }
 
 .contact-window{
-  grid-column: 25/ 39;
+  grid-column: 25/ 37;
   background-color: rgba(252, 252, 253, 1);
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 37vh;
+  height: 52vh;
 }
 
 .contact-widow-header {
@@ -2429,6 +2437,8 @@ width:100%;
   color: #000000;
   font-family: Montserrat;
   margin-left: 6vh;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 .contact-widow-header p{
@@ -2444,7 +2454,7 @@ width:100%;
   border-right: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.562);
   opacity: 0.7;
-  margin-bottom: 2vh;
+  margin-bottom: 5vh;
   font-size: 12px;
   outline: none;
 }
@@ -3107,7 +3117,7 @@ grid-column: 11 / 16;
   .newsroom-article-text p{
    font-size: 9px;
    color:rgba(6, 13, 13, 0.753);
-   line-height: 13px;
+   line-height: 20px;
   }
   
   .newsroom-article-more{
@@ -3184,7 +3194,7 @@ color: #000000;
 
 .article-text-body p{
  font-size: 12px;
- line-height: 22px;
+ line-height: 20px;
  font-family: Montserrat;
  color: #000000;
 }
@@ -3238,7 +3248,7 @@ color: #000000;
   .other-article-text p{
    font-size: 9px;
    color:rgba(6, 13, 13, 0.753);
-   line-height: 13px;
+   line-height: 20px;
   }
   
   .other-article-more{
@@ -3337,7 +3347,7 @@ color: #000000;
 
 .vehicle-spec-body-info-text p{
   font-size: 12px;
-  line-height: 18px;
+  line-height: 20px;
   color: rgba(6, 13, 13, 0.753);
   font-family: Montserrat;
 }
@@ -3796,7 +3806,7 @@ font-family: Montserrat;
 margin-bottom: 2rem;
 width:100%;
 font-size: 12px;
-line-height: 18px;
+line-height: 20px;
 font-weight: 400;
 color: rgba(6, 13, 13, 1);
 }
@@ -3879,7 +3889,7 @@ margin-bottom: 0.5rem;
 .taxi-page-events-info p{
   font-size: 12px;
   font-family: Montserrat;
-  line-height: 16px;
+  line-height: 20px;
   color: rgba(252, 252, 253, 1);
   
 }
@@ -3931,7 +3941,7 @@ width:100%;
 .taxi-vehicle-renewal-text p{
 font-family: Montserrat;
 font-size: 12px;
-line-height: 16px;
+line-height: 20px;
 }
 
 
@@ -4001,6 +4011,7 @@ line-height: 16px;
     font-size: 12px;
     color:rgba(255, 255, 255, 0.753);
     font-family: Montserrat;
+    line-height: 20px;
   }
 
 
@@ -4094,7 +4105,7 @@ line-height: 16px;
   padding-top: 7vh;
   width:100%;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 20px;
   font-weight: 400;
   color: rgba(6, 13, 13, 1);
   }
@@ -4177,7 +4188,7 @@ line-height: 16px;
   .electric-page-events-info p{
     font-size: 12px;
     font-family: Montserrat;
-    line-height: 16px;
+    line-height: 20px;
     color: rgba(252, 252, 253, 1);
     
   }

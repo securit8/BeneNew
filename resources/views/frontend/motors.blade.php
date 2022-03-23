@@ -23,7 +23,7 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/3.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/motors-carousel-1.png')}}" class="" alt="...">
     </div>
 
 
