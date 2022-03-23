@@ -120,7 +120,7 @@
                 </div>
 
                 <div class="anything-else-image">
-                    <img src="{{asset('front/images/motors-page-3.jpg') }}" alt="">
+                    <img src="{{asset('front/images/motors-page-1.jpg') }}" alt="">
                 </div>
             </div>
 
