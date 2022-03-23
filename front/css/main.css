@@ -2435,7 +2435,7 @@ width:100%;
 }
 
 .contact-widow-header p{
-  margin-bottom: 0.2rem;
+  margin-bottom: 1vh;
 }
 
 
@@ -2459,7 +2459,7 @@ width:100%;
 
 .input-name img, .input-mail i, .input-phone img, .input-message img{
   margin-top: 0.7vh;
-  margin-right: 0.4vh;
+  margin-right: 0.6vh;
   width: 2vh;
   height:2vh;
 }
