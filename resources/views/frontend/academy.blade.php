@@ -56,7 +56,7 @@
     <div class="academy-page-header-middle">
         <div class="academy-page-header-inner">
             <div class="academy-page-header-title">
-                <p>@lang('front.index-academy')</p>
+                <p>@lang('front.carousel-academy')</p>
             </div>
         </div>
     </div>

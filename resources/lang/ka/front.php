@@ -108,7 +108,7 @@ return [
    'input-send' => 'გაგზავნა',
    'upload' => 'ატვირთე ფაილი',
    'contact-window-header' => 'დაგვიკავშირდი',
-   'contact-info' => 'CONTACT INFORMATION',
+   'contact-info' => 'საკონტაქტო ინფორმაცია',
    'tbilisi' => 'თბილისი',
    'qutaisi' => 'ქუთაისი',
    'batumi' => 'ბათუმი',

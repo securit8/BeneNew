@@ -2447,7 +2447,7 @@ width:100%;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.562);
   margin-bottom: 2vh;
   font-size: 12px;
   outline: none;
@@ -3306,7 +3306,7 @@ color: #000000;
 }
 
 .vehicle-spec-body-text{
-  grid-column: 2 / 19;
+  grid-column: 2 / 22;
 }
 
 .vehicle-spec-body-title{

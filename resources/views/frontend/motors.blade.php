@@ -33,7 +33,7 @@
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/6.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/motors-page-3.jpg')}}" class="" alt="...">
     </div>
 
 
@@ -74,11 +74,7 @@
             <div class="academy-image-outer">
             <div class="academy-image">
               <div class="academy-background-image">
-              <img src="{{asset('front/images/academy-background.png') }}" alt="">
-              </div>
-
-              <div class="academy-logo-image">
-              <img src="{{asset('front/images/academy-logo.png') }}" alt="">
+              <img src="{{asset('front/images/motors-page-1.jpg') }}" alt="">
               </div>
 
             </div>
