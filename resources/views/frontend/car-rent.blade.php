@@ -19,119 +19,34 @@
                 </div>
             </div>
 
-            <!-- <div class="car-rent-logos">
-                <div class="car-rent-logos-middle">
-                    <div class="car-rent-logos-inner">
+            <div class="car-rent-header-part-1">
+                <div class="car-rent-header-art-1-middle">
+                    <div class="car-rent-header-part-1-inner">
+                        <div class="car-rent-header-info">
 
-                    </div>
-                </div>
-            </div> -->
+                            <div class="car-rent-header-text">
+                                <p>
+                                @lang('front.car-rent-text-1')
+                                </p>
 
+                                <ul>
+                                    <li>@lang('front.suv')</li>
+                                    <li>@lang('front.sedan')</li>
+                                    <li>@lang('front.minivan')</li>
+                                </ul>
+                            </div>
 
-<!--             
-                <div class="car-rent-fleet-logos">
-                    <div class="car-rent-fleet-logo-outer">
-                    <div class="car-rent-fleet-logo-middle">
-                        <div class="car-rent-fleet-logo-inner">
-                        <div class="car-rent-logo-list-line">
-                        <div class="Hyundai-logo">
-                            <img src="{{asset('front/images/Hyundai-Logo.png')}}">
-                        </div>
-                        <div class="Nissan-logo">
-                            <img src="{{asset('front/images/Nissan_logo.png')}}">
-                        </div>
-                        <div class="Toyota-logo">
-                            <img src="{{asset('front/images/fleet-logo3.png')}}">
-                        </div>
-                        <div class="Kia-logo">
-                            <img src="{{asset('front/images/kia-logo.png')}}">
-                        </div>
-                        </div>
-                        </div>
-                    </div> -->
-
-
-<!-- 
-            <div class="car-rent-type">
-                <div class="car-rent-type-middle">
-                    <div class="car-rent-type-inner">
-                        
-                    <div class="rent-type-list">
-                        <div class="rent-all">
-                            <p>All</p>
-                        </div>
-
-                        <div class="rent-line">
-                            <p>|</p>
-                        </div>
-
-                        <div class="rent-suv">
-                            <p>SUV</p>
-                        </div>
-                        
-                        <div class="rent-line">
-                        <p>|</p>
-                        </div>
-                        
-                        <div class="rent-sedan">
-                            <p>Sedan</p>
-                        </div>
-                        
-                        <div class="rent-line">
-                        <p>|</p>
-                        </div>
-                        
-                        <div class="rent-minivan">
-                            <p>Minivan</p>
-                        </div>
-                        
-                        <div class="rent-line">
-                        <p>|</p>
-                        </div>
-                        
-                        <div class="rent-minibus">
-                            <p>Minibus</p>
-                        </div>
-                        <div class="rent-line">
-                        <p>|</p>
-                        </div>
-                        
-                        <div class="rent-bus">
-                            <p>Bus</p>
-                        </div>
-                        <div class="rent-line">
-                        <p>|</p>
-                        </div>
-                        <div class="rent-coupe">
-                            <p>Coupe</p>
-                        </div>
+                     
                         
                         </div>
 
-                    </div>
-                </div>
-            </div> -->
-
-
-
-            <!-- <div class="car-rent-line">
-                <hr>
-            </div>
-
-            <div class="car-rent-class">
-                <div class="car-rent-class-middle">
-                    <div class="car-rent-class-inner">
-                        <div class="car-rent-class">
-                            <p>All</p>
-                        </div>
+                        <div class="car-rent-header-video">
+                        <embed src="https://www.youtube.com/embed/cPjy65ekYEQ?autoplay=1&mute=1" frameborder="0"></embed>
+                        </div> 
                     </div>
                 </div>
             </div>
-         -->
 
-            <div class="car-rent-line">
-                <hr>
-            </div>
             
 
 

@@ -2548,6 +2548,33 @@ width:100%;
   font-family: Montserrat;
   color: rgba(0, 0, 0, 0.75);
   font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-info-titles button{
+  outline: none;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.contact-page-location-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info-location{
+  opacity: 0;
+}
+
+.contact-info-location.appear{
+  display: block;
+  transform: translateY(0px);
+  transition: 0.4s;
+  opacity: 1;
 }
 
 .location-part-1, .location-part-2, .location-part-3{
@@ -2651,6 +2678,82 @@ width: 100%;
   font-weight: 700;
   font-size: 24px;
 }
+
+
+.car-rent-header-part-1{
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  }
+
+
+.car-rent-header-part-1-inner{
+ width: 75%;
+ margin-left: 12.5%;
+ display: grid;
+ grid-template-columns: repeat(20, 1fr);
+}
+
+
+.car-rent-header-info, .car-rent-header-video{
+  grid-row: 1 / 2;
+}
+
+
+.car-rent-header-header p{
+  color: rgba(6, 13, 13, 0.5);
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  font-size: 16px;
+  Font-family: Montserrat;
+}
+
+.car-rent-header-title p{
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-style: normal;
+  font-size: 18px;
+  font-family: Montserrat;
+  color: #060D0D;
+  }
+
+
+.car-rent-header-info{
+  grid-column: 1 / 18;
+  padding-top: 2rem;
+width:60%; 
+}
+
+.car-rent-header-text{
+margin-bottom: 1rem;
+width:95%;
+font-size: 13px;
+line-height: 20px;
+font-family: Montserrat;
+color: rgba(6, 13, 13, 1);
+}
+
+.car-rent-header-text p{
+  font-size: 12px;
+  line-height: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+    
+.car-rent-header-video{
+  grid-column: 11 / 20;
+  margin-top: 2rem;
+  margin-left: 4%;
+}
+
+
+.car-rent-header-video embed{
+  width: 80vh;
+  height: 50vh;
+}
+
+
 
 
 .car-rent-logo-list-line{

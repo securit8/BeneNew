@@ -70,32 +70,76 @@
                             </div>
 
                             <div class="contact-info-titles">
-                                <p>@lang('front.all')</p>
-                                <p>@lang('front.tbilisi')</p>
-                                <p>@lang('front.qutaisi')</p>
-                                <p>@lang('front.batumi')</p>
+                                <button class="all" onclick="filterObjects('all')"><p>@lang('front.all')</p></button>
+                                <button class="tbilisi" onclick="filterObjects('tbilisi')"><p>@lang('front.tbilisi')</p></button>
+                                <button class="qutaisi" onclick="filterObjects('qutaisi')"><p>@lang('front.qutaisi')</p></button>
+                                <button class="batumi" onclick="filterObjects('batumi')"><p>@lang('front.batumi')</p></button>
                             </div>
 
                             <div class="contact-info-line">
                                 <hr>
                             </div>
+                            <div class="contact-page-location-info">
+                                <div class="contact-info-location tbilisi">
+                                    <div class="location-part-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>ალ.ყაზბეგის ქ. #15</p>
+                                    </div>
+                                    
+                                    <div class="location-part-2">
+                                    <i class="fa-solid fa-at"></i>
+                                    <p>info@bene-exclusive.com</p>
+                                    </div>
+                                    
+                                    <div class="location-part-3">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>(+995) 322 052 100</p>
+                                    </div>
 
-                            <div class="contact-info-location">
-                                <div class="location-part-1">
-                                <i class="fa-solid fa-location-dot"></i>
-                                <p>ალ.ყაზბეგის ქ. #15</p>
+                                    
+                                    
                                 </div>
-                                
-                                <div class="location-part-2">
-                                <i class="fa-solid fa-at"></i>
-                                <p>info@bene-exclusive.com</p>
+
+                                <div class="contact-info-location qutaisi">
+                                    <div class="location-part-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>ქუთაისის ქ. #15</p>
+                                    </div>
+                                    
+                                    <div class="location-part-2">
+                                    <i class="fa-solid fa-at"></i>
+                                    <p>info@bene-exclusive.com</p>
+                                    </div>
+                                    
+                                    <div class="location-part-3">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>(+995) 322 052 100</p>
+                                    </div>
+
+                                    
+                                    
                                 </div>
-                                
-                                <div class="location-part-3">
-                                <i class="fa-solid fa-phone"></i>
-                                <p>(+995) 322 052 100</p>
+
+                                <div class="contact-info-location batumi">
+                                    <div class="location-part-1">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>ბათუმის ქ. #15</p>
+                                    </div>
+                                    
+                                    <div class="location-part-2">
+                                    <i class="fa-solid fa-at"></i>
+                                    <p>info@bene-exclusive.com</p>
+                                    </div>
+                                    
+                                    <div class="location-part-3">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>(+995) 322 052 100</p>
+                                    </div>
+
+                                    
+                                    
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -140,5 +184,7 @@
 
 
 
+
+    
 </div>
 @endsection
