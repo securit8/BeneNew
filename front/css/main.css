@@ -3514,12 +3514,12 @@ color: #000000;
     flex-direction: column;
 }
 
-.sheet-line-1, .sheet-line-2, .sheet-line-3, .sheet-line-4, .sheet-line-5, .sheet-line-6, .sheet-line-7, .sheet-line-8, .sheet-line-9{
+.sheet-line-1, .sheet-line-2, .sheet-line-3, .sheet-line-4, .sheet-line-5, .sheet-line-6, .sheet-line-7, .sheet-line-8, .sheet-line-9, .sheet-line-10{
   display: grid;
   grid-template-columns: repeat(40, 1fr);
 }
 
-.sheet-line-2, .sheet-line-4, .sheet-line-6, .sheet-line-8{
+.sheet-line-2, .sheet-line-4, .sheet-line-6, .sheet-line-8, .sheet-line-10{
   background-color: rgba(255, 255, 255, 1);
 }
 
