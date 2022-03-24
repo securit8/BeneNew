@@ -67,21 +67,23 @@
 
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
-                    <p>MERCEDES-BENZ</p>
+                    <p>Temsa-Prestij</p>
                     <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                   </div>
 
                   <div class="vehicle-spec-body-tags">
-                    <p>S-class</p>
-                    <p>Sedan</p>
+                    <p>Prestij</p>
+                    <p>Bus</p>
                     <p>2020-2021</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
-                      ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
-                      Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.</p>
-                    <p>ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                    <p>წარმოგიდგენთ ჩვენი ავტოპარკის საშუალო ზომის ავტობუსს - Temsa Prestij SD
+                      ავტობუსი სპეციალურად შექმნილია მოკლე და საშუალო მანძილზე მგზავრობისთვის.
+                      კომფორტული სავარძლები და რიგებს შორის დიდი მანძილი მგზავრობას სასიამოვნოს
+                      და კომფორტულს ხდის.
+                      აუდიო სისტემის აღჭურვილობა განსაკუთრებულად კომფორტულია საექსკურსიო
+                      მოგზაურობისთვის.</p>
                     </div>
                   </div>
 
@@ -105,77 +107,79 @@
                       </div>
                   </div>
 
-                    <div class="spec-sheet-lines" id="spec-sheet">
+                  <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
 
                         <p class="sheet-part-1">მწარმოებელი</p> 
                         
-                        <p class="sheet-part-2">მერსედეს ბენც</p>
+                        <p class="sheet-part-2">Temsa</p>
                       </div>
 
                       <div class="sheet-line-2">
 
-                        <p class="sheet-part-1">კატეგორია</p> 
+                        <p class="sheet-part-1">მოდელი</p> 
                         
-                        <p class="sheet-part-2">სედანი</p>
+                        <p class="sheet-part-2">Prestij</p>
                       </div>
 
                       <div class="sheet-line-3">
 
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
+                        <p class="sheet-part-1">კატეგორია</p> 
                         
-                        <p class="sheet-part-2">5</p>
+                        <p class="sheet-part-2">ავტობუსი</p>
                       </div>
 
                       <div class="sheet-line-4">
 
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        <p class="sheet-part-1">გამოშვების წელი</p> 
                         
-                        <p class="sheet-part-2">120 კგ</p>
+                        <p class="sheet-part-2">2019</p>
                       </div>
 
                       <div class="sheet-line-5">
 
-                        <p class="sheet-part-1">უსაფრთხოება</p> 
+                        <p class="sheet-part-1">ძრავის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">კი</p>
+                        <p class="sheet-part-2">3.0</p>
                       </div>
 
                       <div class="sheet-line-6">
 
-                        <p class="sheet-part-1">დაცულობა</p> 
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
                         
-                        <p class="sheet-part-2">Mercedes-Benz (გერმანულად: [mɛɐ̯ˈtseːdəsˌbɛnts, -dɛs-]),[4][5] ან უბრალოდ Mercedes, —<br>
-                           ავტომობილების გერმანული ბრენდი და – როგორც Mercedes-Benz AG– 2019 წლიდან <br>
-                            Daimler AG-ის შვილობილი კომპანია. [1] Mercedes-Benz ცნობილია მდიდრული და <br>
-                             კომერციული ავტომობილების წარმოებით.[შენიშვნა 2] </p>
+                        <p class="sheet-part-2">29 </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">მულტიმედია</p> 
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">ბლუთუზი, სათავო ო ფისი მდებარეობს შტუტგარტში, ბადენ-ვიურტემბერგი. Mercedes<br>
-                          -Benz-ის ბრენდის პირველი ავტომობილი 1926 წელს იქნა წარმოებული. 2018 წელს<br> 
-                          Mercedes-Benz პრემიუმ ავტომობილების უმსხვილესი გამყიდველი იყო. მან 2,31 მილიონი<br> 
-                          სამგზავრო ავტომობილი გაყიდა.[6] </p>
+                        <p class="sheet-part-2">30 მოზრდილი ჩემოდანი</p>
                       </div>
 
                       <div class="sheet-line-8">
 
-                        <p class="sheet-part-1">ინტერნეტი</p> 
+                        <p class="sheet-part-1">ფერი</p> 
                         
-                        <p class="sheet-part-2">WI-FI</p>
+                        <p class="sheet-part-2">თეთრი</p>
                       </div>
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">დამატებით</p> 
+                        <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">წყალი</p>
+                        <p class="sheet-part-2">დიზელი</p>
                       </div>
 
-                  </div>
+
+                      <div class="sheet-line-10">
+
+                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        
+                        <p class="sheet-part-2"> ნაჭერი</p>
+                      </div>
+
+                    </div>
                 </div>
 
                 

@@ -80,10 +80,14 @@
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>ჩვენი ავტოპაკის ერთ-ერთი წევრი არის უახლესი Mercedes-Benz S class-W223<br>
-                      ავტომობილი წარმოებულია 2020 წელს და წარმოადგენს S CLASS-ის მე-7 თაობას<br>
-                      ამ უახლეს და დახვეწილ ავტომობილს კიდევ უფრო კომფორტული, უსაფრთხო და<br>
-                      მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.</p>
+                    <p>ჩვენი ავტოპარკის უახლესი მოდელი Mercedes-Benz S-Class W223
+                    ავტომობილი წარმოებულია 2022 წელს და წარმოადგენს S-Class-ის მე-7
+                    თაობას.
+                    ამ უახლეს და დახვეწილ ავტომობილს კიდევ უფრო კომფორტული, უსაფრთხო
+                    და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.
+                    უმაღლესი კლასის თანამედროვე ტექნოლოგიებითა და უნიკალური
+                    ინტერიერით გამორჩეული ყველაზე კომფორტული ბიზნეს კლასის სედანი
+                    თქვენს მგზავრობას დაუვიწყარს გახდის.</p>
 
                     </div>
                   </div>
@@ -120,7 +124,7 @@
 
                         <p class="sheet-part-1">მოდელი</p> 
                         
-                        <p class="sheet-part-2">S class - W223</p>
+                        <p class="sheet-part-2">S-Class AMG Line W223</p>
                       </div>
 
                       <div class="sheet-line-3">
@@ -134,7 +138,7 @@
 
                         <p class="sheet-part-1">გამოშვების წელი</p> 
                         
-                        <p class="sheet-part-2">2020</p>
+                        <p class="sheet-part-2">2022</p>
                       </div>
 
                       <div class="sheet-line-5">
@@ -158,7 +162,29 @@
                         <p class="sheet-part-2">2/3 </p>
                       </div>
 
-                  </div>
+                      <div class="sheet-line-8">
+
+                        <p class="sheet-part-1">ფერი</p> 
+                        
+                        <p class="sheet-part-2">შავი მეტალიკი</p>
+                      </div>
+
+                      <div class="sheet-line-9">
+
+                        <p class="sheet-part-1">საწვავის ტიპი</p> 
+                        
+                        <p class="sheet-part-2">ბენზინი</p>
+                      </div>
+
+
+                      <div class="sheet-line-10">
+
+                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        
+                        <p class="sheet-part-2">ტყავი</p>
+                      </div>
+
+                    </div>
                 </div>
 
                 

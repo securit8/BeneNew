@@ -78,10 +78,10 @@
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
-                      ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
-                      Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.</p>
-                    <p>ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                    <p>სედანის ტიპის ელექტრომობილი Tesla Model 3 ჩვენი ავტოპარკის ერთ-ერთი
+                      გამორჩეული და მოთხოვნადი მოდელია.
+                      Model 3 არის სრულად ელექტრო და სრული დამუხტვით 400 კილომეტრამდე მანძილს
+                      ფარავს.</p>
                     </div>
                   </div>
 
@@ -105,77 +105,79 @@
                       </div>
                   </div>
 
-                    <div class="spec-sheet-lines" id="spec-sheet">
+                  <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
 
                         <p class="sheet-part-1">მწარმოებელი</p> 
                         
-                        <p class="sheet-part-2">მერსედეს ბენც</p>
+                        <p class="sheet-part-2">Tesla</p>
                       </div>
 
                       <div class="sheet-line-2">
+
+                        <p class="sheet-part-1">მოდელი</p> 
+                        
+                        <p class="sheet-part-2">Model 3</p>
+                      </div>
+
+                      <div class="sheet-line-3">
 
                         <p class="sheet-part-1">კატეგორია</p> 
                         
                         <p class="sheet-part-2">სედანი</p>
                       </div>
 
-                      <div class="sheet-line-3">
-
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
-                        
-                        <p class="sheet-part-2">5</p>
-                      </div>
-
                       <div class="sheet-line-4">
 
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        <p class="sheet-part-1">გამოშვების წელი</p> 
                         
-                        <p class="sheet-part-2">120 კგ</p>
+                        <p class="sheet-part-2">2019</p>
                       </div>
 
                       <div class="sheet-line-5">
 
-                        <p class="sheet-part-1">უსაფრთხოება</p> 
+                        <p class="sheet-part-1">სიმძვლავრე</p> 
                         
-                        <p class="sheet-part-2">კი</p>
+                        <p class="sheet-part-2">225 კვტ</p>
                       </div>
 
                       <div class="sheet-line-6">
 
-                        <p class="sheet-part-1">დაცულობა</p> 
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
                         
-                        <p class="sheet-part-2">Mercedes-Benz (გერმანულად: [mɛɐ̯ˈtseːdəsˌbɛnts, -dɛs-]),[4][5] ან უბრალოდ Mercedes, —<br>
-                           ავტომობილების გერმანული ბრენდი და – როგორც Mercedes-Benz AG– 2019 წლიდან <br>
-                            Daimler AG-ის შვილობილი კომპანია. [1] Mercedes-Benz ცნობილია მდიდრული და <br>
-                             კომერციული ავტომობილების წარმოებით.[შენიშვნა 2] </p>
+                        <p class="sheet-part-2">3 </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">მულტიმედია</p> 
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">ბლუთუზი, სათავო ო ფისი მდებარეობს შტუტგარტში, ბადენ-ვიურტემბერგი. Mercedes<br>
-                          -Benz-ის ბრენდის პირველი ავტომობილი 1926 წელს იქნა წარმოებული. 2018 წელს<br> 
-                          Mercedes-Benz პრემიუმ ავტომობილების უმსხვილესი გამყიდველი იყო. მან 2,31 მილიონი<br> 
-                          სამგზავრო ავტომობილი გაყიდა.[6] </p>
+                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
                       </div>
 
                       <div class="sheet-line-8">
 
-                        <p class="sheet-part-1">ინტერნეტი</p> 
+                        <p class="sheet-part-1">ფერი</p> 
                         
-                        <p class="sheet-part-2">WI-FI</p>
+                        <p class="sheet-part-2">შავი მეტალიკი</p>
                       </div>
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">დამატებით</p> 
+                        <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">წყალი</p>
+                        <p class="sheet-part-2">ელექტრო</p>
                       </div>
 
-                  </div>
+
+                      <div class="sheet-line-10">
+
+                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        
+                        <p class="sheet-part-2">ტყავი</p>
+                      </div>
+
+                    </div>
                 </div>
 
                 
