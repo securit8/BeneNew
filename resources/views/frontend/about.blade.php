@@ -40,7 +40,7 @@
         </div>
 
         <div class="home-about-us-video">
-          <embed src="https://www.youtube.com/embed/C2rW01H7lSY&t=13s?autoplay=1&mute=1'" type="">
+          <embed src="https://www.youtube.com/embed/C2rW01H7lSY?autoplay=1&mute=0'" type="">
         </div>
     </div>
   </div>
