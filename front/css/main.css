@@ -124,7 +124,7 @@ header{
 
 #navibar{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   grid-column: 10 / 31;
   padding-top: 2rem;
   padding-bottom: 0.4rem;
@@ -133,7 +133,7 @@ header{
 
 .navbar a{
     font-size: 13px;
-    font-family: TBCContractica;
+    font-family: montserrat;
     color: rgba(255, 255, 255, 0.705);
     padding: 5px;
     font-style: normal;
@@ -384,6 +384,7 @@ cursor: pointer;
     display:none;
   }
 
+  
   #navibar.show{
     display:flex;
     flex-direction: column;
