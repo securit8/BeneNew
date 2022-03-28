@@ -146,7 +146,7 @@
                             <div class="fleet-element-info">
                                 
                                 <div class="element-info-header">
-                                    <p>MERCEDES-BENZ</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    <p>MERCEDES-BENZ S-CLASS</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                                 </div>
                                 
                                 <div class="element-info-tags">
@@ -156,14 +156,7 @@
                                 </div>
                                 
                                 <div class="element-info-text">
-                                    <p>ჩვენი ავტოპარკის უახლესი მოდელი Mercedes-Benz S-Class W223
-                                    ავტომობილი წარმოებულია 2022 წელს და წარმოადგენს S-Class-ის მე-7
-                                    თაობას.
-                                    ამ უახლეს და დახვეწილ ავტომობილს კიდევ უფრო კომფორტული, უსაფრთხო
-                                    და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.
-                                    უმაღლესი კლასის თანამედროვე ტექნოლოგიებითა და უნიკალური
-                                    ინტერიერით გამორჩეული ყველაზე კომფორტული ბიზნეს კლასის სედანი
-                                    თქვენს მგზავრობას დაუვიწყარს გახდის.</p>
+                                    <p>@lang('front.fleet-car-1-outer')</p>
                                 </div>
                                 
                                 <div class="element-info-button">
