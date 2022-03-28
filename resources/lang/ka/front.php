@@ -130,7 +130,7 @@ return [
    'input-name' => 'სახელი',
    'input-mail' => 'E-mail',
    'input-number' => 'ტელეფონი',
-   'input-text' => 'Message',
+   'input-text' => 'შეტყობინება',
    'input-send' => 'გაგზავნა',
    'upload' => 'ატვირთე ფაილი',
    'contact-window-header' => 'დაგვიკავშირდი',

@@ -37,12 +37,12 @@
 
                         <div class="input-phone">
                         <img src="{{asset('front/images/phone-icon.png')}}" alt="">
-                            <input type="text" placeholder="@lang('front.input-text')">
+                            <input type="text" placeholder="@lang('front.input-number')">
                         </div>
 
                         <div class="input-message">
                         <img src="{{asset('front/images/message-icon.png')}}" alt="">
-                            <input type="text" placeholder="@lang('front.input-send')">
+                            <input type="text" placeholder="@lang('front.input-text')">
                         </div>
 
                         <div class="input-button">

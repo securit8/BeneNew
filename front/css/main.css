@@ -2390,7 +2390,7 @@ width:100%;
 }
 
 .contact-page-title{
-  grid-column: 6 / 15;
+  grid-column: 5 / 15;
   font-size: 24px;
   font-family: TBCContractica;
   color: rgba(252, 252, 253, 1);
@@ -2560,6 +2560,7 @@ width:100%;
 
 .location-part-1 p, .location-part-2 p, .location-part-3 p, .location-part-4 p{
   margin-left: 1vh;
+  margin-bottom: 1vh;
 }
 
 .location-part-1{
@@ -2581,7 +2582,7 @@ grid-template-columns: repeat(40, 1fr);
 
 .become-member{
   margin-top: 2rem;
-  grid-column: 6 / 19;
+  grid-column: 5 / 19;
   font-size: 24px;
   color: rgb(255, 255, 255);
   font-family: TBCContractica;
