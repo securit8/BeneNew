@@ -81,7 +81,7 @@
                                 <div class="contact-info-location tbilisi">
                                     <div class="location-part-1">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <p>Al. Kazbegi Av. 15 | 0160 Tbilisi, Georgia </p>
+                                    <p>Al. Kazbegi Av. 15, 0160 Tbilisi, Georgia </p>
                                     </div>
                                     
                                     <div class="location-part-2">
@@ -116,7 +116,7 @@
                                     
                                     <div class="location-part-3">
                                     <i class="fa-solid fa-phone"></i>
-                                    <p>(+995) 574103719</p>
+                                    <p>(+995) 571061746</p>
                                     </div>
 
                                     <div class="location-part-4">
@@ -129,7 +129,7 @@
                                 <div class="contact-info-location batumi">
                                     <div class="location-part-1">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <p>Pharnavaz Mephe Str. 41 | 6010 Batumi, Georgia </p>
+                                    <p>Pharnavaz Mephe Str. 41, 6010 Batumi, Georgia </p>
                                     </div>
                                     
                                     <div class="location-part-2">
