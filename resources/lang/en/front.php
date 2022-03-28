@@ -155,6 +155,10 @@ return [
    'cv' => 'Upload CV',
 
 
+   'location-1' => 'Al. Kazbegi Av. 15, 0160 Tbilisi, Georgia',
+   'location-2' => 'Tbilisi International Airport, Arrivals hall',
+   'location-3' => 'Pharnavaz Mephe Str. 41, 6010 Batumi, Georgia',
+
 // newsroom page
 'newsroom-header' => 'Newsroom',
   

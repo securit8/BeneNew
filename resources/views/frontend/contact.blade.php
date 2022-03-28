@@ -81,7 +81,7 @@
                                 <div class="contact-info-location tbilisi">
                                     <div class="location-part-1">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <p>Al. Kazbegi Av. 15, 0160 Tbilisi, Georgia </p>
+                                    <p>@lang('front.location-1') </p>
                                     </div>
                                     
                                     <div class="location-part-2">
@@ -106,7 +106,7 @@
                                 <div class="contact-info-location qutaisi">
                                     <div class="location-part-1">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <p>Tbilisi International Airport, Arrivals hall</p>
+                                    <p>@lang('front.location-2')</p>
                                     </div>
                                     
                                     <div class="location-part-2">
@@ -129,7 +129,7 @@
                                 <div class="contact-info-location batumi">
                                     <div class="location-part-1">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <p>Pharnavaz Mephe Str. 41, 6010 Batumi, Georgia </p>
+                                    <p>@lang('front.location-3') </p>
                                     </div>
                                     
                                     <div class="location-part-2">
