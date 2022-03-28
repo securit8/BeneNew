@@ -23,17 +23,17 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/cropped1.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/cropped1.JPG')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/cropped2.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/cropped2.JPG')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/cropped3.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/cropped3.JPG')}}" class="" alt="...">
     </div>
 
 
