@@ -151,7 +151,7 @@ return [
    'tbilisi' => 'TBILISI',
    'qutaisi' => 'AIRPORT',
    'batumi' => 'BATUMI',
-   'member' => 'BECOME PART OF THE TEAM',
+   'member' => 'BECOME PART OF OUR TEAM',
    'cv' => 'Upload CV',
 
 
