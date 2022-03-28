@@ -2275,7 +2275,7 @@ grid-row: 1 / 2;
 .element-info-button button{
   display: flex;
   background-color: rgba(6, 13, 13, 1);
-  width: 45%;
+  width: 35%;
   justify-content: center;
   border: none;
   outline: none;
