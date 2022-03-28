@@ -149,7 +149,7 @@ return [
    'contact-window-header' => 'CONTACT US',
    'contact-info' => 'OUR OFFICES',
    'tbilisi' => 'TBILISI',
-   'qutaisi' => 'KUTAISI',
+   'qutaisi' => 'AIRPORT',
    'batumi' => 'BATUMI',
    'member' => 'BECOME PART OF THE TEAM',
    'cv' => 'Upload CV',

@@ -136,7 +136,7 @@ return [
    'contact-window-header' => 'დაგვიკავშირდი',
    'contact-info' => 'ჩვენი ოფისები',
    'tbilisi' => 'თბილისი',
-   'qutaisi' => 'ქუთაისი',
+   'qutaisi' => 'აეროპორტი',
    'batumi' => 'ბათუმი',
    'member' => 'გახდი გუნდის წევრი',
    'cv' => 'ატვირთე CV',

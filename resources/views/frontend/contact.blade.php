@@ -81,7 +81,7 @@
                                 <div class="contact-info-location tbilisi">
                                     <div class="location-part-1">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <p>ალ.ყაზბეგის ქ. #15</p>
+                                    <p>Al. Kazbegi Av. 15 | 0160 Tbilisi, Georgia </p>
                                     </div>
                                     
                                     <div class="location-part-2">
@@ -91,7 +91,12 @@
                                     
                                     <div class="location-part-3">
                                     <i class="fa-solid fa-phone"></i>
-                                    <p>(+995) 322 052 100</p>
+                                    <p>(+995) 558474993</p>
+                                    </div>
+                                    
+                                    <div class="location-part-4">
+                                    <i class="fa-solid fa-headphones"></i>
+                                        <p>(+995) 32 2 052100</p>
                                     </div>
 
                                     
@@ -101,7 +106,7 @@
                                 <div class="contact-info-location qutaisi">
                                     <div class="location-part-1">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <p>ქუთაისის ქ. #15</p>
+                                    <p>Tbilisi International Airport, Arrivals hall</p>
                                     </div>
                                     
                                     <div class="location-part-2">
@@ -111,17 +116,20 @@
                                     
                                     <div class="location-part-3">
                                     <i class="fa-solid fa-phone"></i>
-                                    <p>(+995) 322 052 100</p>
+                                    <p>(+995) 574103719</p>
                                     </div>
 
-                                    
+                                    <div class="location-part-4">
+                                    <i class="fa-solid fa-headphones"></i>
+                                        <p> (+995) 32 2 052100</p>
+                                    </div>
                                     
                                 </div>
 
                                 <div class="contact-info-location batumi">
                                     <div class="location-part-1">
                                     <i class="fa-solid fa-location-dot"></i>
-                                    <p>ბათუმის ქ. #15</p>
+                                    <p>Pharnavaz Mephe Str. 41 | 6010 Batumi, Georgia </p>
                                     </div>
                                     
                                     <div class="location-part-2">
@@ -131,9 +139,13 @@
                                     
                                     <div class="location-part-3">
                                     <i class="fa-solid fa-phone"></i>
-                                    <p>(+995) 322 052 100</p>
+                                    <p>(+995) 591619210</p>
                                     </div>
-
+                                    
+                                    <div class="location-part-4">
+                                    <i class="fa-solid fa-headphones"></i>
+                                        <p>(+995) 32 2 052100</p>
+                                    </div>
                                     
                                     
                                 </div>

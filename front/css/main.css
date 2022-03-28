@@ -2550,12 +2550,16 @@ width:100%;
   opacity: 1;
 }
 
-.location-part-1, .location-part-2, .location-part-3{
+.location-part-1, .location-part-2, .location-part-3, .location-part-4{
   display: flex;
   font-size: 13px;
   font-family: TBCContractica;
   color: #000000;
   margin-bottom: 1vh;
+}
+
+.location-part-1 p, .location-part-2 p, .location-part-3 p, .location-part-4 p{
+  margin-left: 1vh;
 }
 
 
