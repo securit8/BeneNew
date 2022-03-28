@@ -1441,7 +1441,7 @@ padding-top: 2vh;
 }
 
 
-.home-about-us-video img{
+.home-about-us-video embed{
 width:100%;
 clip: rect(0px,600px,200px,0px);
 }
@@ -2651,6 +2651,13 @@ width: 100%;
   font-family: TBCContractica-bold;
   font-weight: 700;
   font-size: 24px;
+}
+
+.car-rent-vehicles-header{
+  text-align: center;
+  font-size: 24px;
+  font-family: TBCContractica-bold;
+  font-weight: 700;
 }
 
 

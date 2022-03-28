@@ -54,7 +54,9 @@
             <div class="car-rent-vehicles">
                 <div class="car-rent-vehicles-middle">
                     <div class="car-rent-vehicles-inner">
-
+                            <div class="car-rent-vehicles-header">
+                                <p>@lang('front.our-car-rent')</p>
+                            </div>
 
                         <div class="car-rent-vehicles-row1">
                             <div class="car-rent-vehicles-row1-middle">
@@ -113,13 +115,13 @@
                                     </div>
                                     
                                     <div class="car-rent-row1-car2">
-                                        <img src="{{asset('front/images/fleet-car-4.png')}}" alt="">
+                                        <img src="{{asset('front/images/fleet-car-2.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
                                                 <p>SUV</p>
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>NISSAN KICKS</p>
+                                            <p>Toyota Corolla Automatic</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>or Simila</p>
@@ -145,7 +147,7 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Hybrid</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
@@ -164,16 +166,16 @@
                                     </div>
 
                                     <div class="car-rent-row1-car3">
-                                        <img src="{{asset('front/images/fleet-car-7.png')}}" alt="">
+                                        <img src="{{asset('front/images/fleet-car-3.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="rent-vehicle-type">
                                                 <p>Economy</p>
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
+                                            <p>Hyundai Sonata Automatic</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
-                                            <p>V-class</p>
+                                            <p>Or Similar</p>
                                         </div>
                                         <div class="rent-vehicle-specs">
                                             <div class="vehicle-specs-line-1">
@@ -196,11 +198,11 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Hybrid</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase-rolling"></i><p>1 Large Suitcase</p>
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>2 Large Suitcases</p>
                                                 </div>
                                                  
                                                 <div class="car-spec-line">
@@ -224,16 +226,16 @@
                                     
                                 
                                     <div class="car-rent-row2-car1">
-                                        <img src="{{asset('front/images/fleet-car-2.png')}}" alt="">
+                                        <img src="{{asset('front/images/fleet-car-4.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="rent-vehicle-type">
-                                                <p>Economy</p>
+                                                <p>SUV</p>
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
+                                            <p>NISSAN KICKS</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
-                                            <p>Camry</p>
+                                            <p>Or Similar</p>
                                         </div>
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
@@ -256,11 +258,11 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Hybrid</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase-rolling"></i><p>1 Large Suitcase</p>
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>2 Large Suitcases</p>
                                                 </div>
                                                  
                                                 <div class="car-spec-line">
@@ -277,13 +279,13 @@
                                         <img src="{{asset('front/images/fleet-car-5.png')}}" alt="">
                                         <div class="rent-toyota-specs">  
                                         <div class="rent-vehicle-type">
-                                                <p>Standard/intermediate</p>
+                                                <p>SUV</p>
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>HYUNDAI SONATA AUTOMATIC</p>
+                                            <p>KIA SPORTAGE AUTOMATIC</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
-                                            <p>Land Cruiser</p>
+                                            <p>Or Simiral</p>
                                         </div>
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
@@ -292,7 +294,7 @@
                                                 </div>
 
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase"></i><p>2 Small Suitcases</p>
+                                                <i class="fa-solid fa-suitcase"></i><p>4 Small Suitcases</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -306,11 +308,11 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Hybrid</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase-rolling"></i><p>1 Large Suitcase</p>
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>4 Large Suitcase</p>
                                                 </div>
                                                  
                                                 <div class="car-spec-line">
@@ -324,16 +326,16 @@
                                     </div>
 
                                     <div class="car-rent-row2-car3">
-                                        <img src="{{asset('front/images/fleet-car-8.png')}}" alt="">
+                                        <img src="{{asset('front/images/fleet-car-6.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
-                                                <p>Economy</p>
+                                                <p>SUV</p>
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
+                                            <p>HYUNDAI SANTA FE AUTOMATIC</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
-                                            <p>V-class</p>
+                                            <p>Or Similar</p>
                                         </div>
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
@@ -342,7 +344,7 @@
                                                 </div>
 
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase"></i><p>2 Small Suitcases</p>
+                                                <i class="fa-solid fa-suitcase"></i><p>4 Small Suitcases</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -356,11 +358,11 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Hybrid</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase-rolling"></i><p>1 Large Suitcase</p>
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>4 Large Suitcases</p>
                                                 </div>
                                                  
                                                 <div class="car-spec-line">
@@ -384,25 +386,25 @@
                                     
                                 
                                     <div class="car-rent-row3-car1">
-                                        <img src="{{asset('front/images/fleet-car-3.png')}}" alt="">
+                                        <img src="{{asset('front/images/fleet-car-7.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
-                                                <p>Economy</p>
+                                                <p>SUV</p>
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
+                                            <p>TOYOTA PRADO AUTOMATIC</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
-                                            <p>Camry</p>
+                                            <p>Or Similar</p>
                                         </div>
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>5+2 seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase"></i><p>2 Small Suitcases</p>
+                                                <i class="fa-solid fa-suitcase"></i><p>1 Small Suitcase</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -416,13 +418,13 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Hybrid</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
                                                 </div>
                                                             
-                                                <div class="car-spec-line">
+                                                <!-- <div class="car-spec-line">
                                                 <i class="fa-solid fa-suitcase-rolling"></i><p>1 Large Suitcase</p>
                                                 </div>
-                                                 
+                                                  -->
                                                 <div class="car-spec-line">
                                                 <i class="fa-solid fa-car"></i><p>4-5 Doors</p>
                                                 </div>
@@ -434,21 +436,21 @@
                                     </div>
                                     
                                     <div class="car-rent-row3-car2">
-                                        <img src="{{asset('front/images/fleet-car-6.png')}}" alt="">
+                                        <img src="{{asset('front/images/fleet-car-8.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="rent-vehicle-type">
-                                                <p>Standard/intermediate</p>
+                                                <p>Van/Minivan</p>
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>HYUNDAI SONATA AUTOMATIC</p>
+                                            <p>TOYOTA PROACE AUTOMATIC</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
-                                            <p>Land Cruiser</p>
+                                            <p>Or Similar</p>
                                         </div>
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>8 seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -466,7 +468,7 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Hybrid</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
@@ -482,7 +484,7 @@
 
                                         </div>
                                     </div>
-
+<!-- 
                                     <div class="car-rent-row3-car3">
                                         <img src="{{asset('front/images/fleet-car-1.png')}}" alt="">
                                         <div class="rent-toyota-specs"> 
@@ -530,7 +532,7 @@
                                             </div>
                                         </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
                             </div>
