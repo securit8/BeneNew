@@ -40,7 +40,7 @@ return [
                 Taxis are available from the airport to the city, as well as from anywhere in Tbilisi to the airport Our vehicles have a large luggage compartment, which ensures comfortable transportation We offer the latest models of sedans and minivans - Tesla, Mercedes-Benz, Changan and Toyota',
 
 
-'index-academy' => 'ACADEMY',
+'index-academy' => 'BENE ACADEMY',
 'newsroom' => 'NEWSROOM',
 'front-taxi' => 'AIRPORT TAXI',
 'index-events' => 'EVENTS AND PROJECTS',

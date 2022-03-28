@@ -406,6 +406,7 @@
         <div class="swiper-slide"><img src="{{asset('front/images/proeqti3.jpg')}}" alt=""></div>
         <div class="swiper-slide"><img src="{{asset('front/images/proeqti4.jpg')}}" alt=""></div>
         <div class="swiper-slide"><img src="{{asset('front/images/proeqti5.jpg')}}" alt=""></div>
+        <div class="swiper-slide"><img src="{{asset('front/images/proeqti1.jpg')}}" alt=""></div>
        
       </div>
       <div class="swiper-button-next"></div>
