@@ -128,7 +128,7 @@ return [
    // contact page
    'contact-header' => 'კონტაქტი',
    'input-name' => 'სახელი',
-   'input-mail' => 'E-mail',
+   'input-mail' => 'ელ. ფოსტა',
    'input-number' => 'ტელეფონი',
    'input-text' => 'შეტყობინება',
    'input-send' => 'გაგზავნა',
