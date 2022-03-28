@@ -147,7 +147,7 @@ return [
    'input-send' => 'Send',
    'upload' => 'Upload a File',
    'contact-window-header' => 'CONTACT US',
-   'contact-info' => 'საკონტაქტო ინფორმაცია',
+   'contact-info' => 'OUR OFFICES',
    'tbilisi' => 'TBILISI',
    'qutaisi' => 'KUTAISI',
    'batumi' => 'BATUMI',

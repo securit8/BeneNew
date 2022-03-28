@@ -134,7 +134,7 @@ return [
    'input-send' => 'გაგზავნა',
    'upload' => 'ატვირთე ფაილი',
    'contact-window-header' => 'დაგვიკავშირდი',
-   'contact-info' => 'საკონტაქტო ინფორმაცია',
+   'contact-info' => 'ჩვენი ოფისები',
    'tbilisi' => 'თბილისი',
    'qutaisi' => 'ქუთაისი',
    'batumi' => 'ბათუმი',
