@@ -70,7 +70,7 @@
                                                 <p>Economy</p>
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
+                                            <p>TOYOTA YARIS AUTOMATIC</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>or Similar</p>
