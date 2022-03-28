@@ -239,6 +239,10 @@ padding-left: -20!important;
   margin-top: 0.9rem;
 }
 
+.footer-social-icons{
+  margin-left: 4vh;
+}
+
 .contact-number{
   display: flex;
   justify-content: space-around;
@@ -250,6 +254,7 @@ padding-left: -20!important;
   font-family: TBCContractica;
   margin-left: 0.5rem;
 }
+
 
 .contact-number img{
   width: 3vh;
@@ -263,7 +268,7 @@ padding-left: -20!important;
 }
 
 .social-icons1 i{
-  margin-left: 1rem;
+  margin-left: 2rem;
   color: rgb(255, 255, 255);
 }
 
@@ -2605,7 +2610,7 @@ grid-template-columns: repeat(40, 1fr);
   padding: 0.5rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
-  grid-column: 4 / 12;
+  grid-column: 5 / 12;
   display: flex;
   justify-content: space-around;
 }
