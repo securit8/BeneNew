@@ -2562,6 +2562,9 @@ width:100%;
   margin-left: 1vh;
 }
 
+.location-part-1{
+  line-height: 20px;
+}
 
 .contact-page-3-inner{
 display: grid;
