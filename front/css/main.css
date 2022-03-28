@@ -3419,7 +3419,7 @@ color: #000000;
 
 .vehicle-spec-body-title p{
   font-weight: 700;
-  font-size: 23px;
+  font-size: 20px;
   font-family: TBCContractica-bold;
   color: #000000;
   margin-right: 0.6rem;
@@ -3427,7 +3427,7 @@ color: #000000;
 }
 
 .vehicle-spec-body-title img{
-  margin-top: 0.5rem;
+  margin-top: 0.1rem;
   width: 18px;
   height: 17px;
 }
