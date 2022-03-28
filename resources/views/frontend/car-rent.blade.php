@@ -25,15 +25,16 @@
                         <div class="car-rent-header-info">
 
                             <div class="car-rent-header-text">
-                                <p>
-                                @lang('front.car-rent-text-1')
-                                </p>
-
+                                
+                                <p>@lang('front.car-rent-text-1')</p>
+                               <p> @lang('front.car-rent-text-2')</p>
                                 <ul>
                                     <li>@lang('front.suv')</li>
                                     <li>@lang('front.sedan')</li>
                                     <li>@lang('front.minivan')</li>
                                 </ul>
+                               <p> @lang('front.car-rent-text-3')</p>
+
                             </div>
 
                      

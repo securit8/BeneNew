@@ -54,7 +54,7 @@
             <div class="about-page-events">
 
                 <div class="about-page-events-picture">
-                    <img src="{{asset('front/images/about-2.png') }}" alt="">
+                    <img src="{{asset('front/images/about-us-event-2.jpg') }}" alt="">
                 </div>
 
 

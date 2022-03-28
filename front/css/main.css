@@ -610,14 +610,14 @@ width:60%;
 margin-bottom: 1rem;
 width:95%;
 font-size: 13px;
-line-height: 20px;
+line-height: 24px;
 font-family: TBCContractica;
 color: rgba(6, 13, 13, 1);
 }
 
 .index-about-us-text p{
   font-size: 12px;
-  line-height: 20px;
+  line-height: 24px;
   font-family: TBCContractica;
   font-weight: 400;
 }
@@ -1108,7 +1108,7 @@ color: rgba(252, 252, 253, 0.705);
 font-size: 12px;
 font-family: TBCContractica;
 font-weight: 400;
-line-height: 20px;
+line-height: 24px;
 }
 
 .index-academy-button button{
@@ -1194,7 +1194,7 @@ width:100%;
 
 .index-taxi-text p{
 font-size: 12px;
-line-height: 20px;
+line-height: 24px;
 font-family: TBCContractica;
 font-weight: 400;
 color: rgba(6, 13, 13, 1);
@@ -1474,7 +1474,7 @@ font-family: TBCContractica;
 margin-bottom: 2rem;
 width:100%;
 font-size: 12px;
-line-height: 20px;
+line-height: 24px;
 font-weight: 400;
 color: rgba(6, 13, 13, 1);
 padding-top: 4vh;
@@ -1558,7 +1558,7 @@ margin-bottom: 0.5rem;
 .about-page-events-info p{
   font-size: 12px;
   font-family: TBCContractica;
-  line-height: 20px;
+  line-height: 24px;
   color: rgba(252, 252, 253, 1);
   
 }
@@ -1610,7 +1610,7 @@ width:100%;
 .about-vehicle-renewal-text p{
 font-family: TBCContractica;
 font-size: 12px;
-line-height: 20px;
+line-height: 24px;
 }
 
 .about-news-body{
@@ -1811,7 +1811,7 @@ color:rgba(6, 13, 13, 1);
   font-family:TBCContractica;
   font-size: 12px;
   color:rgba(6, 13, 13, 1);
-  line-height: 20px;
+  line-height: 24px;
 }
 
 .academy-part-2{
@@ -1862,7 +1862,7 @@ color: rgba(252, 252, 253, 1);
 font-size: 12px;
 font-family: TBCContractica;
 color: rgba(252, 252, 253, 0.699);
-line-height: 20px;
+line-height: 24px;
 margin-left: 4.7vh;
 }
 
@@ -1871,7 +1871,7 @@ margin-left: 4.7vh;
 font-size: 12px;
 font-family: TBCContractica;
 color: rgba(252, 252, 253, 0.699);
-line-height: 20px;
+line-height: 24px;
 }
 
 
@@ -2318,7 +2318,7 @@ grid-row: 1 / 2;
   font-family: TBCContractica;
   color: rgba(6, 13, 13, 0.76);
   padding-bottom: 1rem;
-  line-height: 20px;
+  line-height: 24px;
 }
 
 
@@ -2745,7 +2745,7 @@ width: 100%;
 
 
 .car-rent-header-info{
-  grid-column: 1 / 18;
+  grid-column: 1 / 19;
   padding-top: 2rem;
 width:60%; 
 }
@@ -2754,21 +2754,25 @@ width:60%;
 margin-bottom: 1rem;
 width:95%;
 font-size: 13px;
-line-height: 20px;
+line-height: 24px;
 font-family: TBCContractica;
 color: rgba(6, 13, 13, 1);
 }
 
 .car-rent-header-text p{
+  margin-bottom: 0;
+}
+
+.car-rent-header-text p{
   font-size: 12px;
-  line-height: 20px;
+  line-height: 24px;
   font-family: TBCContractica;
   font-weight: 400;
 }
 
     
 .car-rent-header-video{
-  grid-column: 11 / 20;
+  grid-column: 12 / 21;
   margin-top: 2rem;
   margin-left: 4%;
 }
@@ -3250,7 +3254,7 @@ grid-column: 11 / 16;
   .newsroom-article-text p{
    font-size: 9px;
    color:rgba(6, 13, 13, 0.753);
-   line-height: 20px;
+   line-height: 24px;
   }
   
   .newsroom-article-more{
@@ -3327,7 +3331,7 @@ color: #000000;
 
 .article-text-body p{
  font-size: 12px;
- line-height: 20px;
+ line-height: 24px;
  font-family: TBCContractica;
  color: #000000;
 }
@@ -3381,7 +3385,7 @@ color: #000000;
   .other-article-text p{
    font-size: 9px;
    color:rgba(6, 13, 13, 0.753);
-   line-height: 20px;
+   line-height: 24px;
   }
   
   .other-article-more{
@@ -3480,7 +3484,7 @@ color: #000000;
 
 .vehicle-spec-body-info-text p{
   font-size: 12px;
-  line-height: 20px;
+  line-height: 24px;
   color: rgba(6, 13, 13, 0.753);
   font-family: TBCContractica;
 }
@@ -3841,7 +3845,7 @@ border: 1px solid rgb(126 126 126 / 7%);
   font-size: 12px;
   font-weight: 400;
   font-family: TBCContractica;
-  line-height: 20px;
+  line-height: 24px;
 }
 
 .moiare-body-image{
@@ -3939,7 +3943,7 @@ font-family: TBCContractica;
 margin-bottom: 2rem;
 width:100%;
 font-size: 12px;
-line-height: 20px;
+line-height: 24px;
 font-weight: 400;
 color: rgba(6, 13, 13, 1);
 }
@@ -4022,7 +4026,7 @@ margin-bottom: 0.5rem;
 .taxi-page-events-info p{
   font-size: 12px;
   font-family: TBCContractica;
-  line-height: 20px;
+  line-height: 24px;
   color: rgba(252, 252, 253, 1);
   
 }
@@ -4074,7 +4078,7 @@ width:100%;
 .taxi-vehicle-renewal-text p{
 font-family: TBCContractica;
 font-size: 12px;
-line-height: 20px;
+line-height: 24px;
 }
 
 
@@ -4144,7 +4148,7 @@ line-height: 20px;
     font-size: 12px;
     color:rgba(255, 255, 255, 0.753);
     font-family: TBCContractica;
-    line-height: 20px;
+    line-height: 24px;
   }
 
 
@@ -4235,10 +4239,10 @@ line-height: 20px;
   
   .electric-about-us-text{
   font-family: TBCContractica;
-  padding-top: 7vh;
+  padding-top: 2vh;
   width:100%;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 24px;
   font-weight: 400;
   color: rgba(6, 13, 13, 1);
   }
@@ -4321,7 +4325,7 @@ line-height: 20px;
   .electric-page-events-info p{
     font-size: 12px;
     font-family: TBCContractica;
-    line-height: 20px;
+    line-height: 24px;
     color: rgba(252, 252, 253, 1);
     
   }
