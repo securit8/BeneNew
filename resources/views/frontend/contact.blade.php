@@ -22,9 +22,7 @@
                 </div>
 
                 <div class="contact-window">
-                    <div class="contact-widow-header">
-                        <p>@lang('front.contact-window-header')</p>
-                    </div>
+                  
 
                     <div class="contact-window-input">
                         <div class="input-name">
