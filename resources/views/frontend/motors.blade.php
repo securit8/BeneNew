@@ -17,20 +17,35 @@
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="5" aria-label="Slide 6"></button>
     </div>
   </div>
 
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/cropped1.JPG')}}" class="" alt="...">
+      <img src="{{asset('front/images/motors-page-3.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/cropped2.JPG')}}" class="" alt="...">
+      <img src="{{asset('front/images/4.jpg')}}" class="" alt="...">
     </div>
 
+
+    <div class="carousel-item">
+      <img src="{{asset('front/images/camry-motors.jpg')}}" class="" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <img src="{{asset('front/images/cropped1.JPG')}}" class="" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <img src="{{asset('front/images/cropped2.JPG')}}" class="" alt="...">
+    </div>
 
     <div class="carousel-item">
       <img src="{{asset('front/images/cropped3.JPG')}}" class="" alt="...">
