@@ -13,7 +13,7 @@ return [
   'motors' => 'მოტორსი',
   'call-center' => 'ქოლ ცენტრი: (+995 32) 2052 100',
   'services' => 'Services',
-  'copyright' => '2017-2022 ყველა უფლება დაცულია',
+  'copyright' => '2017-2022 All Rights Reserved',
   'electric' => 'ელექტრო',
   'events' => 'პროექტები',
   'show-more' => 'იხილეთ მეტი',
