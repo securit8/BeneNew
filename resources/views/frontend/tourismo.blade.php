@@ -114,7 +114,7 @@
 
                         <p class="sheet-part-1">მოდელი</p> 
                         
-                        <p class="sheet-part-2">S-Class AMG Line W223</p>
+                        <p class="sheet-part-2">Tourismo</p>
                       </div>
 
                       <div class="sheet-line-3">
