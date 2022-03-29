@@ -1,7 +1,7 @@
 
 @extends('frontend/master')
 
-@section('title', 'S-class')
+@section('title', 'Tesla')
 @section('content')
 
 

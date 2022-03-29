@@ -152,7 +152,7 @@
                                 <div class="element-info-tags">
                                     <p>S class</p> 
                                     <p>Sedan</p>
-                                    <p>2021</p>
+                                    <p>2022</p>
                                 </div>
                                 
                                 <div class="element-info-text">
@@ -181,7 +181,7 @@
                                     <div class="element-info-tags">
                                         <p>Land Cruiser</p> 
                                         <p>SUV</p>
-                                        <p>2021</p>
+                                        <p>2022</p>
                                     </div>
                                     
                                     <div class="element-info-text">
@@ -273,7 +273,7 @@
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>@lang('front.fleet-car-2-outer')</p>
+                                        <p>@lang('front.fleet-car-5-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
@@ -389,7 +389,7 @@
                                     
                                     <div class="element-info-tags">
                                         <p>Sprinter</p> 
-                                        <p>Minivan</p>
+                                        <p>Minibus</p>
                                         <p>2019</p>
                                     </div>
                                     

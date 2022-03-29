@@ -114,10 +114,10 @@
                                         <img src="{{asset('front/images/fleet-car-2.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
-                                                <p>SUV</p>
+                                                <p>Standard/intermediate</p>
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>Toyota Corolla Automatic</p>
+                                            <p>TOYOTA COROLLA AUTOMATIC</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>or Simila</p>
@@ -168,7 +168,7 @@
                                                 <p>Economy</p>
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>Hyundai Sonata Automatic</p>
+                                            <p>HYUNDAI SONATA AUTOMATIC</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Or Similar</p>
