@@ -92,90 +92,79 @@
 
 
 
-                <div class="vehicle-spesific-specs" id="arrow-down">
-                  <div class="vehicle-spesific-specs-info">
-
-                    <div class="vehicle-spesific-specs-info-text">
-                    <img src="{{asset('front/images/vehicle-icon.png')}}" alt="">
-                    <p>ავტომობილის სრული მონაცემები</p>
-                    </div>
-                    
-                      <div class="vehicle-spesific-specs-info-arrow" >
-                        <img src="{{asset('front/images/arrow-down.png')}}" alt="">
-                      </div>
-                  </div>
-
-                    <div class="spec-sheet-lines" id="spec-sheet">
+                <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
 
                         <p class="sheet-part-1">მწარმოებელი</p> 
                         
-                        <p class="sheet-part-2">მერსედეს ბენც</p>
+                        <p class="sheet-part-2">Mercedes-Benz</p>
                       </div>
 
                       <div class="sheet-line-2">
+
+                        <p class="sheet-part-1">მოდელი</p> 
+                        
+                        <p class="sheet-part-2">S-Class AMG Line W223</p>
+                      </div>
+
+                      <div class="sheet-line-3">
+
+                        <p class="sheet-part-1">ფერი</p> 
+                        
+                        <p class="sheet-part-2">შავი მეტალიკი</p>
+                      </div>
+
+                      <div class="sheet-line-4">
 
                         <p class="sheet-part-1">კატეგორია</p> 
                         
                         <p class="sheet-part-2">სედანი</p>
                       </div>
 
-                      <div class="sheet-line-3">
-
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
-                        
-                        <p class="sheet-part-2">5</p>
-                      </div>
-
-                      <div class="sheet-line-4">
-
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
-                        
-                        <p class="sheet-part-2">120 კგ</p>
-                      </div>
-
                       <div class="sheet-line-5">
 
-                        <p class="sheet-part-1">უსაფრთხოება</p> 
+                        <p class="sheet-part-1">გამოშვების წელი</p> 
                         
-                        <p class="sheet-part-2">კი</p>
+                        <p class="sheet-part-2">2022</p>
                       </div>
 
                       <div class="sheet-line-6">
 
-                        <p class="sheet-part-1">დაცულობა</p> 
+                        <p class="sheet-part-1">ძრავის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">Mercedes-Benz (გერმანულად: [mɛɐ̯ˈtseːdəsˌbɛnts, -dɛs-]),[4][5] ან უბრალოდ Mercedes, —<br>
-                           ავტომობილების გერმანული ბრენდი და – როგორც Mercedes-Benz AG– 2019 წლიდან <br>
-                            Daimler AG-ის შვილობილი კომპანია. [1] Mercedes-Benz ცნობილია მდიდრული და <br>
-                             კომერციული ავტომობილების წარმოებით.[შენიშვნა 2] </p>
+                        <p class="sheet-part-2">3,0 </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">მულტიმედია</p> 
+                        <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">ბლუთუზი, სათავო ო ფისი მდებარეობს შტუტგარტში, ბადენ-ვიურტემბერგი. Mercedes<br>
-                          -Benz-ის ბრენდის პირველი ავტომობილი 1926 წელს იქნა წარმოებული. 2018 წელს<br> 
-                          Mercedes-Benz პრემიუმ ავტომობილების უმსხვილესი გამყიდველი იყო. მან 2,31 მილიონი<br> 
-                          სამგზავრო ავტომობილი გაყიდა.[6] </p>
+                        <p class="sheet-part-2">ბენზინი </p>
                       </div>
 
                       <div class="sheet-line-8">
 
-                        <p class="sheet-part-1">ინტერნეტი</p> 
+                        <p class="sheet-part-1">სალონის ტიპი</p> 
                         
-                        <p class="sheet-part-2">WI-FI</p>
+                        <p class="sheet-part-2">ტყავი</p>
                       </div>
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">დამატებით</p> 
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
                         
-                        <p class="sheet-part-2">წყალი</p>
+                        <p class="sheet-part-2">4</p>
                       </div>
 
-                  </div>
+
+                      <div class="sheet-line-10">
+
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        
+                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
+                      </div>
+
+                    </div>
                 </div>
 
                 

@@ -74,14 +74,11 @@
                   <div class="vehicle-spec-body-tags">
                     <p>S-class</p>
                     <p>Sedan</p>
-                    <p>2020-2021</p>
+                    <p>2019</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>ჩვენი ავტოპარკის ჰიბირულ და ელექტო მანქანების რეიტინგში გამორჩეულ ადგილს
-                      Toyota Camry-ის მოდელი Sport Edition Hybrid-ი იკავებს.
-                      ეს დახვეწილი ჰიბრიდული სედანი წარმოებულია 2019 წელს და აღჭურვილია
-                      ულტრათანამედროვე მულტიმედია სისტემით და მაქსიმალური კომპლექტაციით.</p>
+                    <p>@lang('front.fleet-car-5-inner')</p>
                     </div>
                   </div>
 
@@ -95,7 +92,7 @@
                 <div class="vehicle-spesific-specs" id="arrow-down">
                   <div class="vehicle-spesific-specs-info">
 
-                    <div class="vehicle-spesific-specs-info-text">
+                    <!-- <div class="vehicle-spesific-specs-info-text">
                     <img src="{{asset('front/images/vehicle-icon.png')}}" alt="">
                     <p>ავტომობილის სრული მონაცემები</p>
                     </div>
@@ -103,7 +100,7 @@
                       <div class="vehicle-spesific-specs-info-arrow" >
                         <img src="{{asset('front/images/arrow-down.png')}}" alt="">
                       </div>
-                  </div>
+                  </div> -->
 
                   <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
@@ -122,59 +119,59 @@
 
                       <div class="sheet-line-3">
 
+                        <p class="sheet-part-1">ფერი</p> 
+                        
+                        <p class="sheet-part-2">შავი მეტალიკი / მარგალიტის ფერი</p>
+                      </div>
+
+                      <div class="sheet-line-4">
+
                         <p class="sheet-part-1">კატეგორია</p> 
                         
                         <p class="sheet-part-2">სედანი</p>
                       </div>
 
-                      <div class="sheet-line-4">
+                      <div class="sheet-line-5">
 
                         <p class="sheet-part-1">გამოშვების წელი</p> 
                         
                         <p class="sheet-part-2">2019</p>
                       </div>
 
-                      <div class="sheet-line-5">
+                      <div class="sheet-line-6">
 
                         <p class="sheet-part-1">ძრავის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">2.5</p>
-                      </div>
-
-                      <div class="sheet-line-6">
-
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
-                        
-                        <p class="sheet-part-2">3 </p>
+                        <p class="sheet-part-2">2.5 </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
+                        <p class="sheet-part-2">ჰიბრიდი </p>
                       </div>
 
                       <div class="sheet-line-8">
 
-                        <p class="sheet-part-1">ფერი</p> 
+                        <p class="sheet-part-1">სალონის ტიპი</p> 
                         
-                        <p class="sheet-part-2">შავი მეტალიკი / მარგალიტის ფერი</p>
+                        <p class="sheet-part-2">ტყავი</p>
                       </div>
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">საწვავის ტიპი</p> 
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
                         
-                        <p class="sheet-part-2">ჰიბრიდი</p>
+                        <p class="sheet-part-2">3</p>
                       </div>
 
 
                       <div class="sheet-line-10">
 
-                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">ტყავი</p>
+                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
                       </div>
 
                     </div>

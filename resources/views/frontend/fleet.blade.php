@@ -175,22 +175,17 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>Toyota Land Cruiser 300</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
+                                        <p>TOYOTA LAND CRUISER 300</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
                                         <p>Land Cruiser</p> 
-                                        <p>Sedan</p>
+                                        <p>SUV</p>
                                         <p>2021</p>
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>ჩვენი ავტოპაკის ერთ-ერთი წევრი არის უახლესი Toyota Land Cruiser 300.
-                                        ავტომობილი წარმოებულია 2022 წელს და წარმოადგენს Land Cruiser- ის მაღალი
-                                        გამავლობის პრემიუმ კლასის ავტოსატრანსპორტო საშუალებას და წარმოდგენილია
-                                        მაქსიმალური კომპლექტაციით.
-                                        წინა მოდელთან შედარებით მას უფრო მეტად დახვეწილი დიზაინი, კომფორტული
-                                        ინტერიერი და თანამედროვე დიზაინი გამოარჩევს.</p>
+                                        <p>@lang('front.fleet-car-2-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
@@ -208,20 +203,17 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>MERCEDES-BENZ</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                        <p>MERCEDES-BENZ S-CLASS</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
                                         <p>S class</p> 
                                         <p>Sedan</p>
-                                        <p>2016</p>
+                                        <p>2019</p>
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>ჩვენი ავტოპაკის კიდევ ერთი დახვეწილი მოდელი არის Mercedes-Benz S-Class W222
-                                        ავტომობილი წარმოებულია 2019 წელს და წარმოადგენს S-Class-ის მე-6 თაობას.
-                                        ავტომობილი ხასიათდება Mercedes-Benz-ის ერთ-ერთ საუკეთესო მოდელად, რომლის
-                                        სრულყოფილება თითოეულ დეტალში იგრძნობა.</p>
+                                        <p>@lang('front.fleet-car-3-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
@@ -241,7 +233,7 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>MERCEDES-BENZ</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                        <p>MERCEDES-BENZ E-CLASS</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
@@ -251,11 +243,7 @@
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის კიდევ ერთ დახვეწილ მოდელს - Mercedes-Benz E-Class W213
-                                        ავტომობილი გამოშვებულია 2018 წელს და E-Class-ის მე-5 თაობას წარმოადგენს.
-                                        ავტომობილი გამოირჩევა ელეგანტურობით, სალონის დახვეწილი დიზაინით და
-                                        საშუალო გაბარიტებით. მისი ეს მახასიათებლები მომხმარებლების განსაკუთრებულ
-                                        სიმპატიას იმსახურებს.</p>
+                                        <p>@lang('front.fleet-car-4-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
@@ -285,10 +273,7 @@
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>ჩვენი ავტოპარკის ჰიბირულ და ელექტო მანქანების რეიტინგში გამორჩეულ ადგილს
-                                        Toyota Camry-ის მოდელი Sport Edition Hybrid-ი იკავებს.
-                                        ეს დახვეწილი ჰიბრიდული სედანი წარმოებულია 2019 წელს და აღჭურვილია
-                                        ულტრათანამედროვე მულტიმედია სისტემით და მაქსიმალური კომპლექტაციით.</p>
+                                        <p>@lang('front.fleet-car-2-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
@@ -308,20 +293,17 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>TESLA</p> <img src="{{asset('front/images/fleet-logo2.png')}}" alt="">
+                                        <p>TESLA MODEL 3</p> <img src="{{asset('front/images/fleet-logo2.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
                                         <p>E class</p> 
                                         <p>Sedan</p>
-                                        <p>2018</p>
+                                        <p>2019</p>
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>სედანის ტიპის ელექტრომობილი Tesla Model 3 ჩვენი ავტოპარკის ერთ-ერთი
-                                        გამორჩეული და მოთხოვნადი მოდელია.
-                                        Model 3 არის სრულად ელექტრო და სრული დამუხტვით 400 კილომეტრამდე მანძილს
-                                        ფარავს.</p>
+                                        <p>@lang('front.fleet-car-6-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
@@ -345,17 +327,13 @@
                                     </div>
                                     
                                     <div class="element-info-tags">
-                                        <p>E class</p> 
-                                        <p>Sedan</p>
-                                        <p>2018</p>
+                                        <p>Land-Cruiser</p> 
+                                        <p>SUV</p>
+                                        <p>2019</p>
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>ჩვენი ავტოპარკის ერთ-ერთი წევრია ლეგენდარული Toyota Land Cruiser 200
-                                        ავტომობილი წარმოებულია 2019 წელს და ის Toyota- ს ფირმის ერთ-ერთ წარმატებულ,
-                                        მაღალი გამავლობის ავტოსატრანსპორტო საშუალებას წარმოადგენს.
-                                        ამ მოდელს თვალშისაცემი დიზაინი, გაუმჯობესებული ინტერიერი და გამავლობა მას
-                                        შეუდარებელ 4X4 ავტომობილად აქცევს.</p>
+                                        <p>@lang('front.fleet-car-7-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
@@ -380,19 +358,13 @@
                                     </div>
                                     
                                     <div class="element-info-tags">
-                                        <p>E class</p> 
-                                        <p>Sedan</p>
-                                        <p>2018</p>
+                                        <p>V-class</p> 
+                                        <p>Minivan</p>
+                                        <p>2020</p>
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>ჩვენი ავტოპაკის ერთ-ერთი წევრი არის კომფორტული Mercedes-Benz V-Class
-                                        V-Class არის ბიზნეს კლასის მინივენი, რომელშიც კომფორტულად თავსდება 5-6
-                                        ადამიანი. შთაბეჭდილებას ახდენს ტექნოლოგიების თანამედროვე აჭღურვილობით და
-                                        პრემიუმ კლასის დიზაინით.
-                                        ავტომობილი იდეალურია დიდ მანძილზე გადასაადგილებლად, აქვს მოცულობითი
-                                        ბარგის გადატანის საშუალება, გასაშლელი მაგიდა სამუშაოდ და სხვა კომფორტზე
-                                        ორიენტირებული მახასიათებლები.</p>
+                                        <p>@lang('front.fleet-car-8-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
@@ -416,19 +388,13 @@
                                     </div>
                                     
                                     <div class="element-info-tags">
-                                        <p>E class</p> 
-                                        <p>Sedan</p>
-                                        <p>2018</p>
+                                        <p>Sprinter</p> 
+                                        <p>Minivan</p>
+                                        <p>2019</p>
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>ჩვენი ავტოპარკის წევრია მაღალი კლასის მიკროავტობუსი - Mercedes-Benz Sprinter 515
-                                        Sprinter-ის უპირატესობა მდგომარეობს იმაში, რომ მძლავრი ძრავის მეშვეობით
-                                        ავტომობილს აქვს მაღალი გამავლობის უნარი და შეუძლია საშუალო სირთულის
-                                        გზებზე მანევრირება.
-                                        სავარძლების ქარხნული კომპლექტაცია მგზავრს საშუალებას აძლევს მოთავსდეს
-                                        კომფორტულად შორ მანძილზე მგზავრობისას და თან დაცული იყოს უსაფრთხოების
-                                        მაქსიმალური მოთხოვნები.</p>
+                                        <p>@lang('front.fleet-car-9-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
@@ -452,16 +418,13 @@
                                     </div>
                                     
                                     <div class="element-info-tags">
-                                        <p>E class</p> 
+                                        <p>Tourismo</p> 
                                         <p>Bus</p>
                                         <p>2019</p>
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>ჩვენი ავტოპარკის წევრია პრემიუმ კლასის ავტობუსი - Mercedes-Benz Bus Tourismo
-                                        Tourismo ავტობუსების კლასში ყველაზე უსაფრთხო და დაცულ ავტობუსად მოიაზრება.
-                                        ავტობუსი აერთიანებს მაღალი ხარისხის სტანდარტებს, მაქსიმალურ კომფორტს და
-                                        მდიდრულ ინტერიერს.</p>
+                                        <p>@lang('front.fleet-car-10-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
@@ -485,18 +448,13 @@
                                     </div>
                                     
                                     <div class="element-info-tags">
-                                        <p>E class</p> 
+                                        <p>Prestij</p> 
                                         <p>Bus</p>
-                                        <p>2018</p>
+                                        <p>2019</p>
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>წარმოგიდგენთ ჩვენი ავტოპარკის საშუალო ზომის ავტობუსს - Temsa Prestij SD
-                                        ავტობუსი სპეციალურად შექმნილია მოკლე და საშუალო მანძილზე მგზავრობისთვის.
-                                        კომფორტული სავარძლები და რიგებს შორის დიდი მანძილი მგზავრობას სასიამოვნოს
-                                        და კომფორტულს ხდის.
-                                        აუდიო სისტემის აღჭურვილობა განსაკუთრებულად კომფორტულია საექსკურსიო
-                                        მოგზაურობისთვის.</p>
+                                        <p>@lang('front.fleet-car-11-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">

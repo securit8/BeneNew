@@ -74,16 +74,11 @@
                   <div class="vehicle-spec-body-tags">
                     <p>Prestij</p>
                     <p>Bus</p>
-                    <p>2020-2021</p>
+                    <p>2019</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>წარმოგიდგენთ ჩვენი ავტოპარკის საშუალო ზომის ავტობუსს - Temsa Prestij SD
-                      ავტობუსი სპეციალურად შექმნილია მოკლე და საშუალო მანძილზე მგზავრობისთვის.
-                      კომფორტული სავარძლები და რიგებს შორის დიდი მანძილი მგზავრობას სასიამოვნოს
-                      და კომფორტულს ხდის.
-                      აუდიო სისტემის აღჭურვილობა განსაკუთრებულად კომფორტულია საექსკურსიო
-                      მოგზაურობისთვის.</p>
+                    <p>@lang('front.fleet-car-11-inner')</p>
                     </div>
                   </div>
 
@@ -106,7 +101,6 @@
                         <img src="{{asset('front/images/arrow-down.png')}}" alt="">
                       </div>
                   </div>
-
                   <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
 
@@ -124,59 +118,59 @@
 
                       <div class="sheet-line-3">
 
+                        <p class="sheet-part-1">ფერი</p> 
+                        
+                        <p class="sheet-part-2">თეთრი</p>
+                      </div>
+
+                      <div class="sheet-line-4">
+
                         <p class="sheet-part-1">კატეგორია</p> 
                         
                         <p class="sheet-part-2">ავტობუსი</p>
                       </div>
 
-                      <div class="sheet-line-4">
+                      <div class="sheet-line-5">
 
                         <p class="sheet-part-1">გამოშვების წელი</p> 
                         
                         <p class="sheet-part-2">2019</p>
                       </div>
 
-                      <div class="sheet-line-5">
+                      <div class="sheet-line-6">
 
                         <p class="sheet-part-1">ძრავის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">3.0</p>
-                      </div>
-
-                      <div class="sheet-line-6">
-
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
-                        
-                        <p class="sheet-part-2">29 </p>
+                        <p class="sheet-part-2">3,0 </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">30 მოზრდილი ჩემოდანი</p>
+                        <p class="sheet-part-2">დიზელი </p>
                       </div>
 
                       <div class="sheet-line-8">
 
-                        <p class="sheet-part-1">ფერი</p> 
+                        <p class="sheet-part-1">სალონის ტიპი</p> 
                         
-                        <p class="sheet-part-2">თეთრი</p>
+                        <p class="sheet-part-2">ნაჭერი</p>
                       </div>
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">საწვავის ტიპი</p> 
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
                         
-                        <p class="sheet-part-2">დიზელი</p>
+                        <p class="sheet-part-2">29</p>
                       </div>
 
 
                       <div class="sheet-line-10">
 
-                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
                         
-                        <p class="sheet-part-2"> ნაჭერი</p>
+                        <p class="sheet-part-2">30 მოზრდილი ჩემოდანი</p>
                       </div>
 
                     </div>

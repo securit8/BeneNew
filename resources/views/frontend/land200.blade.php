@@ -72,17 +72,13 @@
                   </div>
 
                   <div class="vehicle-spec-body-tags">
-                    <p>S-class</p>
-                    <p>Sedan</p>
-                    <p>2020-2021</p>
+                    <p>Land Cruiser</p>
+                    <p>Suv</p>
+                    <p>2019</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>ჩვენი ავტოპარკის ერთ-ერთი წევრია ლეგენდარული Toyota Land Cruiser 200
-                      ავტომობილი წარმოებულია 2019 წელს და ის Toyota- ს ფირმის ერთ-ერთ წარმატებულ,
-                      მაღალი გამავლობის ავტოსატრანსპორტო საშუალებას წარმოადგენს.
-                      ამ მოდელს თვალშისაცემი დიზაინი, გაუმჯობესებული ინტერიერი და გამავლობა მას
-                      შეუდარებელ 4X4 ავტომობილად აქცევს.
+                    <p>@lang('front.fleet-car-7-inner')</p>
                     </div>
                   </div>
 
@@ -106,7 +102,7 @@
                       </div>
                   </div>
 
-                    <div class="spec-sheet-lines" id="spec-sheet">
+                  <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
 
                         <p class="sheet-part-1">მწარმოებელი</p> 
@@ -123,61 +119,60 @@
 
                       <div class="sheet-line-3">
 
+                        <p class="sheet-part-1">ფერი</p> 
+                        
+                        <p class="sheet-part-2">შავი მეტალიკი</p>
+                      </div>
+
+                      <div class="sheet-line-4">
+
                         <p class="sheet-part-1">კატეგორია</p> 
                         
                         <p class="sheet-part-2">ქროსოვერი</p>
                       </div>
 
-                      <div class="sheet-line-4">
+                      <div class="sheet-line-5">
 
                         <p class="sheet-part-1">გამოშვების წელი</p> 
                         
                         <p class="sheet-part-2">2019</p>
                       </div>
 
-                      <div class="sheet-line-5">
+                      <div class="sheet-line-6">
 
                         <p class="sheet-part-1">ძრავის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">4.5</p>
-                      </div>
-
-                      <div class="sheet-line-6">
-
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
-                        
-                        <p class="sheet-part-2">4 </p>
+                        <p class="sheet-part-2">4.5 </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">4/5 მოზრდილი ჩემოდანი</p>
+                        <p class="sheet-part-2">დიზელი </p>
                       </div>
 
                       <div class="sheet-line-8">
-
-                        <p class="sheet-part-1">ფერი</p> 
-                        
-                        <p class="sheet-part-2">შავი მეტალიკი</p>
-                      </div>
-
-                      <div class="sheet-line-9">
-
-                        <p class="sheet-part-1">საწვავის ტიპი</p> 
-                        
-                        <p class="sheet-part-2">დიზელი</p>
-                      </div>
-
-
-                      <div class="sheet-line-10">
 
                         <p class="sheet-part-1">სალონის ტიპი</p> 
                         
                         <p class="sheet-part-2">ტყავი</p>
                       </div>
 
+                      <div class="sheet-line-9">
+
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
+                        
+                        <p class="sheet-part-2">4</p>
+                      </div>
+
+
+                      <div class="sheet-line-10">
+
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        
+                        <p class="sheet-part-2">4/5 მოზრდილი ჩემოდანი</p>
+                      </div>
 
                     </div>
                 </div>

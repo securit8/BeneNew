@@ -74,15 +74,11 @@
                   <div class="vehicle-spec-body-tags">
                     <p>E-class</p>
                     <p>Sedan</p>
-                    <p>2020-2021</p>
+                    <p>2018</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>წარმოგიდგენთ ჩვენი ავტოპარკის კიდევ ერთ დახვეწილ მოდელს - Mercedes-Benz E-Class W213
-                      ავტომობილი გამოშვებულია 2018 წელს და E-Class-ის მე-5 თაობას წარმოადგენს.
-                      ავტომობილი გამოირჩევა ელეგანტურობით, სალონის დახვეწილი დიზაინით და
-                      საშუალო გაბარიტებით. მისი ეს მახასიათებლები მომხმარებლების განსაკუთრებულ
-                      სიმპატიას იმსახურებს.</p>
+                    <p>@lang('front.fleet-car-4-inner')</p>
                     </div>
                   </div>
 
@@ -118,64 +114,64 @@
 
                         <p class="sheet-part-1">მოდელი</p> 
                         
-                        <p class="sheet-part-2">E class - W213</p>
+                        <p class="sheet-part-2">E-Class W213</p>
                       </div>
 
                       <div class="sheet-line-3">
-
-                        <p class="sheet-part-1">კატეგორია</p> 
-                        
-                        <p class="sheet-part-2">სედანი</p>
-                      </div>
-
-                      <div class="sheet-line-4">
-
-                        <p class="sheet-part-1">გამოშვების წელი</p> 
-                        
-                        <p class="sheet-part-2">2018</p>
-                      </div>
-
-                      <div class="sheet-line-5">
-
-                        <p class="sheet-part-1">ძრავის მოცულობა</p> 
-                        
-                        <p class="sheet-part-2">2.0</p>
-                      </div>
-
-                      <div class="sheet-line-6">
-
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
-                        
-                        <p class="sheet-part-2">3 </p>
-                      </div>
-
-                      <div class="sheet-line-7">
-
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
-                        
-                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
-                      </div>
-
-                      <div class="sheet-line-8">
 
                         <p class="sheet-part-1">ფერი</p> 
                         
                         <p class="sheet-part-2">შავი მეტალიკი</p>
                       </div>
 
-                      <div class="sheet-line-9">
+                      <div class="sheet-line-4">
+
+                        <p class="sheet-part-1">კატეგორია</p> 
+                        
+                        <p class="sheet-part-2">სედანი</p>
+                      </div>
+
+                      <div class="sheet-line-5">
+
+                        <p class="sheet-part-1">გამოშვების წელი</p> 
+                        
+                        <p class="sheet-part-2">2018</p>
+                      </div>
+
+                      <div class="sheet-line-6">
+
+                        <p class="sheet-part-1">ძრავის მოცულობა</p> 
+                        
+                        <p class="sheet-part-2">2.0 </p>
+                      </div>
+
+                      <div class="sheet-line-7">
 
                         <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">ბენზინი</p>
+                        <p class="sheet-part-2">ბენზინი </p>
+                      </div>
+
+                      <div class="sheet-line-8">
+
+                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        
+                        <p class="sheet-part-2">ტყავი</p>
+                      </div>
+
+                      <div class="sheet-line-9">
+
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
+                        
+                        <p class="sheet-part-2">3</p>
                       </div>
 
 
                       <div class="sheet-line-10">
 
-                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">ტყავი</p>
+                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
                       </div>
 
                     </div>

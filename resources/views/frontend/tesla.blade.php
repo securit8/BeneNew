@@ -67,21 +67,18 @@
 
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
-                    <p>MERCEDES-BENZ</p>
+                    <p>TESLA</p>
                     <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                   </div>
 
                   <div class="vehicle-spec-body-tags">
-                    <p>S-class</p>
+                    <p>Model 3</p>
                     <p>Sedan</p>
-                    <p>2020-2021</p>
+                    <p>2019</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>სედანის ტიპის ელექტრომობილი Tesla Model 3 ჩვენი ავტოპარკის ერთ-ერთი
-                      გამორჩეული და მოთხოვნადი მოდელია.
-                      Model 3 არის სრულად ელექტრო და სრული დამუხტვით 400 კილომეტრამდე მანძილს
-                      ფარავს.</p>
+                    <p>@lang('front.fleet-car-6-inner')</p>
                     </div>
                   </div>
 
@@ -122,59 +119,59 @@
 
                       <div class="sheet-line-3">
 
+                        <p class="sheet-part-1">ფერი</p> 
+                        
+                        <p class="sheet-part-2">შავი მეტალიკი</p>
+                      </div>
+
+                      <div class="sheet-line-4">
+
                         <p class="sheet-part-1">კატეგორია</p> 
                         
                         <p class="sheet-part-2">სედანი</p>
                       </div>
 
-                      <div class="sheet-line-4">
+                      <div class="sheet-line-5">
 
                         <p class="sheet-part-1">გამოშვების წელი</p> 
                         
                         <p class="sheet-part-2">2019</p>
                       </div>
 
-                      <div class="sheet-line-5">
-
-                        <p class="sheet-part-1">სიმძვლავრე</p> 
-                        
-                        <p class="sheet-part-2">225 კვტ</p>
-                      </div>
-
                       <div class="sheet-line-6">
 
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
+                        <p class="sheet-part-1">ძრავის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">3 </p>
+                        <p class="sheet-part-2">225 კვტ </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
+                        <p class="sheet-part-2">ელექტრო </p>
                       </div>
 
                       <div class="sheet-line-8">
 
-                        <p class="sheet-part-1">ფერი</p> 
+                        <p class="sheet-part-1">სალონის ტიპი</p> 
                         
-                        <p class="sheet-part-2">შავი მეტალიკი</p>
+                        <p class="sheet-part-2">ტყავი</p>
                       </div>
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">საწვავის ტიპი</p> 
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
                         
-                        <p class="sheet-part-2">ელექტრო</p>
+                        <p class="sheet-part-2">3</p>
                       </div>
 
 
                       <div class="sheet-line-10">
 
-                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">ტყავი</p>
+                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
                       </div>
 
                     </div>

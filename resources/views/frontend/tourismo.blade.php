@@ -72,16 +72,13 @@
                   </div>
 
                   <div class="vehicle-spec-body-tags">
-                    <p>S-class</p>
-                    <p>Sedan</p>
-                    <p>2020-2021</p>
+                    <p>Tourismo</p>
+                    <p>Bus</p>
+                    <p>2019</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>ჩვენი ავტოპარკის წევრია პრემიუმ კლასის ავტობუსი - Mercedes-Benz Bus Tourismo
-                      Tourismo ავტობუსების კლასში ყველაზე უსაფრთხო და დაცულ ავტობუსად მოიაზრება.
-                      ავტობუსი აერთიანებს მაღალი ხარისხის სტანდარტებს, მაქსიმალურ კომფორტს და
-                      მდიდრულ ინტერიერს.</p>
+                    <p>@lang('front.fleet-car-10-inner')</p>
                     </div>
                   </div>
 
@@ -95,7 +92,7 @@
                 <div class="vehicle-spesific-specs" id="arrow-down">
                   <div class="vehicle-spesific-specs-info">
 
-                    <div class="vehicle-spesific-specs-info-text">
+                    <!-- <div class="vehicle-spesific-specs-info-text">
                     <img src="{{asset('front/images/vehicle-icon.png')}}" alt="">
                     <p>ავტომობილის სრული მონაცემები</p>
                     </div>
@@ -103,7 +100,7 @@
                       <div class="vehicle-spesific-specs-info-arrow" >
                         <img src="{{asset('front/images/arrow-down.png')}}" alt="">
                       </div>
-                  </div>
+                  </div> -->
 
                   <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
@@ -117,64 +114,64 @@
 
                         <p class="sheet-part-1">მოდელი</p> 
                         
-                        <p class="sheet-part-2">Tourismo</p>
+                        <p class="sheet-part-2">S-Class AMG Line W223</p>
                       </div>
 
                       <div class="sheet-line-3">
-
-                        <p class="sheet-part-1">კატეგორია</p> 
-                        
-                        <p class="sheet-part-2">ავტობუსი</p>
-                      </div>
-
-                      <div class="sheet-line-4">
-
-                        <p class="sheet-part-1">გამოშვების წელი</p> 
-                        
-                        <p class="sheet-part-2">2019</p>
-                      </div>
-
-                      <div class="sheet-line-5">
-
-                        <p class="sheet-part-1">ძრავის მოცულობა</p> 
-                        
-                        <p class="sheet-part-2">12.0</p>
-                      </div>
-
-                      <div class="sheet-line-6">
-
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
-                        
-                        <p class="sheet-part-2">51 </p>
-                      </div>
-
-                      <div class="sheet-line-7">
-
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
-                        
-                        <p class="sheet-part-2">50 მოზრდილი ჩემოდანი</p>
-                      </div>
-
-                      <div class="sheet-line-8">
 
                         <p class="sheet-part-1">ფერი</p> 
                         
                         <p class="sheet-part-2">ვერცხლისფერი მეტალიკი</p>
                       </div>
 
-                      <div class="sheet-line-9">
+                      <div class="sheet-line-4">
+
+                        <p class="sheet-part-1">კატეგორია</p> 
+                        
+                        <p class="sheet-part-2">ავტობუსი</p>
+                      </div>
+
+                      <div class="sheet-line-5">
+
+                        <p class="sheet-part-1">გამოშვების წელი</p> 
+                        
+                        <p class="sheet-part-2">2019</p>
+                      </div>
+
+                      <div class="sheet-line-6">
+
+                        <p class="sheet-part-1">ძრავის მოცულობა</p> 
+                        
+                        <p class="sheet-part-2">12.0 </p>
+                      </div>
+
+                      <div class="sheet-line-7">
 
                         <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">დიზელი</p>
+                        <p class="sheet-part-2">დიზელი </p>
+                      </div>
+
+                      <div class="sheet-line-8">
+
+                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        
+                        <p class="sheet-part-2">ნაჭერი</p>
+                      </div>
+
+                      <div class="sheet-line-9">
+
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
+                        
+                        <p class="sheet-part-2">51</p>
                       </div>
 
 
                       <div class="sheet-line-10">
 
-                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">ნაჭერი</p>
+                        <p class="sheet-part-2">50 მოზრდილი ჩემოდანი</p>
                       </div>
 
                     </div>

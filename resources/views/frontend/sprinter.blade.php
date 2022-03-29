@@ -72,19 +72,13 @@
                   </div>
 
                   <div class="vehicle-spec-body-tags">
-                    <p>S-class</p>
-                    <p>Sedan</p>
-                    <p>2020-2021</p>
+                    <p>Sprinter</p>
+                    <p>Minivan</p>
+                    <p>2019</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>ჩვენი ავტოპარკის წევრია მაღალი კლასის მიკროავტობუსი - Mercedes-Benz Sprinter 515
-                    Sprinter-ის უპირატესობა მდგომარეობს იმაში, რომ მძლავრი ძრავის მეშვეობით
-                    ავტომობილს აქვს მაღალი გამავლობის უნარი და შეუძლია საშუალო სირთულის
-                    გზებზე მანევრირება.
-                    სავარძლების ქარხნული კომპლექტაცია მგზავრს საშუალებას აძლევს მოთავსდეს
-                    კომფორტულად შორ მანძილზე მგზავრობისას და თან დაცული იყოს უსაფრთხოების
-                    მაქსიმალური მოთხოვნები.</p>
+                    <p>@lang('front.fleet-car-9-inner')</p>
                     </div>
                   </div>
 
@@ -125,59 +119,59 @@
 
                       <div class="sheet-line-3">
 
+                        <p class="sheet-part-1">ფერი</p> 
+                        
+                        <p class="sheet-part-2">შავი მეტალიკი</p>
+                      </div>
+
+                      <div class="sheet-line-4">
+
                         <p class="sheet-part-1">კატეგორია</p> 
                         
                         <p class="sheet-part-2">მიკროავტობუსი</p>
                       </div>
 
-                      <div class="sheet-line-4">
+                      <div class="sheet-line-5">
 
                         <p class="sheet-part-1">გამოშვების წელი</p> 
                         
                         <p class="sheet-part-2">2019</p>
                       </div>
 
-                      <div class="sheet-line-5">
+                      <div class="sheet-line-6">
 
                         <p class="sheet-part-1">ძრავის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">2.2</p>
-                      </div>
-
-                      <div class="sheet-line-6">
-
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
-                        
-                        <p class="sheet-part-2">15 </p>
+                        <p class="sheet-part-2">2.2 </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">16 მოზრდილი ჩემოდანი</p>
+                        <p class="sheet-part-2">დიზელი </p>
                       </div>
 
                       <div class="sheet-line-8">
 
-                        <p class="sheet-part-1">ფერი</p> 
+                        <p class="sheet-part-1">სალონის ტიპი</p> 
                         
-                        <p class="sheet-part-2">შავი მეტალიკი</p>
+                        <p class="sheet-part-2">ტყავი</p>
                       </div>
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">საწვავის ტიპი</p> 
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
                         
-                        <p class="sheet-part-2">დიზელი</p>
+                        <p class="sheet-part-2">16</p>
                       </div>
 
 
                       <div class="sheet-line-10">
 
-                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">ტყავი</p>
+                        <p class="sheet-part-2">16 მოზრდილი ჩემოდანი</p>
                       </div>
 
                     </div>

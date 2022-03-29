@@ -73,17 +73,12 @@
 
                   <div class="vehicle-spec-body-tags">
                     <p>S-class</p>
-                    <p>Sedan</p>
-                    <p>2020-2021</p>
+                    <p>SUV</p>
+                    <p>2022</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>ჩვენი ავტოპაკის ერთ-ერთი წევრი არის უახლესი Toyota Land Cruiser 300.
-                      ავტომობილი წარმოებულია 2022 წელს და წარმოადგენს Land Cruiser- ის მაღალი
-                      გამავლობის პრემიუმ კლასის ავტოსატრანსპორტო საშუალებას და წარმოდგენილია
-                      მაქსიმალური კომპლექტაციით.
-                      წინა მოდელთან შედარებით მას უფრო მეტად დახვეწილი დიზაინი, კომფორტული
-                      ინტერიერი და თანამედროვე დიზაინი გამოარჩევს.</p>
+                    <p>@lang('front.fleet-car-2-inner')</p>
                     </div>
                   </div>
 
@@ -97,7 +92,7 @@
                 <div class="vehicle-spesific-specs" id="arrow-down">
                   <div class="vehicle-spesific-specs-info">
 
-                    <div class="vehicle-spesific-specs-info-text">
+                    <!-- <div class="vehicle-spesific-specs-info-text">
                     <img src="{{asset('front/images/vehicle-icon.png')}}" alt="">
                     <p>ავტომობილის სრული მონაცემები</p>
                     </div>
@@ -105,7 +100,7 @@
                       <div class="vehicle-spesific-specs-info-arrow" >
                         <img src="{{asset('front/images/arrow-down.png')}}" alt="">
                       </div>
-                  </div>
+                  </div> -->
 
                   <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
@@ -124,61 +119,60 @@
 
                       <div class="sheet-line-3">
 
+                        <p class="sheet-part-1">ფერი</p> 
+                        
+                        <p class="sheet-part-2">შავი მეტალიკი</p>
+                      </div>
+
+                      <div class="sheet-line-4">
+
                         <p class="sheet-part-1">კატეგორია</p> 
                         
                         <p class="sheet-part-2">ქროსოვერი</p>
                       </div>
 
-                      <div class="sheet-line-4">
+                      <div class="sheet-line-5">
 
                         <p class="sheet-part-1">გამოშვების წელი</p> 
                         
                         <p class="sheet-part-2">2022</p>
                       </div>
 
-                      <div class="sheet-line-5">
+                      <div class="sheet-line-6">
 
                         <p class="sheet-part-1">ძრავის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">3.3</p>
-                      </div>
-
-                      <div class="sheet-line-6">
-
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
-                        
-                        <p class="sheet-part-2">4 </p>
+                        <p class="sheet-part-2">3.3 </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        <p class="sheet-part-1">საწვავის ტიპი</p> 
                         
-                        <p class="sheet-part-2">3/4 მოზრდილი ჩემოდანი</p>
+                        <p class="sheet-part-2">ბენზინი </p>
                       </div>
 
                       <div class="sheet-line-8">
-
-                        <p class="sheet-part-1">ფერი</p> 
-                        
-                        <p class="sheet-part-2">შავი მეტალიკი</p>
-                      </div>
-
-                      <div class="sheet-line-9">
-
-                        <p class="sheet-part-1">საწვავის ტიპი</p> 
-                        
-                        <p class="sheet-part-2">ბენზინი</p>
-                      </div>
-
-
-                      <div class="sheet-line-10">
 
                         <p class="sheet-part-1">სალონის ტიპი</p> 
                         
                         <p class="sheet-part-2">ტყავი</p>
                       </div>
 
+                      <div class="sheet-line-9">
+
+                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
+                        
+                        <p class="sheet-part-2">4</p>
+                      </div>
+
+
+                      <div class="sheet-line-10">
+
+                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        
+                        <p class="sheet-part-2">3/4 მოზრდილი ჩემოდანი</p>
+                      </div>
 
                     </div>
                 </div>
