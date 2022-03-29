@@ -72,7 +72,7 @@
                   </div>
 
                   <div class="vehicle-spec-body-tags">
-                    <p>S-class</p>
+                    <p>Camry</p>
                     <p>Sedan</p>
                     <p>2019</p>
                   </div>

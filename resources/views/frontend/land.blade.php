@@ -26,17 +26,17 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/spec-carousel-1.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/300/1.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/spec-carousel-1.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/300/2.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/spec-carousel-1.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/300/3.jpg')}}" class="" alt="...">
     </div>
 
 
@@ -72,7 +72,7 @@
                   </div>
 
                   <div class="vehicle-spec-body-tags">
-                    <p>S-class</p>
+                    <p>Land-Cruiser</p>
                     <p>SUV</p>
                     <p>2022</p>
                   </div>
