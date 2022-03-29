@@ -82,9 +82,9 @@ return [
 
     'locale' => 'ka',
     'locales' => [
-      'ka',
-      'en',
-      'ru'
+      'ka' => 'Georgian',
+      'en' => 'English',
+      'ru' => 'Russian'
     ],
 
     /*
