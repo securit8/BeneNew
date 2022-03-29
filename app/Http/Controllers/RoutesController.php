@@ -112,5 +112,9 @@ class RoutesController extends Controller
     public function moiare(){
         return view('frontend.event-moiare');
     }
+
+    public function viano(){
+        return view('frontend.viano');
+    }
 }
 

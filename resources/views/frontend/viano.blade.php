@@ -1,7 +1,7 @@
 
 @extends('frontend/master')
 
-@section('title', 'S-class')
+@section('title', 'viano')
 @section('content')
 
 
@@ -26,17 +26,17 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/spec-carousel-1.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/viano/1.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/spec-carousel-1.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/viano/2.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/spec-carousel-1.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/viano/3.jpg')}}" class="" alt="...">
     </div>
 
 
@@ -67,13 +67,13 @@
 
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
-                    <p>MERCEDES-BENZ</p>
+                    <p>VIANO</p>
                     <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                   </div>
 
                   <div class="vehicle-spec-body-tags">
                     <p>S-class</p>
-                    <p>Sedan</p>
+                    <p>MInivan</p>
                     <p>2020-2021</p>
                   </div>
 

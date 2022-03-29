@@ -469,6 +469,35 @@
                         </div>
 
 
+                        <div class="fleet-element-12 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>VIANO</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>Viano</p> 
+                                        <p>Minivan</p>
+                                        <p>2019</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>@lang('front.fleet-car-11-outer')</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.viano')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-12-image">
+                                    <img src="{{asset('front/images/Temsa-PRestij-SD-2019.png')}}" alt="">
+                                </div>
+                        </div>
+
+
                         <!-- <div class="car-fleet-vehicles-row1">
                             <div class="car-fleet-vehicles-row1-middle">
                                 <div class="car-fleet-vehicles-row1-inner">
