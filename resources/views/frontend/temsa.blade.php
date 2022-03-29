@@ -83,7 +83,7 @@
                   </div>
 
                   <div class="vehicle-spec-body-image">
-                    <img src="{{asset('front/images/Temsa-PRestij-SD-2019.png.png') }}" alt="">
+                    <img src="{{asset('front/images/Temsa-PRestij-SD-2019.png')}}" alt="">
                   </div>
                 </div>
 
@@ -92,14 +92,14 @@
                 <div class="vehicle-spesific-specs" id="arrow-down">
                   <div class="vehicle-spesific-specs-info">
 
-                    <div class="vehicle-spesific-specs-info-text">
+                    <!-- <div class="vehicle-spesific-specs-info-text">
                     <img src="{{asset('front/images/vehicle-icon.png')}}" alt="">
                     <p>ავტომობილის სრული მონაცემები</p>
                     </div>
                     
                       <div class="vehicle-spesific-specs-info-arrow" >
                         <img src="{{asset('front/images/arrow-down.png')}}" alt="">
-                      </div>
+                      </div> -->
                   </div>
                   <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
@@ -182,10 +182,12 @@
               </div>
 
           <div class="book-button">
+          <a href="{{route('frontend.contact')}}">
             <button>
               <p>დაჯავშნე ახლავე</p>
               <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </button>
+            </a>
           </div>
 
           </div>

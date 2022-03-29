@@ -3546,6 +3546,10 @@ color: #000000;
   padding-top: 3rem;
 }
 
+.book-button a{
+  text-decoration: none;
+}
+
 .book-button button{
   background-color: rgba(6, 13, 13, 1);
   border: none;

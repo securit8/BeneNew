@@ -65,8 +65,8 @@ class RoutesController extends Controller
         return view('frontend.S-class');
     }
 
-    public function Sclass2016(){
-        return view('frontend.S-class2016');
+    public function Sclass2019(){
+        return view('frontend.S-class2019');
     }
 
     public function sprinter(){

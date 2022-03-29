@@ -217,7 +217,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.S-class2016')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.S-class2019')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -297,7 +297,7 @@
                                     </div>
                                     
                                     <div class="element-info-tags">
-                                        <p>E class</p> 
+                                        <p>Model 3</p> 
                                         <p>Sedan</p>
                                         <p>2019</p>
                                     </div>

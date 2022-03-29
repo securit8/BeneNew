@@ -34,7 +34,7 @@ Route::get('/article1', [RoutesController::class, 'article1'])->name('frontend.n
 
 
 Route::get('/S-class', [RoutesController::class, 'Sclass'])->name('frontend.S-class');
-Route::get('/S-class2016', [RoutesController::class, 'Sclass2016'])->name('frontend.S-class2016');
+Route::get('/S-class2019', [RoutesController::class, 'Sclass2019'])->name('frontend.S-class2019');
 Route::get('/v-class', [RoutesController::class, 'vclass'])->name('frontend.v-class');
 Route::get('/sptinter', [RoutesController::class, 'sprinter'])->name('frontend.sprinter');
 Route::get('/camry', [RoutesController::class, 'camry'])->name('frontend.camry');
