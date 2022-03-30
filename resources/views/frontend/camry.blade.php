@@ -105,63 +105,63 @@
                   <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
 
-                        <p class="sheet-part-1">მწარმოებელი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-creator')</p> 
                         
                         <p class="sheet-part-2">Toyota Camry</p>
                       </div>
 
                       <div class="sheet-line-2">
 
-                        <p class="sheet-part-1">მოდელი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-model')</p> 
                         
                         <p class="sheet-part-2">Sport Edition Hybrid</p>
                       </div>
 
                       <div class="sheet-line-3">
 
-                        <p class="sheet-part-1">ფერი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-color')</p> 
                         
-                        <p class="sheet-part-2">შავი მეტალიკი / მარგალიტის ფერი</p>
+                        <p class="sheet-part-2">@lang('front.fleet-black')/ @lang('front.fleet-white')</p>
                       </div>
 
                       <div class="sheet-line-4">
 
-                        <p class="sheet-part-1">კატეგორია</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-category')</p> 
                         
-                        <p class="sheet-part-2">სედანი</p>
+                        <p class="sheet-part-2">@lang('front.fleet-sedan')</p>
                       </div>
 
                       <div class="sheet-line-5">
 
-                        <p class="sheet-part-1">გამოშვების წელი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-year')</p> 
                         
                         <p class="sheet-part-2">2019</p>
                       </div>
 
                       <div class="sheet-line-6">
 
-                        <p class="sheet-part-1">ძრავის მოცულობა</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-engine')</p> 
                         
                         <p class="sheet-part-2">2.5 </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">საწვავის ტიპი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-fuel')</p> 
                         
-                        <p class="sheet-part-2">ჰიბრიდი </p>
+                        <p class="sheet-part-2">@lang('front.fleet-hybrid') </p>
                       </div>
 
                       <div class="sheet-line-8">
 
-                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-interior')</p> 
                         
-                        <p class="sheet-part-2">ტყავი</p>
+                        <p class="sheet-part-2">@lang('front.fleet-leather')</p>
                       </div>
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-passanger')</p> 
                         
                         <p class="sheet-part-2">3</p>
                       </div>
@@ -169,9 +169,9 @@
 
                       <div class="sheet-line-10">
 
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-luggage')</p> 
                         
-                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
+                        <p class="sheet-part-2">2/3 @lang('front.fleet-middle')</p>
                       </div>
 
                     </div>

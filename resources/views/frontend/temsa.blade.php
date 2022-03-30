@@ -104,63 +104,63 @@
                   <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
 
-                        <p class="sheet-part-1">მწარმოებელი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-creator')</p> 
                         
                         <p class="sheet-part-2">Temsa</p>
                       </div>
 
                       <div class="sheet-line-2">
 
-                        <p class="sheet-part-1">მოდელი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-model')</p> 
                         
                         <p class="sheet-part-2">Prestij</p>
                       </div>
 
                       <div class="sheet-line-3">
 
-                        <p class="sheet-part-1">ფერი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-color')</p> 
                         
-                        <p class="sheet-part-2">თეთრი</p>
+                        <p class="sheet-part-2">@lang('front.fleet-white')</p>
                       </div>
 
                       <div class="sheet-line-4">
 
-                        <p class="sheet-part-1">კატეგორია</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-category')</p> 
                         
-                        <p class="sheet-part-2">ავტობუსი</p>
+                        <p class="sheet-part-2">@lang('front.fleet-bus')</p>
                       </div>
 
                       <div class="sheet-line-5">
 
-                        <p class="sheet-part-1">გამოშვების წელი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-year')</p> 
                         
                         <p class="sheet-part-2">2019</p>
                       </div>
 
                       <div class="sheet-line-6">
 
-                        <p class="sheet-part-1">ძრავის მოცულობა</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-engine')</p> 
                         
                         <p class="sheet-part-2">3,0 </p>
                       </div>
 
                       <div class="sheet-line-7">
 
-                        <p class="sheet-part-1">საწვავის ტიპი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-fuel')</p> 
                         
-                        <p class="sheet-part-2">დიზელი </p>
+                        <p class="sheet-part-2">@lang('front.fleet-diesel') </p>
                       </div>
 
                       <div class="sheet-line-8">
 
-                        <p class="sheet-part-1">სალონის ტიპი</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-interior')</p> 
                         
-                        <p class="sheet-part-2">ნაჭერი</p>
+                        <p class="sheet-part-2">@lang('front.fleet-cotton')</p>
                       </div>
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-passanger')</p> 
                         
                         <p class="sheet-part-2">29</p>
                       </div>
@@ -168,9 +168,9 @@
 
                       <div class="sheet-line-10">
 
-                        <p class="sheet-part-1">ბარგის მოცულობა</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-luggage')</p> 
                         
-                        <p class="sheet-part-2">30 მოზრდილი ჩემოდანი</p>
+                        <p class="sheet-part-2">30 @lang('front.fleet-big')</p>
                       </div>
 
                     </div>
