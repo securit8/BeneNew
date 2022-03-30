@@ -1,7 +1,7 @@
 
 @extends('frontend/master')
 
-@section('title', 'E-class')
+@section('title', 'Prado')
 @section('content')
 
 
@@ -20,22 +20,28 @@
       <button type="button" data-bs-target="#carouselExampleIndicators-specs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-specs" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-specs" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators-specs" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
   </div>
 
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/e-class/2.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/prado/1.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/e-class/4.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/prado/2.jpg')}}" class="" alt="...">
+    </div>
+
+
+    <div class="carousel-item">
+      <img src="{{asset('front/images/prado/3.jpg')}}" class="" alt="...">
     </div>
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/e-class/5.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/prado/4.jpg')}}" class="" alt="...">
     </div>
 
 
@@ -66,54 +72,41 @@
 
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
-                    <p>MERCEDES-BENZ</p>
+                    <p>TOYOTA LAND CRUISER PRADO</p>
                     <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                   </div>
 
                   <div class="vehicle-spec-body-tags">
-                    <p>E-class</p>
-                    <p>Sedan</p>
-                    <p>2018</p>
+                    <p>Land Cruiser</p>
+                    <p>SUV</p>
+                    <p>2017</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>@lang('front.fleet-car-4-inner')</p>
+                    <p>@lang('front.fleet-car-12-inner')</p>
                     </div>
                   </div>
 
                   <div class="vehicle-spec-body-image">
-                    <img src="{{asset('front/images/Mercedes-Benz-E-class-250-2018.png') }}" alt="">
+                    <img src="{{asset('front/images/vehicle-spec-image.png') }}" alt="">
                   </div>
                 </div>
 
 
 
-                <div class="vehicle-spesific-specs" id="arrow-down">
-                  <div class="vehicle-spesific-specs-info">
-
-                    <div class="vehicle-spesific-specs-info-text">
-                    <img src="{{asset('front/images/vehicle-icon.png')}}" alt="">
-                    <p>ავტომობილის სრული მონაცემები</p>
-                    </div>
-                    
-                      <div class="vehicle-spesific-specs-info-arrow" >
-                        <img src="{{asset('front/images/arrow-down.png')}}" alt="">
-                      </div>
-                  </div>
-
-                  <div class="spec-sheet-lines" id="spec-sheet">
+                <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
 
                         <p class="sheet-part-1">მწარმოებელი</p> 
                         
-                        <p class="sheet-part-2">Mercedes-Benz</p>
+                        <p class="sheet-part-2">Toyota</p>
                       </div>
 
                       <div class="sheet-line-2">
 
                         <p class="sheet-part-1">მოდელი</p> 
                         
-                        <p class="sheet-part-2">E-Class W213</p>
+                        <p class="sheet-part-2">Land Cruiser Prado</p>
                       </div>
 
                       <div class="sheet-line-3">
@@ -127,21 +120,21 @@
 
                         <p class="sheet-part-1">კატეგორია</p> 
                         
-                        <p class="sheet-part-2">სედანი</p>
+                        <p class="sheet-part-2">ქროსოვერი</p>
                       </div>
 
                       <div class="sheet-line-5">
 
                         <p class="sheet-part-1">გამოშვების წელი</p> 
                         
-                        <p class="sheet-part-2">2018</p>
+                        <p class="sheet-part-2">2017</p>
                       </div>
 
                       <div class="sheet-line-6">
 
                         <p class="sheet-part-1">ძრავის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">2.0 </p>
+                        <p class="sheet-part-2">4.0 </p>
                       </div>
 
                       <div class="sheet-line-7">
@@ -162,7 +155,7 @@
 
                         <p class="sheet-part-1">მგზავრების რაოდენობა</p> 
                         
-                        <p class="sheet-part-2">3</p>
+                        <p class="sheet-part-2">4</p>
                       </div>
 
 
@@ -170,7 +163,7 @@
 
                         <p class="sheet-part-1">ბარგის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
+                        <p class="sheet-part-2">3/4 საშუალო ზომის ჩემოდანი</p>
                       </div>
 
                     </div>
@@ -182,12 +175,10 @@
               </div>
 
           <div class="book-button">
-           <a href="{{route('frontend.contact')}}">
             <button>
               <p>დაჯავშნე ახლავე</p>
               <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </button>
-            </a>
           </div>
 
           </div>

@@ -113,8 +113,12 @@ class RoutesController extends Controller
         return view('frontend.event-moiare');
     }
 
-    public function viano(){
-        return view('frontend.viano');
+    public function prado(){
+        return view('frontend.prado');
+    }
+
+    public function rav4(){
+        return view('frontend.rav4');
     }
 }
 

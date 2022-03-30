@@ -473,26 +473,54 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>VIANO</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                        <p>TOYOTA LAND CRUISER PRADO</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
-                                        <p>Viano</p> 
-                                        <p>Minivan</p>
-                                        <p>2019</p>
+                                        <p>Land Cruiser</p> 
+                                        <p>SUV</p>
+                                        <p>2017</p>
                                     </div>
                                     
                                     <div class="element-info-text">
-                                        <p>@lang('front.fleet-car-11-outer')</p>
+                                        <p>@lang('front.fleet-car-12-outer')</p>
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.viano')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.prado')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
 
                                 <div class="fleet-element-12-image">
+                                    <img src="{{asset('front/images/Temsa-PRestij-SD-2019.png')}}" alt="">
+                                </div>
+                        </div>
+
+                        <div class="fleet-element-13 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>TOYOTA RAV4</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>RAV4</p> 
+                                        <p>SUV</p>
+                                        <p>2018</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>@lang('front.fleet-car-13-outer')</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.rav4')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-13-image">
                                     <img src="{{asset('front/images/Temsa-PRestij-SD-2019.png')}}" alt="">
                                 </div>
                         </div>

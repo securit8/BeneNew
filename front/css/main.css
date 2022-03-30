@@ -2228,9 +2228,19 @@ margin-left: 1.7rem;
   margin-bottom: 2rem;
 }
 
+.fleet-element-13{
+  background-color: rgba(255, 255, 255, 1);
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  padding-bottom: 5vh;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.164);
+  margin-bottom: 2rem;
+}
+
 .fleet-element-info, .fleet-element-1-image, .fleet-element-2-image, .fleet-element-3-image,
 .fleet-element-4-image, .fleet-element-5-image, .fleet-element-6-image, .fleet-element-7-image,
-.fleet-element-8-image, .fleet-element-9-image, .fleet-element-10-image, .fleet-element-11-image, .fleet-element-12-image{
+.fleet-element-8-image, .fleet-element-9-image, .fleet-element-10-image, .fleet-element-11-image, 
+.fleet-element-12-image, .fleet-element-13-image{
 grid-row: 1 / 2;
 }
 
@@ -2373,6 +2383,11 @@ grid-row: 1 / 2;
   grid-column: 14 / 31;
 }
 
+.fleet-element-13-image{
+  padding-top: 0rem;
+  grid-column: 14 / 31;
+}
+
 .fleet-element-1-image img, .fleet-element-2-image img, .fleet-element-3-image img, .fleet-element-4-image img{
   width: 100%;
 }
@@ -2381,7 +2396,7 @@ grid-row: 1 / 2;
   width: 100%;
 }
 
-.fleet-element-10-image img, .fleet-element-11-image img, .fleet-element-12-image img{
+.fleet-element-10-image img, .fleet-element-11-image img, .fleet-element-12-image img, .fleet-element-13-image img{
   width: 100%;
 }
 

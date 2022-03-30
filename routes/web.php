@@ -44,7 +44,8 @@ Route::get('/temsa', [RoutesController::class, 'temsa'])->name('frontend.temsa')
 Route::get('/e-class', [RoutesController::class, 'eclass'])->name('frontend.e-class');
 Route::get('/land', [RoutesController::class, 'land'])->name('frontend.land');
 Route::get('/land200', [RoutesController::class, 'land200'])->name('frontend.land200');
-Route::get('/viano', [RoutesController::class, 'viano'])->name('frontend.viano');
+Route::get('/prado', [RoutesController::class, 'prado'])->name('frontend.prado');
+Route::get('/rav4', [RoutesController::class, 'rav4'])->name('frontend.rav4');
 
 Route::get('/event-moiare', [RoutesController::class, 'moiare'])->name('frontend.event-moiare');
 

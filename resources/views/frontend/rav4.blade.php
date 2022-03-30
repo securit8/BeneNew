@@ -1,7 +1,7 @@
 
 @extends('frontend/master')
 
-@section('title', 'viano')
+@section('title', 'Rav4')
 @section('content')
 
 
@@ -20,23 +20,28 @@
       <button type="button" data-bs-target="#carouselExampleIndicators-specs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-specs" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-specs" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators-specs" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
   </div>
 
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/viano/1.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/prado/1.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/viano/2.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/prado/2.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/viano/3.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/prado/3.jpg')}}" class="" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <img src="{{asset('front/images/prado/4.jpg')}}" class="" alt="...">
     </div>
 
 
@@ -67,21 +72,18 @@
 
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
-                    <p>VIANO</p>
+                    <p>TOYOTA RAV4</p>
                     <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                   </div>
 
                   <div class="vehicle-spec-body-tags">
-                    <p>S-class</p>
-                    <p>MInivan</p>
-                    <p>2020-2021</p>
+                    <p>Rav4</p>
+                    <p>SUV</p>
+                    <p>2018</p>
                   </div>
 
                   <div class="vehicle-spec-body-info-text">
-                    <p>წარმოგიდგენთ ჩვენი ავტოპარკის სრულიად ახალ ავტომობილს Mercedes-Benz S Class W223.<br>
-                      ახალ S Class მოდელს კიდევ უფრო კომფორტული, უსაფრთხო და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.<br>
-                      Bene Exclusive-ის მძღოლები საუბრობენ ინგლისურ და რუსულ ენებზე.</p>
-                    <p>ჩვენთან მგზავრი და მისი ბარგიც დაზღვეულია.</p>
+                    <p>@lang('front.fleet-car-13-inner')</p>
                     </div>
                   </div>
 
@@ -97,42 +99,42 @@
 
                         <p class="sheet-part-1">მწარმოებელი</p> 
                         
-                        <p class="sheet-part-2">Mercedes-Benz</p>
+                        <p class="sheet-part-2">Toyota</p>
                       </div>
 
                       <div class="sheet-line-2">
 
                         <p class="sheet-part-1">მოდელი</p> 
                         
-                        <p class="sheet-part-2">S-Class AMG Line W223</p>
+                        <p class="sheet-part-2">Rav4</p>
                       </div>
 
                       <div class="sheet-line-3">
 
                         <p class="sheet-part-1">ფერი</p> 
                         
-                        <p class="sheet-part-2">შავი მეტალიკი</p>
+                        <p class="sheet-part-2">რუხი</p>
                       </div>
 
                       <div class="sheet-line-4">
 
                         <p class="sheet-part-1">კატეგორია</p> 
                         
-                        <p class="sheet-part-2">სედანი</p>
+                        <p class="sheet-part-2">ქროსოვერი</p>
                       </div>
 
                       <div class="sheet-line-5">
 
                         <p class="sheet-part-1">გამოშვების წელი</p> 
                         
-                        <p class="sheet-part-2">2022</p>
+                        <p class="sheet-part-2">2018</p>
                       </div>
 
                       <div class="sheet-line-6">
 
                         <p class="sheet-part-1">ძრავის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">3,0 </p>
+                        <p class="sheet-part-2">2.5 </p>
                       </div>
 
                       <div class="sheet-line-7">
@@ -146,7 +148,7 @@
 
                         <p class="sheet-part-1">სალონის ტიპი</p> 
                         
-                        <p class="sheet-part-2">ტყავი</p>
+                        <p class="sheet-part-2">ნაჭერი</p>
                       </div>
 
                       <div class="sheet-line-9">
@@ -161,7 +163,7 @@
 
                         <p class="sheet-part-1">ბარგის მოცულობა</p> 
                         
-                        <p class="sheet-part-2">2/3 საშუალო ზომის ჩემოდანი</p>
+                        <p class="sheet-part-2">3/4 საშუალო ზომის ჩემოდანი</p>
                       </div>
 
                     </div>
