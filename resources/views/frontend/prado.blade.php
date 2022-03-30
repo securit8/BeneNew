@@ -114,9 +114,9 @@
 
                       <div class="sheet-line-4">
 
-                        <p class="sheet-part-1">@lang('front.fleet-</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-category')</p> 
                         
-                        <p class="sheet-part-2">@lang('front.fleet-</p>
+                        <p class="sheet-part-2">@lang('front.fleet-suv')</p>
                       </div>
 
                       <div class="sheet-line-5">
