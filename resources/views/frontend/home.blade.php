@@ -373,7 +373,7 @@
           </div>
 
           <div class="index-taxi-text">
-            <p> @lang('front.index-taxi-text')</p>
+            <p> @lang('front.taxi-page-text-1')</p>
           </div>
 
           <div class="index-taxi-button">
