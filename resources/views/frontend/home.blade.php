@@ -340,7 +340,7 @@
                 </div>
 
                 <div class="index-academy-text">
-                  <p> @lang('front.academy-part-1')</p>
+                  <p> @lang('front.index-academy-text')</p>
                 </div>
 
                 <div class="index-academy-button">

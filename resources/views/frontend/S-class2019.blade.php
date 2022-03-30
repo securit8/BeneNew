@@ -26,17 +26,17 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/spec-carousel-1.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/merc222/1.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/spec-carousel-1.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/merc222/1.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/spec-carousel-1.png')}}" class="" alt="...">
+      <img src="{{asset('front/images/merc222/1.jpg')}}" class="" alt="...">
     </div>
 
 
