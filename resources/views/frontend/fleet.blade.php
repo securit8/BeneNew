@@ -521,7 +521,7 @@
                                 </div>
 
                                 <div class="fleet-element-13-image">
-                                    <img src="{{asset('front/images/Temsa-PRestij-SD-2019.png')}}" alt="">
+                                    <img src="{{asset('front/images/rav4/1.webp')}}" alt="">
                                 </div>
                         </div>
 
