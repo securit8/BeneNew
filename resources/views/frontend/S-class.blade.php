@@ -164,7 +164,7 @@
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">@lang('front.fleet-passenger')</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-passanger')</p> 
                         
                         <p class="sheet-part-2">4</p>
                       </div>
@@ -174,7 +174,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-luggage')</p> 
                         
-                        <p class="sheet-part-2">2/3 @lang('front.fleet-middle')</p>
+                        <p class="sheet-part-2">2/3 @lang('front.fleet-medium')</p>
                       </div>
 
                     </div>
