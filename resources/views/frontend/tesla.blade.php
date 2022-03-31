@@ -66,7 +66,7 @@
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
                     <p>TESLA</p>
-                    <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                    <img src="{{asset('front/images/fleet-logo2.png')}}" alt="">
                   </div>
 
                   <div class="vehicle-spec-body-tags">

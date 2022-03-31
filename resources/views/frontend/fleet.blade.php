@@ -263,7 +263,7 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>TOYOTA CAMRY</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                        <p>TOYOTA CAMRY</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
@@ -323,7 +323,7 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>TOYOTA LAND CRUISER 200</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                        <p>TOYOTA LAND CRUISER 200</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
@@ -444,7 +444,8 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>TEMSA PRESTIJ</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                        <p>TEMSA PRESTIJ</p> 
+                                        <!-- <img src="{{asset('front/images/fleet-logo4.png')}}" alt=""> -->
                                     </div>
                                     
                                     <div class="element-info-tags">
@@ -473,7 +474,7 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>TOYOTA LAND CRUISER PRADO</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                        <p>TOYOTA LAND CRUISER PRADO</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
@@ -501,7 +502,7 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>TOYOTA RAV4</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                        <p>TOYOTA RAV4</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
