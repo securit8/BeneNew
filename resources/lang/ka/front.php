@@ -241,6 +241,7 @@ return [
 'fleet-medium' => 'საშუალო ზომის ჩემოდანი',
 'fleet-large' => 'დიდი ზომის ჩემოდანი',
 'book-car' => 'დაჯავშნე ახლავე',
+'kvt' => 'კვტ',
 
   //rent page
   'rent-title' => 'ქარ რენტი',

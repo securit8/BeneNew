@@ -203,6 +203,7 @@ return [
 'fleet-large' => 'Большой Чемодан',
 'fleet-benzin' => 'Бензин',
 'book-car' => 'Забронируйте',
+'kvt' => 'квт',
 
 
 

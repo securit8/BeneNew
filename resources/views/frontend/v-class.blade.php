@@ -156,7 +156,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-interior')</p> 
                         
-                        <p class="sheet-part-2">ტყავი</p>
+                        <p class="sheet-part-2">@lang('front.fleet-leather')</p>
                       </div>
 
                       <div class="sheet-line-9">
