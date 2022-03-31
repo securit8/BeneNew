@@ -168,7 +168,7 @@
 
                       <div class="sheet-line-10">
 
-                        <p class="sheet-part-1">@lang('front.fleet-lugage')</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-luggage')</p> 
                         
                         <p class="sheet-part-2">2/3 @lang('front.fleet-medium')</p>
                       </div>
