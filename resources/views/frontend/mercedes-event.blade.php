@@ -1,6 +1,6 @@
 @extends('frontend/master')
 
-@section('title', 'Moiare')
+@section('title', 'Mercedes Event')
 @section('content')
 
 
