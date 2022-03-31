@@ -14,7 +14,7 @@
             <div class="contact-backgorund">
 
                 <div class="contact-page-title">
-                    <p>@lang('front.contact-header')</p>
+                    <p>@lang('front.contact')</p>
                 </div>
 
                 <div class="contact-page-background-image">

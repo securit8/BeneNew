@@ -51,7 +51,7 @@
       <div class ="nav-line"><p>|</p></div>
       <div class="partners {{Request::is('partners') ? 'current' : ''}}"><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></div>
 
-      <div class="contact {{Request::is('contact') ? 'current' : ''}}"><a href="{{route('frontend.contact')}}"><img src="{{asset('front/images/logo/headphones.svg')}}" >@lang('front.contact')</a></div>
+      <div class="contact {{Request::is('contact') ? 'current' : ''}}"><a href="{{route('frontend.contact')}}"><img src="{{asset('front/images/logo/headphones.svg')}}" >@lang('front.contact-header')</a></div>
     </div>
 
     <div class="Language-select">
