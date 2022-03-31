@@ -65,7 +65,7 @@
 
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
-                    <p>TESLA</p>
+                    <p>TESLA MODEL 3</p>
                     <img src="{{asset('front/images/fleet-logo2.png')}}" alt="">
                   </div>
 

@@ -67,7 +67,7 @@
 
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
-                    <p>Toyota Land Cruiser 300</p>
+                    <p>TTOYOTA LAND CRUISER 300</p>
                     <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
                   </div>
 

@@ -67,7 +67,7 @@
 
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
-                    <p>Temsa-Prestij</p>
+                    <p>TEMSA PRESTIJ</p>
                     <!-- <img src="{{asset('front/images/fleet-logo4.png')}}" alt=""> -->
                   </div>
 
@@ -141,7 +141,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-engine')</p> 
                         
-                        <p class="sheet-part-2">3,0 </p>
+                        <p class="sheet-part-2">3.0 </p>
                       </div>
 
                       <div class="sheet-line-7">
