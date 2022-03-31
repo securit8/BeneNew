@@ -26,7 +26,7 @@
                             <p>@lang('front.moiare')</p>
                         </div>
                         <div class="project-text">
-                            <p>როდესაც განვითარება და განტვირთვა მნიშვნელოვანი როგორც არასდროს.</p>
+                            <p>@lang('front.moiare-description')</p>
                         </div>
                         <div class="project-button">
                                 <button> 
@@ -50,7 +50,7 @@
                                 <p>NETWORKING GEORGIA</p>
                             </div>
                             <div class="project-text">
-                                <p>პირველი ქართული პროექტი,რომელიც ემსახურება ბიზნეს კონტაქტების გაცვლას არაფორმალურ გარემოში.</p>
+                                <p>@lang('front.networking-description')</p>
                             </div>
                             <div class="project-button">
                                 <button> 
@@ -75,7 +75,7 @@
                             </div>
 
                             <div class="project-text">
-                                <p>Mercedes-Benz Business EVENT-ბიზნეს ივენთია,რომელიც სხვადასხვა დარგში მოღვაწე კომპანიების წარმატებისკენ განვლილი გზისა და გამოცდილების გაზიარებას ემსახურება.</p>
+                                <p>@lang('front.mersedes-event-description')</p>
                             </div>
                             <div class="project-button">
                                 <button> 
@@ -100,7 +100,7 @@
                             </div>
 
                             <div class="project-text">
-                                <p>Mercedes-Benz Business Week - არის ბიზნეს ივენთი,რომლის იდეაც კომპანიებისთვის ახალი კონტაქტების მოძიებასა და მაკრო ბიზნესს გარემოში მეტ ჩართულობას ემსახურება.</p>
+                                <p>@lang('front.mersedes-business-week-description')</p>
                             </div>
                             <div class="project-button">
                                 <button> 
@@ -124,7 +124,7 @@
                                 <p>@lang('front.distribution')</p>
                             </div>
                             <div class="project-text">
-                                <p>Distribution and Logistics Forum - ყოველწლიური ფორუმია,რომელიც ლოგისტიკურ დარგში არსებული პრობლემების გადაწყვეტას და სამომავლო გეგმების დასახვას ემსახურება.</p>
+                                <p>@lang('front.distribution-description')</p>
                             </div>
                             
                             <div class="project-button">
