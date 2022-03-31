@@ -172,7 +172,7 @@
 
           <div class="book-button">
             <button>
-              <p>დაჯავშნე ახლავე</p>
+              <p>@lang('front.book-car')</p>
               <img src="{{asset('front/images/arrow-right.png') }}" alt="">
             </button>
           </div>

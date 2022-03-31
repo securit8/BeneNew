@@ -240,6 +240,7 @@ return [
 'fleet-small' => 'პატარა ზომის ჩემოდანი',
 'fleet-medium' => 'საშუალო ზომის ჩემოდანი',
 'fleet-large' => 'დიდი ზომის ჩემოდანი',
+'book-car' => 'დაჯავშნე ახლავე',
 
   //rent page
   'rent-title' => 'ქარ რენტი',
