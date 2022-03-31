@@ -88,7 +88,7 @@
 
 
                 <div class="vehicle-spesific-specs" id="arrow-down">
-                  <div class="vehicle-spesific-specs-info">
+                  <!-- <div class="vehicle-spesific-specs-info"> -->
 
                     <!-- <div class="vehicle-spesific-specs-info-text">
                     <img src="{{asset('front/images/vehicle-icon.png')}}" alt="">
