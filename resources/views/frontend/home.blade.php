@@ -402,11 +402,15 @@
       
       <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="{{asset('front/images/proeqti2.jpg')}}" alt=""></div>
-        <div class="swiper-slide"><img src="{{asset('front/images/proeqti3.jpg')}}" alt=""></div>
-        <div class="swiper-slide"><img src="{{asset('front/images/proeqti4.jpg')}}" alt=""></div>
-        <div class="swiper-slide"><img src="{{asset('front/images/proeqti5.jpg')}}" alt=""></div>
-        <div class="swiper-slide"><img src="{{asset('front/images/proeqti1.jpg')}}" alt=""></div>
+      <div class="swiper-slide"><a href="{{route('frontend.networking')}}"><img src="{{asset('front/images/proeqti2.jpg')}}" alt=""></a></div>
+
+<div class="swiper-slide"><a href="{{route('frontend.mercedes-event')}}"><img src="{{asset('front/images/proeqti3.jpg')}}" alt=""></a></div>
+
+<div class="swiper-slide"><a href="{{route('frontend.week')}}"><img src="{{asset('front/images/proeqti4.jpg')}}" alt=""></a></div>
+
+<div class="swiper-slide"><a href="{{route('frontend.distribution')}}"><img src="{{asset('front/images/proeqti5.jpg')}}" alt=""></a></div>
+
+<div class="swiper-slide"><a href="{{route('frontend.event-moiare')}}"><img src="{{asset('front/images/proeqti1.jpg')}}" alt=""></a></div>
        
       </div>
       <div class="swiper-button-next"></div>
