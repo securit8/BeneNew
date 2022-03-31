@@ -67,7 +67,7 @@
 
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
-                    <p>MERCEDES-BENZ Tourismo</p>
+                    <p>MERCEDES-BENZ TUORISMO</p>
                     <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                   </div>
 
