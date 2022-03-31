@@ -2396,11 +2396,13 @@ grid-row: 1 / 2;
   width: 100%;
 }
 
-.fleet-element-10-image img, .fleet-element-11-image img, .fleet-element-12-image img, .fleet-element-13-image img{
+.fleet-element-10-image img, .fleet-element-11-image img, .fleet-element-12-image img{
   width: 100%;
 }
 
-
+.fleet-element-13-image img{
+width: 90%;
+}
 
 
 

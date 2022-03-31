@@ -88,7 +88,7 @@
                   </div>
 
                   <div class="vehicle-spec-body-image">
-                    <img src="{{asset('front/images/vehicle-spec-image.png') }}" alt="">
+                    <img src="{{asset('front/images/rav4/1.webp') }}" alt="">
                   </div>
                 </div>
 
