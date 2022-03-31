@@ -160,7 +160,7 @@
                                 </div>
                                 
                                 <div class="element-info-button">
-                                <a href="{{route('frontend.S-class')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                <a href="{{route('frontend.S-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                 </div>
                                 
                             </div>
@@ -189,7 +189,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.land')}}"> <button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.land')}}"> <button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -217,7 +217,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.S-class2019')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.S-class2019')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -247,7 +247,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.e-class')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.e-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -277,7 +277,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.camry')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.camry')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -307,7 +307,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.tesla')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.tesla')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -337,7 +337,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.land200')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.land200')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -368,7 +368,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.v-class')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.v-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -398,7 +398,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.sprinter')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.sprinter')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -428,7 +428,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.tourismo')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.tourismo')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -459,7 +459,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.temsa')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.temsa')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -488,7 +488,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.prado')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.prado')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -516,7 +516,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.rav4')}}"><button><p>სრულად</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.rav4')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>

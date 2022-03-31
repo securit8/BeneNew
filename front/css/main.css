@@ -546,7 +546,7 @@ cursor: pointer;
   font-weight: 700;
   margin-bottom: 0.2rem;
   font-size: 16px;
-  Font-family: TBCContractica, Montserrat-bold;
+  Font-family: TBCContractica, Montserrat;
 }
 
 .index-about-us-title p{
@@ -554,7 +554,7 @@ cursor: pointer;
   margin-bottom: 0.5rem;
   font-style: normal;
   font-size: 18px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   color: #060D0D;
   }
 
@@ -648,7 +648,7 @@ color: rgba(6, 13, 13, 1);
 .index-news-header-title p{ 
 font-size: 18px;
 font-weight: 700;
-font-family: TBCContractica, Montserrat-bold;
+font-family: TBCContractica, Montserrat;
 }
 
 .see-all-button button{
@@ -717,7 +717,7 @@ font-weight: bold;
 }
 
 .index-news-text h6{
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   font-size: 12px!important;
  font-weight: 700;
  margin-bottom: 1rem;
@@ -741,7 +741,7 @@ font-weight: bold;
   font-size: 11px!important;
  margin-right: 0.5rem;
  font-weight: 700!important;
- font-family: TBCContractica, Montserrat-bold;
+ font-family: TBCContractica, Montserrat;
 }
 
 .index-read-more img{
@@ -802,7 +802,7 @@ font-weight: bold;
 .index-autopark-title p{
 font-size: 18px;
 font-weight: 700;
-font-family: TBCContractica, Montserrat-bold;
+font-family: TBCContractica, Montserrat;
 }
 
 .index-autopark-carousel-inner{
@@ -883,7 +883,7 @@ font-family: TBCContractica, Montserrat;
 .index-rent-title p{ 
 font-size: 18px;
 font-weight: 700;
-font-family: TBCContractica, Montserrat-bold;
+font-family: TBCContractica, Montserrat;
 font-weight: bold;
 }
 
@@ -1056,7 +1056,7 @@ width:100%;
 
 .index-academy-title p{
   font-size: 18px;
-font-family: TBCContractica, Montserrat-bold;
+font-family: TBCContractica, Montserrat;
 font-weight: 700;
 color: rgba(255, 255, 255, 1);
 margin-bottom: 1rem;
@@ -1134,7 +1134,7 @@ line-height: 24px;
 
 .index-taxi-title p{
   font-size: 18px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
  font-weight: 700;
  margin-bottom: 1rem;
 }
@@ -1208,7 +1208,7 @@ width:100%;
   padding-top: 3rem;
  }
  .index-event-header p{
-   font-family: TBCContractica, Montserrat-bold;
+   font-family: TBCContractica, Montserrat;
    font-weight: 700;
    font-size: 18px;
  }
@@ -1324,7 +1324,7 @@ margin-bottom: 3rem;
   text-align: center;
   font-size: 24px;
   font-weight: 700;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   color: rgba(255, 255, 255, 0.349);
 }
 
@@ -1381,7 +1381,7 @@ padding-bottom: 0.2rem;
 padding-top: 1.5rem;
 color:rgba(16, 22, 22, 1);
 font-weight: 700;
-font-family:TBCContractica, Montserrat-bold;
+font-family:TBCContractica, Montserrat;
 }
 
 .home-page-header-title p{
@@ -1416,7 +1416,7 @@ font-family:TBCContractica, Montserrat-bold;
   font-weight: 700;
   margin-bottom: 0.5rem;
   font-size: 22px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   color: rgba(6, 13, 13, 1);
 }
 
@@ -1499,7 +1499,7 @@ margin-left: 12.5%;
 
 .about-page-company-name p{
 font-size: 15px;
-font-family: TBCContractica, Montserrat-bold;
+font-family: TBCContractica, Montserrat;
 font-weight: 700;
 color:rgba(6, 13, 13, 0.5);
 margin-bottom: 0.5rem;
@@ -1507,7 +1507,7 @@ margin-bottom: 0.5rem;
 
 .about-page-events-title p{
   font-size: 23px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: rgba(252, 252, 253, 1);
@@ -1560,7 +1560,7 @@ width:100%;
 }
 
 .about-vehicle-renewal-title p{
- font-family: TBCContractica, Montserrat-bold;
+ font-family: TBCContractica, Montserrat;
  font-weight: 700;
  font-size: 23px;
  color: rgba(6, 13, 13, 1);
@@ -1605,7 +1605,7 @@ line-height: 24px;
  .about-news-header-title p{ 
  font-size: 18px;
  font-weight: 700;
- font-family: TBCContractica, Montserrat-bold;
+ font-family: TBCContractica, Montserrat;
  color:rgba(252, 252, 253, 1);
  }
  
@@ -1626,7 +1626,7 @@ line-height: 24px;
   margin-right: 0.4rem;
   color: rgb(36, 160, 237);
   font-weight: 700;
-  font-family:  TBCContractica, Montserrat-bold;
+  font-family:  TBCContractica, Montserrat;
   font-size: 12px;
  }
  
@@ -1672,7 +1672,7 @@ line-height: 24px;
  }
  
  .about-news-text h6{
-   font-family: TBCContractica, Montserrat-bold;
+   font-family: TBCContractica, Montserrat;
    font-size: 12px!important;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -1696,7 +1696,7 @@ line-height: 24px;
    font-size: 11px!important;
   margin-right: 0.5rem;
   font-weight: 700!important;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   margin-bottom: 0.1rem;
  }
  
@@ -1717,7 +1717,7 @@ line-height: 24px;
 
 .academy-page-header-title p{
  font-size: 24px;
- font-family: TBCContractica, Montserrat-bold;
+ font-family: TBCContractica, Montserrat;
  font-weight: 700;
  color: rgba(16, 22, 22, 1);;
  margin: 0;
@@ -1759,7 +1759,7 @@ margin-left: 12.5%;
 }
 
 .academy-title p{
-font-family: TBCContractica, Montserrat-bold;
+font-family: TBCContractica, Montserrat;
 font-size: 20px;
 font-weight: 700;
 color:rgba(6, 13, 13, 1);
@@ -1812,7 +1812,7 @@ color:rgba(6, 13, 13, 1);
 .anything-else-title p{
 font-size: 20px;
 font-weight: 700;
-font-family: TBCContractica, Montserrat-bold;
+font-family: TBCContractica, Montserrat;
 color: rgba(252, 252, 253, 1);
 }
 
@@ -1871,7 +1871,7 @@ line-height: 24px;
 .anything-else-2-title p{
 font-size: 20px;
 font-weight: 700;
-font-family: TBCContractica, Montserrat-bold;
+font-family: TBCContractica, Montserrat;
 color: rgba(6, 13, 13, 1);
 }
 
@@ -1903,7 +1903,7 @@ color: rgba(6, 13, 13, 1);
 }
 
 .car-fleet-title-inner{
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   font-weight: 700;
   font-size: 24px;
 }
@@ -2262,7 +2262,7 @@ grid-row: 1 / 2;
 .element-info-header p{
  font-size: 20px;
  font-weight: 700;
- font-family: TBCContractica, Montserrat-bold;
+ font-family: TBCContractica, Montserrat;
  padding-right: 1rem;
  margin-bottom: 0;
 }
@@ -2689,7 +2689,7 @@ width: 100%;
 }
 
 .car-rent-title-inner{
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   font-weight: 700;
   font-size: 24px;
 }
@@ -2697,7 +2697,7 @@ width: 100%;
 .car-rent-vehicles-header{
   text-align: center;
   font-size: 24px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   font-weight: 700;
 }
 
@@ -2727,7 +2727,7 @@ width: 100%;
   font-weight: 700;
   margin-bottom: 0.2rem;
   font-size: 16px;
-  Font-family: TBCContractica, Montserrat-bold;
+  Font-family: TBCContractica, Montserrat;
 }
 
 .car-rent-header-title p{
@@ -2996,7 +2996,7 @@ margin-left: 1.7rem;
 .car-rent-class p{
   margin-bottom: 0;
   font-size: 20px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   font-weight: 700;
 }
 
@@ -3074,7 +3074,7 @@ margin-left: 1.7rem;
 }
 
 .newsroom-header p {
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   font-size: 23px;
   font-weight: 700;
   padding-bottom: 1.5rem;
@@ -3239,7 +3239,7 @@ grid-column: 11 / 16;
   }
   
   .newsroom-article-text h6{
-    font-family: TBCContractica, Montserrat-bold;
+    font-family: TBCContractica, Montserrat;
     font-size: 13px!important;
    font-weight: 700;
    margin-bottom: 0.5rem;
@@ -3264,7 +3264,7 @@ grid-column: 11 / 16;
     font-size: 11px!important;
    margin-right: 0.5rem;
    font-weight: 700!important;
-   font-family: TBCContractica, Montserrat-bold;
+   font-family: TBCContractica, Montserrat;
   }
   
   .newsroom-article-more img{
@@ -3312,7 +3312,7 @@ font-weight: 600;
 .article-title p{
   font-weight: 700;
   font-size: 23px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   padding-bottom: 1rem;
   color: #000000;
 }
@@ -3321,7 +3321,7 @@ font-weight: 600;
   padding-top: 1.5rem;
 font-size: 23px;
 font-weight: 700;
-font-family: TBCContractica, Montserrat-bold;
+font-family: TBCContractica, Montserrat;
 color: #000000;
 }
 
@@ -3342,7 +3342,7 @@ color: #000000;
 }
 
 .other-articles-header p{
- font-family: TBCContractica, Montserrat-bold;
+ font-family: TBCContractica, Montserrat;
  font-weight: 700;
  font-size: 18px;
  color: #000000;
@@ -3370,7 +3370,7 @@ color: #000000;
   }
   
   .other-article-text h6{
-    font-family: TBCContractica, Montserrat-bold;
+    font-family: TBCContractica, Montserrat;
     font-size: 13px!important;
    font-weight: 700;
    margin-bottom: 0.5rem;
@@ -3395,7 +3395,7 @@ color: #000000;
     font-size: 11px!important;
    margin-right: 0.5rem;
    font-weight: 700!important;
-   font-family: TBCContractica, Montserrat-bold;
+   font-family: TBCContractica, Montserrat;
   }
   
   .other-article-more img{
@@ -3459,7 +3459,7 @@ color: #000000;
 .vehicle-spec-body-title p{
   font-weight: 700;
   font-size: 20px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   color: #000000;
   margin-right: 0.6rem;
   margin-bottom: 0;
@@ -3557,7 +3557,7 @@ color: #000000;
 .sheet-part-1{
   grid-column: 2 / 12;
   font-weight: 700;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   color: #000000;
   padding-top: 1rem;
 }
@@ -3678,7 +3678,7 @@ border-radius: 40px 0 0 40px;
 .project-title p{
   font-size: 23px;
   font-weight: 700;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   color: #060D0D;
   }
 
@@ -3837,7 +3837,7 @@ border: 1px solid rgb(126 126 126 / 7%);
 .moiare-body-title p{
  font-size: 20px;
  font-weight: 700;
- font-family: TBCContractica, Montserrat-bold;
+ font-family: TBCContractica, Montserrat;
  margin-bottom: 0.5rem;
 }
 
@@ -3890,7 +3890,7 @@ border: 1px solid rgb(126 126 126 / 7%);
 padding-top: 1.5rem;
 color:rgba(16, 22, 22, 1);
 font-weight: 700;
-font-family:TBCContractica, Montserrat-bold;
+font-family:TBCContractica, Montserrat;
 }
 
 .taxi-page-header-title p{
@@ -3925,7 +3925,7 @@ font-family:TBCContractica, Montserrat-bold;
   font-weight: 700;
   margin-bottom: 0.5rem;
   font-size: 22px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   color: rgba(6, 13, 13, 1);
 }
 
@@ -4008,7 +4008,7 @@ margin-left: 12.5%;
 
 .taxi-page-company-name p{
 font-size: 15px;
-font-family: TBCContractica, Montserrat-bold;
+font-family: TBCContractica, Montserrat;
 font-weight: 700;
 color:rgba(6, 13, 13, 0.5);
 margin-bottom: 0.5rem;
@@ -4016,7 +4016,7 @@ margin-bottom: 0.5rem;
 
 .taxi-page-events-title p{
   font-size: 23px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: rgba(252, 252, 253, 1);
@@ -4069,7 +4069,7 @@ width:100%;
 }
 
 .taxi-vehicle-renewal-title p{
- font-family: TBCContractica, Montserrat-bold;
+ font-family: TBCContractica, Montserrat;
  font-weight: 700;
  font-size: 23px;
  color: rgba(6, 13, 13, 1);
@@ -4100,7 +4100,7 @@ line-height: 24px;
  .taxi-news-header-title p{ 
   font-size: 18px;
   font-weight: 700;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   color:rgba(16, 22, 22, 1);
   }
 
@@ -4190,7 +4190,7 @@ line-height: 24px;
   padding-top: 1.5rem;
   color:rgba(16, 22, 22, 1);
   font-weight: 700;
-  font-family:TBCContractica, Montserrat-bold;
+  font-family:TBCContractica, Montserrat;
   }
   
   .electric-page-header-title p{
@@ -4225,7 +4225,7 @@ line-height: 24px;
     font-weight: 700;
     margin-bottom: 0.5rem;
     font-size: 22px;
-    font-family: TBCContractica, Montserrat-bold;
+    font-family: TBCContractica, Montserrat;
     color: rgba(6, 13, 13, 1);
   }
   
@@ -4307,7 +4307,7 @@ line-height: 24px;
   
   .electric-page-company-name p{
   font-size: 15px;
-  font-family: TBCContractica, Montserrat-bold;
+  font-family: TBCContractica, Montserrat;
   font-weight: 700;
   color:rgba(6, 13, 13, 0.5);
   margin-bottom: 0.5rem;
@@ -4315,7 +4315,7 @@ line-height: 24px;
   
   .electric-page-events-title p{
     font-size: 23px;
-    font-family: TBCContractica, Montserrat-bold;
+    font-family: TBCContractica, Montserrat;
     font-weight: 700;
     margin-bottom: 0.5rem;
     color: rgba(252, 252, 253, 1);
