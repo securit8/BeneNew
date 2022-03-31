@@ -54,7 +54,7 @@
                             </div>
                             <div class="project-button">
                                 <button> 
-                                    <a href="{{route('frontend.event-moiare')}}">
+                                    <a href="{{route('frontend.networking')}}">
                                     <p>@lang('front.show-more')</p>
                                     <img src="{{asset('front/images/arrow-right.png') }}" alt="">
                                     </a>
@@ -79,7 +79,7 @@
                             </div>
                             <div class="project-button">
                                 <button> 
-                                    <a href="{{route('frontend.event-moiare')}}">
+                                    <a href="{{route('frontend.mercedes-event')}}">
                                     <p>@lang('front.show-more')</p>
                                     <img src="{{asset('front/images/arrow-right.png') }}" alt="">
                                     </a>
@@ -104,7 +104,7 @@
                             </div>
                             <div class="project-button">
                                 <button> 
-                                    <a href="{{route('frontend.event-moiare')}}">
+                                    <a href="{{route('frontend.week')}}">
                                     <p>@lang('front.show-more')</p>
                                     <img src="{{asset('front/images/arrow-right.png') }}" alt="">
                                     </a>
@@ -129,7 +129,7 @@
                             
                             <div class="project-button">
                                 <button> 
-                                     <a href="{{route('frontend.event-moiare')}}">
+                                     <a href="{{route('frontend.distribution')}}">
                                     <p>@lang('front.show-more')</p>
                                     <img src="{{asset('front/images/arrow-right.png') }}" alt="">
                                     </a>

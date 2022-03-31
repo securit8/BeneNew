@@ -109,9 +109,7 @@ class RoutesController extends Controller
         return view('frontend.brands');
     }
 
-    public function moiare(){
-        return view('frontend.event-moiare');
-    }
+  
 
     public function prado(){
         return view('frontend.prado');
@@ -119,6 +117,26 @@ class RoutesController extends Controller
 
     public function rav4(){
         return view('frontend.rav4');
+    }
+
+    public function moiare(){
+        return view('frontend.event-moiare');
+    }
+
+    public function week(){
+        return view('frontend.week');
+    }
+
+    public function event(){
+        return view('frontend.mercedes-event');
+    }
+
+    public function distribution(){
+        return view('frontend.distribution');
+    }
+
+    public function networking(){
+        return view('frontend.networking');
     }
 }
 

@@ -48,6 +48,10 @@ Route::get('/prado', [RoutesController::class, 'prado'])->name('frontend.prado')
 Route::get('/rav4', [RoutesController::class, 'rav4'])->name('frontend.rav4');
 
 Route::get('/event-moiare', [RoutesController::class, 'moiare'])->name('frontend.event-moiare');
+Route::get('/networking', [RoutesController::class, 'networking'])->name('frontend.networking');
+Route::get('/distribution', [RoutesController::class, 'distribution'])->name('frontend.distribution');
+Route::get('/week', [RoutesController::class, 'week'])->name('frontend.week');
+Route::get('/mercedes-event', [RoutesController::class, 'event'])->name('frontend.mercedes-event');
 
 
 Route::get('/brands', [RoutesController::class, 'brands'])->name('frontend.brands');
