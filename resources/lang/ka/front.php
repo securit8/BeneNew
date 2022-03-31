@@ -232,6 +232,7 @@ return [
 'fleet-suv' => 'ქროსოვერი',
 'fleet-sedan' => 'სედანი',
 'fleet-diesel' => 'დიზელი',
+'fleet-benzin' => 'ბენზინი',
 'fleet-electric-gas' => 'ელექტრო',
 'fleet-hybrid' => 'ჰიბრიდი',
 'fleet-leather' => 'ტყავი',

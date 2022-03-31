@@ -170,7 +170,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-luggage')</p> 
                         
-                        <p class="sheet-part-2">30 @lang('front.fleet-big')</p>
+                        <p class="sheet-part-2">30 @lang('front.fleet-large')</p>
                       </div>
 
                     </div>

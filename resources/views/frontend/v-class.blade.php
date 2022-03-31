@@ -121,7 +121,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-color')</p> 
                         
-                        <p class="sheet-part-2">@lang('front.black')</p>
+                        <p class="sheet-part-2">@lang('front.fleet-black')</p>
                       </div>
 
                       <div class="sheet-line-4">
@@ -171,7 +171,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-luggage')</p> 
                         
-                        <p class="sheet-part-2">6 @lang('front.fleet-big')</p>
+                        <p class="sheet-part-2">6 @lang('front.fleet-large')</p>
                       </div>
 
                     </div>

@@ -126,7 +126,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-color')</p> 
                         
-                        <p class="sheet-part-2">@lang('front.fleet-black)</p>
+                        <p class="sheet-part-2">@lang('front.fleet-black')</p>
                       </div>
 
                       <div class="sheet-line-4">
@@ -154,12 +154,12 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-fuel')</p> 
                         
-                        <p class="sheet-part-2">@lang('front.diesel') </p>
+                        <p class="sheet-part-2">@lang('front.fleet-diesel') </p>
                       </div>
 
                       <div class="sheet-line-8">
 
-                        <p class="sheet-part-1">@lang('front.fleet-interior</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-interior')</p> 
                         
                         <p class="sheet-part-2">@lang('front.fleet-leather')</p>
                       </div>
@@ -176,7 +176,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-luggage')</p> 
                         
-                        <p class="sheet-part-2">4/5 @lang('front.fleet-big')</p>
+                        <p class="sheet-part-2">4/5 @lang('front.fleet-large')</p>
                       </div>
 
                     </div>
