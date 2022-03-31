@@ -8,7 +8,7 @@ return [
   'academy' => 'Академия',
   'taxi' => 'Такси',
   'partners' => 'Партнеры',
-  'contact' => 'Связаться с нами',
+  'contact' => 'Обратная связь',
   'electric' => 'Electric',
   'events' => 'Проекты',
   'motors' => 'Бене Моторс',
