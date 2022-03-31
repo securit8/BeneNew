@@ -140,7 +140,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-engine')</p> 
                         
-                        <p class="sheet-part-2">225 @lang('front.fleet-kvt') </p>
+                        <p class="sheet-part-2">225 @lang('front.kvt') </p>
                       </div>
 
                       <div class="sheet-line-7">
