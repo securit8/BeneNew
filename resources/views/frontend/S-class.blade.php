@@ -145,7 +145,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-engine')</p> 
                         
-                        <p class="sheet-part-2">3,0 </p>
+                        <p class="sheet-part-2">3.0 </p>
                       </div>
 
                       <div class="sheet-line-7">
