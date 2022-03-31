@@ -161,7 +161,7 @@
 
                       <div class="sheet-line-9">
 
-                        <p class="sheet-part-1">@lang('front.fleet-passenger')</p> 
+                        <p class="sheet-part-1">@lang('front.fleet-passanger')</p> 
                         
                         <p class="sheet-part-2">16</p>
                       </div>
