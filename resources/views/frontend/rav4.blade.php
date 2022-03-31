@@ -93,8 +93,8 @@
                 </div>
 
 
-
-                <div class="spec-sheet-lines" id="spec-sheet">
+                <div class="vehicle-spesific-specs" id="arrow-down">
+                  <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
 
                         <p class="sheet-part-1">@lang('front.fleet-creator')</p> 
