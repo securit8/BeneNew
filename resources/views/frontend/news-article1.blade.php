@@ -14,7 +14,7 @@
             
             <div class="article-body">
                 <div class="article-date">
-                    <p>February 4, 2022</p>
+                    <p>21 მარტი, 2022</p>
                 </div>
 
                 <div class="article-title">

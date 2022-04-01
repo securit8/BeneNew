@@ -710,6 +710,10 @@ width: 100%;
  background-color: rgba(255, 255, 255, 1);
 }
 
+.news-date{
+  padding-top: 0.5rem;
+}
+
 .news-date p{
 color: rgba(6, 13, 13, 0.5);
 font-family: TBCContractica, Montserrat;
@@ -735,6 +739,11 @@ font-weight: bold;
  align-items: center;
  color: rgba(36, 160, 237, 0.699);
  padding-bottom: 0.5rem;
+}
+
+.index-read-more a{
+  text-decoration: none;
+  color: rgba(36, 160, 237, 0.699);
 }
 
 .index-read-more h5{

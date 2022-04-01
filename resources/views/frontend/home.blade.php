@@ -213,21 +213,23 @@
       <div class="index-news-body">
           <div class="index-news-article">
             <div class="index-news-image">
-              <img src="{{asset('front/images/news-1.png') }}" alt="">
+              <img src="{{asset('front/images/article/1.jpg') }}" alt="">
             </div>
 
             <div class="index-news-text">
               <div class="news-date">
-              <p>February 4, 2022</p>
+              <p>21 მარტი, 2022</p>
               </div>
 
-              <h6>BENE EXCLUSIVE ფარიკაობის მსოფლიო ჩემპიონატის...</h6>
+              <h6>BENE EXCLUSIVE გთავაზობთ ახალ და საიმედო მანქანებს</h6>
 
-              <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
+              <p>"ბენე ექსკლუზივი" გთავაზობთ ახალ და საიმედო მანქანებს, მაღალი გამავლობით, გამოცდილ მძღოლებთან ერთად.
+                 ჩვენთვის დათოვლილი გზა და უამინდობა დაბრკოლებას არ წარმოადგენს!</p>
 
 
               <div class="index-read-more">
-                <h5>Read more</h5>
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/967350223916930">
+                <h5>@lang('front.show-more')</h5></a>
                 <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
             </div>
@@ -236,45 +238,24 @@
 
           <div class="index-news-article">
             <div class="index-news-image">
-              <img src="{{asset('front/images/news-2.png') }}" alt="">
+              <img src="{{asset('front/images/article/2.jpg') }}" alt="">
             </div>
 
             <div class="index-news-text">
               <div class="news-date">
-              <p>February 4, 2022</p>
+              <p>24 თებერვალი, 2022</p>
               </div>
 
-              <h6>BENE EXCLUSIVE ფარიკაობის მსოფლიო ჩემპიონატის...</h6>
+              <h6>უფასო ტრანსპორტირება უკრაინის მოქალაქეებს.</h6>
 
-              <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
+              <p>Bene Exclusive-ის გუნდი სოლიდარობას უცხადებს უკრაინელ ხალხს და
+                  უკრაინის მოქალაქეებს სთავაზობს უფასო ტრანსპორტირებას ქალაქის საერთაშორისო 
+                  აეროპორტში.</p>
 
 
               <div class="index-read-more">
-                <h5>Read more</h5>
-                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="index-news-article">
-            <div class="index-news-image">
-              <img src="{{asset('front/images/news-3.png') }}" alt="">
-            </div>
-
-            <div class="index-news-text">
-              <div class="news-date">
-              <p>February 4, 2022</p>
-              </div>
-
-              <h6>BENE EXCLUSIVE ფარიკაობის მსოფლიო ჩემპიონატის...</h6>
-
-              <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
-
-
-              <div class="index-read-more">
-                <h5>Read more</h5>
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/952419448743341/">
+                  <h5>@lang('front.show-more')</h5></a>
                 <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
             </div>
@@ -284,21 +265,50 @@
 
           <div class="index-news-article">
             <div class="index-news-image">
-              <img src="{{asset('front/images/news-4.png') }}" alt="">
+              <img src="{{asset('front/images/article/3.jpg') }}" alt="">
             </div>
 
             <div class="index-news-text">
               <div class="news-date">
-              <p>February 4, 2022</p>
+              <p>14 იანვარი, 2022</p>
               </div>
 
-              <h6>BENE EXCLUSIVE ფარიკაობის მსოფლიო ჩემპიონატის...</h6>
+              <h6>Bene Exclusive ფარიკაობის მსოფლიო თასის 600-მდე მონაწილის ტრანსპორტირებას უზრუნველყოფს.</h6>
 
-              <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
+              <p>თუ გაქვთ გამოცდილება და ფლობთ უცხო ენებს,
+                 გამოაგზავნეთ თქვენი რეზიუმე ელექტრონულ მისამართზე vacancy@bene-exclusive.com ან დაგვიკავშირდით ნომერზე:(032) 2 05 21 00</p>
 
 
               <div class="index-read-more">
-                <h5>Read more</h5>
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/929407307711222/">
+                <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/4.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+              <p>7 მარტი, 2022</p>
+              </div>
+
+              <h6>უფასო ტრანსპორტირება უკრაინის მოქალაქეებს.</h6>
+
+              <p>Bene Exclusive-ის გუნდი სოლიდარობას უცხადებს უკრაინელ ხალხს და
+                  უკრაინის მოქალაქეებს სთავაზობს უფასო ტრანსპორტირებას ქალაქის საერთაშორისო 
+                  აეროპორტში.</p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/959071804744772/">
+                  <h5>@lang('front.show-more')</h5></a>
                 <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
             </div>
