@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TleImage" content="http://">
+    <meta property="og:bene-exclusive.com" content="Bene Exclusive">
+    <meta property="og:image" itemprop="image" content="front/images/contact-logo.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:heihgt" content="300">
+    <meta property="og:url" content="http://bene-exclusive.com">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="front/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
