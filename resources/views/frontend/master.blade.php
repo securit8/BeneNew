@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="msapplication-TleImage" content="http://">
     <meta property="og:bene-exclusive.com" content="Bene Exclusive">
-    <meta property="og:image" itemprop="image" content="front/images/contact-logo.png">
+    <meta property="og:image" itemprop="image" content="front/images/partners-logo.png">
     <meta property="og:type" content="website" />
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="300">
