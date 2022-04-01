@@ -312,37 +312,36 @@ for(var i = 0; i < reveal.length; i++){
   });
 </script>
 
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
 <script>
-      var div = document.createElement('div');
-      div.className = 'fb-customerchat';
-      div.setAttribute('page_id', '131929430792351');
-      div.setAttribute('ref', '');
-      document.body.appendChild(div);
-      window.fbMessengerPlugins = window.fbMessengerPlugins || {
-          init: function () {
-              FB.init({
-                  appId            : '1678638095724206',
-                  autoLogAppEvents : true,
-                  xfbml            : true,
-                  version          : 'v3.3'
-              });
-          }, callable: []
-      };
-      window.fbAsyncInit = window.fbAsyncInit || function () {
-          window.fbMessengerPlugins.callable.forEach(function (item) { item(); });
-          window.fbMessengerPlugins.init();
-      };
-      setTimeout(function () {
-          (function (d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) { return; }
-              js = d.createElement(s);
-              js.id = id;
-              js.src = "//connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
-              fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));
-      }, 0);
-  </script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "131929430792351");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v13.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
