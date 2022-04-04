@@ -438,6 +438,12 @@ cursor: pointer;
     text-align: center!important;
   }
 
+  #langbtn{
+    position: absolute;
+    left: 4px;
+    top: 2px;
+  }
+
   .contact-logo-info{
     text-align: center;
   }
@@ -465,6 +471,14 @@ cursor: pointer;
     margin-bottom: 1rem!important;
   }
 
+  #index-part1-carousel-indicators{
+    display: none!important;
+  }
+
+  .carousel-control-prev, .carousel-control-next{
+    display: none!important;
+  }
+
   .copyright{
     margin-left: 0.5rem!important;
     margin-top: 0.2rem!important;
@@ -480,8 +494,9 @@ cursor: pointer;
   }
 
   .index-slogan{
-    margin-top: 0!important;
-    margin-left: 1rem!important;
+    margin-top: 0.3rem!important;
+    margin-left: 0rem!important;
+    grid-column: 2 / 13!important;
   }
   .part-1-inner {
     width: 100%!important;
