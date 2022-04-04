@@ -430,6 +430,19 @@ cursor: pointer;
     grid-column: 13/ 23;
   }
 
+  .contact-logo-info{
+    text-align: center;
+  }
+
+  .our-social-meida{
+    flex-direction: column!important;
+  }
+
+  .contact-number{
+    justify-content: center!important;
+    align-items: center!important;
+  }
+
 
   .part-1-inner {
     width: 100%!important;
