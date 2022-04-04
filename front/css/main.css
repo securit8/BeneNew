@@ -438,10 +438,17 @@ cursor: pointer;
     text-align: center!important;
   }
 
-  #langbtn{
+  .Language-select{
     position: absolute;
-    left: 4px;
-    top: 2px;
+    left: -60%!important;
+    top: -35px;
+  }
+
+  .Ka{
+    margin-right: 0.7rem!important;
+  }
+  .Ru{
+    padding-left: 0!important;
   }
 
   .contact-logo-info{
