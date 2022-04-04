@@ -433,10 +433,7 @@ cursor: pointer;
     height: 130%!important;
     grid-column: 15/ 25;
   }
-
-  #fb-root{
-    width: 100%!important;
-  }
+  
 
   .contact-slogan{
     text-align: center!important;
