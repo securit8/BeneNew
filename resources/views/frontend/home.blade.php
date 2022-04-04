@@ -224,14 +224,14 @@
         <div class="carousel-inner">
           <div class="carousel-item active mb-5">
             <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/967350223916930">
-              <img src="{{asset('front/images/article/1.jpg')}}" class="" alt="...">
+              <img src="{{asset('front/images/article/2.jpg')}}" class="" alt="...">
             </a>
           </div>
 
 
           <div class="carousel-item mb-5">
             <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/952419448743341/">
-             <img src="{{asset('front/images/article/2.jpg')}}" class="" alt="...">
+             <img src="{{asset('front/images/article/1.jpg')}}" class="" alt="...">
             </a>
           </div>
 
@@ -273,22 +273,21 @@
       <div class="index-news-body">
           <div class="index-news-article">
             <div class="index-news-image">
-              <img src="{{asset('front/images/article/1.jpg') }}" alt="">
+              <img src="{{asset('front/images/article/2.jpg') }}" alt="">
             </div>
 
             <div class="index-news-text">
               <div class="news-date">
-              <p>21 მარტი, 2022</p>
+              <p>24 თებერვალი, 2022</p>
               </div>
 
-              <h6>BENE EXCLUSIVE გთავაზობთ ახალ და საიმედო მანქანებს</h6>
+              <h6>სოლიდარობა უკრაინელ მოქალაქეებს</h6>
 
-              <p>"ბენე ექსკლუზივი" გთავაზობთ ახალ და საიმედო მანქანებს, მაღალი გამავლობით, გამოცდილ მძღოლებთან ერთად.
-                 ჩვენთვის დათოვლილი გზა და უამინდობა დაბრკოლებას არ წარმოადგენს!</p>
+              <p>ბენე ექსკლუზივი უკრაინის მოქალაქეებს თბილისის და ქუთაისის აეროპორტში უფასო ტრანსპორტირებას სთავაზობს.</p>
 
 
               <div class="index-read-more">
-                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/967350223916930">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/952419448743341/">
                 <h5>@lang('front.show-more')</h5></a>
                 <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
@@ -298,23 +297,23 @@
 
           <div class="index-news-article">
             <div class="index-news-image">
-              <img src="{{asset('front/images/article/2.jpg') }}" alt="">
+              <img src="{{asset('front/images/article/1.jpg') }}" alt="">
             </div>
 
             <div class="index-news-text">
               <div class="news-date">
-              <p>24 თებერვალი, 2022</p>
+              <p>21 მარტი, 2022</p>
               </div>
 
-              <h6>უფასო ტრანსპორტირება უკრაინის მოქალაქეებს.</h6>
+              <h6>ნებისმიერ ამინდზე მოგრებული ავტოპარკი </h6>
 
-              <p>Bene Exclusive-ის გუნდი სოლიდარობას უცხადებს უკრაინელ ხალხს და
-                  უკრაინის მოქალაქეებს სთავაზობს უფასო ტრანსპორტირებას ქალაქის საერთაშორისო 
-                  აეროპორტში.</p>
+                <p>
+                ბენე ექსკლუზივის მაღალი გამავლობის ავტომობილებისთვის თოვლი და უამინდობა დაბრკოლებას არ წარმოადგენს.
+                </p>
 
 
               <div class="index-read-more">
-                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/952419448743341/">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/967350223916930">
                   <h5>@lang('front.show-more')</h5></a>
                 <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
@@ -333,10 +332,9 @@
               <p>14 იანვარი, 2022</p>
               </div>
 
-              <h6>Bene Exclusive ფარიკაობის მსოფლიო თასის 600-მდე მონაწილის ტრანსპორტირებას უზრუნველყოფს.</h6>
+              <h6>ფარიკაობის მსოფლიო თასი 2022-ის პარტნიორი</h6>
 
-              <p>თუ გაქვთ გამოცდილება და ფლობთ უცხო ენებს,
-                 გამოაგზავნეთ თქვენი რეზიუმე ელექტრონულ მისამართზე vacancy@bene-exclusive.com ან დაგვიკავშირდით ნომერზე:(032) 2 05 21 00</p>
+              <p>ბენე ექსკლუზივმა ფარიკაობის მსოფლიო თასის 600-მდე მონაწილის ტრანსპორტირება უზრუნველყო.</p>
 
 
               <div class="index-read-more">
@@ -359,11 +357,9 @@
               <p>7 მარტი, 2022</p>
               </div>
 
-              <h6>უფასო ტრანსპორტირება უკრაინის მოქალაქეებს.</h6>
+              <h6>Summit talks - ის  პარტნიორი </h6>
 
-              <p>Bene Exclusive-ის გუნდი სოლიდარობას უცხადებს უკრაინელ ხალხს და
-                  უკრაინის მოქალაქეებს სთავაზობს უფასო ტრანსპორტირებას ქალაქის საერთაშორისო 
-                  აეროპორტში.</p>
+              <p>Summit Talks -ის 100-მდე მონაწილის უსაფრთხო და კომფორტული ტრანსპორტირება ბენე ექსკლუზივმა უზრუნველყო. </p>
 
 
               <div class="index-read-more">
