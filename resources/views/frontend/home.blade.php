@@ -192,7 +192,8 @@
 <div class="index-part-2">
   <div class="index-part-2-middle">
     <div class="index-part-2-inner">
-      <div class="index-news-header">
+
+    <div class="index-news-header">
         <div class="index-news-header-title">
           <p>@lang('front.newsroom')</p>
         </div>
@@ -208,6 +209,65 @@
 
 
       </div>
+      
+      <div id="carouselExampleIndicators-index-news" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <div class="taxi-carousel-sliders">
+            <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+        </div>
+
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/967350223916930">
+              <img src="{{asset('front/images/article/1.jpg')}}" class="" alt="...">
+            </a>
+          </div>
+
+
+          <div class="carousel-item">
+            <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/952419448743341/">
+             <img src="{{asset('front/images/article/2.jpg')}}" class="" alt="...">
+            </a>
+          </div>
+
+
+          <div class="carousel-item">
+            <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/929407307711222/">
+              <img src="{{asset('front/images/article/3.jpg')}}" class="" alt="...">
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/959071804744772/">
+              <img src="{{asset('front/images/article/4.jpg')}}" class="" alt="...">
+            </a>
+          </div>
+
+
+        </div>
+
+          <div class="spec-carousel-buttons">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-taxi" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+          <span  class="carousel-arrow-icon"><img src="{{asset('front/images/carousel-right.png') }}" alt=""></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-taxi" data-bs-slide="next">
+          <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+          <span class="carousel-arrow-icon"><img src="{{asset('front/images/carousel-left.png') }}" alt=""></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        
+      </div>
+
+
+      
 
       
       <div class="index-news-body">
