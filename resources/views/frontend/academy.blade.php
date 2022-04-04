@@ -10,7 +10,7 @@
 
 <div id="carouselExampleIndicators-taxi" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
-    <div class="taxi-carousel-sliders">
+    <div class="taxi-carousel-sliders d-none">
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -36,7 +36,7 @@
 
   </div>
 
-    <div class="spec-carousel-buttons">
+    <div class="spec-carousel-buttons d-none">
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-taxi" data-bs-slide="prev">
     <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
     <span  class="carousel-arrow-icon"><img src="{{asset('front/images/carousel-right.png') }}" alt=""></span>
