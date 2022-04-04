@@ -422,7 +422,7 @@ cursor: pointer;
 }
 
 
-@media (max-width: 830px){
+@media (max-width: 420px){
   .part-1-inner {
     width: 100%!important;
     display: flex!important;
@@ -435,8 +435,8 @@ cursor: pointer;
   }
 
   .about-us-video embed{
-    width:600px!important;
-    height:400px!important;
+    width:200px!important;
+    height:200px!important;
   }
 
   .index-about-us-info{
