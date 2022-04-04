@@ -430,12 +430,17 @@ cursor: pointer;
     grid-column: 13/ 23;
   }
 
+  .contact-slogan{
+    text-align: center!important;
+  }
+
   .contact-logo-info{
     text-align: center;
   }
 
   .our-social-meida{
     flex-direction: column!important;
+    text-align: center!important;
   }
 
   .contact-number{
@@ -443,7 +448,24 @@ cursor: pointer;
     align-items: center!important;
   }
 
+  .contact-number p{
+    margin-bottom: 0!important;
+  }
 
+  .footer-social-icons{
+    margin-left: 0!important;
+    margin-bottom: 1rem!important;
+  }
+
+  .contact-number{
+    margin-bottom: 1rem!important;
+  }
+
+  .copyright{
+    margin-left: 0.5rem!important;
+    margin-top: 0.2rem!important;
+    text-align: center!important;
+  }
   .part-1-inner {
     width: 100%!important;
     display: flex!important;
