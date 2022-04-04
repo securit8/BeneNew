@@ -466,6 +466,19 @@ cursor: pointer;
     margin-top: 0.2rem!important;
     text-align: center!important;
   }
+
+  .who-we-are{
+    font-size: 19px!important;
+  }
+
+  .who-we-are p{
+    margin-bottom: 1rem!important;
+  }
+
+  .index-slogan{
+    margin-top: 0!important;
+    margin-left: 1rem!important;
+  }
   .part-1-inner {
     width: 100%!important;
     display: flex!important;
@@ -487,6 +500,10 @@ cursor: pointer;
     margin-left: 3rem;
   }
 
+  .index-academy-title{
+    margin-top: 1rem!important;
+  }
+
   .index-academy-info{
     display: flex!important;
     flex-direction: column!important;
@@ -499,6 +516,10 @@ cursor: pointer;
     align-items: center;
   }
 
+  .index-academy-button button{
+    margin-left: 4.5rem!important;
+  }
+
   .part-6-inner{
     display: flex!important;
     flex-direction: column-reverse!important;
@@ -509,6 +530,15 @@ cursor: pointer;
   .index-taxi-info{
     text-align: center;
     align-items: center;
+  }
+
+  .index-taxi-button{
+    margin-left: 5rem!important;
+  }
+
+  .part-8-inner{
+    width:100%!important;
+    margin-left: 0!important;
   }
 
 }
