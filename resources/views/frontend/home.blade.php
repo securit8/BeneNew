@@ -222,27 +222,27 @@
 
 
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active mb-5">
             <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/967350223916930">
               <img src="{{asset('front/images/article/1.jpg')}}" class="" alt="...">
             </a>
           </div>
 
 
-          <div class="carousel-item">
+          <div class="carousel-item mb-5">
             <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/952419448743341/">
              <img src="{{asset('front/images/article/2.jpg')}}" class="" alt="...">
             </a>
           </div>
 
 
-          <div class="carousel-item">
+          <div class="carousel-item mb-5">
             <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/929407307711222/">
               <img src="{{asset('front/images/article/3.jpg')}}" class="" alt="...">
             </a>
           </div>
 
-          <div class="carousel-item">
+          <div class="carousel-item mb-5">
             <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/959071804744772/">
               <img src="{{asset('front/images/article/4.jpg')}}" class="" alt="...">
             </a>
