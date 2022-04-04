@@ -55,7 +55,9 @@ font-size: 20px;
   display: none!important;
 }
 
-
+#carouselExampleIndicators-index-events{
+  display: none;
+}
 
 
 body {
@@ -499,6 +501,7 @@ cursor: pointer;
 
   #carouselExampleIndicators-index-news{
     display: block!important;
+    
   }
 
   #carouselExampleIndicators-index-news img{
@@ -544,6 +547,21 @@ cursor: pointer;
     text-align: center;
     align-items: center;
   }
+
+  #carouselExampleIndicators-index-events{
+    display: block;
+    width: 90%!important;
+    margin-left: 5%!important;
+  }
+
+  #carouselExampleIndicators-index-events img{
+    width: 100%!important;
+  }
+
+  .mySwiper{
+    display: none!important;
+  }
+
 
   .index-taxi-button{
     margin-left: 5rem!important;
