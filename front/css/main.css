@@ -426,7 +426,7 @@ cursor: pointer;
 }
 
 
-@media (max-width: 420px){
+@media (max-width: 720px){
 
   .bene_logo{
     width: 130%!important;
