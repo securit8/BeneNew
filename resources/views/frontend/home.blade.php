@@ -270,7 +270,7 @@
       
 
       
-      <div class="index-news-body">
+        <div class="index-news-body">
           <div class="index-news-article">
             <div class="index-news-image">
               <img src="{{asset('front/images/article/2.jpg') }}" alt="">
@@ -354,7 +354,7 @@
 
             <div class="index-news-text">
               <div class="news-date">
-              <p>7 მარტი, 2022</p>
+                <p>7 მარტი, 2022</p>
               </div>
 
               <h6>Summit talks - ის  პარტნიორი </h6>
@@ -369,10 +369,8 @@
               </div>
             </div>
           </div>
+        </div>
 
-
-
-      </div>
     </div>
   </div>
 </div>

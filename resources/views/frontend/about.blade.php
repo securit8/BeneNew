@@ -138,103 +138,166 @@
       </div>
 
       
-      <div class="about-news-body">
-          <div class="about-news-body-article">
-            <div class="about-news-image">
-              <img src="{{asset('front/images/news-1.png') }}" alt="">
-            </div>
-
-            <div class="about-news-text">
-              <div class="news-date">
-              <p>February 4, 2022</p>
-              </div>
-
-              <h6>BENE EXCLUSIVE ფარიკაობის მსოფლიო ჩემპიონატის...</h6>
-
-              <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
+      <div id="carouselExampleIndicators-index-news" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <div class="taxi-carousel-sliders d-none">
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-news" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-news" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-news" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-news" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+        </div>
 
 
-              <div class="about-read-more">
-                <h5>@lang('front.read-more')</h5>
-                <i class="fas fa-arrow-right"></i>
-              </div>
-            </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active mb-5">
+            <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/967350223916930">
+              <img src="{{asset('front/images/article/2.jpg')}}" class="" alt="...">
+            </a>
           </div>
 
 
-          <div class="about-news-body-article">
-            <div class="about-news-image">
-              <img src="{{asset('front/images/news-2.png') }}" alt="">
-            </div>
-
-            <div class="about-news-text">
-              <div class="news-date">
-              <p>February 4, 2022</p>
-              </div>
-
-              <h6>BENE EXCLUSIVE ფარიკაობის მსოფლიო ჩემპიონატის...</h6>
-
-              <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
-
-
-              <div class="about-read-more">
-                <h5>@lang('front.read-more')</h5>
-                <i class="fas fa-arrow-right"></i>
-              </div>
-            </div>
+          <div class="carousel-item mb-5">
+            <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/952419448743341/">
+             <img src="{{asset('front/images/article/1.jpg')}}" class="" alt="...">
+            </a>
           </div>
 
 
+          <div class="carousel-item mb-5">
+            <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/929407307711222/">
+              <img src="{{asset('front/images/article/3.jpg')}}" class="" alt="...">
+            </a>
+          </div>
 
-          <div class="about-news-body-article">
-            <div class="about-news-image">
-              <img src="{{asset('front/images/news-3.png') }}" alt="">
-            </div>
-
-            <div class="about-news-text">
-              <div class="news-date">
-              <p>February 4, 2022</p>
-              </div>
-
-              <h6>BENE EXCLUSIVE ფარიკაობის მსოფლიო ჩემპიონატის...</h6>
-
-              <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
-
-
-              <div class="about-read-more">
-                <h5>@lang('front.read-more')</h5>
-                <i class="fas fa-arrow-right"></i>
-              </div>
-            </div>
+          <div class="carousel-item mb-5">
+            <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/959071804744772/">
+              <img src="{{asset('front/images/article/4.jpg')}}" class="" alt="...">
+            </a>
           </div>
 
 
+        </div>
 
-          <div class="about-news-body-article">
-            <div class="about-news-image">
-              <img src="{{asset('front/images/news-4.png') }}" alt="">
-            </div>
-
-            <div class="about-news-text">
-              <div class="news-date">
-              <p>February 4, 2022</p>
-              </div>
-
-              <h6>BENE EXCLUSIVE ფარიკაობის მსოფლიო ჩემპიონატის...</h6>
-
-              <p>2022 წლის პირველი მასშტაბური საერთაშორისო ტურნირი ფარიკაობაში საქართველოში ტარდება. მსოფლიო თასის გათამაშება თბილისის ოლიმპიურ სასახლეში 14-17 იანვარს გაიმართება...</p>
-
-
-              <div class="about-read-more">
-                <h5>@lang('front.read-more')</h5>
-                <i class="fas fa-arrow-right"></i>
-              </div>
-            </div>
-          </div>
-
-
-
+          <div class="spec-carousel-buttons">
+        <button class="carousel-control-prev d-none" type="button" data-bs-target="#carouselExampleIndicators-index-news" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+          <span  class="carousel-arrow-icon"><img src="{{asset('front/images/carousel-right.png') }}" alt=""></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next d-none" type="button" data-bs-target="#carouselExampleIndicators-index-news" data-bs-slide="next">
+          <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+          <span class="carousel-arrow-icon"><img src="{{asset('front/images/carousel-left.png') }}" alt=""></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        
       </div>
+
+
+      
+
+      
+        <div class="index-news-body">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/2.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+              <p>24 თებერვალი, 2022</p>
+              </div>
+
+              <h6>სოლიდარობა უკრაინელ მოქალაქეებს</h6>
+
+              <p>ბენე ექსკლუზივი უკრაინის მოქალაქეებს თბილისის და ქუთაისის აეროპორტში უფასო ტრანსპორტირებას სთავაზობს.</p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/952419448743341/">
+                <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/1.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+              <p>21 მარტი, 2022</p>
+              </div>
+
+              <h6>ნებისმიერ ამინდზე მოგრებული ავტოპარკი </h6>
+
+                <p>
+                ბენე ექსკლუზივის მაღალი გამავლობის ავტომობილებისთვის თოვლი და უამინდობა დაბრკოლებას არ წარმოადგენს.
+                </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/967350223916930">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/3.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+              <p>14 იანვარი, 2022</p>
+              </div>
+
+              <h6>ფარიკაობის მსოფლიო თასი 2022-ის პარტნიორი</h6>
+
+              <p>ბენე ექსკლუზივმა ფარიკაობის მსოფლიო თასის 600-მდე მონაწილის ტრანსპორტირება უზრუნველყო.</p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/929407307711222/">
+                <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/4.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>7 მარტი, 2022</p>
+              </div>
+
+              <h6>Summit talks - ის  პარტნიორი </h6>
+
+              <p>Summit Talks -ის 100-მდე მონაწილის უსაფრთხო და კომფორტული ტრანსპორტირება ბენე ექსკლუზივმა უზრუნველყო. </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/959071804744772/">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 </div>

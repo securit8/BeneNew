@@ -428,10 +428,14 @@ cursor: pointer;
 
 @media (max-width: 720px){
 
+  #navibar a{
+    align-items: center!important;
+    margin-right: 1rem!important;
+  }
   .bene_logo{
     width: 130%!important;
     height: 130%!important;
-    grid-column: 15/ 25;
+    grid-column: 16/ 24;
   }
   
   .contact-slogan{
@@ -594,6 +598,74 @@ cursor: pointer;
     margin-left: 0!important;
   }
 
+
+
+  /* about use-mediaquery */
+
+ 
+  .home-part-1-inner{
+    display: flex!important;
+    flex-direction: column-reverse!important;
+    text-align: center;
+  }
+
+  .home-about-us-video embed{
+    width: 300px!important;
+    height:200px!important;
+  }
+
+  .about-page-events{
+    display: flex!important;
+    flex-direction: column!important;
+    text-align: center;
+  }
+
+  /* eleqtro-mediaquery */
+  .electric-part-1-inner{
+    display: flex!important;
+    flex-direction: column-reverse!important;
+    text-align: center;
+  }
+
+  .electric-page-events{
+    display: flex!important;
+    flex-direction: column!important;
+    text-align: center;
+  }
+
+  /* motors-mediaquery */
+  .taxi-carousel-sliders {
+    display: none!important;
+  }
+
+  .academy-page-info{
+    display: flex!important;
+    flex-direction: column!important;
+    text-align: center;
+  }
+  
+  .academy-anything-else{
+    display: flex!important;
+    flex-direction: column-reverse!important;
+    text-align: center;
+  }
+
+  .academy-anything-else p{
+    margin-left: 0!important;
+  }
+
+  /* academy-page-mediaquery */
+  .academy-image embed{
+    width: 300px!important;
+    height:200px!important;
+  }
+
+  /* taxi-page-mediaquery */
+  .taxi-part-1-inner{
+    display: flex!important;
+    flex-direction: column-reverse!important;
+    text-align: center;
+  }
 }
 
 
