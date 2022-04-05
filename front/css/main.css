@@ -666,6 +666,12 @@ cursor: pointer;
     flex-direction: column-reverse!important;
     text-align: center;
   }
+
+  /* partners-page-mediaquery */
+  .partners-page-inner{
+    display: block!important;
+    text-align: center;
+  }
 }
 
 
