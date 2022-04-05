@@ -490,6 +490,19 @@ cursor: pointer;
     display: none!important;
   }
 
+  .slogan-button p{
+    font-size: 10px!important;
+    margin-left: 0.2rem!important;
+    margin-top: 0.1rem!important;
+    margin-bottom: 0.1rem!important;
+
+  }
+
+  .slogan-button img{
+    margin-top: 0.1rem!important;
+    margin-right: 0.1rem!important;
+  }
+
   .copyright{
     margin-left: 0.5rem!important;
     margin-top: 0.2rem!important;
@@ -501,7 +514,7 @@ cursor: pointer;
   }
 
   .who-we-are p{
-    margin-bottom: 1rem!important;
+    margin-bottom: 0.5rem!important;
   }
 
   .index-slogan{
