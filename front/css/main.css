@@ -433,6 +433,7 @@ cursor: pointer;
     margin-right: 1rem!important;
   }
   .bene_logo{
+    margin-top: 0.5rem!important;
     width: 130%!important;
     height: 130%!important;
     grid-column: 3/ 13;
@@ -523,7 +524,6 @@ cursor: pointer;
     grid-column: 2 / 13!important;
   }
   .part-1-inner {
-    margin-top: 1rem!important;
     width: 75%!important;
     display: flex!important;
     flex-direction: column-reverse!important;
