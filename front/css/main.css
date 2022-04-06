@@ -686,6 +686,46 @@ cursor: pointer;
     display: block!important;
     text-align: center!important;
   }
+
+
+  .contact-page-location-info{
+    flex-direction: column!important;
+  }
+
+  .contact-info-titles{
+    text-align: center!important;
+    width: 75%!important;
+    margin-left: 12.5%!important;
+  }
+
+  .all{
+    display: none!important;
+  }
+
+  .contact-page-title{
+    grid-column: 24 / 39!important;
+  }
+
+  .contact-window{
+    grid-row:unset!important;
+  }
+
+  .contact-window{
+    grid-column: 3 / 38!important;
+    margin-top: 0!important;
+  }
+
+  .become-member{
+    grid-column: 1 / 31!important;
+    margin-top: 1rem!important;
+  }
+
+  .upload-cv{
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    grid-row:unset!important;
+    grid-column: 5 / 35!important;
+  }
 }
 
 
