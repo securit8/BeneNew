@@ -433,7 +433,7 @@ cursor: pointer;
     margin-right: 1rem!important;
   }
   .bene_logo{
-    margin-top: 2rem!important;
+    padding-top: 0.9rem!important;
     width: 130%!important;
     height: 130%!important;
     grid-column: 3/ 13;
