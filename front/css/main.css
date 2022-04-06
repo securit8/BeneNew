@@ -638,7 +638,7 @@ cursor: pointer;
   .electric-part-1-inner{
     display: flex!important;
     flex-direction: column-reverse!important;
-    text-align: center;
+    text-align: flex-start;
   }
 
   .electric-page-events{
