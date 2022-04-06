@@ -523,7 +523,7 @@ cursor: pointer;
     grid-column: 2 / 13!important;
   }
   .part-1-inner {
-    margin-top: 1rem;
+    margin-top: 1rem!important;
     width: 75%!important;
     display: flex!important;
     flex-direction: column-reverse!important;
