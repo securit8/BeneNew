@@ -435,7 +435,7 @@ cursor: pointer;
   .bene_logo{
     width: 130%!important;
     height: 130%!important;
-    grid-column: 16/ 24;
+    grid-column: 3/ 13;
   }
   
   .contact-slogan{
@@ -523,7 +523,7 @@ cursor: pointer;
     grid-column: 2 / 13!important;
   }
   .part-1-inner {
-    width: 100%!important;
+    width: 75%!important;
     display: flex!important;
     flex-direction: column-reverse!important;
   }
