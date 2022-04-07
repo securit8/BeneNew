@@ -620,7 +620,7 @@ cursor: pointer;
   .home-part-1-inner{
     display: flex!important;
     flex-direction: column-reverse!important;
-    text-align: center;
+    text-align: flex-start;
   }
 
   .home-about-us-video embed{
@@ -631,7 +631,7 @@ cursor: pointer;
   .about-page-events{
     display: flex!important;
     flex-direction: column!important;
-    text-align: center;
+    text-align: flex-start;
   }
 
   /* eleqtro-mediaquery */
@@ -644,7 +644,7 @@ cursor: pointer;
   .electric-page-events{
     display: flex!important;
     flex-direction: column!important;
-    text-align: center;
+    text-align: flex-start;
   }
 
   /* motors-mediaquery */
@@ -655,13 +655,13 @@ cursor: pointer;
   .academy-page-info{
     display: flex!important;
     flex-direction: column!important;
-    text-align: center;
+    text-align: flex-start;
   }
   
   .academy-anything-else{
     display: flex!important;
     flex-direction: column-reverse!important;
-    text-align: center;
+    text-align: flex-start;
   }
 
   .academy-anything-else p{
@@ -684,7 +684,7 @@ cursor: pointer;
   /* partners-page-mediaquery */
   .partners-page-inner{
     display: block!important;
-    text-align: center!important;
+    text-align: flex-start!important;
   }
 
 
