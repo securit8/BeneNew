@@ -160,7 +160,7 @@
                                 </div>
                                 
                                 <div class="element-info-button">
-                                <a href="{{route('frontend.S-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    <a href="{{route('frontend.S-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                 </div>
                                 
                             </div>
@@ -168,6 +168,14 @@
                             <div class="fleet-element-1-image">
                                 <img src="{{asset('front/images/Mercedes-Benz-S-Class-W-223-2021.png')}}" alt="">
                             </div>
+
+                            <div id="fleet-query" class="element-info-text">
+                                    <p>@lang('front.fleet-car-1-outer')</p>
+                                </div>
+                                
+                                <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.S-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                </div>
                             
                         </div>
 

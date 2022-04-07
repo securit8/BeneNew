@@ -726,6 +726,50 @@ cursor: pointer;
     grid-row:unset!important;
     grid-column: 7 / 37!important;
   }
+
+
+  /* fleet-page query */
+  .car-fleet-vehicles-inner{
+    width: 90%!important;
+    margin-left: 5%!important;
+  }
+
+  .fleet-element-1{
+    display: flex!important;
+    flex-direction: column!important;
+  }
+
+  .element-info-header{
+    padding-top: 1rem!important;
+    margin-left: 2rem;
+  }
+  
+  .element-info-tags{
+    width: 100%!important;
+
+  }
+
+  .element-info-text{
+    display: none!important;
+  }
+
+  .element-info-button{
+    display: none!important;
+  }
+
+  #fleet-query{
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center;
+    text-align: center!important;
+    width: 90%!important;
+    margin-left: 5%!important;
+  }
+
+  #fleet-query button{
+    margin-right: 0!important;
+    width: 100%!important;
+  }
 }
 
 
@@ -2257,255 +2301,6 @@ margin-left: 1.7rem;
  color: rgba(0, 0, 0, 0.75);
 }
 
-/* .fleet-type-list p{
-  font-family: TBCContractica, Montserrat;
-  font-size: 13px;
-  color: rgba(0, 0, 0, 0.75);
-  font-weight: 500;
-}
-
-
-.all:hover p, .suv:hover p, .sedan:hover p, .minivan:hover p, .minibus:hover p, .bus:hover p, .coupe:hover p {
-  color: rgb(36, 160, 237);
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.car-fleet-line{
-  width:76%;
-  margin-left: 12%;
-  color: rgba(0, 0, 0, 0.75);
-}
-
-.car-fleet-line hr{
-  margin-top: 0;
-  height: 2px;
-  margin-bottom: 0;
-  color: rgb(0, 0, 0);
-}
-
-.car-fleet-vehicles-inner{
-  width:80%;
-  margin-left: 10%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-
-.car-fleet-vehicles-inner h5{
-  font-family: TBCContractica, Montserrat;
-  font-weight: 600!important;
-}
-
-.car-fleet-vehicles-row1-inner{
-  display: grid;
-  grid-template-columns: repeat(40, 1fr);
-}
-
-
-.car-fleet-row1-car1, .car-fleet-row1-car2, .car-fleet-row1-car3{
-  grid-row: 1 / 2;
-  text-align: center;
-  background-color:rgba(255, 255, 255, 1) ;
-  padding-top: 3rem;
-  box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.164);
-}
-
-
-.car-fleet-row1-car1 p, .car-fleet-row1-car2 p, .car-fleet-row1-car3 p{
-  font-family: TBCContractica, Montserrat;
-}
-
-.car-fleet-row1-car1 img, .car-fleet-row1-car2 img, .car-fleet-row1-car3 img{
-  width: 75%;
-}
-
-.car-fleet-row1-car1:hover, .car-fleet-row1-car2:hover, .car-fleet-row1-car3:hover{
-  
-  cursor: pointer;
-}
-
-.car-fleet-row1-car1{
-  grid-column: 2 / 14;
-}
-
-.car-fleet-row1-car2{
-  grid-column: 15 / 27;
-}
-
-.car-fleet-row1-car3{
-  grid-column: 28 / 40;
-}
-
-.car-fleet-vehicles-row2-inner{
-  display: grid;
-  grid-template-columns: repeat(40, 1fr);
-  padding-top: 2rem;
-}
-
-.car-fleet-row2-car1, .car-fleet-row2-car2, .car-fleet-row2-car3{
-  grid-row: 1 / 2;
-  text-align: center;
-  background-color:rgba(255, 255, 255, 1) ;
-  padding-top: 3rem;
-  box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.164);
-}
-
-.car-fleet-row2-car1 p, .car-fleet-row2-car2 p, .car-fleet-row2-car3 p{
-  font-family: TBCContractica, Montserrat;
-}
-
-.car-fleet-row2-car1 img, .car-fleet-row2-car2 img, .car-fleet-row2-car3 img{
-  width: 75%;
-}
-
-.car-fleet-row2-car1:hover, .car-fleet-row2-car2:hover, .car-fleet-row2-car3:hover{
-  
-  cursor: pointer;
-}
-
-.car-fleet-row2-car1{
-  grid-column: 2 / 14;
-}
-
-.car-fleet-row2-car2{
-  grid-column: 15 / 27;
-}
-
-.car-fleet-row2-car3{
-  grid-column: 28 / 40;
-}
-
-
-
-.car-fleet-vehicles-row3-inner{
-  display: grid;
-  grid-template-columns: repeat(40, 1fr);
-  padding-top: 2rem;
-}
-
-
-.car-fleet-row3-car1, .car-fleet-row3-car2, .car-fleet-row3-car3{
-  grid-row: 1 / 2;
-  text-align: center;
-  background-color:rgba(255, 255, 255, 1) ;
-  padding-top: 3rem;
-  box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.164);
-}
-
-.car-fleet-row3-car1 p, .car-fleet-row3-car2 p, .car-fleet-row3-car3 p{
-  font-family: TBCContractica, Montserrat;
-}
-
-.car-fleet-row3-car1 img, .car-fleet-row3-car2 img, .car-fleet-row3-car3 img{
-  width: 75%;
-}
-
-.car-fleet-row3-car1:hover, .car-fleet-row3-car2:hover, .car-fleet-row3-car3:hover{
-  
-  cursor: pointer;
-}
-
-.car-fleet-row3-car1{
-  grid-column: 2 / 14;
-}
-
-.car-fleet-row3-car2{
-  grid-column: 15 / 27;
-}
-
-.car-fleet-row3-car3{
-  grid-column: 28 / 40;
-}
-
-.car-fleet-row1-car2 img,  .car-fleet-row2-car2 img,  .car-fleet-row3-car2 img{
-  width:65%;
-}
-
-.fleet-vehicle-type p{
-  margin-bottom: 0;
-  font-size: 11px;
-  color: rgba(6, 13, 13, 0.76);
-  font-weight: 600;
-}
-
-.car-fleet-name p{
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-.car-fleet-vehicle-type p{
-  font-size: 11px;
-  color: rgb(0, 0, 0);
-}
-
-.car-fleet-class{
-  text-align: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.car-fleet-class p{
-  margin-bottom: 0;
-  font-size: 20px;
-  font-family: TBCContractica, Montserrat;
-  font-weight: 700;
-}
-
-.fleet-vehicle-specs{
-  display: grid;
-  grid-template-columns: repeat(22, 1fr);
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-.vehicle-specs-line1, .vehicle-specs-line2{
-  grid-row:  1/ 2;
-}  
-
-.vehicle-specs-line-1 {
-  display: flex;
-  flex-direction: column;
-  grid-column: 2 / 14;
-}
-
-.vehicle-specs-line-1 img{
-  width: 16px;
-  padding-bottom: 1rem;
-  
-}
-
-.vehicle-specs-line-1 p{
-  font-size: 11px;
-  font-family: TBCContractica, Montserrat;
-  padding-left: 10px;
-}
-
-.vehicle-specs-line-2{
-  display: flex;
-  flex-direction: column;
-  grid-column: 14/ 23;
-}
-
-.vehicle-specs-line-2 img{
-  padding-bottom: 1rem;
-  width: 16px;
-
-}
-
-.vehicle-specs-line-2 p{
-  font-size: 11px;
-  font-family: TBCContractica, Montserrat;
-  padding-left: 10px;
-}
-
-
-.car-spec-line{
-  display: flex;
-  justify-content: flex-start;
-} */
-
 
 .car-fleet-vehicles-inner{
   width:75%;
@@ -2640,6 +2435,10 @@ grid-row: 1 / 2;
 
 .element-info-button a{
   text-decoration: none;
+}
+
+#fleet-query{
+  display: none;
 }
 
 .fleet-element-1-image{
