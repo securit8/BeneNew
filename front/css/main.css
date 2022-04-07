@@ -711,7 +711,7 @@ cursor: pointer;
   }
 
   .contact-window{
-    grid-column: 3 / 38!important;
+    grid-column: 1 / 41!important;
     margin-top: 0!important;
   }
 
@@ -722,7 +722,7 @@ cursor: pointer;
 
   .upload-cv{
     margin-top: 0!important;
-    margin-bottom: 0!important;
+    margin-bottom: 2rem!important;
     grid-row:unset!important;
     grid-column: 7 / 37!important;
   }
