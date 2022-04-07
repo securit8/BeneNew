@@ -734,7 +734,11 @@ cursor: pointer;
     margin-left: 5%!important;
   }
 
-  .fleet-element-1{
+  .fleet-element-1, .fleet-element-2, .fleet-element-3,
+  .fleet-element-4, .fleet-element-5, .fleet-element-6,
+  .fleet-element-7, .fleet-element-8, .fleet-element-9,
+  .fleet-element-10, .fleet-element-11, .fleet-element-12,
+  .fleet-element-13{
     display: flex!important;
     flex-direction: column!important;
   }
@@ -1608,70 +1612,6 @@ width:100%;
 .swiper-pagination{
   display: none!important;
 }
-
-
-
-
-
-/* .index-event-carousel-inner{
- width: 87%;
- margin-left: 6.5%;
- margin-right: 6.5%;
- padding-bottom: 2rem;
- margin-bottom: 2rem;
- 
-}
-
-#index-event-carousel-indicators button{
-background-color: black;
-width: 5px;
-height:5px;
-border-radius: 50%;
-}
-
-.index-event-carousel-item{
-padding-top: 2rem;
-display: flex;
-justify-content: space-around;
-margin-bottom: 2rem;
-width: 90%;
-margin-left: 5%;
-}
-
-.index-event-carousel-item img{
-width: 30%!important;
-margin-bottom: 3rem;
-}
-
-.event-1{
-  width: 30%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
-
-.event-1-backrgound, .event-1-logo{
-  grid-row: 1 / 2;
-}
-
-.event-1-backrgound {
-  grid-column: 1 / 6;
-}
-
-.event-1-logo{
-  padding-left: 10%!important;
-  margin-right: 0!important;
-  padding-top: 27%;
-  grid-column: 1 / 6;
-}
-
-.event-1-backrgound img{
-  width:100%!important;
-}
-
-.event-1-logo img{
-  
-  width: 80%!important;
-} */
 
 
 .index-part-8{

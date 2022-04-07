@@ -197,7 +197,7 @@
                                     </div>
                                     
                                     <div class="element-info-button">
-                                    <a href="{{route('frontend.land')}}"> <button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                        <a href="{{route('frontend.land')}}"> <button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                                     
                                 </div>
@@ -205,6 +205,15 @@
                                 <div class="fleet-element-2-image">
                                     <img src="{{asset('front/images/Toyota-Land-Cruiser-300-2021.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-2-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                        <a href="{{route('frontend.land')}}"> <button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+
                             </div>
 
                         <div class="fleet-element-3 reveal">
@@ -233,6 +242,14 @@
                                 <div class="fleet-element-3-image">
                                     <img src="{{asset('front/images/Mercedes-Benz-S-class-2016.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-3-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.S-class2019')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
 
@@ -263,6 +280,14 @@
                                 <div class="fleet-element-4-image">
                                     <img src="{{asset('front/images/Mercedes-Benz-E-class-250-2018.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-4-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.e-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
 
@@ -293,6 +318,14 @@
                                 <div class="fleet-element-5-image">
                                     <img src="{{asset('front/images/Toyota-Camry-Sport-Edition-Hybrid-2019.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-5-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.camry')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
 
@@ -323,6 +356,14 @@
                                 <div class="fleet-element-6-image">
                                     <img src="{{asset('front/images/TESLA-MODEL-3-2019.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-6-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.tesla')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
 
@@ -353,6 +394,14 @@
                                 <div class="fleet-element-7-image">
                                     <img src="{{asset('front/images/Toyota-Land-Cruiser-200-2018.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-7-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.land200')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
 
@@ -384,6 +433,14 @@
                                 <div class="fleet-element-8-image">
                                     <img src="{{asset('front/images/Mercedes-Benz-V-class-2019.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-8-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.v-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
 
@@ -414,6 +471,14 @@
                                 <div class="fleet-element-9-image">
                                     <img src="{{asset('front/images/Mercedes-Benz-Sprinter-515-CDI-2019.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-9-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.sprinter')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
 
@@ -444,6 +509,14 @@
                                 <div class="fleet-element-10-image">
                                     <img src="{{asset('front/images/Mercedes-Bens-Bus-Tourismo-2019.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-10-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.tourismo')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
 
@@ -475,6 +548,14 @@
                                 <div class="fleet-element-11-image">
                                     <img src="{{asset('front/images/Temsa-PRestij-SD-2019.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-11-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.temsa')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
 
@@ -504,6 +585,14 @@
                                 <div class="fleet-element-12-image">
                                     <img src="{{asset('front/images/prado/Prado1.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-12-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.prado')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
                         <div class="fleet-element-13 reveal">
@@ -532,488 +621,18 @@
                                 <div class="fleet-element-13-image">
                                     <img src="{{asset('front/images/rav4/1.png')}}" alt="">
                                 </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-13-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.rav4')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
                         </div>
 
 
-                        <!-- <div class="car-fleet-vehicles-row1">
-                            <div class="car-fleet-vehicles-row1-middle">
-                                <div class="car-fleet-vehicles-row1-inner">
-                                    
-                                
-                                    <div class="car-fleet-row1-car1">
-                                        <img src="{{asset('front/images/fleet-car-1.png')}}" alt="">
-                                        <div class="rent-toyota-specs">  
-                                            <div class="fleet-vehicle-type">
-                                                <p>Economy</p>
-                                            </div>
-                                        <div class="car-fleet-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
-                                        </div>
-                                        <div class="car-fleet-vehicle-type">
-                                            <p>or Similar</p>
-                                        </div>
-                                        <div class="fleet-vehicle-specs">
-                                            <div class="vehicle-specs-line-1">
-                                            <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon1.png')}}" alt=""><p>5 seats</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon7.png')}}" alt=""><p>2 Small Suitcases</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon6.png')}}" alt=""><p>Air Conditioning</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon5.png')}}" alt=""><p>Automatic Transmission</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="vehicle-specs-line-2">
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon4.png')}}" alt=""><p>Hybrid</p>   
-                                                </div>
-                                                            
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon3.png')}}" alt=""><p>1 Large Suitcase</p>
-                                                </div>
-                                                 
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon2.png')}}" alt=""><p>4-5 Doors</p>
-                                                </div>
-                                                 
-                                            </div>
-                                        </div>
-
-                                        </div>
-                                        
-                                    </div>
-                                    
-                                    <div class="car-fleet-row1-car2">
-                                        <img src="{{asset('front/images/fleet-car-2.png')}}" alt="">
-                                        <div class="rent-kia-specs">
-                                        <div class="fleet-vehicle-type">
-                                                <p>Standard/intermediate</p>
-                                            </div>
-                                        <div class="car-fleet-name">
-                                            <p>HYUNDAI SONATA AUTOMATIC</p>
-                                        </div>
-                                        <div class="car-fleet-vehicle-type">
-                                            <p>Land Cruiser</p>
-                                        </div>
-                                        <div class="fleet-vehicle-specs">
-                                            <div class="vehicle-specs-line-1">
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon1.png')}}" alt=""><p>5 seats</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon7.png')}}" alt=""><p>2 Small Suitcases</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon6.png')}}" alt=""><p>Air Conditioning</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon5.png')}}" alt=""><p>Automatic Transmission</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="vehicle-specs-line-2">
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon4.png')}}" alt=""><p>Hybrid</p>   
-                                                </div>
-                                                            
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon3.png')}}" alt=""><p>1 Large Suitcase</p>
-                                                </div>
-                                                 
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon2.png')}}" alt=""><p>4-5 Doors</p>
-                                                </div>
-                                                 
-                                            </div>
-                                        </div>
-                                        
-                                        </div>
-                                        
-                                    </div>
-
-                                    <div class="car-fleet-row1-car3">
-                                        <img src="{{asset('front/images/fleet-car-3.png')}}" alt="">
-                                        <div class="rent-huyndai-specs">
-                                        <div class="fleet-vehicle-type">
-                                                <p>Economy</p>
-                                            </div>
-                                        <div class="car-fleet-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
-                                        </div>
-                                        <div class="car-fleet-vehicle-type">
-                                            <p>V-class</p>
-                                        </div>
-                                        <div class="fleet-vehicle-specs">
-                                            <div class="vehicle-specs-line-1">
-                                            <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon1.png')}}" alt=""><p>5 seats</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon7.png')}}" alt=""><p>2 Small Suitcases</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon6.png')}}" alt=""><p>Air Conditioning</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon5.png')}}" alt=""><p>Automatic Transmission</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="vehicle-specs-line-2">
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon4.png')}}" alt=""><p>Hybrid</p>   
-                                                </div>
-                                                            
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon3.png')}}" alt=""><p>1 Large Suitcase</p>
-                                                </div>
-                                                 
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon2.png')}}" alt=""><p>4-5 Doors</p>
-                                                </div>
-                                                 
-                                            </div>
-                                        </div>
-
-                                        </div>
-                                        
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div> -->
-
-                        <!-- <div class="car-fleet-vehicles-row2 reveal">
-                            <div class="car-fleet-vehicles-row2-middle">
-                                <div class="car-fleet-vehicles-row2-inner">
-                                    
-                                
-                                    <div class="car-fleet-row2-car1">
-                                        <img src="{{asset('front/images/fleet-car-1.png')}}" alt="">
-                                        <div class="rent-huyndai-specs">
-                                        <div class="fleet-vehicle-type">
-                                                <p>Economy</p>
-                                            </div>
-                                        <div class="car-fleet-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
-                                        </div>
-                                        <div class="car-fleet-vehicle-type">
-                                            <p>Camry</p>
-                                        </div>
-                                        <div class="fleet-vehicle-specs">
-                                            <div class="vehicle-specs-line-1">
-                                            <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon1.png')}}" alt=""><p>5 seats</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon7.png')}}" alt=""><p>2 Small Suitcases</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon6.png')}}" alt=""><p>Air Conditioning</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon5.png')}}" alt=""><p>Automatic Transmission</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="vehicle-specs-line-2">
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon4.png')}}" alt=""><p>Hybrid</p>   
-                                                </div>
-                                                            
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon3.png')}}" alt=""><p>1 Large Suitcase</p>
-                                                </div>
-                                                 
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon2.png')}}" alt=""><p>4-5 Doors</p>
-                                                </div>
-                                                 
-                                            </div>
-                                        </div>
-
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="car-fleet-row2-car2">
-                                        <img src="{{asset('front/images/fleet-car-2.png')}}" alt="">
-                                        <div class="rent-toyota-specs">  
-                                        <div class="fleet-vehicle-type">
-                                                <p>Standard/intermediate</p>
-                                            </div>
-                                        <div class="car-fleet-name">
-                                            <p>HYUNDAI SONATA AUTOMATIC</p>
-                                        </div>
-                                        <div class="car-fleet-vehicle-type">
-                                            <p>Land Cruiser</p>
-                                        </div>
-                                        <div class="fleet-vehicle-specs">
-                                            <div class="vehicle-specs-line-1">
-                                            <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon1.png')}}" alt=""><p>5 seats</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon7.png')}}" alt=""><p>2 Small Suitcases</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon6.png')}}" alt=""><p>Air Conditioning</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon5.png')}}" alt=""><p>Automatic Transmission</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="vehicle-specs-line-2">
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon4.png')}}" alt=""><p>Hybrid</p>   
-                                                </div>
-                                                            
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon3.png')}}" alt=""><p>1 Large Suitcase</p>
-                                                </div>
-                                                 
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon2.png')}}" alt=""><p>4-5 Doors</p>
-                                                </div>
-                                                 
-                                            </div>
-                                        </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="car-fleet-row2-car3">
-                                        <img src="{{asset('front/images/fleet-car-3.png')}}" alt="">
-                                        <div class="rent-kia-specs">
-                                        <div class="fleet-vehicle-type">
-                                                <p>Economy</p>
-                                            </div>
-                                        <div class="car-fleet-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
-                                        </div>
-                                        <div class="car-fleet-vehicle-type">
-                                            <p>V-class</p>
-                                        </div>
-                                        <div class="fleet-vehicle-specs">
-                                            <div class="vehicle-specs-line-1">
-                                            <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon1.png')}}" alt=""><p>5 seats</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon7.png')}}" alt=""><p>2 Small Suitcases</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon6.png')}}" alt=""><p>Air Conditioning</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon5.png')}}" alt=""><p>Automatic Transmission</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="vehicle-specs-line-2">
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon4.png')}}" alt=""><p>Hybrid</p>   
-                                                </div>
-                                                            
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon3.png')}}" alt=""><p>1 Large Suitcase</p>
-                                                </div>
-                                                 
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon2.png')}}" alt=""><p>4-5 Doors</p>
-                                                </div>
-                                                 
-                                            </div>
-                                        </div>
-                                        
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div> -->
-
-
-                        <!-- <div class="car-fleet-vehicles-row3 reveal">
-                            <div class="car-fleet-vehicles-row3-middle">
-                                <div class="car-fleet-vehicles-row3-inner">
-                                    
-                                
-                                    <div class="car-fleet-row3-car1">
-                                        <img src="{{asset('front/images/fleet-car-1.png')}}" alt="">
-                                        <div class="rent-kia-specs">
-                                        <div class="fleet-vehicle-type">
-                                                <p>Economy</p>
-                                            </div>
-                                        <div class="car-fleet-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
-                                        </div>
-                                        <div class="car-fleet-vehicle-type">
-                                            <p>Camry</p>
-                                        </div>
-                                        <div class="fleet-vehicle-specs">
-                                            <div class="vehicle-specs-line-1">
-                                            <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon1.png')}}" alt=""><p>5 seats</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon7.png')}}" alt=""><p>2 Small Suitcases</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon6.png')}}" alt=""><p>Air Conditioning</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon5.png')}}" alt=""><p>Automatic Transmission</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="vehicle-specs-line-2">
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon4.png')}}" alt=""><p>Hybrid</p>   
-                                                </div>
-                                                            
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon3.png')}}" alt=""><p>1 Large Suitcase</p>
-                                                </div>
-                                                 
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon2.png')}}" alt=""><p>4-5 Doors</p>
-                                                </div>
-                                                 
-                                            </div>
-                                        </div>
-                                        
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="car-fleet-row3-car2">
-                                        <img src="{{asset('front/images/fleet-car-2.png')}}" alt="">
-                                        <div class="rent-huyndai-specs">
-                                        <div class="fleet-vehicle-type">
-                                                <p>Standard/intermediate</p>
-                                            </div>
-                                        <div class="car-fleet-name">
-                                            <p>HYUNDAI SONATA AUTOMATIC</p>
-                                        </div>
-                                        <div class="car-fleet-vehicle-type">
-                                            <p>Land Cruiser</p>
-                                        </div>
-                                        <div class="fleet-vehicle-specs">
-                                            <div class="vehicle-specs-line-1">
-                                            <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon1.png')}}" alt=""><p>5 seats</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon7.png')}}" alt=""><p>2 Small Suitcases</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon6.png')}}" alt=""><p>Air Conditioning</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon5.png')}}" alt=""><p>Automatic Transmission</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="vehicle-specs-line-2">
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon4.png')}}" alt=""><p>Hybrid</p>   
-                                                </div>
-                                                            
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon3.png')}}" alt=""><p>1 Large Suitcase</p>
-                                                </div>
-                                                 
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon2.png')}}" alt=""><p>4-5 Doors</p>
-                                                </div>
-                                                 
-                                            </div>
-                                        </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="car-fleet-row3-car3">
-                                        <img src="{{asset('front/images/fleet-car-3.png')}}" alt="">
-                                        <div class="rent-toyota-specs"> 
-                                        <div class="fleet-vehicle-type">
-                                                <p>Economy</p>
-                                            </div> 
-                                        <div class="car-fleet-name">
-                                            <p>TOYOTA YRIS AUTOMATIC</p>
-                                        </div>
-                                        <div class="car-fleet-vehicle-type">
-                                            <p>V-class</p>
-                                        </div>
-                                        <div class="fleet-vehicle-specs">
-                                            <div class="vehicle-specs-line-1">
-                                            <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon1.png')}}" alt=""><p>5 seats</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon7.png')}}" alt=""><p>2 Small Suitcases</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon6.png')}}" alt=""><p>Air Conditioning</p>
-                                                </div>
-
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon5.png')}}" alt=""><p>Automatic Transmission</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="vehicle-specs-line-2">
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon4.png')}}" alt=""><p>Hybrid</p>   
-                                                </div>
-                                                            
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon3.png')}}" alt=""><p>1 Large Suitcase</p>
-                                                </div>
-                                                 
-                                                <div class="car-spec-line">
-                                                <img src="{{asset('front/images/spec-icon2.png')}}" alt=""><p>4-5 Doors</p>
-                                                </div>
-                                                 
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div> -->
+                      
 
                     </div>
                 </div>
