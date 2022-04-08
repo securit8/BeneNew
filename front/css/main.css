@@ -831,15 +831,26 @@ cursor: pointer;
   }
 
   .sheet-line-1, .sheet-line-2, .sheet-line-3, .sheet-line-4, 
-  .sheet-line-5, .sheet-line-6, .sheet-line-7, .sheet-line-8, .sheet-line-9, .sheet-line-10 {
+  .sheet-line-5, .sheet-line-6, .sheet-line-7, .sheet-line-8, .sheet-line-9, .sheet-line-10{
     display: flex!important;
     justify-content: space-between!important;
+  }
+
+  .sheet-line-10 p{
+    margin-right: 0Rem!important;
+  }
+  .sheet-part-1{
+    margin-left: 1rem!important;
   }
   
   .sheet-part-2{
     margin-right: 2rem!important;
   }
 
+  #sheet-line10-part-2 {
+   text-align: end!important;
+   margin-right: 2rem!important;
+  }
   .book-button button{
     width: 100%!important;
     margin-left: 0!important;
