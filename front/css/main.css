@@ -687,6 +687,24 @@ cursor: pointer;
     text-align: flex-start!important;
   }
 
+  .partners-page-inner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partners-page-header{
+    text-align: center!important;
+  }
+
+  .partners-page-video embed{
+    width: 300px!important;
+    height: 150px!important;
+    margin-top: 1.5rem!important;
+  }
+
+
+  /* contact page query */
+
 
   .contact-page-location-info{
     flex-direction: column!important;
@@ -774,6 +792,8 @@ cursor: pointer;
     margin-right: 0!important;
     width: 100%!important;
   }
+
+
 }
 
 
@@ -4192,12 +4212,12 @@ line-height: 24px;
     padding-top: 3rem;
   }
 
-  .partners-page-title, .partners-text, .partners-page-image{
+  .partners-page-title, .partners-text, .partners-page-video{
     grid-row: 1 / 2;
   }
 
 .partners-page-title{
-  grid-column: 1 / 28;
+  grid-column: 2 / 18;
   font-size: 24px;
   color:rgba(255, 255, 255, 0.753);
   font-family: TBCContractica, Montserrat;
@@ -4213,12 +4233,15 @@ line-height: 24px;
   }
 
 
-  .partners-page-image{
+  .partners-page-video{
     grid-column: 20 / 41;
-    display: grid;
-    grid-template-columns: repeat(40, 1fr);
+    width: 100%;
   }
 
+  .partners-page-video embed{
+    width: 500px;
+    height: 200px;
+  }
 .partners-background-image, .partners-logo{
   grid-row: 1 / 2;
 }

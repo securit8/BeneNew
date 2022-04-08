@@ -22,9 +22,12 @@
               </div>
 
 
+
           </div>    
 
-        
+          <div class="partners-page-video">
+                <embed src="https://www.youtube.com/embed/zQSDs9-DV2U?autoplay=1&mute=1" type="">
+              </div>
         
         </div>
     </div>
