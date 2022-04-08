@@ -800,7 +800,7 @@ cursor: pointer;
 
   .vehicle-spec-body-middle{
     width:85%!important;
-    margin-left: 10%!important;
+    margin-left: 7.5%!important;
   }
 
   .vehicle-spec-body-info-inner{
@@ -818,7 +818,7 @@ cursor: pointer;
   }
 
   .vehicle-spesific-specs{
-    width: 95%!important;
+    width: 100%!important;
     margin-left: 0!important;
   }
   
