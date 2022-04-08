@@ -803,6 +803,10 @@ cursor: pointer;
     margin-left: 7.5%!important;
   }
 
+  .vehicle-spec-body-info{
+    padding-bottom: 0!important;
+  }
+
   .vehicle-spec-body-info-inner{
     display: flex!important;
     flex-direction: column!important;

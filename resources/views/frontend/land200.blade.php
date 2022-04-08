@@ -87,7 +87,11 @@
                     <img src="{{asset('front/images/Toyota-Land-Cruiser-200-2018.png') }}" alt="">
                   </div>
                 </div>
-
+                
+                <div id="fleet-query"class="vehicle-spec-body-info-text">
+                    <p>@lang('front.fleet-car-7-inner')</p>
+                    </div>
+                  </div>
 
 
                 <div class="vehicle-spesific-specs" id="arrow-down">
