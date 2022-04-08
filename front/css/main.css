@@ -798,6 +798,11 @@ cursor: pointer;
     display: none!important;
   }
 
+  .vehicle-spec-body-middle{
+    width:85%!important;
+    margin-left: 10%!important;
+  }
+
   .vehicle-spec-body-info-inner{
     display: flex!important;
     flex-direction: column!important;
@@ -807,8 +812,18 @@ cursor: pointer;
     width: 100%!important;
   }
 
+  .vehicle-spec-body-title{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .vehicle-spesific-specs{
+    width: 100%!important;
+    margin-left: 0!important;
+  }
+  
   .vehicle-spec-body-title p{
-    margin-right: 0.3rem!important;
+    margin-right: 0.5rem!important;
   }
 
   .vehicle-spec-body-info-text{
