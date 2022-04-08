@@ -90,16 +90,16 @@
                   </div>
                 </div>
 
-                <div id="fleet-query" class="vehicle-spec-body-info-text">
+                  <div id="fleet-query" class="vehicle-spec-body-info-text">
                     <p>@lang('front.fleet-car-1-inner')</p>
 
-                    </div>
+                    
                   </div>
 
-                <div class="vehicle-spesific-specs" id="arrow-down">
-                  <!-- <div class="vehicle-spesific-specs-info">
+                  <div class="vehicle-spesific-specs" id="arrow-down">
+                   <!-- <div class="vehicle-spesific-specs-info"> -->
 
-                      <div class="vehicle-spesific-specs-info-text">
+                      <!-- <div class="vehicle-spesific-specs-info-text">
                       <img src="{{asset('front/images/vehicle-icon.png')}}" alt="">
                       <p>ავტომობილის სრული მონაცემები</p>
                       </div>
@@ -107,7 +107,7 @@
                       <div class="vehicle-spesific-specs-info-arrow" >
                         <img src="{{asset('front/images/arrow-down.png')}}" alt="">
                       </div> 
-                  </div> -->
+                     </div> -->
 
                     <div class="spec-sheet-lines" id="spec-sheet">
                       <div class="sheet-line-1">
@@ -182,7 +182,7 @@
                       </div>
 
                     </div>
-                </div>
+                  </div>
 
                 
 
