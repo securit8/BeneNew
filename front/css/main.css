@@ -831,13 +831,13 @@ cursor: pointer;
   }
 
   .sheet-line-1, .sheet-line-2, .sheet-line-3, .sheet-line-4, 
-  .sheet-line-5, .sheet-line-6, .sheet-line-7, .sheet-line-8, .sheet-line-9, .sheet-line-10{
+  .sheet-line-5, .sheet-line-6, .sheet-line-7, .sheet-line-8, .sheet-line-9, .sheet-line-10 {
     display: flex!important;
-    justify-content: space-between;
+    justify-content: space-between!important;
   }
   
   .sheet-part-2{
-    margin-right: 0.5rem!important;
+    margin-right: 2rem!important;
   }
 
   .book-button button{
