@@ -31,12 +31,12 @@
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/merc222/1.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/merc222/2.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/merc222/1.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/merc222/3.jpg')}}" class="" alt="...">
     </div>
 
 
