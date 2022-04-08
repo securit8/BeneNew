@@ -793,6 +793,37 @@ cursor: pointer;
     width: 100%!important;
   }
 
+  /* car-specs pages query */
+  .spec-carousel-sliders{
+    display: none!important;
+  }
+
+  .vehicle-spec-body-info-inner{
+    display: flex!important;
+    flex-direction: column!important;
+  }
+
+  .vehicle-spec-body-tags{
+    width: 100%!important;
+  }
+
+  .vehicle-spec-body-title p{
+    margin-right: 0.3rem!important;
+  }
+
+  .vehicle-spec-body-info-text{
+    display: none!important;
+  }
+
+  .sheet-line-1, .sheet-line-2, .sheet-line-3, .sheet-line-4, 
+  .sheet-line-5, .sheet-line-6, .sheet-line-7, .sheet-line-8, .sheet-line-9, .sheet-line-10{
+    display: flex!important;
+    justify-content: space-between;
+  }
+  
+  .sheet-part-2{
+    margin-right: 0.5rem!important;
+  }
 
 }
 
