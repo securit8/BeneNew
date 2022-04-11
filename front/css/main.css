@@ -863,6 +863,12 @@ cursor: pointer;
 
   /* proeqtebi query */
 
+  .events-middle{
+    width: 80% !important;;
+    margin-left: 10%!important;
+  }
+
+
   .project img{
     width:100%;
   }
