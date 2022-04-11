@@ -38,7 +38,9 @@ return [
 'index-about-text' => '"Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group". Initially, the services of our company were limited to premium class vehicles, however today "Bene-Exclusive" represents a multi-profile companu. Car renting as well as orginizing of Business Projects and Events have been added to our list of services.',
 'index-taxi-text' => '90% of our fleet is electric vehicles with zero emissions. We have fixed prices guaranteed. You can pay with us at the cash desk, or by card, both at the box office and directly with the driver. Airport taxi is available 24/7
                 Taxis are available from the airport to the city, as well as from anywhere in Tbilisi to the airport Our vehicles have a large luggage compartment, which ensures comfortable transportation We offer the latest models of sedans and minivans - Tesla, Mercedes-Benz, Changan and Toyota',
-
+ 
+'index-academy-text' => 'Safety and comfort are critical. Drivers’ professionalism enables passengers to have a better overall experience during transportation. Current market analysis shows that there is significant demand for qualified and professional drivers, but a shortage remains.<br><br> 
+At Bene, our vision is to consistently work to high standards of service for the limousine industry. For this reason, we developed a new project — Bene Academy — which aims to train drivers, introducing them to contemporary standards in hospitality and transportation field.',
 
 'index-academy' => 'BENE ACADEMY',
 'newsroom' => 'NEWSROOM',
@@ -66,17 +68,15 @@ return [
 // electric page
 
 
-'electric-text-1' => 'ჩვენი კომპანიის ერთ-ერთი პრიორიტეტია გარემოზე ზრუნვა. ამ მიზეზით<br> პარკის დაახლოებით ნახევარს ჰიბრიდული ავტომობილები შეადგენს, გვყავს ელექტრომობილებიც.<br><br>
-                      ბენე ექკლუზივი აქტიურად მუშაობს ელექტრომობილების პოპულარიზების, ახალი ავტომობილების შემოყვანისა და ეკომეგობრული პროექტების კუთხით.<br><br>
-                      ამჟამად თბილისის საერთაშორისო აეროპორტში გამართული გვაქვს ელექტრო<br> სატენების ინფრასტრუქტურა და რომლის საშუალებითაც სტუმრებს Tesla-ს და<br>
-                      სხვა ფირმის ელექტრომობილებით ვემსახურებით.',
+'electric-text-1' => 'One of our biggest priorities is taking care of nature. That is why the majority of our fleet consists of hybrid and electric cars.<br><br>
+                      We are actively promoting electric vehicles, importing new cars, and developing eco-friendly projects.<br><br>
+                      To date, we have installed an electric charging system at Tbilisi International Airport, serving customers with Tesla’s and other brands of electric vehicles.',
 
 
-'electric-text-2' => 'უახლოეს ხანებში დაგეგმილი გვაქვს ავტოპარკის ელექტრომობილებით შევსება<br> და მათი ხვედრითი წილის 30%-მდე გაზრდა.<br><br>
-                      დაინტერესებულ ფიზიკურ და იურიდიულ პირებს ვთავაზობთ<br>
-                      ელექტროსატენების ინფრასტრუქტურის ადგილზე გამართას, რაც მოიცავს<br>
-                      პირობების წინასწარ მოკვლევა-შეფასებას, პროექტირებას, სატენების მონტაჟს<br>
-                      და შემდგომ ექსპლოატაციას.',
+'electric-text-2' => 'In the near future, we plan to replenish our fleet with electric vehicles, increasing their total share by 30%.<br><br>
+                      Bene Exclusive offers interested parties the equipment and infrastructure development of electric chargers,
+                       including preliminary inspection and assessment of the territory, projection, design and installation,
+                        with the possibility of subsequent operations.',
 
 
 
@@ -196,19 +196,45 @@ return [
                         როგორც ქალაქის პირობებში, ასევე საშუალო სირთულის უგზოობაშიც.',
 
 
+'fleet-creator' => 'Creator',
+'fleet-model' => 'Model',
+'fleet-color' => 'Color',
+'fleet-category' => 'Category',
+'fleet-year' => 'Date of Issue',
+'fleet-engine' => 'Engine Capacity',
+'fleet-fuel' => 'Fuel Type',
+'fleet-interior' => 'Interior Type',
+'fleet-passanger' => 'Number of Passengers',
+'fleet-luggage' => 'Luggage Capacity',
+'fleet-black' => 'Black Metalic',
+'fleet-white' => 'White',
+'fleet-silver' => 'Silver Metalic',
+'fleet-bus' => 'Bus',
+'fleet-minibus' => 'Minibus',
+'fleet-minivan' => 'Minivan',
+'fleet-suv' => 'SUV',
+'fleet-sedan' => 'Sedan',
+'fleet-diesel' => 'Diezel',
+'fleet-benzin' => 'Gasoline',
+'fleet-electric-gas' => 'Eletctric',
+'fleet-hybrid' => 'Hybrid',
+'fleet-leather' => 'Leather',
+'fleet-cotton' => 'Chiffon',
+'fleet-small' => 'Small Size Suitcase',
+'fleet-medium' => 'Medium Size Suitcase',
+'fleet-large' => 'Large Size Suitcase',
+'book-car' => 'Book Now',
+'kvt' => 'Kvt',
+
   //rent page
   'rent-title' => 'Car Rent',
-  'car-rent-text-1' => 'ბენე ექსკლუზივი, როგორც კლიენტზე ორიენტირებული კომპანია, ითვალისწინებს<br>
-                        მანქანის დამოუკიდებლად მართვის მოყვარულთა ინტერესებს და შესაბამისად, კერძო<br>
-                        პირებსა თუ ორგანიზაციებს მძღოლის გარეშე მაღალი ხარისხის ავტომობილის<br>
-                        გაქირავების სერვისს სთავაზობს.',
+  'car-rent-text-1' => 'Bene Exclusive, serving the interests and preferences of each client, 
+                        offers self-driving enthusiasts a car rental service.',
   
-  'car-rent-text-2' => 'მომსახურების პაკეტი მოიცავს მძღოლისა და მგზავრის დაზღვევას.<br>
-                        ',
+  'car-rent-text-2' => 'All vehicles include the necessary inventory, as per the request of the client.<br>',
 
-  'car-rent-text-3' =>  'კომპანია გთავაზობთ სხვადასხვა მოდელისა და ტიპის, ყველა საჭირო ინვენტარით<br>
-                        აღჭურვილი, პრემიუმ და ეკონომ კლასის, ასევე ეკო მეგობრული ავტომობილების<br>
-                        გაქირავებას სასურველი ვადით მთელი ქვეყნის ფარგლებში.',
+  'car-rent-text-3' =>  'We cooperate with both organizations and individuals by providing premium or economy class cars,
+                         as well as eco-friendly models throughout the country for the desired period. ',
 
   'our-car-rent' => 'OUR FLEET',
 
@@ -220,22 +246,21 @@ return [
   'about-events' => 'ბენე ექსკლუზივის ერთ-ერთ ძირითად მიმართულებას მასშტაბური პროექტებისა და ბიზნეს ღონისძიებების ორგანიზება და ჩატარება წარმოადგენს. ამ კუთხით ჩვენ ვთანამშრომლობთ როგორც სამთავრობო, ასევე ბიზნეს სექტორთან.  
                      კომპანიის მისიაა, დადებითი გავლენა იქონიოს ადგილობრივ ბიზნეს გარემოზე. ჩვენი ბიზნესივენთები ემსახურება სხვადასხვა დარგებში მოღვაწე კომპანიების დამეგობრებასა და ნეთვორქინგს, რაც თავის მხრივ პოზიტიური შედეგების მომტანია, როგორც კომპანიებისათვის, ასევე ქვეყნის ეკონომიკური განვითარებისთვის.',
 
-  'about-us-text' => 'სატრანსპორტო კომპანია Bene Exclusive 2017 წელს დაარსდა და თავდაპირველად  პრემიუმ კლასის ავტომობილებით მომსახურებას სთავაზობდა სტუმარ-მასპინძლობის სფეროს. <br>
-                     საქმისადმი პროფესიონალური მიდგომით ბენე ექსკლუზივმა უმოკლეს დროში მოიპოვა მომხმარებლის ნდობა და მყარად დაიმკვიდრა ღირსეული ადგილი ქართულ ბაზარზე. <br>
-                     დღეს ბენე ექსკლუზივი საქართველოში არსებული ყველაზე მსხვილი სატრანსპორტო კომპანია და დარგის უდავო ლიდერია. იგი ორიენტირებულია მომხმარებლისთვის ხარისხიანი მომსახურების მიწოდებაზე, უსაფრთხოებასა და  მაქსიმალური კომფორტის შექმნაზე.
-                     ',
+  'about-us-text' => 'Since 2017, Bene Exclusive has been providing a premium service to our clients.<br>
+  Maintaining a professional approach, Bene Exclusive quickly gained the trust of customers and consolidated a firm place in the Georgian market.<br><br>
+  We have a significant and modern fleet, equipped with reliable and certified chauffeurs, who adhere to high professional standards and will ensure comfort and safety during transportation.',
                    
- 'about-us-text-2' => 'შემდგომ წლებში ჩვენ გავაფართოვეთ საქმიანობის არეალი და განვახორციელეთ ინოვაციური პროექტები: დავაარსეთ და ჩავატარეთ რამდენიმე ბინზეს ღონისძიება, დავაფუძნეთ ბენე აკადემია და ჩამოვაყალიბეთ ბენე მოტორსი - უცხოეთიდან ექსკლუზიური ავტომობილების მიწოდება ხარისხის, ტრანსპორტირებისა და მიწოდების ვადების გარანტიით.<br>
-                     ჩვენი კომპანია უწყვეტ რეჟიმში ახორციელებს სფეროსთვის დამახასიათებელი მნიშვნელოვანი ცვლილებების მონიტორინგს, ფეხს უწყობს პროგრესს და თავისი წვლილი შეაქვს ქვეყნის ეკონომიკის განვითარებაში. 
+ 'about-us-text-2' => 'Over the years, Bene Exclusive has expanded its range of services and successfully implemented various projects. We have engaged in a series of business events, opened the Bene Academy to train drivers and established Bene Motors as a department that specializes in the purchase of exclusive cars throughout the Caucasus.<br><br>
+                      Bene Exclusive continues its activities, observing and monitoring significant developments in the field of commercial services, taking an active part in its progress. In doing so, Bene Exclusive plays a significant role in improving the economic performance of Georgia.  
                      ',
 
   // academy page
 
-  'academy-part-1' => 'სტუმრების უსაფრთხო და კომფორტულ გადაადგილებაში გადამწყვეტ როლს მძღოლის გამოცდილება და მაღალი კვალიფიკაცია თამაშობს. მგზავრებს დაცულობისა და სანდოობის განცდას უქმნის და მათ მოგზაურობას დადებითი ემოციებით ავსებს მაღალხარისხიანი მომსახურება.<br><br> 
-  ბაზრის ანალიზი დღეს ტრანსპორტით მომსახურების სფეროში კვალიფიციური კადრების სიმცირეს ადასტურებს. სწორედ ამიტომ შევქმენით ახალი პროექტი - ბენე აკადემია, რომლის მიზანია, მოამზადოს მძღოლები და გააცნოს დარგში არსებული თანამედროვე სტანდარტები.',
+  'academy-part-1' => 'Safety and comfort are critical. Drivers’ professionalism enables passengers to have a better overall experience during transportation. Current market analysis shows that there is significant demand for qualified and professional drivers, but a shortage remains.<br><br> 
+  At Bene, our vision is to consistently work to high standards of service for the limousine industry. For this reason, we developed a new project — Bene Academy — which aims to train drivers, introducing them to contemporary standards in hospitality and transportation field.',
 
-'academy-part-2' => 'სასწავლო პროგრამა მოიცავს თეორიულ სწავლებასა და პრაქტიკულ ნაწილს - უცხო ენის ინტენსიურ კურსს, ექსტრემალურ სიტუაციებში მართვისა და მოქმედების წესების, უსაფრთხოების, ეტიკეტისა და მრავალი სხვა აუცილებელი უნარ-ჩვევის დაუფლებას, რაც დაეხმარება მძღოლს პროფესიონალიზმის ამაღლებაში.<br><br>
-  სწავლების დასასრულს ყველა მონაწილეს ნაჩვენები შედეგების მიხედვით გადაეცემა შესაბამისი  სერტიფიკატი და მიეცემა საშუალება, დასაქმდეს მძღოლის პოზიციაზე ბენე ექსკლუზივში.',
+'academy-part-2' => 'The study program includes theoretical and practical elements including: a foreign language course; mastering the skills of driving in extreme conditions; and etiquette courses.<br><br>
+At the end of the course, participants receive a certificate, in accordance with the results. Each driver will have the opportunity to become a member of the Bene Exclusive team.',
 
 
    // contact page
@@ -264,10 +289,11 @@ return [
   
 // taxi page
 
-'taxi-page-text-1' => '2019 წლიდან ჩვენმა კომპანიამ მოიპოვა თბილისის საერთაშორისო აეროპორტის ტაქსით მომსახურების ექსკლუზიური უფლება. 2022 წლიდან კი იგივე უფლება მივიღეთ ქუთაისის საერთაშორისო აეროპორტშიც.<br><br>
-                      ჩვენ ტაქსით მომსახურებისას ვიყენებთ ძირითადად ელექტრომობილებს, გვაქვს ფიქსირებული ტარიფები, აღრიცხვის და დაჯავშნის ერთიანი სისტემა, მგზავრობა კი სანდო და უსაფრთხოა.<br><br>',
+'taxi-page-text-1' => 'Since 2019 Bene Motors has maintained exclusive rights to service Tbilisi International Airport. 
+                      We mostly use electric vehicles in taxi services, guarantee fixed rates of all our transfers,
+                      and provide reliable and safe transportation. <br><br>',
 
-'taxi-page-text-2' => 'აეროპორტის ტაქსის გარდა, ჩვენ კორპორატიულ კლიენტებსაც ვთავაზობთ ტაქსით მომსახურებას როგორც თბილისის, ასევე მთელი საქართველოს მასშტაბით ქოლ ცენტრისა და სპეციალური აპლიკაციის საშუალებით.',                     
+'taxi-page-text-2' => 'Other than this service, we offer our corporate clients a taxi service in Tbilisi and across Georgia, using a 24-hour call centre and a special application.',                     
 
 
 
@@ -275,30 +301,27 @@ return [
 // bene motors
 
 'bene-motors' => 'BENE MOTORS',
-'motors-text-1' => 'ბენე ექსკლუზივი, როგორც ტრანსპორტით მომსახურების სფეროში გამორჩეული<br>
-                    კომპანია, მზადაა, გაუზიაროს მომხმარებელს საკუთარი გამოცდილება ხარისხიანი<br>
-                    ავტომობილების შესყიდვისა და მოვლის მიმართულებით.<br><br>
-                    ჩვენი მენეჯერი თქვენი მოთხოვნების გათვალისწინებით შეგირჩევთ სასურველი<br>
-                    მოდელის ავტომობილს და უმოკლეს ვადებში უზრუნველყოფს მის უსაფრთხო<br>
-                    ტრანსპორტირებას როგორც ევროპის ნებისმიერი ქვეყნიდან, ასევე ამერიკის<br>
-                    შეერთებული შტატებიდან.',
-'motors-text-2' => 'მომსახურების პაკეტი მოიცავს:',
-'motors-text-3' => 'შერჩეული ავტომობილის ტექნიკურ შემოწმებას (ნებისმიერ ქვეყანაში ჩვენი
-                    სპეციალისტის მიერ);',
-'motors-text-4' =>  'ავტომობილის შემოწმების ფოტო და ვიდეო მასალით დასაბუთებას;',
+'motors-text-1' => 'For over 3 years we have imported exclusive models from the USA and Europe, including electric vehicles.
+                   We re-export cars throughout the Caucasus and in some post-Soviet countries.
+                    Georgia is an excellent hub, from which vehicles can be sold in Armenia, Azerbaijan, 
+                    Ukraine and Kazakhstan.<br><br>
+                    As a leading company in the transportation industry, Bene Exclusive is ready to share its experience in vehicle purchasing and care.
+                    Based on your requirement, our team will find a suitable vehicle for you, ensuring its safe transportation from any country.',
+'motors-text-2' => 'Our service package includes:',
+'motors-text-3' => 'Inspection of the selected vehicle (in any country, by our specialists);',
+'motors-text-4' =>  'Video and photo explanation of the inspection process;',
                     
-'motors-text-5' => 'ყველა საჭირო საექსპორტო დოკუმენტაციის მომზადებასა და ადგილზე
-                    მიწოდებას;',          
-'motors-text-6' => 'ავტომობილის ტრანსპორტირების დაზღვევას;',
+'motors-text-5' => 'Preparation of the necessary transportation documentation;',          
+'motors-text-6' => 'Insurance of vehicle whilst in transportation;',
 
-'motors-text-7' => 'ავტომობილის უსაფრთხო და სწრაფ ტრანსპორტირებას;',
+'motors-text-7' => '- Efficient transportation of the vehicle and delivery to the selected address;',
 
-'motors-text-8' => 'ავტომობილის გამართულად მუშაობის ერთ წლიან გარანტიას.',
+'motors-text-8' => '1-year guarantee of vehicles under our care.',
 
 // partners page
-'partners-text' => 'ბენე ექსკლუზივი, როგორც სატრანსპორტო დარგის ლიდერი და
-                    მრავალფეროვანი სერვისის მიმწოდებელი<br> წარმატებულად თანამშრომლობს
-                    სახელმწიფო თუ კერძო სექტორის სხვადასხვა დარგში მოღვაწე კომპანიებთან.',
+'partners-text' => 'Bene Exclusive, as a provider of various services in the field of transportation, 
+                    successfully cooperates with customers and partners operating in various areas of the
+                    governmental or business sector.',
 
 
 // event page
