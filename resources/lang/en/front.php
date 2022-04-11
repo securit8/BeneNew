@@ -26,7 +26,7 @@ return [
   'minibus' => 'Minibus',
   'bus' => 'Bus',
   'coupe' => 'Coupe',
-  'footer-text' => 'მეტი ინფორმაციის მისაღებად და თქვენი მოსაზრებების გასაზიარებლად<br> ეწვიეთ ჩვენს სოციალურ პლატფორმებს.',
+  'footer-text' => 'For more information, contact us on our social media platforms',
 
 
 
