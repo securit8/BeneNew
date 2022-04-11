@@ -445,12 +445,12 @@ cursor: pointer;
 
   .Language-select{
     position: absolute;
-    left: -60%!important;
+    left: -90%!important;
     top: -35px;
   }
 
   .Ka{
-    margin-right: 0.7rem!important;
+    margin-right: 0rem!important;
   }
   .Ru{
     padding-left: 0!important;
@@ -458,6 +458,7 @@ cursor: pointer;
 
   .En{
     padding-left: 0!important;
+    margin-right: 0!important;
   }
 
   .contact-logo-info{
