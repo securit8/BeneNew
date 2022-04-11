@@ -72,9 +72,9 @@
           <div class="Ka">
             <a href="locale/ka">GE</a>
           </div>
-          <!-- <div class="En">
+          <div class="En">
             <a href="locale/en">EN</a>
-          </div> -->
+          </div>
           <div class="Ru">
             <a href="locale/ru">RU</a>
           </div>
