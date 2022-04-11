@@ -439,6 +439,144 @@
         </div>
 
 
+
+        <div id="carouselExampleIndicators-index-events" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <div class="taxi-carousel-sliders d-none">
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+        </div>
+
+
+        <div class="carousel-inner">
+          <div class="carousel-item active mb-5">
+          <div class="car-rent-row3-car1">
+                                        <img src="{{asset('front/images/fleet-car-7.png')}}" alt="">
+                                        <div class="rent-kia-specs">
+                                        <div class="rent-vehicle-type">
+                                                <p>SUV</p>
+                                            </div>
+                                        <div class="car-rent-name">
+                                            <p>TOYOTA PRADO AUTOMATIC</p>
+                                        </div>
+                                        <div class="car-rent-vehicle-type">
+                                            <p>Or Similar</p>
+                                        </div>
+                                        <div class="rent-vehicle-specs">
+                                        <div class="vehicle-specs-line-1">
+                                            <div class="car-spec-line">
+                                                <i class="fa-solid fa-user"></i><p>5+2 seats</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase"></i><p>1 Small Suitcase</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-snowflake"></i><p>Air Conditioning</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gears"></i><p>Automatic Transmission</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="vehicle-specs-line-2">
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                </div>
+                                                            
+                                                <!-- <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>1 Large Suitcase</p>
+                                                </div>
+                                                  -->
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-car"></i><p>4-5 Doors</p>
+                                                </div>
+                                                 
+                                            </div>
+                                        </div>
+                                        
+                                        </div>
+                                    </div>
+                                    
+          </div>
+
+
+          <div class="carousel-item mb-5">
+          <div class="car-rent-row3-car2">
+                                        <img src="{{asset('front/images/fleet-car-8.png')}}" alt="">
+                                        <div class="rent-huyndai-specs">
+                                        <div class="rent-vehicle-type">
+                                                <p>Van/Minivan</p>
+                                            </div>
+                                        <div class="car-rent-name">
+                                            <p>TOYOTA PROACE AUTOMATIC</p>
+                                        </div>
+                                        <div class="car-rent-vehicle-type">
+                                            <p>Or Similar</p>
+                                        </div>
+                                        <div class="rent-vehicle-specs">
+                                        <div class="vehicle-specs-line-1">
+                                            <div class="car-spec-line">
+                                                <i class="fa-solid fa-user"></i><p>8 seats</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase"></i><p>2 Small Suitcases</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-snowflake"></i><p>Air Conditioning</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gears"></i><p>Automatic Transmission</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="vehicle-specs-line-2">
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                </div>
+                                                            
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>1 Large Suitcase</p>
+                                                </div>
+                                                 
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-car"></i><p>4-5 Doors</p>
+                                                </div>
+                                                 
+                                            </div>
+                                        </div>
+
+                                        </div>
+                                    </div>
+          </div>
+
+
+
+
+        </div>
+
+          <div class="spec-carousel-buttons">
+            <button class="carousel-control-prev d-none" type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+              <span  class="carousel-arrow-icon"><img src="{{asset('front/images/carousel-right.png') }}" alt=""></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none" type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide="next">
+              <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+              <span class="carousel-arrow-icon"><img src="{{asset('front/images/carousel-left.png') }}" alt=""></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+        </div>
+
+
                         <div class="car-rent-vehicles-row1">
                             <div class="car-rent-vehicles-row1-middle">
                                 <div class="car-rent-vehicles-row1-inner">
