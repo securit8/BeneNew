@@ -18,7 +18,9 @@
                 
                 <div class="project">
                     <div class="project-image-1">
+                    <a href="{{route('frontend.event-moiare')}}">
                         <img src="{{asset('front/images/proeqti1.jpg') }}" alt="">
+                    </a>
                     </div>
 
                     <div class="project-info">
@@ -42,7 +44,9 @@
 
                 <div class="project">
                         <div class="project-image-2">
+                        <a href="{{route('frontend.networking')}}">
                             <img src="{{asset('front/images/proeqti2.jpg') }}" alt="">
+                        </a>
                         </div>
 
                         <div class="project-info">
@@ -66,7 +70,9 @@
 
                 <div class="project">
                         <div class="project-image-3">
+                        <a href="{{route('frontend.mercedes-event')}}">
                             <img src="{{asset('front/images/proeqti3.jpg') }}" alt="">
+                        </a>
                         </div>
 
                         <div class="project-info">
@@ -91,7 +97,9 @@
 
                 <div class="project">
                         <div class="project-image-4">
+                        <a href="{{route('frontend.week')}}">
                             <img src="{{asset('front/images/proeqti4.jpg') }}" alt="">
+                        </a>
                         </div>
 
                         <div class="project-info">
@@ -116,7 +124,9 @@
 
                 <div class="project">
                          <div class="project-image-5">
+                         <a href="{{route('frontend.distribution')}}">
                             <img src="{{asset('front/images/proeqti5.jpg') }}" alt="">
+                        </a>
                         </div>
 
                         <div class="project-info">
