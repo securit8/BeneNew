@@ -905,6 +905,11 @@ border-radius: 40px 40px 40px 40px!important;
 
 /* car rent page query */
 
+.car-rent-header-part-1-inner{
+  display: flex!important;
+  flex-direction: column-reverse!important;
+}
+
 .car-rent-vehicles-row1{
   display: none!important;
 }
