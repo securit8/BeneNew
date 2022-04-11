@@ -62,20 +62,14 @@
             <button type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
         </div>
 
 
         <div class="carousel-inner">
+
+
           <div class="carousel-item active mb-5">
-            <a href="{{route('frontend.mercedes-event')}}">
-              <img src="{{asset('front/images/proeqti3.jpg')}}" class="" alt="...">
-            </a>
-          </div>
-
-
-          <div class="carousel-item mb-5">
           <div class="car-rent-row1-car1">
                                         <img src="{{asset('front/images/fleet-car-1.png')}}" alt="">
                                         <div class="rent-toyota-specs">  
