@@ -880,7 +880,7 @@ cursor: pointer;
   .project-image-1 img{
 border-radius: 40px 40px 40px 40px!important; 
   }
-  
+
 .project-image-2 img{
 border-radius: 40px 40px 40px 40px!important; 
 }
@@ -897,6 +897,12 @@ border-radius: 40px 40px 40px 40px!important;
 .project-image-5 img{
 border-radius: 40px 40px 40px 40px!important; 
 }
+
+.moiare-body-inner{
+  display: flex!important;
+  flex-direction: column-reverse!important;
+}
+
 }
 
 

@@ -61,7 +61,7 @@
 
             <div class="moiare-body-outer">
                 <div class="moiare-body-inner">
-                    <div class="moiare-body-info">
+                      <div class="moiare-body-info">
                         <div class="moiare-body-title">
                             <p>MERCEDES-BENZ BUSSINESS WEEK</p>
                         </div>
@@ -74,10 +74,10 @@
                                 Initially, the services of our company were limited to premium class vehicles, however today "Bene-Ecxlusive" represents a multi-profile company.
                                  Car renting as well as orginizing of Business Projects and Events have been added to our list of services.</p>
                         </div>
-                    </div>
+                      </div>
 
                     <div class="moiare-body-image">
-                        <img src="{{asset('front/images/proeqti4.jpg')}}" alt="">
+                        <img src="{{asset('front/images/proeqti5.jpg') }}" alt="">
                     </div>
                 </div>
             </div>

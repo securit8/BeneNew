@@ -77,7 +77,7 @@
                     </div>
 
                     <div class="moiare-body-image">
-                        <img src="{{asset('front/images/proeqti4.jpg')}}" alt="">
+                        <img src="{{asset('front/images/proeqti4.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
