@@ -903,6 +903,12 @@ border-radius: 40px 40px 40px 40px!important;
   flex-direction: column-reverse!important;
 }
 
+/* car rent page query */
+
+.car-rent-vehicles-row1{
+  display: none!important;
+}
+
 }
 
 
