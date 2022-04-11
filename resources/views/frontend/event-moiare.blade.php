@@ -99,6 +99,63 @@
     <div class="part-7-inner">
         <div class="index-event-header"><p>@lang('front.index-events')</p></div>
 
+
+        <div id="carouselExampleIndicators-index-events" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <div class="taxi-carousel-sliders d-none">
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+        </div>
+
+
+        <div class="carousel-inner">
+          <div class="carousel-item active mb-5">
+            <a href="{{route('frontend.mercedes-event')}}">
+              <img src="{{asset('front/images/proeqti3.jpg')}}" class="" alt="...">
+            </a>
+          </div>
+
+
+          <div class="carousel-item mb-5">
+            <a href="{{route('frontend.week')}}">
+             <img src="{{asset('front/images/proeqti4.jpg')}}" class="" alt="...">
+            </a>
+          </div>
+
+
+          <div class="carousel-item mb-5">
+            <a href="{{route('frontend.distribution')}}">
+              <img src="{{asset('front/images/proeqti5.jpg')}}" class="" alt="...">
+            </a>
+          </div>
+
+          <div class="carousel-item mb-5">
+            <a href="{{route('frontend.event-moiare')}}">
+              <img src="{{asset('front/images/proeqti1.jpg')}}" class="" alt="...">
+            </a>
+          </div>
+
+
+        </div>
+
+          <div class="spec-carousel-buttons">
+            <button class="carousel-control-prev d-none" type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+              <span  class="carousel-arrow-icon"><img src="{{asset('front/images/carousel-right.png') }}" alt=""></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none" type="button" data-bs-target="#carouselExampleIndicators-index-events" data-bs-slide="next">
+              <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+              <span class="carousel-arrow-icon"><img src="{{asset('front/images/carousel-left.png') }}" alt=""></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+        </div>
+
       
       <div class="swiper mySwiper">
       <div class="swiper-wrapper">
