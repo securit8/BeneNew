@@ -877,6 +877,26 @@ cursor: pointer;
     display: none!important;
   }
 
+  .project-image-1 img{
+border-radius: 40px 40px 40px 40px!important; 
+  }
+  
+.project-image-2 img{
+border-radius: 40px 40px 40px 40px!important; 
+}
+
+.project-image-3 img{
+border-radius: 40px 40px 40px 40px!important; 
+}
+
+
+.project-image-4 img{
+border-radius: 40px 40px 40px 40px!important; 
+}
+
+.project-image-5 img{
+border-radius: 40px 40px 40px 40px!important; 
+}
 }
 
 
