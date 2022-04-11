@@ -860,6 +860,17 @@ cursor: pointer;
     margin-left: 0!important;
   }
 
+
+  /* proeqtebi query */
+
+  .project img{
+    width:100%;
+  }
+
+  .project-info{
+    display: none!important;
+  }
+
 }
 
 
