@@ -35,9 +35,11 @@ return [
 'carousel-fleet' => 'FLEET',
 'carousel-events' => 'EVENTS',
 'index-about' => 'ABOUT US',
-'index-about-text' => '"Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group". Initially, the services of our company were limited to premium class vehicles, however today "Bene-Exclusive" represents a multi-profile companu. Car renting as well as orginizing of Business Projects and Events have been added to our list of services.',
-'index-taxi-text' => '90% of our fleet is electric vehicles with zero emissions. We have fixed prices guaranteed. You can pay with us at the cash desk, or by card, both at the box office and directly with the driver. Airport taxi is available 24/7
-                Taxis are available from the airport to the city, as well as from anywhere in Tbilisi to the airport Our vehicles have a large luggage compartment, which ensures comfortable transportation We offer the latest models of sedans and minivans - Tesla, Mercedes-Benz, Changan and Toyota',
+'index-about-text' => 'Since 2017, Bene Exclusive has been providing a premium service to our clients.<br><br> 
+                      Maintaining a professional approach, Bene Exclusive quickly gained the trust of customers
+                      and consolidated a firm place in the Georgian market. We have a significant and modern
+                      fleet, equipped with reliable and certified chauffeurs, who adhere to high professional standards
+                      and will ensure comfort and safety during transportation.',
  
 'index-academy-text' => 'Safety and comfort are critical. Drivers’ professionalism enables passengers to have a better overall experience during transportation. Current market analysis shows that there is significant demand for qualified and professional drivers, but a shortage remains.<br><br> 
 At Bene, our vision is to consistently work to high standards of service for the limousine industry. For this reason, we developed a new project — Bene Academy — which aims to train drivers, introducing them to contemporary standards in hospitality and transportation field.',
