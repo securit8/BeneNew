@@ -301,7 +301,7 @@
 
 
                 <div class="index-read-more">
-                  <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/929407307711222/">
+                  <a href="https://www.facebook.com/beneexclusive/videos/1036966293837265">
                   <h5>@lang('front.show-more')</h5></a>
                   <img src="{{asset('front/images/news-arrow.png') }}" alt="">
                 </div>
