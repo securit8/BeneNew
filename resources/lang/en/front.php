@@ -9,7 +9,7 @@ return [
   'academy' => 'Academy',
   'taxi' => 'Taxi',
   'partners' => 'Partners',
-  'contact' => 'Contact us',
+  'contact' => 'Contact Us',
   'contact-header-1' => 'Contact',
   'motors' => 'Motors',
   'call-center' => 'CALL CENTER: (+995 322) 052 100',
@@ -32,10 +32,10 @@ return [
 
 
 // index
-'carousel-academy' =>'Bene academy',
-'carousel-fleet' => 'FLEET',
-'carousel-events' => 'EVENTS',
-'index-about' => 'ABOUT US',
+'carousel-academy' =>'Bene Academy',
+'carousel-fleet' => 'Fleet',
+'carousel-events' => 'Events',
+'index-about' => 'About Us',
 'index-about-text' => 'Since 2017, Bene Exclusive has been providing a premium service to our clients. 
                       Maintaining a professional approach, Bene Exclusive quickly gained the trust of customers
                       and consolidated a firm place in the Georgian market. We have a significant and modern
@@ -49,11 +49,11 @@ return [
 'index-academy-text' => 'Safety and comfort are critical. Drivers’ professionalism enables passengers to have a better overall experience during transportation. Current market analysis shows that there is significant demand for qualified and professional drivers, but a shortage remains.<br><br> 
 At Bene, our vision is to consistently work to high standards of service for the limousine industry. For this reason, we developed a new project — Bene Academy — which aims to train drivers, introducing them to contemporary standards in hospitality and transportation field.',
 
-'index-academy' => 'BENE ACADEMY',
-'newsroom' => 'NEWSROOM',
-'front-taxi' => 'Airport taxi',
-'index-events' => 'EVENTS AND PROJECTS',
-'index-partners' => 'PARTNERS',
+'index-academy' => 'Bene Academy',
+'newsroom' => 'Newsroom',
+'front-taxi' => 'Airport Taxi',
+'index-events' => 'Events and Projects',
+'index-partners' => 'Partners',
 
 // home page
 'bene' => 'ბენე ექსკლუზივი',
@@ -253,7 +253,7 @@ At Bene, our vision is to consistently work to high standards of service for the
 
 
   // about
-  'about-company' => 'About company',
+  'about-company' => 'About Company',
 
   'about-events' => 'ბენე ექსკლუზივის ერთ-ერთ ძირითად მიმართულებას მასშტაბური პროექტებისა და ბიზნეს ღონისძიებების ორგანიზება და ჩატარება წარმოადგენს. ამ კუთხით ჩვენ ვთანამშრომლობთ როგორც სამთავრობო, ასევე ბიზნეს სექტორთან.  
                      კომპანიის მისიაა, დადებითი გავლენა იქონიოს ადგილობრივ ბიზნეს გარემოზე. ჩვენი ბიზნესივენთები ემსახურება სხვადასხვა დარგებში მოღვაწე კომპანიების დამეგობრებასა და ნეთვორქინგს, რაც თავის მხრივ პოზიტიური შედეგების მომტანია, როგორც კომპანიებისათვის, ასევე ქვეყნის ეკონომიკური განვითარებისთვის.',
@@ -313,7 +313,7 @@ At the end of the course, participants receive a certificate, in accordance with
 
 // bene motors
 
-'bene-motors' => 'Bene motors',
+'bene-motors' => 'Bene Motors',
 'motors-text-1' => 'For over 3 years we have imported exclusive models from the USA and Europe, including electric vehicles.
                    We re-export cars throughout the Caucasus and in some post-Soviet countries.
                     Georgia is an excellent hub, from which vehicles can be sold in Armenia, Azerbaijan, 
