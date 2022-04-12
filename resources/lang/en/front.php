@@ -258,7 +258,7 @@ At Bene, our vision is to consistently work to high standards of service for the
   'about-events' => 'ბენე ექსკლუზივის ერთ-ერთ ძირითად მიმართულებას მასშტაბური პროექტებისა და ბიზნეს ღონისძიებების ორგანიზება და ჩატარება წარმოადგენს. ამ კუთხით ჩვენ ვთანამშრომლობთ როგორც სამთავრობო, ასევე ბიზნეს სექტორთან.  
                      კომპანიის მისიაა, დადებითი გავლენა იქონიოს ადგილობრივ ბიზნეს გარემოზე. ჩვენი ბიზნესივენთები ემსახურება სხვადასხვა დარგებში მოღვაწე კომპანიების დამეგობრებასა და ნეთვორქინგს, რაც თავის მხრივ პოზიტიური შედეგების მომტანია, როგორც კომპანიებისათვის, ასევე ქვეყნის ეკონომიკური განვითარებისთვის.',
 
-  'about-us-text' => 'Since 2017, Bene Exclusive has been providing a premium service to our clients.<br>
+  'about-us-text' => 'Since 2017, Bene Exclusive has been providing a premium service to our clients.<br><br>
   Maintaining a professional approach, Bene Exclusive quickly gained the trust of customers and consolidated a firm place in the Georgian market.<br><br>
   We have a significant and modern fleet, equipped with reliable and certified chauffeurs, who adhere to high professional standards and will ensure comfort and safety during transportation.',
                    
