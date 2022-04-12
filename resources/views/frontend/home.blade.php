@@ -437,7 +437,7 @@
           </div>
 
           <div class="index-taxi-text">
-            <p> @lang('front.taxi-page-text-1')</p>
+            <p> @lang('front.index-taxi-page-text')</p>
           </div>
 
           <div class="index-taxi-button">
