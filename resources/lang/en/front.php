@@ -9,7 +9,7 @@ return [
   'academy' => 'Academy',
   'taxi' => 'Taxi',
   'partners' => 'Partners',
-  'contact' => 'Contact',
+  'contact' => 'Contact Us',
   'contact-header-1' => 'Contact',
   'motors' => 'Motors',
   'call-center' => 'CALL CENTER: (+995 322) 052 100',
@@ -290,6 +290,7 @@ At the end of the course, participants receive a certificate, in accordance with
    'batumi' => 'BATUMI',
    'member' => 'BECOME PART OF OUR TEAM',
    'cv' => 'Upload CV',
+   'srulad' => 'ALL',
 
 
    'location-1' => 'Al. Kazbegi Av. 15, 0160 Tbilisi, Georgia',
