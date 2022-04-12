@@ -262,7 +262,7 @@ At Bene, our vision is to consistently work to high standards of service for the
   Maintaining a professional approach, Bene Exclusive quickly gained the trust of customers and consolidated a firm place in the Georgian market.<br><br>
   We have a significant and modern fleet, equipped with reliable and certified chauffeurs, who adhere to high professional standards and will ensure comfort and safety during transportation.',
                    
- 'about-us-text-2' => 'Over the years, Bene Exclusive has expanded its range of services and successfully implemented various projects. We have engaged in a series of business events, opened the Bene Academy to train drivers and established Bene Motors as a department that specializes in the purchase of exclusive cars throughout the Caucasus.<br><br>
+ 'about-us-text-2' => 'Over the years, Bene Exclusive has expanded its range of services and successfully implemented various projects.<br><br> We have engaged in a series of business events, opened the Bene Academy to train drivers and established Bene Motors as a department that specializes in the purchase of exclusive cars throughout the Caucasus.<br><br>
                       Bene Exclusive continues its activities, observing and monitoring significant developments in the field of commercial services, taking an active part in its progress. In doing so, Bene Exclusive plays a significant role in improving the economic performance of Georgia.  
                      ',
 
