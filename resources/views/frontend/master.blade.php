@@ -167,10 +167,10 @@
 
   <script>
        var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
+        slidesPerView: 4,
         centeredSlides: false,
         loop: true,
-        spaceBetween: 30,
+        spaceBetween: 25,
         pagination: {
           el: ".swiper-pagination",
           type: "fraction",
