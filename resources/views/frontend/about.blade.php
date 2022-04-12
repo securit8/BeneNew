@@ -145,12 +145,20 @@
             <button type="button" data-bs-target="#carouselExampleIndicators-index-news" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators-index-news" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators-index-news" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators-index-news" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
         </div>
 
 
         <div class="carousel-inner">
+
           <div class="carousel-item active mb-5">
+            <a href="https://www.facebook.com/beneexclusive/videos/1036966293837265">
+              <img src="{{asset('front/images/article/5.jpg') }}" class="" alt="...">
+            </a>
+          </div>
+
+          <div class="carousel-item mb-5">
             <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/967350223916930">
               <img src="{{asset('front/images/article/2.jpg')}}" class="" alt="...">
             </a>

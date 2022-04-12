@@ -224,7 +224,7 @@
 
         <div class="carousel-inner">
 
-        <div class="carousel-item active mb-5">
+          <div class="carousel-item active mb-5">
             <a href="https://www.facebook.com/beneexclusive/videos/1036966293837265">
               <img src="{{asset('front/images/article/5.jpg') }}" class="" alt="...">
             </a>
