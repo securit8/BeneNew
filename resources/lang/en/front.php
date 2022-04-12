@@ -6,7 +6,7 @@ return [
   'news' => 'Newsroom',
   'fleet' => 'Fleet',
   'rent' => 'Car Hire',
-  'academy' => 'Bene Academy',
+  'academy' => 'Academy',
   'taxi' => 'Taxi',
   'partners' => 'Partners',
   'contact' => 'Contact',
