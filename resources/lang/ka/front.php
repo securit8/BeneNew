@@ -10,6 +10,7 @@ return [
   'taxi' => 'ტაქსი',
   'partners' => 'პარტნიორები',
   'contact' => 'კონტაქტი',
+  'contact-header-1' => 'კონტაქტი',
   'motors' => 'მოტორსი',
   'call-center' => 'ქოლ ცენტრი: (+995 322) 052 100',
   'services' => 'Services',

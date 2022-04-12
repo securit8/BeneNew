@@ -9,6 +9,7 @@ return [
   'taxi' => 'Такси',
   'partners' => 'Партнеры',
   'contact' => 'Обратная связь',
+  'contact-header-1' => 'Контакт',
   'electric' => 'Электро ',
   'events' => 'Проекты',
   'motors' => 'Моторс',

@@ -10,6 +10,7 @@ return [
   'taxi' => 'Taxi',
   'partners' => 'Partners',
   'contact' => 'Contact',
+  'contact-header-1' => 'Contact',
   'motors' => 'Motors',
   'call-center' => 'CALL CENTER: (+995 322) 052 100',
   'services' => 'Services',
