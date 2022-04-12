@@ -26,7 +26,7 @@ return [
   'minibus' => 'Minibus',
   'bus' => 'Bus',
   'coupe' => 'Coupe',
-  'footer-text' => 'Follow us and use the following social media platforms to get in contact with us',
+  'footer-text' => 'Follow us and use the following social media<br> platforms to get in contact with us',
 
 
 
@@ -70,7 +70,7 @@ At Bene, our vision is to consistently work to high standards of service for the
   ჩვენი კომპანია უწყვეტ რეჟიმში ახორციელებს სფეროსთვის დამახასიათებელი მნიშვნელოვანი ცვლილებების მონიტორინგს, ფეხს უწყობს პროგრესს და თავისი წვლილი შეაქვს ქვეყნის ეკონომიკის განვითარებაში. 
   ',
 
-  'index-taxi-page-text' => 'Since 2019 Bene Motors has maintained exclusive rights to service Tbilisi International Airport. We
+  'index-taxi-page-text' => 'Since 2019 Bene Exclusive has maintained exclusive rights to service Tbilisi International Airport. We
                             mostly use electric vehicles in taxi services, guarantee fixed rates of all our transfers, and provide
                             reliable and safe transportation.<br><br>
                             Other than this service, we offer our corporate clients a taxi service in Tbilisi and across Georgia, using a
