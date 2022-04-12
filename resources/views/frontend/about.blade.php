@@ -198,32 +198,37 @@
       
 
       
-        <div class="index-news-body">
-          <div class="index-news-article">
-            <div class="index-news-image">
-              <img src="{{asset('front/images/article/2.jpg') }}" alt="">
-            </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
 
-            <div class="index-news-text">
-              <div class="news-date">
-              <p>24 თებერვალი, 2022</p>
+
+          <div class="swiper-slide">
+            <div class="index-news-article">
+              <div class="index-news-image">
+                <img src="{{asset('front/images/article/5.jpg') }}" alt="">
               </div>
 
-              <h6>სოლიდარობა უკრაინელ მოქალაქეებს</h6>
+              <div class="index-news-text">
+                <div class="news-date">
+                <p>7 აპრილი, 2022</p>
+                </div>
 
-              <p>ბენე ექსკლუზივი უკრაინის მოქალაქეებს თბილისის და ქუთაისის აეროპორტში უფასო ტრანსპორტირებას სთავაზობს.</p>
+                <h6>ბენე ექსკლუზივის გუნდის გამორჩეული წევრები</h6>
+
+                <p>ბენე ექსკლუზივის გუნდში ქალი მძღოლებიც ისეთივე გამოცდილები და პროფესიონალები არიან, როგორც მამაკაცები.</p>
 
 
-              <div class="index-read-more">
-                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/952419448743341/">
-                <h5>@lang('front.show-more')</h5></a>
-                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+                <div class="index-read-more">
+                  <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/929407307711222/">
+                  <h5>@lang('front.show-more')</h5></a>
+                  <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+                </div>
               </div>
             </div>
           </div>
 
-
-          <div class="index-news-article">
+          <div class="swiper-slide">
+            <div class="index-news-article">
             <div class="index-news-image">
               <img src="{{asset('front/images/article/1.jpg') }}" alt="">
             </div>
@@ -247,9 +252,61 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/4.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>7 მარტი, 2022</p>
+              </div>
+
+              <h6>Summit talks-ის პარტნიორი</h6>
+
+              <p>Summit Talks-ის 100-მდე მონაწილის უსაფრთხო და კომფორტული ტრანსპორტირება ბენე ექსკლუზივმა უზრუნველყო.<br> </p>
 
 
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/959071804744772/">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/2.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+              <p>24 თებერვალი, 2022</p>
+              </div>
+
+              <h6>სოლიდარობა უკრაინელ მოქალაქეებს</h6>
+
+              <p>ბენე ექსკლუზივი უკრაინის მოქალაქეებს თბილისის და ქუთაისის აეროპორტში უფასო ტრანსპორტირებას სთავაზობს.</p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/952419448743341/">
+                <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+     
+        <div class="swiper-slide">
           <div class="index-news-article">
             <div class="index-news-image">
               <img src="{{asset('front/images/article/3.jpg') }}" alt="">
@@ -272,32 +329,16 @@
               </div>
             </div>
           </div>
-
-
-
-          <div class="index-news-article">
-            <div class="index-news-image">
-              <img src="{{asset('front/images/article/4.jpg') }}" alt="">
-            </div>
-
-            <div class="index-news-text">
-              <div class="news-date">
-                <p>7 მარტი, 2022</p>
-              </div>
-
-              <h6>Summit talks - ის  პარტნიორი </h6>
-
-              <p>Summit Talks -ის 100-მდე მონაწილის უსაფრთხო და კომფორტული ტრანსპორტირება ბენე ექსკლუზივმა უზრუნველყო. <br><br></p>
-
-
-              <div class="index-read-more">
-                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/959071804744772/">
-                  <h5>@lang('front.show-more')</h5></a>
-                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
-              </div>
-            </div>
-          </div>
         </div>
+
+
+      
+       
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+      </div>
     </div>
   </div>
 </div>
