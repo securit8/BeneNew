@@ -35,7 +35,7 @@ return [
 'carousel-fleet' => 'FLEET',
 'carousel-events' => 'EVENTS',
 'index-about' => 'ABOUT US',
-'index-about-text' => 'Since 2017, Bene Exclusive has been providing a premium service to our clients.<br><br> 
+'index-about-text' => 'Since 2017, Bene Exclusive has been providing a premium service to our clients. 
                       Maintaining a professional approach, Bene Exclusive quickly gained the trust of customers
                       and consolidated a firm place in the Georgian market. We have a significant and modern
                       fleet, equipped with reliable and certified chauffeurs, who adhere to high professional standards
