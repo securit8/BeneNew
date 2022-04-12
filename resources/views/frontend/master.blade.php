@@ -166,11 +166,67 @@
   
 
   <script>
-       var swiper = new Swiper(".mySwiper", {
+       var swiper = new Swiper(".mySwiper-news", {
         slidesPerView: 4,
         centeredSlides: false,
         loop: true,
         spaceBetween: 25,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+
+      var appendNumber = 4;
+      var prependNumber = 1;
+      document
+        .querySelector(".prepend-2-slides")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.prependSlide([
+            '<div class="swiper-slide-news">Slide ' + --prependNumber + "</div>",
+            '<div class="swiper-slide-news">Slide ' + --prependNumber + "</div>",
+          ]);
+        });
+      document
+        .querySelector(".prepend-slide")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.prependSlide(
+            '<div class="swiper-slide-news">Slide ' + --prependNumber + "</div>"
+          );
+        });
+      document
+        .querySelector(".append-slide-news")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.appendSlide(
+            '<div class="swiper-slide-news">Slide ' + ++appendNumber + "</div>"
+          );
+        });
+      document
+        .querySelector(".append-2-slides")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          swiper.appendSlide([
+            '<div class="swiper-slide-news">Slide ' + ++appendNumber + "</div>",
+            '<div class="swiper-slide-news">Slide ' + ++appendNumber + "</div>",
+          ]);
+        });
+    </script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+       var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: false,
+        loop: true,
+        spaceBetween: 30,
         pagination: {
           el: ".swiper-pagination",
           type: "fraction",
