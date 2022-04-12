@@ -5,7 +5,7 @@ return [
   'about' => 'About Bene',
   'news' => 'Newsroom',
   'fleet' => 'Fleet',
-  'rent' => 'Car Rent',
+  'rent' => 'Car Hire',
   'academy' => 'Academy',
   'taxi' => 'Taxi',
   'partners' => 'Partners',
@@ -239,7 +239,7 @@ At Bene, our vision is to consistently work to high standards of service for the
 'kvt' => 'Kvt',
 
   //rent page
-  'rent-title' => 'Car Rent',
+  'rent-title' => 'Car Hire',
   'car-rent-text-1' => 'Bene Exclusive, serving the interests and preferences of each client, 
                         offers self-driving enthusiasts a car rental service.',
   
