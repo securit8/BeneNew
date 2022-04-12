@@ -5,7 +5,7 @@ return [
   'about' => 'About Bene',
   'news' => 'Newsroom',
   'fleet' => 'Fleet',
-  'rent' => 'Car Hire',
+  'rent' => 'Car Rent',
   'academy' => 'Academy',
   'taxi' => 'Taxi',
   'partners' => 'Partners',
@@ -248,7 +248,7 @@ At Bene, our vision is to consistently work to high standards of service for the
   'car-rent-text-3' =>  'We cooperate with both organizations and individuals by providing premium or economy class cars,
                          as well as eco-friendly models throughout the country for the desired period. ',
 
-  'our-car-rent' => 'OUR FLEET',
+  'our-car-rent' => 'Our Fleet',
 
 
 
