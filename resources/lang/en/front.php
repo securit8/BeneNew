@@ -9,7 +9,7 @@ return [
   'academy' => 'Academy',
   'taxi' => 'Taxi',
   'partners' => 'Partners',
-  'contact' => 'Contact Us',
+  'contact' => 'Contact us',
   'contact-header-1' => 'Contact',
   'motors' => 'Motors',
   'call-center' => 'CALL CENTER: (+995 322) 052 100',
@@ -32,7 +32,7 @@ return [
 
 
 // index
-'carousel-academy' =>'BENE ACADEMY',
+'carousel-academy' =>'Bene academy',
 'carousel-fleet' => 'FLEET',
 'carousel-events' => 'EVENTS',
 'index-about' => 'ABOUT US',
@@ -51,7 +51,7 @@ At Bene, our vision is to consistently work to high standards of service for the
 
 'index-academy' => 'BENE ACADEMY',
 'newsroom' => 'NEWSROOM',
-'front-taxi' => 'AIRPORT TAXI',
+'front-taxi' => 'Airport taxi',
 'index-events' => 'EVENTS AND PROJECTS',
 'index-partners' => 'PARTNERS',
 
@@ -93,7 +93,7 @@ At Bene, our vision is to consistently work to high standards of service for the
 
 
 // fleet page
-'vehicles' => 'VEHICLES',
+'vehicles' => 'Vehicles',
 'fleet-car-1-outer' => 'ჩვენი ავტოპარკის უახლესი მოდელი Mercedes-Benz S-Class W223
                         ავტომობილი წარმოებულია 2022 წელს და წარმოადგენს S-Class-ის მე-7
                         თაობას.',
@@ -253,7 +253,7 @@ At Bene, our vision is to consistently work to high standards of service for the
 
 
   // about
-  'about-company' => 'ABOUT COMPANY',
+  'about-company' => 'About company',
 
   'about-events' => 'ბენე ექსკლუზივის ერთ-ერთ ძირითად მიმართულებას მასშტაბური პროექტებისა და ბიზნეს ღონისძიებების ორგანიზება და ჩატარება წარმოადგენს. ამ კუთხით ჩვენ ვთანამშრომლობთ როგორც სამთავრობო, ასევე ბიზნეს სექტორთან.  
                      კომპანიის მისიაა, დადებითი გავლენა იქონიოს ადგილობრივ ბიზნეს გარემოზე. ჩვენი ბიზნესივენთები ემსახურება სხვადასხვა დარგებში მოღვაწე კომპანიების დამეგობრებასა და ნეთვორქინგს, რაც თავის მხრივ პოზიტიური შედეგების მომტანია, როგორც კომპანიებისათვის, ასევე ქვეყნის ეკონომიკური განვითარებისთვის.',
@@ -284,11 +284,11 @@ At the end of the course, participants receive a certificate, in accordance with
    'input-send' => 'Send',
    'upload' => 'Upload a File',
    'contact-window-header' => 'CONTACT US',
-   'contact-info' => 'OUR OFFICES',
+   'contact-info' => 'Oour Branches',
    'tbilisi' => 'TBILISI',
    'qutaisi' => 'AIRPORT',
    'batumi' => 'BATUMI',
-   'member' => 'BECOME PART OF OUR TEAM',
+   'member' => 'Become a member of our team',
    'cv' => 'Upload CV',
    'srulad' => 'ALL',
 
@@ -313,7 +313,7 @@ At the end of the course, participants receive a certificate, in accordance with
 
 // bene motors
 
-'bene-motors' => 'BENE MOTORS',
+'bene-motors' => 'Bene motors',
 'motors-text-1' => 'For over 3 years we have imported exclusive models from the USA and Europe, including electric vehicles.
                    We re-export cars throughout the Caucasus and in some post-Soviet countries.
                     Georgia is an excellent hub, from which vehicles can be sold in Armenia, Azerbaijan, 
