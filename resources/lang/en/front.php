@@ -39,7 +39,11 @@ return [
                       Maintaining a professional approach, Bene Exclusive quickly gained the trust of customers
                       and consolidated a firm place in the Georgian market. We have a significant and modern
                       fleet, equipped with reliable and certified chauffeurs, who adhere to high professional standards
-                      and will ensure comfort and safety during transportation.',
+                      and will ensure comfort and safety during transportation.<br><br>          
+                      Over the years, Bene Exclusive has expanded its range of services and successfully implemented
+                      various projects. We have engaged in a series of business events, opened the Bene Academy to
+                      train drivers and established Bene Motors as a department that specializes in the purchase of
+                      exclusive cars throughout the Caucasus.',
  
 'index-academy-text' => 'Safety and comfort are critical. Drivers’ professionalism enables passengers to have a better overall experience during transportation. Current market analysis shows that there is significant demand for qualified and professional drivers, but a shortage remains.<br><br> 
 At Bene, our vision is to consistently work to high standards of service for the limousine industry. For this reason, we developed a new project — Bene Academy — which aims to train drivers, introducing them to contemporary standards in hospitality and transportation field.',
