@@ -2701,14 +2701,34 @@ width:100%;
   outline: none;
 }
 
-.input-name, .input-mail, .input-phone, .input-message{
+
+.input-pozition input{
+  width: 100%;
+  background-color: rgba(252, 252, 253, 1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.562);
+  opacity: 0.7;
+  margin-bottom: 3vh;
+  font-size: 12px;
+  outline: none;
+}
+
+.input-name, .input-mail, .input-phone, .input-message, .input-pozition{
   display: flex;
   justify-content: center;
 }
 
-.input-name img, .input-mail i, .input-phone img, .input-message img{
+.input-name img, .input-mail i, .input-phone img, .input-message img, .input-pozition i{
   margin-top: 3.5vh;
   margin-right: 0.6vh;
+  width: 2vh;
+  height:2vh;
+}
+
+.input-pozition i{
+  margin-right: 2vh;
   width: 2vh;
   height:2vh;
 }
@@ -2901,6 +2921,7 @@ grid-template-columns: repeat(40, 1fr);
     width: 16px;
     height: 16px;
 }
+
 
 .input-pozition input{
 border-top: none;
