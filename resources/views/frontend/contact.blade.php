@@ -172,6 +172,10 @@
 
 
                         <div class="upload-cv">
+                        <div class="input-pozition">
+                           <img src="{{asset('front/images/person-icon.png')}}" alt="">
+                            <input type="text" placeholder="@lang('front.input-position')">
+                        </div>
                                 <div class="cv-text">
                                 <i class="fa-solid fa-cloud-arrow-up"></i>
                                 <p>@lang('front.cv')</p>

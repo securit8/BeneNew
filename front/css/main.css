@@ -2872,6 +2872,7 @@ grid-template-columns: repeat(40, 1fr);
   margin-bottom: 10rem;
   grid-column: 5 / 12;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -2899,6 +2900,12 @@ grid-template-columns: repeat(40, 1fr);
     color: rgb(255, 255, 255);
     width: 16px;
     height: 16px;
+}
+
+.input-pozition input{
+border-top: none;
+border-left: none;
+border-right: none;
 }
 
 .contact-page-3-background img{

@@ -291,6 +291,7 @@ At the end of the course, participants receive a certificate, in accordance with
    'member' => 'Become a member of our team',
    'cv' => 'Upload CV',
    'srulad' => 'ALL',
+   'input-position' => 'Position',
 
 
    'location-1' => 'Al. Kazbegi Av. 15, 0160 Tbilisi, Georgia',
