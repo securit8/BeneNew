@@ -429,6 +429,10 @@ cursor: pointer;
 
 @media (max-width: 720px){
 
+  .mySwiper-news{
+    display: none!important;
+  }
+
   #navibar a{
     align-items: center!important;
     margin-right: 1rem!important;
