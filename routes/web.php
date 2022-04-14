@@ -58,7 +58,7 @@ Route::get('/mercedes-event', [RoutesController::class, 'event'])->name('fronten
 Route::get('/brands', [RoutesController::class, 'brands'])->name('frontend.brands');
 
 
-Route::get('/send-email', [SendEmailController::class, 'index']);
+Route::post('/send-email', [SendEmailController::class, 'index'])->name('send_email');
 
 
 
