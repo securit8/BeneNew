@@ -30,7 +30,7 @@ class SendEmailController extends Controller
           ('Site Requests');
           $message->from('info@tlc.com.ge' , 'oTo' );
      
-
+          return Redirect::back();
      // Mail::to('info@bene-exclusive.com')->send();
 
     } );
