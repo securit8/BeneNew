@@ -7,7 +7,6 @@ use App\Mail\BeneMail;
 
 
 
-
 class SendEmailController extends Controller
 {
     public function index()
@@ -20,7 +19,7 @@ class SendEmailController extends Controller
            return response()->Fail('Sorry! Please try again latter');
            
       }else{
-        dd("failure");
+        dd("success");
            return response()->success('Great! Successfully send in your mail');
           
          }
