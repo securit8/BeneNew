@@ -185,7 +185,7 @@
               </div>
 
           <div class="book-button">
-           <a href="{{route('frontend.contact')}}">
+            <a href="{{route('frontend.contact')}}">
             <button>
               <p>@lang('front.book-car')</p>
               <img src="{{asset('front/images/arrow-right.png') }}" alt="">

@@ -128,10 +128,12 @@
         </div>
 
         <div class="news-see-all-button">
+          <a href="https://www.facebook.com/beneexclusive/">
           <button>
             <p>@lang('front.show-more')</p>
             <img src="{{asset('front/images/blue-short-arrow.png') }}" alt="">
           </button>
+          </a>
         </div>
 
 

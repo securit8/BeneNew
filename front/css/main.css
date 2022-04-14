@@ -449,6 +449,11 @@ cursor: pointer;
   
   .contact-slogan{
     text-align: center!important;
+    
+  }
+
+  .contact-slogan p{
+    margin-left: 0!important;
   }
 
   .Language-select{
@@ -2086,6 +2091,10 @@ line-height: 24px;
  font-weight: 700;
  font-family: TBCContractica, Montserrat;
  color:rgba(252, 252, 253, 1);
+ }
+
+ .news-see-all-button a{
+   text-decoration: none!important;
  }
  
  .news-see-all-button button{

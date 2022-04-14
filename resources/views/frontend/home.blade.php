@@ -200,7 +200,7 @@
 
           <div class="see-all-button">
             <button>
-              <a href="{{route('frontend.news')}}">
+              <a href="https://www.facebook.com/beneexclusive/">
               <p>@lang('front.show-more')</p>
               <img src="{{asset('front/images/blue-short-arrow.png') }}" alt="">
               </a>
