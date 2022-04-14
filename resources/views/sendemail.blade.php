@@ -20,7 +20,7 @@
   <h5 class = "p-3" style = "font-weight:bold;">WRITE A COMMENT</h5>
    <div class = "col-12 name d-flex justify-content-between p-0">
      <div class = "col-6">
-       <p>бѓЎбѓђбѓ®бѓ”бѓљбѓ˜:</p>
+       <p>სახელი და გვარი :</p>
      <input type = "text" value = "{!!$fullName!!}" class = "input" placeholder = "Name" required />
    </div>
 
@@ -29,12 +29,12 @@
 
   <div class = "col-12 name d-flex justify-content-between p-0 pt-3">
     <div class = "col-6">
-      <p>бѓ›бѓ”бѓ˜бѓљбѓ˜:</p>
+      <p>მეილი :</p>
     <input type = "email" value = "{!!$email!!}" class = "input" placeholder = "Email" required />
   </div>
 
   <div class = "col-6">
-    <p>бѓ›бѓќбѓ—бѓ®бѓќбѓ•бѓњбѓђ:</p>
+    <p>ტელეფონი:</p>
     <input type = "tel" value = "{!!$phone!!}" class = "input" placeholder = "Phone" required />
   </div>
  </div>
