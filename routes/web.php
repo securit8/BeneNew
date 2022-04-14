@@ -4,6 +4,7 @@ use Illuminate\Supoort\Facades\App;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LocalizationController;
 use App\Http\Controllers\RoutesController;
+use App\Http\Controllers\SendEmailController; 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -57,7 +58,7 @@ Route::get('/mercedes-event', [RoutesController::class, 'event'])->name('fronten
 Route::get('/brands', [RoutesController::class, 'brands'])->name('frontend.brands');
 
 
-
+Route::post('/send-email', [SendEmailController::class, 'index'])->name('send_email');
 
 
 

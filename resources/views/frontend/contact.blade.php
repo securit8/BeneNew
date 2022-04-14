@@ -23,35 +23,38 @@
 
                 <div class="contact-window">
                   
-
+                <form method = "POST" action = "{{route('send_email')}}">
+                    @csrf
                     <div class="contact-window-input">
                         <div class="input-name">
                            <img src="{{asset('front/images/person-icon.png')}}" alt="">
-                            <input type="text" placeholder="@lang('front.input-name')">
+                            <input name="fullName" type="text" placeholder="@lang('front.input-name')">
                         </div>
 
                         <div class="input-mail">
                         <i class="fa-solid fa-at"></i>
-                            <input type="text" placeholder="@lang('front.input-mail')">
+                            <input name="email" type="text" placeholder="@lang('front.input-mail')">
                         </div>
 
                         <div class="input-phone">
                         <img src="{{asset('front/images/phone-icon.png')}}" alt="">
-                            <input type="text" placeholder="@lang('front.input-number')">
+                            <input name="phone" type="text" placeholder="@lang('front.input-number')">
                         </div>
 
                         <div class="input-message">
                         <img src="{{asset('front/images/message-icon.png')}}" alt="">
-                            <input type="text" placeholder="@lang('front.input-text')">
+                            <input name="aboutText" type="text" placeholder="@lang('front.input-text')">
                         </div>
 
                         <div class="input-button">
-                           <button>
+                           <button >
                             <p>@lang('front.input-send')</p>
                             <img src="{{asset('front/images/arrow-right.png') }}" alt="">
                            </button>
                         </div>
                     </div>
+                </form>
+
                 </div>
            
                
