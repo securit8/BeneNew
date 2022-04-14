@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Redirect;
 use Mail;
 use App\Mail\BeneMail;
 
@@ -30,10 +31,11 @@ class SendEmailController extends Controller
           ('Site Requests');
           $message->from('info@tlc.com.ge' , 'oTo' );
      
-          return Redirect::back();
+         
      // Mail::to('info@bene-exclusive.com')->send();
 
     } );
+    return Redirect::back();
 }
 
 }
