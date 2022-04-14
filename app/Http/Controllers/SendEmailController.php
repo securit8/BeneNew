@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+use Redirect;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Redirect;
 use Mail;
 use App\Mail\BeneMail;
 
