@@ -886,9 +886,13 @@ cursor: pointer;
     margin-left: 10%!important;
   }
 
-
+  .project{
+    width: 100%!important;
+    height: 200px!important
+  }
   .project img{
-    width: 100% !important;;
+    width: 330px !important;;
+    height: 200px!important;
   }
 
   .project-info{
