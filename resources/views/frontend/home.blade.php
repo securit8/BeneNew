@@ -304,7 +304,7 @@
                 <p>7 აპრილი, 2022</p>
                 </div>
 
-                <h6>ი@lang('front.news-article-1-header')</h6>
+                <h6>@lang('front.news-article-1-header')</h6>
 
                 <p>@lang('front.news-article-1-body')</p>
 

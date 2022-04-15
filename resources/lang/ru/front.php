@@ -327,14 +327,14 @@ return [
 
 // newsroom 
 
-'news-article-1-header' => 'Женская команда Bene Exclusive',
+'news-article-1-header' => 'Женская команда Bene Exclusive<br><br>',
 'news-article-1-body' => 'Представительницы нежного пола в команде Bene Exclusive неменее опытные водители и
                           профессионалы своего дела, как и мужчины.',
 
 'news-article-2-header' => 'АВТОПАРК ОРИЕНТИРОВАННЫЙ НА ЛЮБУЮ ПОГОДУ.',
 'news-article-2-body' => 'Снег и непогода не помеха для внедорожников Bene Exclusive.',
 
-'news-article-3-header' => 'Партнер Summit talk',
+'news-article-3-header' => 'Партнер Summit talk<br><br>',
 'news-article-3-body' => 'Компания Bene Exclusive предоставила транспортные услуги 100 участникам Summit talk, как
                           всегда обеспечив безопасную и комфортную поездку.',
 
