@@ -334,7 +334,7 @@ return [
 'news-article-2-header' => 'АВТОПАРК ОРИЕНТИРОВАННЫЙ НА ЛЮБУЮ ПОГОДУ.<br><br>',
 'news-article-2-body' => 'Снег и непогода не помеха для внедорожников Bene Exclusive.',
 
-'news-article-3-header' => '<br><br>>Партнер Summit talk<br><br>',
+'news-article-3-header' => '<br><br>Партнер Summit talk<br>',
 'news-article-3-body' => 'Компания Bene Exclusive предоставила транспортные услуги 100 участникам Summit talk, как
                           всегда обеспечив безопасную и комфортную поездку.',
 
