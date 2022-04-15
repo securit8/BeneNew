@@ -212,7 +212,7 @@
         <div class="swiper-wrapper">
 
 
-          <div class="swiper-slide">
+        <div class="swiper-slide">
             <div class="index-news-article">
               <div class="index-news-image">
                 <img src="{{asset('front/images/article/5.jpg') }}" alt="">
@@ -223,9 +223,9 @@
                 <p>7 აპრილი, 2022</p>
                 </div>
 
-                <h6>ბენე ექსკლუზივის გუნდის გამორჩეული წევრები</h6>
+                <h6>ი@lang('front.news-article-1-header')</h6>
 
-                <p>ბენე ექსკლუზივის გუნდში ქალი მძღოლებიც ისეთივე გამოცდილები და პროფესიონალები არიან, როგორც მამაკაცები.</p>
+                <p>@lang('front.news-article-1-body')</p>
 
 
                 <div class="index-read-more">
@@ -248,10 +248,10 @@
               <p>21 მარტი, 2022</p>
               </div>
 
-              <h6>ნებისმიერ ამინდზე მოგრებული ავტოპარკი </h6>
+              <h6>@lang('front.news-article-2-header') </h6>
 
                 <p>
-                ბენე ექსკლუზივის მაღალი გამავლობის ავტომობილებისთვის თოვლი და უამინდობა დაბრკოლებას არ წარმოადგენს.
+                @lang('front.news-article-2-body')
                 </p>
 
 
@@ -275,9 +275,9 @@
                 <p>7 მარტი, 2022</p>
               </div>
 
-              <h6>Summit talks-ის პარტნიორი<br><br></h6>
+              <h6>@lang('front.news-article-3-header')</h6>
 
-              <p>Summit Talks-ის 100-მდე მონაწილის უსაფრთხო და კომფორტული ტრანსპორტირება ბენე ექსკლუზივმა უზრუნველყო.</p>
+              <p>@lang('front.news-article-3-body') </p>
 
 
               <div class="index-read-more">
@@ -300,9 +300,9 @@
               <p>24 თებერვალი, 2022</p>
               </div>
 
-              <h6>სოლიდარობა უკრაინელ მოქალაქეებს</h6>
+              <h6>@lang('front.news-article-4-header')</h6>
 
-              <p>ბენე ექსკლუზივი უკრაინის მოქალაქეებს თბილისის და ქუთაისის აეროპორტში უფასო ტრანსპორტირებას სთავაზობს.</p>
+              <p>@lang('front.news-article-4-body')</p>
 
 
               <div class="index-read-more">
@@ -327,9 +327,9 @@
               <p>14 იანვარი, 2022</p>
               </div>
 
-              <h6>ფარიკაობის მსოფლიო თასი 2022-ის პარტნიორი</h6>
+              <h6>@lang('front.news-article-5-header')</h6>
 
-              <p>ბენე ექსკლუზივმა ფარიკაობის მსოფლიო თასის 600-მდე მონაწილის ტრანსპორტირება უზრუნველყო.<br><br></p>
+              <p>@lang('front.news-article-5-body')</p>
 
 
               <div class="index-read-more">
