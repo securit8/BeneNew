@@ -297,6 +297,19 @@
 
 
 <script>
+let navig = document.querySelector('ul');
+let office = document.querySelectorAll('p');
+
+office.forEach(element =>{
+  element.addEventListener('click', function(){
+    navig.querySelector('.checked').classList.remove('checked');
+    
+    element.classList.add('checked');
+  });
+});
+</script>
+
+<script>
 
   filterObjects("all");
 
@@ -360,14 +373,14 @@ for(var i = 0; i < reveal.length; i++){
 
 </script>
 
-<script>
+<!-- <script>
   const arrow = document.getElementById('arrow-down');
   const drop = document.getElementById('spec-sheet');
 
   arrow.addEventListener('click', () => {
     drop.classList.toggle('display');
   });
-</script>
+</script> -->
 
 <!-- Messenger Chat Plugin Code -->
 <div id="fb-root"></div>
@@ -376,14 +389,14 @@ for(var i = 0; i < reveal.length; i++){
 <div id="fb-customer-chat" class="fb-customerchat">
 </div>
 
-<script>
+<!-- <script>
   var chatbox = document.getElementById('fb-customer-chat');
   chatbox.setAttribute("page_id", "131929430792351");
   chatbox.setAttribute("attribution", "biz_inbox");
-</script>
+</script> -->
 
 <!-- Your SDK code -->
-<script>
+<!-- <script>
   window.fbAsyncInit = function() {
     FB.init({
       xfbml            : true,
@@ -398,7 +411,7 @@ for(var i = 0; i < reveal.length; i++){
     js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
-</script>
+</script> -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

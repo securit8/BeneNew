@@ -2810,9 +2810,17 @@ width:100%;
   color: #000000;
 }
 
-.all p:hover, .tbilisi p:hover, .qutaisi p:hover, .batumi p:hover{
+.contact-info-titles p:hover{
   transition: 0.3s;
   color:#007aff;
+}
+
+.contact-info-titles li{
+  list-style-type: none;
+}
+
+p.checked{
+  color: #007aff!important;
 }
 
 .contact-info-titles p{

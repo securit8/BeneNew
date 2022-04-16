@@ -70,12 +70,12 @@
                                 <p>@lang('front.contact-info')</p>
                             </div>
 
-                            <div class="contact-info-titles">
-                                <button class="all {{Request::is('all') ? 'current' : ''}}" onclick="filterObjects('all')"><p>@lang('front.srulad')</p></button>
-                                <button class="tbilisi {{Request::is('tbilisi') ? 'current' : ''}}" onclick="filterObjects('tbilisi')"><p>@lang('front.tbilisi')</p></button>
-                                <button class="qutaisi {{Request::is('qutaisi') ? 'current' : ''}}" onclick="filterObjects('qutaisi')"><p>@lang('front.qutaisi')</p></button>
-                                <button class="batumi {{Request::is('batumi') ? 'current' : ''}}" onclick="filterObjects('batumi')"><p>@lang('front.batumi')</p></button>
-                            </div>
+                            <ul class="contact-info-titles">
+                                <li><button class="all checked" class="office"  onclick="filterObjects('all')"><p>@lang('front.srulad')</p></button></li>
+                                <li><button class="tbilisi" class="office" onclick="filterObjects('tbilisi')"><p>@lang('front.tbilisi')</p></button></li>
+                                <li><button class="qutaisi" class="office" onclick="filterObjects('qutaisi')"><p>@lang('front.qutaisi')</p></button></li>
+                                <li><button class="batumi" class="office" onclick="filterObjects('batumi')"><p>@lang('front.batumi')</p></button></li>
+                            </ul>
 
                             <div class="contact-info-line">
                                 <hr>
