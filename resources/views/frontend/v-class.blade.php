@@ -88,7 +88,7 @@
                   </div>
                 </div>
 
-                <div id="#fleet-query" class="vehicle-spec-body-info-text">
+                <div id="fleet-query" class="vehicle-spec-body-info-text">
                     <p>@lang('front.fleet-car-8-inner')</p>
                     </div>
                   </div>

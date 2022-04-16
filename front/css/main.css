@@ -734,9 +734,6 @@ cursor: pointer;
     margin-left: 12.5%!important;
   }
 
-  .all{
-    display: none!important;
-  }
 
   .contact-page-title{
     grid-column: 24 / 39!important;
@@ -2811,6 +2808,11 @@ width:100%;
   width: 40%;
   justify-content: space-evenly;
   color: #000000;
+}
+
+.all p:hover, .tbilisi p:hover, .qutaisi p:hover, .batumi p:hover{
+  transition: 0.3s;
+  color:#007aff;
 }
 
 .contact-info-titles p{

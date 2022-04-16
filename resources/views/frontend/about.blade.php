@@ -81,50 +81,12 @@
 
 
 
-
-
-    <!-- <div class="about-page-part-3-middle">
-        <div class="about-page-part-3-inner">
-
-            <div class="about-vehicle-renewals">
-
-
-                <div class="about-vehicle-renewal-info">
-                    <div class="about-vehicle-renewal-title">
-                        <p>
-                            VEHICLE RENEWALS
-                        </p>
-                    </div>
-
-                    <div class="about-vehicle-renewal-text">
-                        <p>
-                        "Bene-Exclusive" is a company specializing in logistics working under the umbrella of "Bene-Group".
-                          Initially, the services of our company were limited to premium class vehicles, however today "Bene-Ecxlusive"
-                          represents a multi-profile company. Car renting as well as orginizing of Business Projects and Events have 
-                          been added to our list of services. "Bene-Exclusive" is a company specializing in logistics working under the
-                          umbrella of "Bene-Group". Initially, the services of our company were limited to premium class vehicles, however
-                          today "Bene-Ecxlusive" represents a multi-profile company. Car renting as well as orginizing of Business Projects 
-                          and Events have been added to our list of services.
-                        </p>
-                    </div>
-
-                </div>
-
-
-                <div class="about-vehicle-renewal-image">
-                    <img src="{{asset('front/images/about-1.png') }}" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
 <div class="about-news-part-2">
   <div class="about-news-part-2-middle">
     <div class="about-news-part-2-inner">
       <div class="about-news-header">
         <div class="about-news-header-title">
-          <p>@lang('front.news')</p>
+          <p>@lang('front.newsroom')</p>
         </div>
 
         <div class="news-see-all-button">
