@@ -71,10 +71,10 @@
                             </div>
 
                             <div class="contact-info-titles">
-                                <button class="all" onclick="filterObjects('all')"><p>@lang('front.srulad')</p></button>
-                                <button class="tbilisi" onclick="filterObjects('tbilisi')"><p>@lang('front.tbilisi')</p></button>
-                                <button class="qutaisi" onclick="filterObjects('qutaisi')"><p>@lang('front.qutaisi')</p></button>
-                                <button class="batumi" onclick="filterObjects('batumi')"><p>@lang('front.batumi')</p></button>
+                                <button class="all {{Request::is('all') ? 'current' : ''}}" onclick="filterObjects('all')"><p>@lang('front.srulad')</p></button>
+                                <button class="tbilisi {{Request::is('tbilisi') ? 'current' : ''}}" onclick="filterObjects('tbilisi')"><p>@lang('front.tbilisi')</p></button>
+                                <button class="qutaisi {{Request::is('qutaisi') ? 'current' : ''}}" onclick="filterObjects('qutaisi')"><p>@lang('front.qutaisi')</p></button>
+                                <button class="batumi {{Request::is('batumi') ? 'current' : ''}}" onclick="filterObjects('batumi')"><p>@lang('front.batumi')</p></button>
                             </div>
 
                             <div class="contact-info-line">
