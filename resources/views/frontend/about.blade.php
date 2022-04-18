@@ -182,7 +182,7 @@
 
               <div class="index-news-text">
                 <div class="news-date">
-                <p>7 აპრილი, 2022</p>
+                <p>7 @lang('front.april'), 2022</p>
                 </div>
 
                 <h6>@lang('front.news-article-1-header')</h6>
@@ -207,7 +207,7 @@
 
             <div class="index-news-text">
               <div class="news-date">
-              <p>21 მარტი, 2022</p>
+              <p>21 @lang('front.march'), 2022</p>
               </div>
 
               <h6>@lang('front.news-article-2-header') </h6>
@@ -234,7 +234,7 @@
 
             <div class="index-news-text">
               <div class="news-date">
-                <p>7 მარტი, 2022</p>
+                <p>7 @lang('front.march'), 2022</p>
               </div>
 
               <h6>@lang('front.news-article-3-header')</h6>
@@ -259,7 +259,7 @@
 
             <div class="index-news-text">
               <div class="news-date">
-              <p>24 თებერვალი, 2022</p>
+              <p>24 @lang('front.february'), 2022</p>
               </div>
 
               <h6>@lang('front.news-article-4-header')</h6>
@@ -286,7 +286,7 @@
 
             <div class="index-news-text">
               <div class="news-date">
-              <p>14 იანვარი, 2022</p>
+              <p>14 @lang('front.january'), 2022</p>
               </div>
 
               <h6>@lang('front.news-article-5-header')</h6>

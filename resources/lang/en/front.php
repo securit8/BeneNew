@@ -301,22 +301,25 @@ At the end of the course, participants receive a certificate, in accordance with
 // newsroom page
 'newsroom-header' => 'Newsroom',
 
-'news-article-1-header' => 'ბენე ექსკლუზივის გუნდის გამორჩეული წევრები',
-'news-article-1-body' => 'ბენე ექსკლუზივის გუნდში ქალი მძღოლებიც ისეთივე გამოცდილები და პროფესიონალები არიან, როგორც მამაკაცები.',
+'news-article-1-header' => '“Exclusive” members of Bene Exclusive team',
+'news-article-1-body' => 'Lady-drivers at Bene Exclusive are experienced and professional drivers like men.',
 
-'news-article-2-header' => 'ნებისმიერ ამინდზე მოგრებული ავტოპარკი',
-'news-article-2-body' => 'ბენე ექსკლუზივის მაღალი გამავლობის ავტომობილებისთვის თოვლი და უამინდობა დაბრკოლებას არ წარმოადგენს.',
+'news-article-2-header' => 'Fleet matching any weather<br><br>',
+'news-article-2-body' => 'Snow and bad weather aren’t an obstacle for Bene Exclusive SUVs.',
 
-'news-article-3-header' => 'Summit talks-ის პარტნიორი<br><br>',
-'news-article-3-body' => 'Summit Talks-ის 100-მდე მონაწილის უსაფრთხო და კომფორტული ტრანსპორტირება ბენე ექსკლუზივმა უზრუნველყო.<br>',
+'news-article-3-header' => 'Summit talk partner<br><br>',
+'news-article-3-body' => 'Bene Exclusive provided a safe and comfortable transportation to the 100 Summit talk participants.<br>',
 
-'news-article-4-header' => 'სოლიდარობა უკრაინელ მოქალაქეებს',
-'news-article-4-body' => 'ბენე ექსკლუზივი უკრაინის მოქალაქეებს თბილისის და ქუთაისის აეროპორტში უფასო ტრანსპორტირებას სთავაზობს.',
+'news-article-4-header' => 'Solidarity of citizens of Ukraine<br><br>',
+'news-article-4-body' => 'Bene Exclusive offers a free transfer to Tbilisi and Kutaisi airports for citizens of Ukraine.',
 
-'news-article-5-header' => 'ფარიკაობის მსოფლიო თასი 2022-ის პარტნიორი',
-'news-article-5-body' => 'ბენე ექსკლუზივმა ფარიკაობის მსოფლიო თასის 600-მდე მონაწილის ტრანსპორტირება უზრუნველყო.<br>',
+'news-article-5-header' => 'Fencing World Cup Partner 2022<br><br>',
+'news-article-5-body' => 'Bene Exclusive provided transportation and logistics support to 600 participants of the Fencing World Cup 2022.<br>',
 
-  
+'april' => 'April',
+'march' => 'March',
+'february' => 'February',
+'january' => 'January',
 // taxi page
 
 'taxi-page-text-1' => 'Since 2019 Bene Motors has maintained exclusive rights to service Tbilisi International Airport.<br><br> 
