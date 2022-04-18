@@ -313,7 +313,7 @@ At the end of the course, participants receive a certificate, in accordance with
 'news-article-4-header' => 'Solidarity of citizens of Ukraine<br><br>',
 'news-article-4-body' => 'Bene Exclusive offers a free transfer to Tbilisi and Kutaisi airports for citizens of Ukraine.',
 
-'news-article-5-header' => 'Fencing World Cup Partner 2022<br><br>',
+'news-article-5-header' => 'Fencing World Cup Partner 2022<br>',
 'news-article-5-body' => 'Bene Exclusive provided transportation and logistics support to 600 participants of the Fencing World Cup 2022.<br>',
 
 'april' => 'April',
