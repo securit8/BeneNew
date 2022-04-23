@@ -106,12 +106,12 @@ At Bene, our vision is to consistently work to high standards of service for the
                         The car was released in 2022 and is a premium full-size SUV with the maximum configuration.<br><br>
                         It differs from the previous model in its refined and modern design, comfortable and convenient interior.',
 
-'fleet-car-3-outer' => 'ჩვენი ავტოპაკის კიდევ ერთი დახვეწილი მოდელი არის Mercedes-Benz S-Class W222
-                      ავტომობილი წარმოებულია 2019 წელს და წარმოადგენს S-Class-ის მე-6 თაობას.',
-'fleet-car-3-inner' => 'ჩვენი ავტოპაკის კიდევ ერთი დახვეწილი მოდელი არის Mercedes-Benz S-Class W222
-                      ავტომობილი წარმოებულია 2019 წელს და წარმოადგენს S-Class-ის მე-6 თაობას.<br><br>
-                      ავტომობილი ხასიათდება Mercedes-Benz-ის ერთ-ერთ საუკეთესო მოდელად, რომლის
-                      სრულყოფილება თითოეულ დეტალში იგრძნობა.',
+'fleet-car-3-outer' => 'Another business class model of our fleet is the Mercedes-Benz S-Class W222, 
+                        the 6th generation of the S-Class released in 2019.',
+'fleet-car-3-inner' => 'Another business class model of our fleet is the Mercedes-Benz S-Class W222, 
+                        the 6th generation of the S-Class released in 2019.<br><br>
+                        This model belongs to one of the best Mercedes-Benz series,
+                         the perfection of which is felt in every detail.',
 
 'fleet-car-4-outer' => 'წარმოგიდგენთ ჩვენი ავტოპარკის კიდევ ერთ დახვეწილ მოდელს - Mercedes-Benz E-Class W213
                       ავტომობილი გამოშვებულია 2018 წელს და E-Class-ის მე-5 თაობას წარმოადგენს.',
