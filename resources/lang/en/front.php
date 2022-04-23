@@ -293,7 +293,7 @@ At the end of the course, participants receive a certificate, in accordance with
 'january' => 'January',
 // taxi page
 
-'taxi-page-text-1' => 'Since 2019 Bene Motors has maintained exclusive rights to service Tbilisi International Airport.<br><br> 
+'taxi-page-text-1' => 'Since 2019 Bene Exclusive has maintained exclusive rights to service Tbilisi International Airport.<br><br> 
                       We mostly use electric vehicles in taxi services, guarantee fixed rates of all our transfers,
                       and provide reliable and safe transportation. <br><br>',
 
