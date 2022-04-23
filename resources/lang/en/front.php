@@ -202,7 +202,7 @@ At Bene, our vision is to consistently work to high standards of service for the
 'fleet-electric-gas' => 'Eletctric',
 'fleet-hybrid' => 'Hybrid',
 'fleet-leather' => 'Leather',
-'fleet-cotton' => 'Chiffon',
+'fleet-cotton' => 'Fabric',
 'fleet-small' => 'Suitcases',
 'fleet-medium' => 'Suitcases',
 'fleet-large' => 'Suitcases',
