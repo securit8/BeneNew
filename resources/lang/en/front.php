@@ -165,7 +165,7 @@ At Bene, our vision is to consistently work to high standards of service for the
                          Comfortable seats and plenty of space between the rows make the ride comfortable and enjoyable.<br><br>
                          The audio system equipment is particularly suitable for sightseeing trips.',
 
-'fleet-car-12-outer' => 'Another great vehicle in our fleet is the Toyota Land Cruiser Prado, a mid-size SUV.<br><br>
+'fleet-car-12-outer' => 'Another great vehicle in our fleet is the Toyota Land Cruiser Prado, a mid-size SUV.
                         The car was released in 2017 and, despite its small size in the Land Cruiser series, it is equipped with an ultra-modern
                          multimedia system and the maximum configuration.',
 'fleet-car-12-inner' => 'Another great vehicle in our fleet is the Toyota Land Cruiser Prado, a mid-size SUV.<br><br>
