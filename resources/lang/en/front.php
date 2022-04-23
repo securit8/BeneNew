@@ -224,9 +224,9 @@ At Bene, our vision is to consistently work to high standards of service for the
 'fleet-hybrid' => 'Hybrid',
 'fleet-leather' => 'Leather',
 'fleet-cotton' => 'Chiffon',
-'fleet-small' => 'Small Size Suitcase',
-'fleet-medium' => 'Medium Size Suitcase',
-'fleet-large' => 'Large Size Suitcase',
+'fleet-small' => 'Suitcase',
+'fleet-medium' => 'Suitcase',
+'fleet-large' => 'Suitcase',
 'book-car' => 'Book Now',
 'kvt' => 'Kvt',
 
