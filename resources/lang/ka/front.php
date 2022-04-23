@@ -238,9 +238,9 @@ return [
 'fleet-hybrid' => 'ჰიბრიდი',
 'fleet-leather' => 'ტყავი',
 'fleet-cotton' => 'ნაჭერი',
-'fleet-small' => 'პატარა ზომის ჩემოდანი',
-'fleet-medium' => 'საშუალო ზომის ჩემოდანი',
-'fleet-large' => 'დიდი ზომის ჩემოდანი',
+'fleet-small' => 'ჩემოდანი',
+'fleet-medium' => 'ჩემოდანი',
+'fleet-large' => 'ჩემოდანი',
 'book-car' => 'დაჯავშნე ახლავე',
 'kvt' => 'კვტ',
 
