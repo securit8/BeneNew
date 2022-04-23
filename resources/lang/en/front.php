@@ -115,21 +115,18 @@ At Bene, our vision is to consistently work to high standards of service for the
                         This model belongs to one of the best Mercedes-Benz series,
                          the perfection of which is felt in every detail.',
 
-'fleet-car-4-outer' => 'წარმოგიდგენთ ჩვენი ავტოპარკის კიდევ ერთ დახვეწილ მოდელს - Mercedes-Benz E-Class W213
-                      ავტომობილი გამოშვებულია 2018 წელს და E-Class-ის მე-5 თაობას წარმოადგენს.',
-'fleet-car-4-inner' => 'წარმოგიდგენთ ჩვენი ავტოპარკის კიდევ ერთ დახვეწილ მოდელს - Mercedes-Benz E-Class W213
-                      ავტომობილი გამოშვებულია 2018 წელს და E-Class-ის მე-5 თაობას წარმოადგენს.<br><br>
-                      ავტომობილი გამოირჩევა ელეგანტურობით, სალონის დახვეწილი დიზაინით და
-                      საშუალო გაბარიტებით. მისი ეს მახასიათებლები მომხმარებლების განსაკუთრებულ
-                      სიმპატიას იმსახურებს.',
+'fleet-car-4-outer' => 'Introducing another popular model of our fleet - the Mercedes-Benz E-Class W213,
+                       released in 2018 and being the 5th generation of the E-class.',
+'fleet-car-4-inner' => 'Introducing another popular model of our fleet - the Mercedes-Benz E-Class W213,
+                       released in 2018 and being the 5th generation of the E-class.<br><br>
+                       The car is distinguished by elegance, sophisticated interior design and mid-size dimensions.
+                        Its characteristic deserves special sympathy and high demand of our customers.',
 
-'fleet-car-5-outer' => 'ჩვენი ავტოპარკის ჰიბირულ და ელექტო მანქანების რეიტინგში გამორჩეულ ადგილს
-                      Toyota Camry-ის მოდელი Sport Edition Hybrid-ი იკავებს.',
+'fleet-car-5-outer' => 'The Toyota Camry Sport Edition Hybrid occupies an important place in the ranking of hybrid and electric vehicles in our fleet.',
                       
-'fleet-car-5-inner' => 'ჩვენი ავტოპარკის ჰიბირულ და ელექტო მანქანების რეიტინგში გამორჩეულ ადგილს
-                      Toyota Camry-ის მოდელი Sport Edition Hybrid-ი იკავებს.<br><br>
-                      ეს დახვეწილი ჰიბრიდული სედანი წარმოებულია 2019 წელს და აღჭურვილია
-                      ულტრათანამედროვე მულტიმედია სისტემით და მაქსიმალური კომპლექტაციით.',
+'fleet-car-5-inner' => 'The Toyota Camry Sport Edition Hybrid occupies an important place in the ranking of hybrid and electric vehicles in our fleet.<br><br>
+                        This business class hybrid sedan has been in production since 2019 and is equipped with a top multimedia system and
+                         with an interior that`s both comfortable and convenient.',
 
 'fleet-car-6-outer' => 'სედანის ტიპის ელექტრომობილი Tesla Model 3 ჩვენი ავტოპარკის ერთ-ერთი
                       გამორჩეული და მოთხოვნადი მოდელია.

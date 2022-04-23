@@ -90,7 +90,7 @@
 
                 <div id="fleet-query" class="vehicle-spec-body-info-text">
                     <p>@lang('front.fleet-car-12-inner')</p>
-                    </div>
+                  
                   </div>
 
 
