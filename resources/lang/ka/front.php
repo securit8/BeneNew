@@ -226,7 +226,7 @@ return [
 'fleet-luggage' => 'ბარგის მოცულობა',
 'fleet-black' => 'შავი მეტალიკი',
 'fleet-white' => 'თეთრი',
-'fleet-silver' => 'ვერცხლისფერი მეტალიკი',
+'fleet-silver' => 'ვერცხლისფერი',
 'fleet-bus' => 'ავტობუსი',
 'fleet-minibus' => 'მიკროავტობუსი',
 'fleet-minivan' => 'მინივენი',

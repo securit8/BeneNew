@@ -186,7 +186,7 @@ return [
 'fleet-luggage' => 'Объем багажного отсека',
 'fleet-black' => 'Черный металлик',
 'fleet-white' => 'Белый',
-'fleet-silver' => 'Серебрянный металлик',
+'fleet-silver' => 'Серебрянный',
 'fleet-bus' => 'Автобус',
 'fleet-minibus' => 'Микроавтобус',
 'fleet-minivan' => 'Минивэн',
