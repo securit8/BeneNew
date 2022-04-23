@@ -254,7 +254,7 @@
                         </div>
 
 
-                        
+
 
                         <div class="fleet-element-3 reveal">
                             <div class="fleet-element-info">
@@ -406,6 +406,82 @@
                                     </div>
                         </div>
 
+
+
+                        <div class="fleet-element-13 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>TOYOTA RAV4</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>RAV4</p> 
+                                        <p>SUV</p>
+                                        <p>2018</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>@lang('front.fleet-car-13-outer')</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.rav4')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-13-image">
+                                    <img src="{{asset('front/images/rav4/1.png')}}" alt="">
+                                </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-13-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.rav4')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                        </div>
+
+
+                        <div class="fleet-element-12 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>TOYOTA LAND CRUISER PRADO</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>Land Cruiser</p> 
+                                        <p>SUV</p>
+                                        <p>2017</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>@lang('front.fleet-car-12-outer')</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.prado')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-12-image">
+                                    <img src="{{asset('front/images/prado/Prado1.png')}}" alt="">
+                                </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-12-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.prado')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                        </div>
+
+                        
 
 
                         <div class="fleet-element-7 reveal">
@@ -562,77 +638,8 @@
                         </div>
 
 
-                        <div class="fleet-element-12 reveal">
-                            <div class="fleet-element-info">
-                                    
-                                    <div class="element-info-header">
-                                        <p>TOYOTA LAND CRUISER PRADO</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
-                                    </div>
-                                    
-                                    <div class="element-info-tags">
-                                        <p>Land Cruiser</p> 
-                                        <p>SUV</p>
-                                        <p>2017</p>
-                                    </div>
-                                    
-                                    <div class="element-info-text">
-                                        <p>@lang('front.fleet-car-12-outer')</p>
-                                    </div>
-                                    
-                                    <div class="element-info-button">
-                                    <a href="{{route('frontend.prado')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
-                                    </div>
-                                    
-                                </div>
 
-                                <div class="fleet-element-12-image">
-                                    <img src="{{asset('front/images/prado/Prado1.png')}}" alt="">
-                                </div>
-
-                                    <div id="fleet-query" class="element-info-text">
-                                        <p>@lang('front.fleet-car-12-outer')</p>
-                                    </div>
-                                    
-                                    <div id="fleet-query" class="element-info-button">
-                                    <a href="{{route('frontend.prado')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
-                                    </div>
-                        </div>
-
-                        <div class="fleet-element-13 reveal">
-                            <div class="fleet-element-info">
-                                    
-                                    <div class="element-info-header">
-                                        <p>TOYOTA RAV4</p> <img src="{{asset('front/images/fleet-logo3.png')}}" alt="">
-                                    </div>
-                                    
-                                    <div class="element-info-tags">
-                                        <p>RAV4</p> 
-                                        <p>SUV</p>
-                                        <p>2018</p>
-                                    </div>
-                                    
-                                    <div class="element-info-text">
-                                        <p>@lang('front.fleet-car-13-outer')</p>
-                                    </div>
-                                    
-                                    <div class="element-info-button">
-                                    <a href="{{route('frontend.rav4')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
-                                    </div>
-                                    
-                                </div>
-
-                                <div class="fleet-element-13-image">
-                                    <img src="{{asset('front/images/rav4/1.png')}}" alt="">
-                                </div>
-
-                                    <div id="fleet-query" class="element-info-text">
-                                        <p>@lang('front.fleet-car-13-outer')</p>
-                                    </div>
-                                    
-                                    <div id="fleet-query" class="element-info-button">
-                                    <a href="{{route('frontend.rav4')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
-                                    </div>
-                        </div>
+                        
 
 
                       
