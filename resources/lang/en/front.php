@@ -94,17 +94,12 @@ At Bene, our vision is to consistently work to high standards of service for the
 
 // fleet page
 'vehicles' => 'Vehicles',
-'fleet-car-1-outer' => 'ჩვენი ავტოპარკის უახლესი მოდელი Mercedes-Benz S-Class W223
-                        ავტომობილი წარმოებულია 2022 წელს და წარმოადგენს S-Class-ის მე-7
-                        თაობას.',
- 'fleet-car-1-inner' => 'ჩვენი ავტოპარკის უახლესი მოდელი Mercedes-Benz S-Class W223.
-                        ავტომობილი წარმოებულია 2022 წელს და წარმოადგენს S-Class-ის მე-7
-                        თაობას.<br><br>
-                        ამ უახლეს და დახვეწილ ავტომობილს კიდევ უფრო კომფორტული, უსაფრთხო
-                        და მაღალი ტექნოლოგიის მახასიათებლები გააჩნია.
-                        უმაღლესი კლასის თანამედროვე ტექნოლოგიებითა და უნიკალური
-                        ინტერიერით გამორჩეული ყველაზე კომფორტული ბიზნეს კლასის სედანი
-                        თქვენს მგზავრობას დაუვიწყარს გახდის.',
+'fleet-car-1-outer' => 'The latest model of our fleet is the Mercedes-Benz S-Class W223.
+                       The car was produced in 2022 and is the 7th generation of the S-Class.',
+ 'fleet-car-1-inner' => 'The latest model of our fleet is the Mercedes-Benz S-Class W223.
+                         The car was produced in 2022 and is the 7th generation of the S-Class.<br><br>
+                         This modern and comfortable business class sedan, equipped with the latest technologies and a unique interior,
+                          will make your trip unforgettable.',
 
 'fleet-car-2-outer' => 'ავტომობილი წარმოებულია 2022 წელს და წარმოადგენს Land Cruiser- ის მაღალი
                       გამავლობის პრემიუმ კლასის ავტოსატრანსპორტო საშუალებას და წარმოდგენილია
