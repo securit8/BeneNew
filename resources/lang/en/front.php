@@ -152,32 +152,31 @@ At Bene, our vision is to consistently work to high standards of service for the
                        the car has a high cross-country ability and can maneuver on medium-difficulty roads.<br><br>
                        The minibus is equipped with comfortable seats and is perfect for long trips with bulk of luggage of any size.',
                     
-'fleet-car-10-outer' => 'ჩვენი ავტოპარკის წევრია პრემიუმ კლასის ავტობუსი - Mercedes-Benz Bus Tourismo
-                      Tourismo ავტობუსების კლასში ყველაზე უსაფრთხო და დაცულ ავტობუსად მოიაზრება.',
-'fleet-car-10-inner' => 'ჩვენი ავტოპარკის წევრია პრემიუმ კლასის ავტობუსი - Mercedes-Benz Bus Tourismo
-                      Tourismo ავტობუსების კლასში ყველაზე უსაფრთხო და დაცულ ავტობუსად მოიაზრება.<br><br>
-                      ავტობუსი აერთიანებს მაღალი ხარისხის სტანდარტებს, მაქსიმალურ კომფორტს და
-                      მდიდრულ ინტერიერს.',
+'fleet-car-10-outer' => 'The pride of our fleet is a premium bus - Mercedes-Benz Tourismo. 
+                        This model is considered the safest in the class of buses.',
+'fleet-car-10-inner' => 'The pride of our fleet is a premium bus - Mercedes-Benz Tourismo. 
+                        This model is considered the safest in the class of buses.<br><br>
+                        Mercedes-Benz Tourismo combines high quality standards, maximum comfort and a luxurious interior.',
 
-'fleet-car-11-outer' => 'წარმოგიდგენთ ჩვენი ავტოპარკის საშუალო ზომის ავტობუსს - Temsa Prestij SD
-                      ავტობუსი სპეციალურად შექმნილია მოკლე და საშუალო მანძილზე მგზავრობისთვის.',
-'fleet-car-11-inner' => 'წარმოგიდგენთ ჩვენი ავტოპარკის საშუალო ზომის ავტობუსს - Temsa Prestij SD
-                      ავტობუსი სპეციალურად შექმნილია მოკლე და საშუალო მანძილზე მგზავრობისთვის.<br><br>
-                      კომფორტული სავარძლები და რიგებს შორის დიდი მანძილი მგზავრობას სასიამოვნოს
-                      და კომფორტულს ხდის.Mbr><br>
-                      აუდიო სისტემის აღჭურვილობა განსაკუთრებულად კომფორტულია საექსკურსიო
-                      მოგზაურობისთვის.',
+'fleet-car-11-outer' => 'Our fleet of vehicles is a medium-sized bus model - Temsa Prestij SD,
+                         specially designed for short and medium distance trips.',
+'fleet-car-11-inner' => 'Our fleet of vehicles is a medium-sized bus model - Temsa Prestij SD,
+                         specially designed for short and medium distance trips.<br><br>
+                         Comfortable seats and plenty of space between the rows make the ride comfortable and enjoyable.<br><br>
+                         The audio system equipment is particularly suitable for sightseeing trips.',
 
-'fleet-car-12-outer' => 'ჩვენი ავტოპარკის კიდევ ერთი ლეგენდარული წევრია Toyota Land Cruiser Prado.<br><br>
-                        ავტომობილი წარმოებულია 2017 წელს და Land Cruiser-ის სერიაში გამოირჩევა
-                        შედარებით მცირე გაბარიტებით, თუმცა წარმოდგენილია მაღალი კომპლექტაციით და
-                        თანამედროვე მულტიმედია ფუქნციებით.',
-'fleet-car-12-inner' => 'ჩვენი ავტოპარკის კიდევ ერთი ლეგენდარული წევრია Toyota Land Cruiser Prado.<br><br>
-                        ავტომობილი წარმოებულია 2017 წელს და Land Cruiser-ის სერიაში გამოირჩევა
-                        შედარებით მცირე გაბარიტებით, თუმცა წარმოდგენილია მაღალი კომპლექტაციით და
-                        თანამედროვე მულტიმედია ფუქნციებით.<br><br>
-                        სრული 4X4 ფუნქციის საშუალებით ეს მოდელი თავდაჯერებულად გადაადგილდება
-                        როგორც ქალაქის პირობებში, ასევე საშუალო სირთულის უგზოობაშიც.',
+'fleet-car-12-outer' => 'Another great vehicle in our fleet is the Toyota Land Cruiser Prado, a mid-size SUV.<br><br>
+                        The car was released in 2017 and, despite its small size in the Land Cruiser series, it is equipped with an ultra-modern
+                         multimedia system and the maximum configuration.',
+'fleet-car-12-inner' => 'Another great vehicle in our fleet is the Toyota Land Cruiser Prado, a mid-size SUV.<br><br>
+                        The car was released in 2017 and, despite its small size in the Land Cruiser series, it is equipped with an ultra-modern
+                         multimedia system and the maximum configuration.<br><br>',
+                         
+'fleet-car-13-outer' => 'One of well known vehicles in our fleet is the compact crossover Toyota Rav4.
+                         The car was manufactured in 2018 and is a Toyota economy SUV that allows you to travel safely wherever you want.',
+'fleet-car-13-inner' => 'One of well known vehicles in our fleet is the compact crossover Toyota Rav4.
+                         The car was manufactured in 2018 and is a Toyota economy SUV that allows you to travel safely wherever you want.<br><br>
+                         The model is distinguished by high safety standards, a spacious interior and a modern multimedia system.',
 
 
 'fleet-creator' => 'MANUFACTURER',
