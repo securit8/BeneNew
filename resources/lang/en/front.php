@@ -101,15 +101,10 @@ At Bene, our vision is to consistently work to high standards of service for the
                          This modern and comfortable business class sedan, equipped with the latest technologies and a unique interior,
                           will make your trip unforgettable.',
 
-'fleet-car-2-outer' => 'ავტომობილი წარმოებულია 2022 წელს და წარმოადგენს Land Cruiser- ის მაღალი
-                      გამავლობის პრემიუმ კლასის ავტოსატრანსპორტო საშუალებას და წარმოდგენილია
-                      მაქსიმალური კომპლექტაციით.',
-'fleet-car-2-inner' => 'ჩვენი ავტოპაკის ერთ-ერთი წევრი არის უახლესი Toyota Land Cruiser 300.<br><br>
-                      ავტომობილი წარმოებულია 2022 წელს და წარმოადგენს Land Cruiser- ის მაღალი
-                      გამავლობის პრემიუმ კლასის ავტოსატრანსპორტო საშუალებას და წარმოდგენილია
-                      მაქსიმალური კომპლექტაციით.<br><br>
-                      წინა მოდელთან შედარებით მას უფრო მეტად დახვეწილი დიზაინი, კომფორტული
-                      ინტერიერი და თანამედროვე დიზაინი გამოარჩევს.',
+'fleet-car-2-outer' => 'Our fleet introduces the all-new, more powerful, Land Cruiser 300.',
+'fleet-car-2-inner' => 'Our fleet introduces the all-new, more powerful, Land Cruiser 300.<br><br>
+                        The car was released in 2022 and is a premium full-size SUV with the maximum configuration.<br><br>
+                        It differs from the previous model in its refined and modern design, comfortable and convenient interior.',
 
 'fleet-car-3-outer' => 'ჩვენი ავტოპაკის კიდევ ერთი დახვეწილი მოდელი არის Mercedes-Benz S-Class W222
                       ავტომობილი წარმოებულია 2019 წელს და წარმოადგენს S-Class-ის მე-6 თაობას.',
