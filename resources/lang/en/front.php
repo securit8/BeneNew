@@ -28,6 +28,7 @@ return [
   'bus' => 'Bus',
   'coupe' => 'Coupe',
   'footer-text' => 'Follow us and use the following social media<br> platforms to get in contact with us',
+  'fully' => 'Show More',
 
 
 
