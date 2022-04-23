@@ -128,34 +128,23 @@ At Bene, our vision is to consistently work to high standards of service for the
                         This business class hybrid sedan has been in production since 2019 and is equipped with a top multimedia system and
                          with an interior that`s both comfortable and convenient.',
 
-'fleet-car-6-outer' => 'სედანის ტიპის ელექტრომობილი Tesla Model 3 ჩვენი ავტოპარკის ერთ-ერთი
-                      გამორჩეული და მოთხოვნადი მოდელია.
-                      Model 3 არის სრულად ელექტრო და სრული დამუხტვით 400 კილომეტრამდე მანძილს
-                      ფარავს.',
-'fleet-car-6-inner' => 'სედანის ტიპის ელექტრომობილი Tesla Model 3 ჩვენი ავტოპარკის ერთ-ერთი
-                      გამორჩეული და მოთხოვნადი მოდელია.<br><br>
-                      Model 3 არის სრულად ელექტრო და სრული დამუხტვით 400 კილომეტრამდე მანძილს
-                      ფარავს.',
+'fleet-car-6-outer' => 'With a near ideal blend of performance, driving range, and accessible pricing,
+                       the 2020 Tesla Model 3 is an electric vehicle that was always on high demand.',
+'fleet-car-6-inner' => 'With a near ideal blend of performance, driving range, and accessible pricing,
+                       the 2020 Tesla Model 3 is an electric vehicle that was always on high demand.<br><br>
+                       The Model 3 is all-electric and can cover up to 400 km when fully charged.',
 
-'fleet-car-7-outer' => 'ჩვენი ავტოპარკის ერთ-ერთი წევრია ლეგენდარული Toyota Land Cruiser 200
-                      ავტომობილი წარმოებულია 2019 წელს და ის Toyota- ს ფირმის ერთ-ერთ წარმატებულ,
-                      მაღალი გამავლობის ავტოსატრანსპორტო საშუალებას წარმოადგენს.',
-'fleet-car-7-inner' => 'ჩვენი ავტოპარკის ერთ-ერთი წევრია ლეგენდარული Toyota Land Cruiser 200
-                      ავტომობილი წარმოებულია 2019 წელს და ის Toyota- ს ფირმის ერთ-ერთ წარმატებულ,
-                      მაღალი გამავლობის ავტოსატრანსპორტო საშუალებას წარმოადგენს.<br><br>
-                      ამ მოდელს თვალშისაცემი დიზაინი, გაუმჯობესებული ინტერიერი და გამავლობა მას
-                      შეუდარებელ 4X4 ავტომობილად აქცევს.',
+'fleet-car-7-outer' => 'Our fleet also includes the legendary Toyota Land Cruiser 200, which is one of Toyota`s
+                       most successful full-size SUVs.',
+'fleet-car-7-inner' => 'Our fleet also includes the legendary Toyota Land Cruiser 200, which is one of Toyota`s
+                        most successful full-size SUVs.<br><br>
+                        Bright design, improved interior and cross-country ability make this model the undisputed leader in the SUV category.',
 
-'fleet-car-8-outer' => 'ჩვენი ავტოპაკის ერთ-ერთი წევრი არის კომფორტული Mercedes-Benz V-Class
-                      V-Class არის ბიზნეს კლასის მინივენი, რომელშიც კომფორტულად თავსდება 5-6
-                      ადამიანი.',
-'fleet-car-8-inner' => 'ჩვენი ავტოპაკის ერთ-ერთი წევრი არის კომფორტული Mercedes-Benz V-Class
-                      V-Class არის ბიზნეს კლასის მინივენი, რომელშიც კომფორტულად თავსდება 5-6
-                      ადამიანი. შთაბეჭდილებას ახდენს ტექნოლოგიების თანამედროვე აჭღურვილობით და
-                      პრემიუმ კლასის დიზაინით.<br><br>
-                       ავტომობილი იდეალურია დიდ მანძილზე გადასაადგილებლად, აქვს მოცულობითი
-                      ბარგის გადატანის საშუალება, გასაშლელი მაგიდა სამუშაოდ და სხვა კომფორტზე
-                      ორიენტირებული მახასიათებლები.',
+'fleet-car-8-outer' => 'Our fleet includes a Mercedes-Benz V-Class business class minivan that comfortably accommodates 5-6 people. The minivan is equipped modern technology and premium design.',
+'fleet-car-8-inner' => 'Our fleet includes a Mercedes-Benz V-Class business class minivan that comfortably accommodates 5-6 people.
+                       The minivan is equipped modern technology and premium design.<br><br>
+                       The car is ideal for long trips, has the ability to carry bulky luggage, 
+                       a folding table for work and other features focused on the convenience of passengers.',
 
 'fleet-car-9-outer' => 'ჩვენი ავტოპარკის წევრია მაღალი კლასის მიკროავტობუსი - Mercedes-Benz Sprinter 515
                     Sprinter-ის უპირატესობა მდგომარეობს იმაში, რომ მძლავრი ძრავის მეშვეობით
