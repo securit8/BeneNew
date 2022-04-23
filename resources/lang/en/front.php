@@ -146,17 +146,11 @@ At Bene, our vision is to consistently work to high standards of service for the
                        The car is ideal for long trips, has the ability to carry bulky luggage, 
                        a folding table for work and other features focused on the convenience of passengers.',
 
-'fleet-car-9-outer' => 'ჩვენი ავტოპარკის წევრია მაღალი კლასის მიკროავტობუსი - Mercedes-Benz Sprinter 515
-                    Sprinter-ის უპირატესობა მდგომარეობს იმაში, რომ მძლავრი ძრავის მეშვეობით
-                    ავტომობილს აქვს მაღალი გამავლობის უნარი და შეუძლია საშუალო სირთულის
-                    გზებზე მანევრირება.',
-'fleet-car-9-inner' => 'ჩვენი ავტოპარკის წევრია მაღალი კლასის მიკროავტობუსი - Mercedes-Benz Sprinter 515
-                    Sprinter-ის უპირატესობა მდგომარეობს იმაში, რომ მძლავრი ძრავის მეშვეობით
-                    ავტომობილს აქვს მაღალი გამავლობის უნარი და შეუძლია საშუალო სირთულის
-                    გზებზე მანევრირება.<br><br>
-                    სავარძლების ქარხნული კომპლექტაცია მგზავრს საშუალებას აძლევს მოთავსდეს
-                    კომფორტულად შორ მანძილზე მგზავრობისას და თან დაცული იყოს უსაფრთხოების
-                    მაქსიმალური მოთხოვნები.',
+'fleet-car-9-outer' => 'Our fleet includes a high-class minibus - Mercedes-Benz Sprinter 515. Its advantage is that, thanks to a powerful engine, 
+                      the car has a high cross-country ability and can maneuver on medium-difficulty roads.',
+'fleet-car-9-inner' => 'Our fleet includes a high-class minibus - Mercedes-Benz Sprinter 515. Its advantage is that, thanks to a powerful engine,
+                       the car has a high cross-country ability and can maneuver on medium-difficulty roads.<br><br>
+                       The minibus is equipped with comfortable seats and is perfect for long trips with bulk of luggage of any size.',
                     
 'fleet-car-10-outer' => 'ჩვენი ავტოპარკის წევრია პრემიუმ კლასის ავტობუსი - Mercedes-Benz Bus Tourismo
                       Tourismo ავტობუსების კლასში ყველაზე უსაფრთხო და დაცულ ავტობუსად მოიაზრება.',
