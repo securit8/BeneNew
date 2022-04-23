@@ -323,7 +323,7 @@ return [
 'news-article-1-body' => 'Представительницы нежного пола в команде Bene Exclusive неменее опытные водители и
                           профессионалы своего дела, как и мужчины.<br><br>',
 
-'news-article-2-header' => 'АВТОПАРК ОРИЕНТИРОВАННЫЙ НА ЛЮБУЮ ПОГОДУ.',
+'news-article-2-header' => 'Автопарк, ориентированный на любую погоду<br><br>.',
 'news-article-2-body' => 'Снег и непогода не помеха для внедорожников Bene Exclusive.<br><br>',
 
 'news-article-3-header' => '<br>Партнер Summit talk<br>',
