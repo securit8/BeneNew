@@ -102,7 +102,8 @@ At Bene, our vision is to consistently work to high standards of service for the
                          This modern and comfortable business class sedan, equipped with the latest technologies and a unique interior,
                           will make your trip unforgettable.',
 
-'fleet-car-2-outer' => 'Our fleet introduces the all-new, more powerful, Land Cruiser 300.',
+'fleet-car-2-outer' => 'Our fleet introduces the all-new, more powerful, Land Cruiser 300.<br>
+                        The car was released in 2022 and is a premium full-size SUV with the maximum configuration.<br><br>',
 'fleet-car-2-inner' => 'Our fleet introduces the all-new, more powerful, Land Cruiser 300.<br><br>
                         The car was released in 2022 and is a premium full-size SUV with the maximum configuration.<br><br>
                         It differs from the previous model in its refined and modern design, comfortable and convenient interior.',
