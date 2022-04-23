@@ -186,7 +186,7 @@ At Bene, our vision is to consistently work to high standards of service for the
 'fleet-year' => 'YEAR',
 'fleet-engine' => 'ENGINE',
 'fleet-fuel' => 'FUEL',
-'fleet-interior' => 'Seat Trim',
+'fleet-interior' => 'SEAT TRIM',
 'fleet-passanger' => 'SEAT CAPACITY',
 'fleet-luggage' => 'LUGGAGE CAPACITY',
 'fleet-black' => 'Black Metallic',
