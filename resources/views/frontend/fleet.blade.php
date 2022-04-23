@@ -216,6 +216,46 @@
 
                             </div>
 
+
+                            <div class="fleet-element-8 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>MERCEDES-BENZ V CLASS</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>V-class</p> 
+                                        <p>Minivan</p>
+                                        <p>2020</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>@lang('front.fleet-car-8-outer')</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.v-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-8-image">
+                                    <img src="{{asset('front/images/Mercedes-Benz-V-class-2019.png')}}" alt="">
+                                </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-8-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.v-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                        </div>
+
+
+                        
+
                         <div class="fleet-element-3 reveal">
                             <div class="fleet-element-info">
                                     
@@ -405,43 +445,6 @@
                         </div>
 
 
-
-
-                        <div class="fleet-element-8 reveal">
-                            <div class="fleet-element-info">
-                                    
-                                    <div class="element-info-header">
-                                        <p>MERCEDES-BENZ V CLASS</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
-                                    </div>
-                                    
-                                    <div class="element-info-tags">
-                                        <p>V-class</p> 
-                                        <p>Minivan</p>
-                                        <p>2020</p>
-                                    </div>
-                                    
-                                    <div class="element-info-text">
-                                        <p>@lang('front.fleet-car-8-outer')</p>
-                                    </div>
-                                    
-                                    <div class="element-info-button">
-                                    <a href="{{route('frontend.v-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
-                                    </div>
-                                    
-                                </div>
-
-                                <div class="fleet-element-8-image">
-                                    <img src="{{asset('front/images/Mercedes-Benz-V-class-2019.png')}}" alt="">
-                                </div>
-
-                                    <div id="fleet-query" class="element-info-text">
-                                        <p>@lang('front.fleet-car-8-outer')</p>
-                                    </div>
-                                    
-                                    <div id="fleet-query" class="element-info-button">
-                                    <a href="{{route('frontend.v-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
-                                    </div>
-                        </div>
 
 
 
