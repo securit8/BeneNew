@@ -142,7 +142,7 @@
                                     
                                     <div class="location-part-3">
                                     <i class="fa-solid fa-phone"></i>
-                                    <p>(+995) 591619210</p>
+                                    <p>(+995) 593493749</p>
                                     </div>
                                     
                                     <div class="location-part-4">
