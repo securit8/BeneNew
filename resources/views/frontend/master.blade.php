@@ -22,7 +22,14 @@
 <script src="https://kit.fontawesome.com/5c894f6509.js" crossorigin="anonymous"></script>
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9CSXFYW6Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-E9CSXFYW6Q');
+</script>
 
     <title> @yield('title')</title>
   </head>
