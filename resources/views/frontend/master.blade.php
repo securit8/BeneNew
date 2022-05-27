@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<html lang="ka">
+<html lang="">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="msapplication-TleImage" content="http://">
-    <meta name="keywords" content="ბენე,ექსკლუზივი,გაქირავება,დაქირავება,ქირაობა,დაჯავშნა,მანქანა,მანქანები,მანქანის,სედანი,ჯიპი,მინივენი,ჰიბრიდი,დღიურად,ავტოპარკი,ტრანსფერი,მომსახურება,ტურები,საქართველო,თბილისი,ბათუმი,ბიუჯეტური,ფასი
-прокат,аренда,бене,эксклюзив,автомобиль,авто,автопарк,седаны,гибриды,джип,минивэн,бронирование,страхование,повседневная,трансфер,сервис,туры,тбилиси,батуми,бюджет,цена
-rental,rent,bene,exclusive,car,cars,auto,sedans,hybrids,suv,minivan,daily,booking,insurance,fleet,autopark,transfer,service,tours,georgia,tbilisi,batumi,budget,price ">
-    <meta name="description" content="ბენე მანქანის გაქირავება, ექსკლუზივი მანქანის გაქირავება, მანქანის გაქირავება, ბიუჯეტური ანქანის გაქირავება, თბილისი მანქანის გაქირავება,სედანი, ჯიპი, მინივენი,ავტობუსი,ჰიბრიდი, მანქანის გაქირავება საქართველოში, მანქანების გაქირავების კომპანიები, იაფი მანქანის გაქირავება,მანქანის გაქირავება თბილისში, მანქანის გაქირავება საქართველოში, თბილისის აეროპორტი მანქანების გაქირავება, ბათუმის აეროპორტი მანქანების გაქირავება, ეკონომიური მანქანის გაქირავება, ძვირადღირებული მანქანების გაქირავება საქართველოში,ძვირადღირებული მანქანების გაქირავება თბილისში, ძვირადღირებული მანქანების გაქირავება ბათუმში, მძღოლით მანქანების გაქირავება, უმძღოლოთ მანქანების გაქირავება,bene car rental, exclusive car rental, car rental, budget car rental, tbilisi car rental, best car rental, georgia car rental, car rental companies,sedan,suv,minivan,bus,hybrid, cheap car rental,rent a car tbilisi, rent a car georgia, car rental deals, tbilisi airport car rental, batumi airport car rental, economy car rental, luxury car rental georgia,luxury car rental tbilisi, luxury car rental batumi, car rental with driver, car rental without driver,бене прокат автомобилей, эксклюзив прокат автомобилей, прокат автомобилей, бюджетный прокат автомобилей, тбилиси прокат автомобилей, лучший прокат автомобилей, прокат автомобилей в грузии,седан,джип,микроавтобус,автобус,гибрид компании по аренде автомобилей, дешевый прокат автомобилей,аренда авто тбилиси, аренда авто грузия, сделки по аренде автомобилей, прокат автомобилей в аэропорту тбилиси, прокат автомобилей в аэропорту Батуми, прокат автомобилей эконом-класса, прокат элитных автомобилей в грузии,прокат роскошных автомобилей тбилиси, прокат элитных автомобилей в батуми, aренда автомобиля без водителя, aренда автомобиля с водителем,">
-    <meta property="og:bene-exclusive.com" content="Bene Exclusive">
+      <meta property="og:bene-exclusive.com" content="Bene Exclusive">
     <meta property="og:image" itemprop="image" content="front/images/partners-logo.png">
     <meta property="og:type" content="website" />
     <meta property="og:image:type" content="image/png">
