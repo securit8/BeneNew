@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="msapplication-TleImage" content="http://">
+    <meta name="keywords" content="@lang('front.metatags')">
     <meta property="og:bene-exclusive.com" content="Bene Exclusive">
     <meta property="og:image" itemprop="image" content="front/images/partners-logo.png">
     <meta property="og:type" content="website" />

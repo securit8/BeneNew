@@ -1,5 +1,10 @@
 <?php
 return [
+  /* meta keywords*/
+  'metatags' => 'bene car rental, exclusive car rental, car rental, budget car rental, tbilisi car rental, best car rental, 
+  georgia car rental, car rental companies,sedan,suv,minivan,bus,hybrid, cheap car rental,   rent a car tbilisi, rent a car georgia,
+   car rental deals, tbilisi airport car rental, batumi airport car rental, economy car rental, luxury car rental georgia,
+  luxury car rental tbilisi, luxury car rental batumi, car rental with driver, car rental without driver,',
   /* header and footer*/
   'home' => 'Home',
   'about' => 'About Bene',
