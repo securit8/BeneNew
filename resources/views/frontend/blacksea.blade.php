@@ -107,7 +107,7 @@
 
 <section id="news" >
 
-
+<img width="100%" src="{{ asset('../front/assets/images/limperatrice.jpeg') }}" >
 
 
 <div class="container p-0">
