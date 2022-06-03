@@ -131,6 +131,10 @@ class RoutesController extends Controller
         return view('frontend.mercedes-event');
     }
 
+    public function blacksea() {
+        return view('frontend.blacksea');
+    }
+
     public function distribution(){
         return view('frontend.distribution');
     }
