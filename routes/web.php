@@ -28,6 +28,7 @@ Route::get('/motors', [RoutesController::class, 'motors'])->name('frontend.motor
 Route::get('/contact', [RoutesController::class, 'contact'])->name('frontend.contact');
 Route::get('/electric', [RoutesController::class, 'electric'])->name('frontend.electric');
 Route::get('/events', [RoutesController::class, 'events'])->name('frontend.events');
+Route::get('/events/LImperatrice', [RoutesController::class, 'blacksea'])->name('frontend.blacksea');
 
 
 Route::get('/article1', [RoutesController::class, 'article1'])->name('frontend.news-article1');

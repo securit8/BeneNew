@@ -145,7 +145,7 @@
           </div>
 
           <div class="contact-number">
-          <img src="{{asset('front/images/logo/headphones.svg')}}" alt="">
+          <img src="{{asset('../front/images/logo/headphones.svg')}}" alt="">
           
           <p>@lang('front.call-center')</p>
           </div>
