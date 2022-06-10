@@ -100,7 +100,7 @@
     <div class ="row my-5 buy_ticket">
 <h2 class="my-5">ბილეთები</h2>
 <p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">თბილისი </p>        
-<p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის წერეთლის გამოფენის ტერიტორიის პარკინგიდან 10:00 საათზე</p>
+<p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის წერეთლიდან, გამოფენის ტერიტორიის პარკინგიდან 10:00 საათზე</p>
 <form class="form-horizontal col-12" method="POST" action="">
   {{ csrf_field() }}
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
@@ -109,13 +109,13 @@
     <input type="hidden" name="tourName" value="Cruiser_Airport" />
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
-      <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
-      <button  type="button" class="circle circle2 plus">+</button></p>
+  <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button id="tminus" type="button" class="circle minus" style="font-size: 22px;">-</button>
+      <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+      <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value=""></span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="50"></span>&nbsp;ლარი</p>
   </div>
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
@@ -134,17 +134,16 @@
   {{ csrf_field() }}
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-5  ticket_padding_top">
-    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ერთი გზა)</p>
+    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ორი გზა)</p>
     <input type="hidden" name="tourName" value="Cruiser_Airport" />
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
-      <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
-      <button  type="button" class="circle circle2 plus">+</button></p>
-
+  <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button type="button" class="circle minus" style="font-size: 22px;">-</button>
+      <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+      <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button></p>
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value=""></span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="80"></span>&nbsp;ლარი</p>
   </div>
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
@@ -153,7 +152,7 @@
 </form>
 
 <p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">ქუთაისი </p>        
-<p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის ჭავჭავაძის ავტოსასდგურიდან (Mcdonald's ის მიმდებარედ) 14:00 საათზე</p>
+<p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის ჭავჭავაძის ავტოსადგურიდან (Mcdonald's ის მიმდებარედ) 14:00 საათზე</p>
 <form class="form-horizontal col-12" method="POST" action="">
   {{ csrf_field() }}
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
@@ -162,42 +161,35 @@
     <input type="hidden" name="tourName" value="Cruiser_Airport" />
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
-      <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
-      <button  type="button" class="circle circle2 plus">+</button></p>
+  <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button type="button" class="circle minus" style="font-size: 22px;">-</button>
+      <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+      <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value=""></span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="30"></span>&nbsp;ლარი</p>
   </div>
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
     <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
   </div>
-
-
-
   </div>
-  
- 
-
-
 </form>
 <form class="form-horizontal col-12" method="POST" action="">
   {{ csrf_field() }}
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-5  ticket_padding_top">
-    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ერთი გზა)</p>
+    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ორი გზა)</p>
     <input type="hidden" name="tourName" value="Cruiser_Airport" />
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
-      <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
-      <button  type="button" class="circle circle2 plus">+</button></p>
+  <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button type="button" class="circle minus" style="font-size: 22px;">-</button>
+      <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+      <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value=""></span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="50"></span>&nbsp;ლარი</p>
   </div>
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
@@ -212,46 +204,39 @@
   {{ csrf_field() }}
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-5  ticket_padding_top">
-    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ერთი გზა)</p>
+    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">ბათუმი - Black Sea Arena (ერთი გზა)</p>
     <input type="hidden" name="tourName" value="Cruiser_Airport" />
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
-      <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
-      <button  type="button" class="circle circle2 plus">+</button></p>
+  <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button type="button" class="circle minus" style="font-size: 22px;">-</button>
+      <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+      <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value=""></span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="25"></span>&nbsp;ლარი</p>
   </div>
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
     <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
   </div>
-
-
-
   </div>
-  
- 
-
-
 </form>
 <form class="form-horizontal col-12" method="POST" action="">
   {{ csrf_field() }}
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-5  ticket_padding_top">
-    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ერთი გზა)</p>
+    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">ბათუმი - Black Sea Arena (ორი გზა)</p>
     <input type="hidden" name="tourName" value="Cruiser_Airport" />
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
-      <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
-      <button  type="button" class="circle circle2 plus">+</button></p>
+  <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button type="button" class="circle minus" style="font-size: 22px;">-</button>
+      <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+      <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button></p>
 
   </div>
   <div class = "col-2 ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value=""></span>&nbsp;ლარი</p>
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="40"></span>&nbsp;ლარი</p>
   </div>
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
@@ -265,7 +250,9 @@
 
 
 
+<Script>
 
+  </script>
 
 </body>
 
