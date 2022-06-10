@@ -51,30 +51,7 @@
 <div class="bene_logo"><a href="/"><img src="{{asset('../front/images/header-logo.png') }}" ></a></div>
    
   
-    <div id="navibar">
-
-      <div class="about {{Request::is('about') ? 'current' : ''}}"><a href="{{route('frontend.about')}}">@lang('front.about')</a></div>
-      <div class ="nav-line"><p>|</p></div>
-      <!-- <div class="about {{Request::is('news') ? 'current' : ''}}"><a href="{{route('frontend.news')}}">@lang('front.news')</a></div>
-      <div class ="nav-line"><p>|</p></div> -->
-      <div class="autopark {{Request::is('fleet') ? 'current' : ''}}"><a href="{{route('frontend.fleet')}}">@lang('front.fleet')</a></div>
-      <div class ="nav-line"><p>|</p></div>
-      <div class="electric {{Request::is('electric') ? 'current' : ''}}"><a href="{{route('frontend.electric')}}"><img src="{{asset('../front/images/line.svg')}}">@lang('front.electric')</a></div>
-      <div class ="nav-line"><p>|</p></div>
-      <div class="motors {{Request::is('motors') ? 'current' : ''}}"><a href="{{route('frontend.motors')}}">@lang('front.motors')</a></div>
-      <div class ="nav-line"><p>|</p></div>
-      <div class="rent {{Request::is('car-rent') ? 'current' : ''}}"><a href="{{route('frontend.car-rent')}}">@lang('front.rent')</a></div>
-      <div class ="nav-line"><p>|</p></div>
-      <div class="academy {{Request::is('academy') ? 'current' : ''}}"><a href="{{route('frontend.academy')}}">@lang('front.academy')</a></div>
-      <div class ="nav-line"><p>|</p></div>
-      <div class="events {{Request::is('taxi') ? 'current' : ''}}"><a href="{{route('frontend.taxi')}}">@lang('front.taxi')</a></div>
-      <div class ="nav-line"><p>|</p></div>
-      <div class="events {{Request::is('events') ? 'current' : ''}}"><a href="{{route('frontend.events')}}">@lang('front.events')</a></div>
-      <div class ="nav-line"><p>|</p></div>
-      <div class="partners {{Request::is('partners') ? 'current' : ''}}"><a href="{{route('frontend.partners')}}">@lang('front.partners')</a></div>
-
-      <div class="contact {{Request::is('contact') ? 'current' : ''}}"><a href="{{route('frontend.contact')}}"><img src="{{asset('../front/images/logo/headphones.svg')}}" >@lang('front.contact-header-1')</a></div>
-    </div>
+    
 
     <div class="Language-select">
 
@@ -115,24 +92,20 @@
    <h4 class = "mt-4 d-block">ღონისძიების შესახებ:</h4>
         <!--<img class="inner_news_image" src="{{ asset('front/assets/images/shuttle.jpg') }}" width="300"  height="500" >-->
     <div class="row ">
-      <div class="col-md-12 pt-3 mt-3 ml-3 background_252525 color_white border_radius_25" style="border-top:1px solid #c7c7c7;">
-      <p>15 აგვისტოს Black Sea Arena-ის ეზოში მდებარე Front Stage-ი L'Impératrice-ის კონცერტს უმასპიძლებს. Front Stage-ი Black Sea Arena-ის ექსპერიმენტული სცენაა და ღონისძიებების ღია სივრცეში გამართვის შესაძლებლობას გვაძლევს. ეს სიახლე საშუალებას მოგვცემს 2022 წლის 15 აგვისტოს ისევ შევხვდეთ ერთმანეთს, თავისუფლად გავცვალოთ დადებითი ენერგიები ერთ სიბრტყეზე და ყველაზე ცხელ სეზონზე ყველაზე ფერადი თავგადასავალი მოვიწყოთ.
-
-L'Impératrice ფრანგული დისკო-პოპ ბენდია, რომელიც 2012 წელს დაფუძნდა. თანამედროვე დისკოსა და ფრანგული პოპის შერწმით შექმნილმა მუსიკამ L'Impératrice-ს მსოფლიოს მასშტაბით გაუთქვა სახელი და თანამედროვეობის ერთ-ერთ ცნობილ ბენდად ჩამოაყალიბა. ბენდის წევრები არ მალავენ, რომ მათი მთავარი შთაგონების წყარო Daft Punk იყო.
-
-ცხრაწლიანი არსებობის განმავლობაში L'Impératrice-მა უკვე ორი ალბომი და რამდენიმე მინი ალბომი ჩაწერა. ფრანგული ბენდისთვის განსაკუთრებით წარმატებული აღმოჩნდა სინგლები Sonate Pacifique და Agitations Tropicales.
-
-ბენდის ბოლო ნამუშევარი Tako Tsubo 2021 წელს გამოვიდა და კრიტიკოსების დადებითი შეფასებები დაიმსახურა. სწორედ ამ ალბომით დაანონსებული ტურის ფარგლებში ეწვევა ბენდი საქართველოს და კონცერტს Black Sea Arena-ის ეზოში გამართავს. </p> 
-    
+      <div class="col-md-8 pt-3 mt-3 ml-3  border_radius_25" style="border-top:1px solid #c7c7c7;">
+      <p>ტრადიციულად, Black Sea Arena-ზე მიმავალი მსმენელის კომფორტსა და უსაფრთხოებაზე Bene Exclusive ზრუნავს.
+       ავტობუსის რეისები შეკვეთილისკენ თბილისიდან, ბათუმიდან და ქუთაისიდან სრულდება.
+       
       </div>
     <div class ="row my-5 buy_ticket">
 <h2 class="my-5">ბილეთები</h2>
-
+<p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">თბილისი </p>        
+<p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის წერეთლის გამოფენის ტერიტორიის პარკინგიდან 10:00 საათზე</p>
 <form class="form-horizontal col-12" method="POST" action="">
   {{ csrf_field() }}
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-5  ticket_padding_top">
-    <p name="kaxeti" style="color:black;font-size:1rem;padding-top:5px;">თბილისი - ბლექ სი არენა (ერთი გზა)</p>
+    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ერთი გზა)</p>
     <input type="hidden" name="tourName" value="Cruiser_Airport" />
   </div>
   <div class = "col-3 d-flex justify-content-end">
@@ -149,78 +122,23 @@ L'Impératrice ფრანგული დისკო-პოპ ბენდ�
     <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
   </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-  <div class="modal-content">
-  <div class="modal-header">
-  <h5 class="modal-title" id="exampleModalLongTitle">ავტორიზაცია</h5>
-  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-  </div>
-  <div class="modal-body">
-
-  <div class = "col-12 p-0 d-flex justify-content-between">
-  <div class = "col-5" style = "flex:48%;max-width:48%;border:1px solid #757575;padding:0;margin-bottom:20px;border-radius: 3px;background-color:white;">
-    <input value="" name="user_name" type="text" class = "quantity" style="color:black;font-size:0.7rem;width:80%;background-color:white;" placeholder="სახელი" required />
-  </div>
-
-  <div class = "col-5" style = "flex:48%;max-width:48%;border:1px solid #757575;padding:0;margin-bottom:20px;border-radius: 3px;background-color:white;">
-
-      <input value="" name="user_lname" type="text" class = "quantity" style="color:black;font-size:0.7rem;width:80%;background-color:white;" placeholder="გვარი" required />
 
 
   </div>
-  </div>
-
-  <div class = "col-12" style = "border:1px solid #757575;border-radius: 3px;margin-bottom:20px;padding:0;background-color:white;">
-
-      <input value="" type="number" pattern="\d*"  name="user_tel" class = "quantity" style="color:black;font-size:0.7rem;width:80%;background-color:white;" placeholder="მობილური" required />
+  
+ 
 
 
-  </div>
-
-  <div class = "col-12" style = "border:1px solid #757575;border-radius: 3px;margin-bottom:0px;padding:0;background-color:white;">
-
-      <input value="" type="email"  name="user_email" class = "quantity" style="color:black;font-size:0.7rem;width:80%;background-color:white;" placeholder="ელ.ფოსტა" required />
-
-
-  </div>
-
-  <div class = "col-12 p-0 mb-2">
-    <span style="color:#757575;font-size:0.6rem;">* ყველა ველის შევსება აუცილებელია</span>
-  </div>
-
-  <div class = "col-12 p-0">
-    <input type = "checkbox" name="chkbx_value" value="2" /><span style="color:#757575;font-size:0.6rem;"> თუ ხართ <strong>Visa Platinum, Visa Signature ან Visa Infinite</strong> ბარათის მფლობელი მონიშნეთ გრაფა და მიიღეთ 10% იანი ფასდაკლება</span>
-  </div>
-
-
-
-  </div>
-  <div class="modal-footer">
-  <div class = "col-12">
-     <button type="submit" class="btn btn-success w-100">ყიდვა</button>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-
-</div>
 </form>
-
-
 <form class="form-horizontal col-12" method="POST" action="">
   {{ csrf_field() }}
 <div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
   <div class = "col-5  ticket_padding_top">
-    <p name="kaxeti" style="color:black;font-size:1rem;padding-top:5px;">თბილისი - ბლექ სი არენა ორმხრივი გზა</p>
-    <input type="hidden" name="tourName" value="Cruiser_Per_Day" />
+    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ერთი გზა)</p>
+    <input type="hidden" name="tourName" value="Cruiser_Airport" />
   </div>
   <div class = "col-3 d-flex justify-content-end">
-    <p style="color:black;font-size:1.5rem;padding-bottom:5px;" class ="full_day"><button type="button" class="circle minus">-</button>
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
       <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
       <button  type="button" class="circle circle2 plus">+</button></p>
 
@@ -230,72 +148,117 @@ L'Impératrice ფრანგული დისკო-პოპ ბენდ�
   </div>
   <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
   <div class = "col-2 ticket_padding_top">
-    <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter2">ყიდვა</button>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-  <div class="modal-content">
-  <div class="modal-header">
-  <h5 class="modal-title" id="exampleModalLongTitle">ავტორიზაცია</h5>
-  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-  </div>
-  <div class="modal-body">
-
-  <div class = "col-12 p-0 d-flex justify-content-between">
-  <div class = "col-5" style = "flex:48%;max-width:48%;border:1px solid #757575;padding:0;margin-bottom:20px;border-radius: 3px;background-color:white;">
-    <input value="" name="user_name" type="text" class = "quantity" style="color:black;font-size:0.7rem;width:80%;background-color:white;" placeholder="სახელი" required />
-  </div>
-
-  <div class = "col-5" style = "flex:48%;max-width:48%;border:1px solid #757575;padding:0;margin-bottom:20px;border-radius: 3px;background-color:white;">
-
-      <input value="" name="user_lname" type="text" class = "quantity" style="color:black;font-size:0.7rem;width:80%;background-color:white;" placeholder="გვარი" required />
-
-
-  </div>
-  </div>
-
-  <div class = "col-12" style = "border:1px solid #757575;border-radius: 3px;margin-bottom:20px;padding:0;background-color:white;">
-
-      <input value="" type="number" pattern="\d*"  name="user_tel" class = "quantity" style="color:black;font-size:0.7rem;width:80%;background-color:white;" placeholder="მობილური" required />
-
-
-  </div>
-
-  <div class = "col-12" style = "border:1px solid #757575;border-radius: 3px;margin-bottom:0px;padding:0;background-color:white;">
-
-      <input value="" type="email"  name="user_email" class = "quantity" style="color:black;font-size:0.7rem;width:80%;background-color:white;" placeholder="ელ.ფოსტა" required />
-
-
-  </div>
-
-  <div class = "col-12 p-0 mb-2">
-    <span style="color:#757575;font-size:0.6rem;">* ყველა ველის შევსება აუცილებელია</span>
-  </div>
-
-  <div class = "col-12 p-0">
-    <input type = "checkbox" name="chkbx_value" value="2" /><span style="color:#757575;font-size:0.6rem;"> თუ ხართ <strong>Visa Platinum, Visa Signature ან Visa Infinite</strong> ბარათის მფლობელი მონიშნეთ გრაფა და მიიღეთ 10% იანი ფასდაკლება</span>
-  </div>
-
-
-
-  </div>
-  <div class="modal-footer">
-  <div class = "col-12">
-     <button type="submit" class="btn btn-success w-100">ყიდვა</button>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-
-</div>
+    <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
+  </div>  </div>
 </form>
 
+<p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">ქუთაისი </p>        
+<p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის ჭავჭავაძის ავტოსასდგურიდან (Mcdonald's ის მიმდებარედ) 14:00 საათზე</p>
+<form class="form-horizontal col-12" method="POST" action="">
+  {{ csrf_field() }}
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+  <div class = "col-5  ticket_padding_top">
+    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ერთი გზა)</p>
+    <input type="hidden" name="tourName" value="Cruiser_Airport" />
   </div>
+  <div class = "col-3 d-flex justify-content-end">
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
+      <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
+      <button  type="button" class="circle circle2 plus">+</button></p>
+
+  </div>
+  <div class = "col-2 ticket_padding_top">
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value=""></span>&nbsp;ლარი</p>
+  </div>
+  <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
+  <div class = "col-2 ticket_padding_top">
+    <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
+  </div>
+
+
+
+  </div>
+  
+ 
+
+
+</form>
+<form class="form-horizontal col-12" method="POST" action="">
+  {{ csrf_field() }}
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+  <div class = "col-5  ticket_padding_top">
+    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ერთი გზა)</p>
+    <input type="hidden" name="tourName" value="Cruiser_Airport" />
+  </div>
+  <div class = "col-3 d-flex justify-content-end">
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
+      <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
+      <button  type="button" class="circle circle2 plus">+</button></p>
+
+  </div>
+  <div class = "col-2 ticket_padding_top">
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value=""></span>&nbsp;ლარი</p>
+  </div>
+  <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
+  <div class = "col-2 ticket_padding_top">
+    <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
+  </div>  </div>
+</form>
+
+
+<p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">ბათუმი </p>        
+<p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის ბათუმის რკინიგზის პარკინგიდან 16:00 საათზე</p>
+<form class="form-horizontal col-12" method="POST" action="">
+  {{ csrf_field() }}
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+  <div class = "col-5  ticket_padding_top">
+    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ერთი გზა)</p>
+    <input type="hidden" name="tourName" value="Cruiser_Airport" />
+  </div>
+  <div class = "col-3 d-flex justify-content-end">
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
+      <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
+      <button  type="button" class="circle circle2 plus">+</button></p>
+
+  </div>
+  <div class = "col-2 ticket_padding_top">
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value=""></span>&nbsp;ლარი</p>
+  </div>
+  <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
+  <div class = "col-2 ticket_padding_top">
+    <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
+  </div>
+
+
+
+  </div>
+  
+ 
+
+
+</form>
+<form class="form-horizontal col-12" method="POST" action="">
+  {{ csrf_field() }}
+<div class = "col-12 d-flex justify-content-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+  <div class = "col-5  ticket_padding_top">
+    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ერთი გზა)</p>
+    <input type="hidden" name="tourName" value="Cruiser_Airport" />
+  </div>
+  <div class = "col-3 d-flex justify-content-end">
+    <p style="color:black;font-size:1.5rem;padding-bottom:5px;"><button type="button" class="circle minus">-</button>
+      <input value="1" name="qty" class = "quantity" style="color:black;margin:0px 30px;font-size:1.5rem;">
+      <button  type="button" class="circle circle2 plus">+</button></p>
+
+  </div>
+  <div class = "col-2 ticket_padding_top">
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value=""></span>&nbsp;ლარი</p>
+  </div>
+  <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
+  <div class = "col-2 ticket_padding_top">
+    <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
+  </div>  </div>
+</form>
+
 </div>
 
 </section>

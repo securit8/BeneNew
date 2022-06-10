@@ -309,8 +309,8 @@ nav .active a{
 }
 
 .btn.btn-success{
-  font-size: 0.7rem;
-  padding:4px 8px;
+  font-size: 1rem;
+  padding:0px 8px;
   margin-top: 7px;
 }
 .buy_ticket p{
@@ -1041,6 +1041,7 @@ iframe {
 }
 
 #news .container{
+  width:51%;
   font-family: 'BPGDejaVuSansCaps-Book';
 }
 #proeqtebi .card-img-top{

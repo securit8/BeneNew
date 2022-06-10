@@ -3134,7 +3134,7 @@ margin-left: 1.7rem;
 }
 
 
-.car-rent-row1-car1, .car-rent-row1-car2, .car-rent-row1-car3{
+.car-rent-row1-car1, .car-rent-row1-car2, .car-rent-row1-car3, .car-rent-row1-car4{
   grid-row: 1 / 2;
   text-align: center;
   background-color:rgba(255, 255, 255, 1) ;
@@ -3143,15 +3143,15 @@ margin-left: 1.7rem;
 }
 
 
-.car-rent-row1-car1 p, .car-rent-row1-car2 p, .car-rent-row1-car3 p{
+.car-rent-row1-car1 p, .car-rent-row1-car2 p, .car-rent-row1-car3 p,.car-rent-row1-car4 p{
   font-family: TBCContractica, Montserrat;
 }
 
-.car-rent-row1-car1 img, .car-rent-row1-car2 img, .car-rent-row1-car3 img{
+.car-rent-row1-car1 img, .car-rent-row1-car2 img, .car-rent-row1-car3 img,.car-rent-row1-car4 img{
   width: 75%;
 }
 
-.car-rent-row1-car1:hover, .car-rent-row1-car2:hover, .car-rent-row1-car3:hover{
+.car-rent-row1-car1:hover, .car-rent-row1-car2:hover, .car-rent-row1-car3:hover, .car-rent-row1-car4:hover{
   
   cursor: pointer;
 }
@@ -3167,6 +3167,7 @@ margin-left: 1.7rem;
 .car-rent-row1-car3{
   grid-column: 28 / 40;
 }
+
 
 .car-rent-vehicles-row2-inner{
   display: grid;
@@ -3249,7 +3250,47 @@ margin-left: 1.7rem;
   grid-column: 28 / 40;
 }
 
-.car-rent-row1-car2 img,  .car-rent-row2-car2 img,  .car-rent-row3-car2 img{
+.car-rent-vehicles-row4-inner{
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  padding-top: 2rem;
+}
+
+
+.car-rent-row4-car1, .car-rent-row4-car2, .car-rent-row4-car3{
+  grid-row: 1 / 2;
+  text-align: center;
+  background-color:rgba(255, 255, 255, 1) ;
+  padding-top: 3rem;
+  box-shadow:  0px 8px 16px 0px rgba(0, 0, 0, 0.164);
+}
+
+.car-rent-row4-car1 p, .car-rent-row4-car2 p, .car-rent-row4-car3 p{
+  font-family: TBCContractica, Montserrat;
+}
+
+.car-rent-row4-car1 img, .car-rent-row4-car2 img, .car-rent-row4-car3 img{
+  width: 75%;
+}
+
+.car-rent-row4-car1:hover, .car-rent-row4-car2:hover, .car-rent-row4-car3:hover{
+  
+  cursor: pointer;
+}
+
+.car-rent-row4-car1{
+  grid-column: 2 / 14;
+}
+
+.car-rent-row4-car2{
+  grid-column: 15 / 27;
+}
+
+.car-rent-row4-car3{
+  grid-column: 28 / 40;
+}
+
+.car-rent-row1-car2 img,  .car-rent-row2-car2 img,  .car-rent-row3-car2 img,.car-rent-row4-car2 img{
   width:75%;
 }
 
