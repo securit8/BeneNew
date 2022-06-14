@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 
 use Illuminate\Http\Request;
-
+use Redirect;
 class RoutesController extends Controller
 {
 
@@ -151,18 +151,20 @@ class RoutesController extends Controller
 
 
 
-        $client = new \GuzzleHttp\Client();
+$client = new \GuzzleHttp\Client();
 
 $response = $client->request('POST', 'https://payze.io/api/v1', [
-  'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418
-    ","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":10,"currency":"GEL","callback":"https://bene-exclusive.com/events/","callbackError":"https://bene-exclusive.com/events/LImperatrice","preauthorize":false,"lang":"EN","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
+  'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":10,"currency":"GEL","callback":"https://bene-exclusive.com/events/","callbackError":"https://bene-exclusive.com/events/LImperatrice","preauthorize":false,"lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
   'headers' => [
     'Accept' => 'application/json',
     'Content-Type' => 'application/json',
   ],
-]);
-
-echo $response->getBody();
+]);  
+  $json = $response->getBody();
+ $json = json_decode($json, true);
+ $trurl=$json['response'];
+$redirUrl=$trurl['transactionUrl'];
+ return Redirect::intended($redirUrl);
     }
 }
 
