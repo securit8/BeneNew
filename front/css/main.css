@@ -4659,3 +4659,36 @@ line-height: 24px;
     color: rgba(252, 252, 253, 1);
     
   }
+
+
+  /* blacksea */
+
+  #blackseaInput{
+    display: none;
+  }
+
+  #blackseaInput input {
+    border-radius: 40px;
+    margin-bottom: 0.5rem;
+    border: 1px solid black;
+  }
+
+  #blackseaInput.show{
+    display:flex;
+    flex-direction: column;
+  }
+
+  #blackseaInput1{
+    display: none;
+  }
+
+  #blackseaInput1 input {
+    border-radius: 40px;
+    margin-bottom: 0.5rem;
+    border: 1px solid black;
+  }
+
+  #blackseaInput1.show{
+    display:flex;
+    flex-direction: column;
+  }
