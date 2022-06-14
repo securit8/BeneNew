@@ -5,9 +5,40 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Redirect;
+use App\Models\ticket;
+
+
 class RoutesController extends Controller
 {
+    public function payzepost(Request $request){
 
+        $client = new \GuzzleHttp\Client();
+ // generating id wich changes tickets status after
+           $today=date('YmdHi');
+       //adding this data into request, to feed database
+         $request->request->add(['given_id' => $today]);
+        $request->request->add(['status' => 'pending']);
+       
+
+        $response = $client->request('POST', 'https://payze.io/api/v1', [
+          'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$request->price.',"currency":"GEL","callback":"https://bene-exclusive.com/events/","callbackError":"https://bene-exclusive.com/events/LImperatrice","preauthorize":false,"lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
+          'headers' => [
+            'Accept' => 'application/json',
+            'Content-Type' => 'application/json',
+          ],
+        ]);  
+        $input = $request->except('_token');
+        $ticket = new ticket();
+        $ticket->fill($input);
+        $ticket->unguard();
+		$ticket->save();
+
+          $json = $response->getBody();
+         $json = json_decode($json, true);
+         $trurl=$json['response'];
+        $redirUrl=$trurl['transactionUrl'];
+         return Redirect::intended($redirUrl);
+            }
 
    public function index() {
         return view('frontend.home');
@@ -147,24 +178,6 @@ class RoutesController extends Controller
     }
 
     
-    public function payzepost(Request $request){
-
-
-
-$client = new \GuzzleHttp\Client();
-
-$response = $client->request('POST', 'https://payze.io/api/v1', [
-  'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":10,"currency":"GEL","callback":"https://bene-exclusive.com/events/","callbackError":"https://bene-exclusive.com/events/LImperatrice","preauthorize":false,"lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
-  'headers' => [
-    'Accept' => 'application/json',
-    'Content-Type' => 'application/json',
-  ],
-]);  
-  $json = $response->getBody();
- $json = json_decode($json, true);
- $trurl=$json['response'];
-$redirUrl=$trurl['transactionUrl'];
- return Redirect::intended($redirUrl);
-    }
+    
 }
 

@@ -109,6 +109,7 @@
         <input type="hidden" name="transfer" value="tbilisi1" />
     </div>
 
+<<<<<<< HEAD
     <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center">
       <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
         <button id="tminus" type="button" class="circle minus" style="font-size: 22px;">-</button>
@@ -116,6 +117,20 @@
         <button id="tplus" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
       </p>
     </div>
+=======
+  </div>
+  <div class = "col-2 ticket_padding_top">
+    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
+    <input id = "tbilisi1_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="price" type="text" value="50" ></span>&nbsp;ლარი</p>
+  </div>
+  
+  <div class = "col-2 ticket_padding_top">
+    <button  type ="submit" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
+  </div>
+  </div>
+  
+</form>
+>>>>>>> 8929884cff3a696331aa5a74f8768f6fb42a426a
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">

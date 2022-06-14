@@ -21,6 +21,10 @@ class CreateTicketTable extends Migration
             $table->string('LastName');
             $table->string('Phone');
             $table->string('Email');
+            $table->integer('given_id');
+            $table->string('transfer');
+            $table->integer('raodenoba');
+            $table->string('status');
         });
     }
 
