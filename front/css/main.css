@@ -4669,6 +4669,7 @@ line-height: 24px;
 
   #blackseaInput input {
     border-radius: 40px;
+    width: 250px;
     margin-bottom: 0.5rem;
     border: 1px solid black;
   }
@@ -4684,6 +4685,7 @@ line-height: 24px;
 
   #blackseaInput1 input {
     border-radius: 40px;
+    width: 250px;
     margin-bottom: 0.5rem;
     border: 1px solid black;
   }
