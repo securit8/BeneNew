@@ -117,7 +117,7 @@
   </div>
   <div class = "col-2 ticket_padding_top">
     <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-    <input id = "tbilisi1_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="tbilisi1price" type="text" value="50" ></span>&nbsp;ლარი</p>
+    <input id = "tbilisi1_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="price" type="text" value="50" ></span>&nbsp;ლარი</p>
   </div>
   
   <div class = "col-2 ticket_padding_top">
