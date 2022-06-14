@@ -29,6 +29,8 @@ Route::get('/contact', [RoutesController::class, 'contact'])->name('frontend.con
 Route::get('/electric', [RoutesController::class, 'electric'])->name('frontend.electric');
 Route::get('/events', [RoutesController::class, 'events'])->name('frontend.events');
 Route::get('/events/LImperatrice', [RoutesController::class, 'blacksea'])->name('frontend.blacksea');
+Route::post('/events/LImperatrice/postedData', [RoutesController::class, 'payzepost'])->name('frontend.payzePost'); //payze post ის
+
 
 
 Route::get('/article1', [RoutesController::class, 'article1'])->name('frontend.news-article1');
