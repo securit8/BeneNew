@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Redirect;
-
+use App\ticket;
 
 
 class RoutesController extends Controller
@@ -29,10 +29,10 @@ class RoutesController extends Controller
           ],
         ]);  
         $input = $request->except('_token');
-        $parcels = new Parcels();
-        $parcels->fill($input);
-        $parcels->unguard();
-		$parcels->save();
+        $ticket = new ticket();
+        $particketcels->fill($input);
+        $ticket->unguard();
+		$ticket->save();
 
           $json = $response->getBody();
          $json = json_decode($json, true);
