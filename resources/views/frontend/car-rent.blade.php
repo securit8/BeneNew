@@ -652,7 +652,7 @@
                                     
                                     <div class="car-rent-row1-car2">
                                     <p>SUV</p>
-                                        <img src="{{asset('front/images/Car_Rent/Toyota Camry.png')}}" alt="">
+                                        <img src="{{asset('front/images/Car_Rent/Car_Rent')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
                                                                 </div>

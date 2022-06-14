@@ -132,6 +132,9 @@ class RoutesController extends Controller
     }
 
     public function blacksea() {
+
+
+
         return view('frontend.blacksea');
     }
 
@@ -141,6 +144,25 @@ class RoutesController extends Controller
 
     public function networking(){
         return view('frontend.networking');
+    }
+
+    
+    public function payzepost(Request $request){
+
+
+
+        $client = new \GuzzleHttp\Client();
+
+$response = $client->request('POST', 'https://payze.io/api/v1', [
+  'body' => '{"method":"justPay","apiKey":"A76A8FC6B1E246EA9C83FD148CA1162D
+    ","apiSecret":"F3AF4C1F835A4B2799D2ED93C4F21151","data":{"amount":10,"currency":"USD","callback":"https://bene-exclusive.com/events/","callbackError":"https://bene-exclusive.com/events/LImperatrice","preauthorize":false,"lang":"EN","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
+  'headers' => [
+    'Accept' => 'application/json',
+    'Content-Type' => 'application/json',
+  ],
+]);
+
+echo $response->getBody();
     }
 }
 
