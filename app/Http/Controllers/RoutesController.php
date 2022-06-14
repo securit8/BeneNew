@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Redirect;
-use App\ticket;
+use App\Models\ticket;
 
 
 class RoutesController extends Controller
@@ -13,13 +13,12 @@ class RoutesController extends Controller
     public function payzepost(Request $request){
 
         $client = new \GuzzleHttp\Client();
-        // იდი რომლითაც შევუცვლი სტატუსს ბილეთს
-        $today=date('YmdHi');
-       
-        // რექუესთში ჩმატება მონაცემების რომ ბაზაში გავაყოლო
-        $request->request->add(['given_id' => $today]);
+ // generating id wich changes tickets status after
+           $today=date('YmdHi');
+       //adding this data into request, to feed database
+         $request->request->add(['given_id' => $today]);
         $request->request->add(['status' => 'pending']);
-       // dd($request->price);
+       
 
         $response = $client->request('POST', 'https://payze.io/api/v1', [
           'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$request->price.',"currency":"GEL","callback":"https://bene-exclusive.com/events/","callbackError":"https://bene-exclusive.com/events/LImperatrice","preauthorize":false,"lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
@@ -30,7 +29,7 @@ class RoutesController extends Controller
         ]);  
         $input = $request->except('_token');
         $ticket = new ticket();
-        $particketcels->fill($input);
+        $ticket->fill($input);
         $ticket->unguard();
 		$ticket->save();
 
