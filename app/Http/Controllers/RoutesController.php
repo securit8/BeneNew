@@ -41,7 +41,7 @@ class RoutesController extends Controller
        $request->request->add(['Price' => $price]);
 
         $response = $client->request('POST', 'https://payze.io/api/v1', [
-          'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',"currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok'.$today.'","callbackError":"https://bene-exclusive.com/events/LImperatrice/fail'.$today.'","preauthorize":false,"lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
+          'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',"currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok/'.$today.'","callbackError":"https://bene-exclusive.com/events/LImperatrice/fail/'.$today.'","preauthorize":false,"lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
           'headers' => [
             'Accept' => 'application/json',
             'Content-Type' => 'application/json',
