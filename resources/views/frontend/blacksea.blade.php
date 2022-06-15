@@ -119,7 +119,7 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "tbili1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;ლარი</p>
+      <input id = "tbili1"  style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;ლარი</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
@@ -486,7 +486,7 @@ function ku1plus(){
   else{
     k1val ++;
     document.getElementById('k1value').value =k1val ;
-    document.getElementById('kutais1').value=k1val*50;
+    document.getElementById('kutais1').value=k1val*30;
   }
 }
 
@@ -500,7 +500,7 @@ function ku2minus(){
   else{
     k2val--;
     document.getElementById('k2value').value = k2val;
-    document.getElementById('kutais2').value=k2val*80;
+    document.getElementById('kutais2').value=k2val*50;
   }
 }
 function ku2plus(){
@@ -513,7 +513,7 @@ function ku2plus(){
   else{
     k2val ++;
     document.getElementById('k2value').value =k2val ;
-    document.getElementById('kutais2').value=k2val*80;
+    document.getElementById('kutais2').value=k2val*50;
   }
 }
 
