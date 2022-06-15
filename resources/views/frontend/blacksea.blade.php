@@ -111,9 +111,9 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
       <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
-        <button id="tminus" type="button" class="circle minus" style="font-size: 22px;">-</button>
-        <input value="1" name="raodenoba" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
-        <button id="tplus" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
+        <button id="t1minus" onclick="tb1minus()" type="button" class="circle minus" style="font-size: 22px;">-</button>
+        <input value="1" name="raodenoba" id="t1value" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+        <button id="t1plus"  onclick="tb1plus()" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
       </p>
     </div>
 
@@ -158,7 +158,8 @@
         <input type="hidden" name="tourName" value="Cruiser_Airport" />
       </div>
       <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end">
-        <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button type="button" class="circle minus" style="font-size: 22px;">-</button>
+        <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
+        <button  type="button" class="circle minus" style="font-size: 22px;">-</button>
           <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
           <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
         </p>
@@ -343,6 +344,31 @@
 
 
 <Script>
+
+function tb1minus(){
+  var t1val=document.getElementById('t1value').value;
+
+  if(t1val==0 || t1val==1  )
+  {
+   
+  }
+  else{
+    document.getElementById('t1value').value = t1val-1;
+  }
+}
+function tb1plus(){
+  var t1val=document.getElementById('t1value').value;
+  console.log(t1val);
+  if(t1val>=5)
+  {
+   
+  }
+  else{
+    t1val ++;
+    document.getElementById('t1value').value =t1val ;
+  }
+}
+
   const sea = document.getElementById('blackseaButton');
   const blackSeaInput = document.getElementById('blackseaInput');
 
@@ -352,18 +378,14 @@
 
 
   
-  </script>
-
-  <script>
+  
      const sea1 = document.getElementById('blackseaButton1');
   const blackSeaInput1 = document.getElementById('blackseaInput1');
 
   sea1.addEventListener('click', () => {
     blackSeaInput1.classList.toggle('show');
   });
-  </script>
-
-<script>
+  
  
     function tbil1(){
       document.getElementById('inputT1').style.display="block";
