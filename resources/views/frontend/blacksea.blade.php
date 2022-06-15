@@ -119,13 +119,35 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "tbilisi1_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="tbilisi1price" type="text" value="50" ></span>&nbsp;ლარი</p>
+      <input id = "tbilisi1_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;ლარი</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
-      <button  type ="submit" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
+      <button  type ="button" onclick="tbil1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
     </div>
     </div>
+    <div id="inputT1">
+    <div>
+      <p>სახელი</p>
+      <input name="Name" type="text" placeholder="სახელი">
+    </div>
+
+    <div>
+      <p>გვარი</p>
+      <input type="LastName" placeholder="გვარი">
+    </div>
+
+    <div>
+      <p>ტელეფონი</p>
+      <input name="Phone" type="text" placeholder="ტელეფონი">
+    </div>
+
+    <div>
+      <p>ელ. ფოსტა</p>
+      <input name="Emanil" type="text" placeholder="ელ. ფოსტა">
+    </div>
+
+  </div>
   </form>
 
   <form class="form-horizontal col-12 row" method="POST" action="{{ route('frontend.payzePost') }}">
@@ -151,6 +173,7 @@
         <button name = "submit" type ="submit" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
       </div>  
     </div>
+    
   </form>
 
 <p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">ქუთაისი </p>        
@@ -180,22 +203,22 @@
   <div id="blackseaInput">
     <div>
       <p>სახელი</p>
-      <input type="text" placeholder="სახელი">
+      <input name="Name" type="text" placeholder="სახელი">
     </div>
 
     <div>
       <p>გვარი</p>
-      <input type="text" placeholder="გვარი">
+      <input type="LastName" placeholder="გვარი">
     </div>
 
     <div>
       <p>ტელეფონი</p>
-      <input type="text" placeholder="ტელეფონი">
+      <input name="Phone" type="text" placeholder="ტელეფონი">
     </div>
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input type="text" placeholder="ელ. ფოსტა">
+      <input name="Emanil" type="text" placeholder="ელ. ფოსტა">
     </div>
 
   </div>
@@ -317,6 +340,13 @@
   sea1.addEventListener('click', () => {
     blackSeaInput1.classList.toggle('show');
   });
+  </script>
+
+<script>
+ 
+    function tbil1(){
+      document.getElementById('inputT1').style.display="block";
+    }
   </script>
 
 </body>
