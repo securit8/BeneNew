@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Redirect;
 use App\Models\ticket;
+use App\Mail\BeneMail;
 
 
 class RoutesController extends Controller
@@ -38,9 +39,9 @@ class RoutesController extends Controller
         $price=$request->raodenoba*40;
        }
        $request->request->add(['price' => $price]);
-       
+
         $response = $client->request('POST', 'https://payze.io/api/v1', [
-          'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',"currency":"GEL","callback":"https://bene-exclusive.com/events/","callbackError":"https://bene-exclusive.com/events/LImperatrice","preauthorize":false,"lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
+          'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',"currency":"GEL","callback":"https://bene-exclusive.com/events/ok'.$today.'","callbackError":"https://bene-exclusive.com/events/fail'.$today.'","preauthorize":false,"lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
           'headers' => [
             'Accept' => 'application/json',
             'Content-Type' => 'application/json',
@@ -56,9 +57,41 @@ class RoutesController extends Controller
          $json = json_decode($json, true);
          $trurl=$json['response'];
         $redirUrl=$trurl['transactionUrl'];
-         return Redirect::intended($redirUrl);
-            }
 
+
+        $data = [
+            'Name'=>$request->Name,
+            'LastName'=>$request->Lastname,
+            'email'=>$request->Email,
+            'phone'=>$request->Phone,
+            'transfer'=>$request->transfer,
+            'price'=>$request->Price,
+            'qr'=>$request->today
+       
+        ];
+       
+            Mail::send('SendEmail', $data, function($message) 
+            {
+                 $message->to('info@bene-exclusive.com', 'Black Sea Tickets')->subject
+                 ('Black Sea Tickets');
+                 $message->from('info@bene-exclusive.com' , 'Bene Exclusive' );
+                 $message->setBody('<h3>Hi, {{!!$Name!!}} {{!!$LastName!!}}</h3> <p>you are going from {{!!$transfer!!}} </p><p>show this qr {{!!$qr!!}} </p>  <p>tickets {{!!$raodenoba!!}} </p>', 'text/html');
+            
+
+         return Redirect::intended($redirUrl);
+            });
+        }
+
+  public function okcallback($id){
+
+    $ticket = ticket::find($id);
+    $ticket->status="success";
+  }
+  public function failcallback($id){
+
+    $ticket = ticket::find($id);
+    $ticket->status="fail";
+  }
    public function index() {
         return view('frontend.home');
     }
