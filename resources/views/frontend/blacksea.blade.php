@@ -134,7 +134,7 @@
 
     <div>
       <p>გვარი</p>
-      <input type="LastName" placeholder="გვარი" required>
+      <input name="LastName" placeholder="გვარი" required>
     </div>
 
     <div>
@@ -144,7 +144,7 @@
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
+      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
     </div>
     <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
@@ -183,7 +183,7 @@
 
     <div>
       <p>გვარი</p>
-      <input type="LastName" placeholder="გვარი" required>
+      <input name="LastName" placeholder="გვარი" required>
     </div>
 
     <div>
@@ -193,7 +193,7 @@
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
+      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
     </div>
     <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
@@ -234,7 +234,7 @@
 
     <div>
       <p>გვარი</p>
-      <input type="LastName" placeholder="გვარი" required>
+      <input name="LastName" placeholder="გვარი" required>
     </div>
 
     <div>
@@ -244,7 +244,7 @@
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
+      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
     </div>
     <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
@@ -283,7 +283,7 @@
 
     <div>
       <p>გვარი</p>
-      <input type="LastName" placeholder="გვარი" required>
+      <input name="LastName" placeholder="გვარი" required>
     </div>
 
     <div>
@@ -293,7 +293,7 @@
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
+      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
     </div>
     <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
@@ -345,7 +345,7 @@
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
+      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
     </div>
     <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
@@ -384,7 +384,7 @@
 
     <div>
       <p>გვარი</p>
-      <input type="LastName" placeholder="გვარი" required>
+      <input name="LastName" placeholder="გვარი" required>
     </div>
 
     <div>
@@ -394,7 +394,7 @@
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
+      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
     </div>
     <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
