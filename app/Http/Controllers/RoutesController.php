@@ -63,10 +63,10 @@ class RoutesController extends Controller
         $data = [
             'Name'=>$request->Name,
             'LastName'=>$request->Lastname,
-            'email'=>$request->Email,
-            'phone'=>$request->Phone,
+            'Email'=>$request->Email,
+            'Phone'=>$request->Phone,
             'transfer'=>$request->transfer,
-            'price'=>$request->Price,
+            'Price'=>$request->Price,
             'qr'=>$request->today
        
         ];
