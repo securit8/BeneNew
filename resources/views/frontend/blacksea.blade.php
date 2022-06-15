@@ -206,7 +206,7 @@
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
         <p  style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ერთი გზა)</p>
-        <input type="hidden" name="transfer" value="tbilisi1" />
+        <input type="hidden" name="transfer" value="kutais1" />
     </div>
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
@@ -255,7 +255,7 @@
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
         <p  style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ორი გზა)</p>
-        <input type="hidden" name="transfer" value="tbilisi2" />
+        <input type="hidden" name="transfer" value="kutais2" />
     </div>
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
@@ -335,7 +335,7 @@
 
     <div>
       <p>გვარი</p>
-      <input type="LastName" placeholder="გვარი" required>
+      <input name="LastName" placeholder="გვარი" required>
     </div>
 
     <div>
