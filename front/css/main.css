@@ -4683,6 +4683,10 @@ line-height: 24px;
     display: none;
   }
 
+  #inputT1{
+    display: none;
+  }
+
   #blackseaInput1 input {
     border-radius: 40px;
     width: 250px;
