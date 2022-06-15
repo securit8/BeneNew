@@ -4686,6 +4686,22 @@ line-height: 24px;
   #inputT1{
     display: none;
   }
+  #inputT2{
+    display: none;
+  }
+  #inputT3{
+    display: none;
+  }
+  #inputT4{
+    display: none;
+  }
+  #inputT5{
+    display: none;
+  }
+  #inputT6{
+    display: none;
+  }
+
 
   #blackseaInput1 input {
     border-radius: 40px;

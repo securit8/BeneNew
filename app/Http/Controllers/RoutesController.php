@@ -22,7 +22,23 @@ class RoutesController extends Controller
        if($request->transfer="tbilisi1"){
         $price=$request->raodenoba*50;
        }
-
+       if($request->transfer="tbilisi2"){
+        $price=$request->raodenoba*80;
+       }
+       if($request->transfer="kutais1"){
+        $price=$request->raodenoba*30;
+       }
+       if($request->transfer="kutais2"){
+        $price=$request->raodenoba*50;
+       }
+       if($request->transfer="batum1"){
+        $price=$request->raodenoba*25;
+       }
+       if($request->transfer="batum2"){
+        $price=$request->raodenoba*40;
+       }
+       $request->request->add(['price' => $price]);
+       
         $response = $client->request('POST', 'https://payze.io/api/v1', [
           'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',"currency":"GEL","callback":"https://bene-exclusive.com/events/","callbackError":"https://bene-exclusive.com/events/LImperatrice","preauthorize":false,"lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
           'headers' => [
