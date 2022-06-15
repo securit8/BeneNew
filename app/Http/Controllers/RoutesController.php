@@ -57,6 +57,7 @@ class RoutesController extends Controller
          $json = json_decode($json, true);
          $trurl=$json['response'];
         $redirUrl=$trurl['transactionUrl'];
+        
 
 
         $data = [
@@ -70,16 +71,18 @@ class RoutesController extends Controller
        
         ];
        
-            Mail::send('SendEmail', $data, function($message) 
+            Mail::send('frontend.ticket', $data, function($message) 
             {
                  $message->to('info@bene-exclusive.com', 'Black Sea Tickets')->subject
                  ('Black Sea Tickets');
                  $message->from('info@bene-exclusive.com' , 'Bene Exclusive' );
-                 $message->setBody('<h3>Hi, {{!!$Name!!}} {{!!$LastName!!}}</h3> <p>you are going from {{!!$transfer!!}} </p><p>show this qr {{!!$qr!!}} </p>  <p>tickets {{!!$raodenoba!!}} </p>', 'text/html');
+               //  $message->setBody('<h3>Hi, {{!!$Name!!}} {{!!$LastName!!}}</h3> <p>you are going from {{!!$transfer!!}} </p><p>show this qr {{!!$qr!!}} </p>  <p>tickets {{!!$raodenoba!!}} </p>', 'text/html');
             
 
-         return Redirect::intended($redirUrl);
+         
             });
+
+            return Redirect::intended($redirUrl);
         }
 
   public function okcallback($id){
