@@ -30,8 +30,8 @@ Route::get('/electric', [RoutesController::class, 'electric'])->name('frontend.e
 Route::get('/events', [RoutesController::class, 'events'])->name('frontend.events');
 Route::get('/events/LImperatrice', [RoutesController::class, 'blacksea'])->name('frontend.blacksea');
 Route::post('/events/LImperatrice/postedData', [RoutesController::class, 'payzepost'])->name('frontend.payzePost'); //payze post ის
-Route::post('/events/LImperatrice/ok/{id}', [RoutesController::class, 'okcallback']);
-Route::post('/events/LImperatrice/fail/{id}', [RoutesController::class, 'failcallback']);
+Route::get('/events/LImperatrice/ok/{id}', [RoutesController::class, 'okcallback']);
+Route::get('/events/LImperatrice/fail/{id}', [RoutesController::class, 'failcallback']);
 
 Route::get('/article1', [RoutesController::class, 'article1'])->name('frontend.news-article1');
 
