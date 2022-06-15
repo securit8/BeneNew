@@ -29,7 +29,7 @@ class SendEmailController extends Controller
      {
           $message->to('info@bene-exclusive.com', 'Site Requests')->subject
           ('Site Requests');
-          $message->from('info@tlc.com.ge' , 'oTo' );
+          $message->from('info@bene-exclusive.com' , 'oTo' );
      
          
      // Mail::to('info@bene-exclusive.com')->send();

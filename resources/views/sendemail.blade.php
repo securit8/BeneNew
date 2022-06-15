@@ -17,11 +17,11 @@
 
   <div class = "col-12 col-xs-12 col-sm-7 py-4">
   <div class = "col-12 contact left p-0">
-  <h5 class = "p-3" style = "font-weight:bold;">WRITE A COMMENT</h5>
+  <h5 class = "p-3" style = "font-weight:bold;"></h5>
    <div class = "col-12 name d-flex justify-content-between p-0">
      <div class = "col-6">
        <p>სახელი და გვარი :</p>
-     <input type = "text" value = "{!!$fullName!!}" class = "input" placeholder = "Name" required />
+     <input type = "text" value = "{!!$Name!!}" class = "input" placeholder = "Name" required />
    </div>
 
    
@@ -30,17 +30,17 @@
   <div class = "col-12 name d-flex justify-content-between p-0 pt-3">
     <div class = "col-6">
       <p>მეილი :</p>
-    <input type = "email" value = "{!!$email!!}" class = "input" placeholder = "Email" required />
+    <input type = "email" value = "{!!$Email!!}" class = "input" placeholder = "Email" required />
   </div>
 
   <div class = "col-6">
     <p>ტელეფონი:</p>
-    <input type = "tel" value = "{!!$phone!!}" class = "input" placeholder = "Phone" required />
+    <input type = "tel" value = "{!!$Phone!!}" class = "input" placeholder = "Phone" required />
   </div>
  </div>
 
  <div class = "col-12 mt-3">
-   <input  type = "text" value = "{!!$aboutText!!}" class = "input" />
+   <input  type = "text" value = "{!!$transfer!!}" class = "input" />
  </div>
 </div>
 </div>
