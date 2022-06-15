@@ -87,13 +87,17 @@ class RoutesController extends Controller
 
   public function okcallback($id){
 
-    $ticket = ticket::find($id);
-    $ticket->status="success";
+        $ticket = ticket::where('given_id', $id)->first();
+       
+          $ticket->status="success";
+       $ticket->save();
   }
-  public function failcallback($id){
 
-    $ticket = ticket::find($id);
-    $ticket->status="fail";
+  public function failcallback($id){
+ $ticket = ticket::where('given_id', $id)->first();
+
+   $ticket->status="fail";
+$ticket->save();
   }
    public function index() {
         return view('frontend.home');
