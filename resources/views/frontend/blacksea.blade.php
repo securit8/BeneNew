@@ -40,7 +40,17 @@
 
   gtag('config', 'G-E9CSXFYW6Q');
 </script>
+@if($errors->any())
+<h4>{{$errors->first()}}</h4>
+@endif
 
+@if (\Session::has('success'))
+    <div class="alert alert-success">
+        <ul>
+            <li>{!! \Session::get('success') !!}</li>
+        </ul>
+    </div>
+@endif
     
   <div class="navigation">
   
