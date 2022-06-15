@@ -91,7 +91,7 @@ class RoutesController extends Controller
        
           $ticket->status="success";
        $ticket->save();
-       return redirect()->back()->with('success', 'payment success'); 
+       return view('frontend.blacksea')->with('success', 'payment success'); 
   }
 
   public function failcallback($id){
@@ -99,7 +99,7 @@ class RoutesController extends Controller
 
    $ticket->status="fail";
 $ticket->save();
-return Redirect::back()->withErrors(['msg' => 'payment has declined']);
+return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
   }
    public function index() {
         return view('frontend.home');
