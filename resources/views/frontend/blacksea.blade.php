@@ -111,15 +111,15 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
       <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
-        <button id="t1minus" onclick="tb1minus()" type="button" class="circle minus" style="font-size: 22px;">-</button>
+        <button onclick="tb1minus()" type="button" class="circle minus" style="font-size: 22px;">-</button>
         <input value="1" name="raodenoba" id="t1value" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
-        <button id="t1plus"  onclick="tb1plus()" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
+        <button   onclick="tb1plus()" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
       </p>
     </div>
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "tbilisi1_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;ლარი</p>
+      <input id = "tbili1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;ლარი</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
@@ -129,213 +129,276 @@
     <div id="inputT1">
     <div>
       <p>სახელი</p>
-      <input name="Name" type="text" placeholder="სახელი">
+      <input name="Name" type="text" placeholder="სახელი" required>
     </div>
 
     <div>
       <p>გვარი</p>
-      <input type="LastName" placeholder="გვარი">
+      <input type="LastName" placeholder="გვარი" required>
     </div>
 
     <div>
       <p>ტელეფონი</p>
-      <input name="Phone" type="text" placeholder="ტელეფონი">
+      <input name="Phone" type="text" placeholder="ტელეფონი" required>
     </div>
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input name="Emanil" type="text" placeholder="ელ. ფოსტა">
+      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
     </div>
     <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
   </form>
 
   <form class="form-horizontal col-12 row" method="POST" action="{{ route('frontend.payzePost') }}">
-      {{ csrf_field() }}
-    <div class = "col-12 row d-flex align-self-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+    {{ csrf_field() }}
+    <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
-        <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ორი გზა)</p>
-        <input type="hidden" name="tourName" value="Cruiser_Airport" />
-      </div>
-      <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end">
-        <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
-        <button  type="button" class="circle minus" style="font-size: 22px;">-</button>
-          <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
-          <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
-        </p>
-      </div>
+        <p  style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ორი გზა)</p>
+        <input type="hidden" name="transfer" value="tbilisi2" />
+    </div>
 
-      <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top">
-        <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="80"></span>&nbsp;ლარი</p>
-      </div>
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
+      <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
+        <button onclick="tb2minus()" type="button" class="circle minus" style="font-size: 22px;">-</button>
+        <input value="1" name="raodenoba" id="t2value" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+        <button   onclick="tb2plus()" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
+      </p>
+    </div>
 
-      
-      <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-start">
-        <button name = "submit" type ="submit" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
-      </div>  
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
+      <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
+      <input id = "tbili2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="80" ></span>&nbsp;ლარი</p>
+    </div>
+    
+    <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
+      <button  type ="button" onclick="tbil2()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+    </div>
     </div>
     <div id="inputT2">
     <div>
       <p>სახელი</p>
-      <input name="Name" type="text" placeholder="სახელი">
+      <input name="Name" type="text" placeholder="სახელი" required>
     </div>
 
     <div>
       <p>გვარი</p>
-      <input type="LastName" placeholder="გვარი">
+      <input type="LastName" placeholder="გვარი" required>
     </div>
 
     <div>
       <p>ტელეფონი</p>
-      <input name="Phone" type="text" placeholder="ტელეფონი">
+      <input name="Phone" type="text" placeholder="ტელეფონი" required>
     </div>
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input name="Emanil" type="text" placeholder="ელ. ფოსტა">
+      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
     </div>
-
+    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
   </form>
 
 <p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">ქუთაისი </p>        
 <p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის ჭავჭავაძის ავტოსადგურიდან (Mcdonald's ის მიმდებარედ) 14:00 საათზე</p>
-<form class="form-horizontal col-12 row" method="POST" action="">
-  {{ csrf_field() }}
-<div class = "col-12 row d-flex align-self-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
-  <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
-    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ერთი გზა)</p>
-    <input type="hidden" name="tourName" value="Cruiser_Airport" />
-  </div>
-  <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end">
-  <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button type="button" class="circle minus" style="font-size: 22px;">-</button>
-      <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
-      <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button></p>
+<form class="form-horizontal col-12 row" method="POST" action="{{ route('frontend.payzePost') }}">
+    {{ csrf_field() }}
+    <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+      <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
+        <p  style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ერთი გზა)</p>
+        <input type="hidden" name="transfer" value="tbilisi1" />
+    </div>
 
-  </div>
-  <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="30"></span>&nbsp;ლარი</p>
-  </div>
-  <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
-  <div class = "col-12 col-md-4 col-xl-2 d-flex justify-content-center align-items-start ticket_padding_top">
-    <button name = "submit" type ="button" class = "btn btn-success" id="blackseaButton" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
-  </div>
-  </div>
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
+      <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
+        <button onclick="ku1minus()" type="button" class="circle minus" style="font-size: 22px;">-</button>
+        <input value="1" name="raodenoba" id="k1value" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+        <button   onclick="ku1plus()" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
+      </p>
+    </div>
 
-  <div id="blackseaInput">
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
+      <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
+      <input id = "kutais1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="30" ></span>&nbsp;ლარი</p>
+    </div>
+    
+    <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
+      <button  type ="button" onclick="ku1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+    </div>
+    </div>
+    <div id="inputT3">
     <div>
       <p>სახელი</p>
-      <input name="Name" type="text" placeholder="სახელი">
+      <input name="Name" type="text" placeholder="სახელი" required>
     </div>
 
     <div>
       <p>გვარი</p>
-      <input type="LastName" placeholder="გვარი">
+      <input type="LastName" placeholder="გვარი" required>
     </div>
 
     <div>
       <p>ტელეფონი</p>
-      <input name="Phone" type="text" placeholder="ტელეფონი">
+      <input name="Phone" type="text" placeholder="ტელეფონი" required>
     </div>
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input name="Emanil" type="text" placeholder="ელ. ფოსტა">
+      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
+    </div>
+    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
+  </div>
+  </form>
+
+  <form class="form-horizontal col-12 row" method="POST" action="{{ route('frontend.payzePost') }}">
+    {{ csrf_field() }}
+    <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+      <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
+        <p  style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ორი გზა)</p>
+        <input type="hidden" name="transfer" value="tbilisi2" />
     </div>
 
-  </div>
-</form>
-<form class="form-horizontal col-12 row" method="POST" action="">
-  {{ csrf_field() }}
-<div class = "col-12 row d-flex align-self-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
-  <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
-    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ორი გზა)</p>
-    <input type="hidden" name="tourName" value="Cruiser_Airport" />
-  </div>
-  <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end">
-  <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button type="button" class="circle minus" style="font-size: 22px;">-</button>
-      <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
-      <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button></p>
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
+      <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
+        <button onclick="ku2minus()" type="button" class="circle minus" style="font-size: 22px;">-</button>
+        <input value="1" name="raodenoba" id="k2value" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+        <button   onclick="ku2plus()" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
+      </p>
+    </div>
 
-  </div>
-  <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="50"></span>&nbsp;ლარი</p>
-  </div>
-  <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
-  <div class = "col-12 col-md-4 col-xl-2 d-flex justify-content-center align-items-start ticket_padding_top">
-    <button name = "submit" type ="button" class = "btn btn-success" id="blackseaButton1" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
-  </div>  </div>
-
-  <div id="blackseaInput1">
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
+      <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
+      <input id = "kutais2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;ლარი</p>
+    </div>
+    
+    <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
+      <button  type ="button" onclick="ku2()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+    </div>
+    </div>
+    <div id="inputT4">
     <div>
       <p>სახელი</p>
-      <input type="text" placeholder="სახელი">
+      <input name="Name" type="text" placeholder="სახელი" required>
     </div>
 
     <div>
       <p>გვარი</p>
-      <input type="text" placeholder="გვარი">
+      <input type="LastName" placeholder="გვარი" required>
     </div>
 
     <div>
       <p>ტელეფონი</p>
-      <input type="text" placeholder="ტელეფონი">
+      <input name="Phone" type="text" placeholder="ტელეფონი" required>
     </div>
 
     <div>
       <p>ელ. ფოსტა</p>
-      <input type="text" placeholder="ელ. ფოსტა">
+      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
     </div>
-
+    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
-</form>
+  </form>
 
 
 <p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">ბათუმი </p>        
 <p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის ბათუმის რკინიგზის პარკინგიდან 16:00 საათზე</p>
-<form class="form-horizontal col-12 row" method="POST" action="">
-  {{ csrf_field() }}
-<div class = "col-12 row d-flex align-self-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
-  <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start ticket_padding_top">
-    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">ბათუმი - Black Sea Arena (ერთი გზა)</p>
-    <input type="hidden" name="tourName" value="Cruiser_Airport" />
-  </div>
-  <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end">
-  <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button type="button" class="circle minus" style="font-size: 22px;">-</button>
-      <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
-      <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button></p>
+<form class="form-horizontal col-12 row" method="POST" action="{{ route('frontend.payzePost') }}">
+    {{ csrf_field() }}
+    <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+      <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
+        <p  style="color:green;font-size:1rem;padding-top:5px;">ბათუმი - Black Sea Arena (ერთი გზა)</p>
+        <input type="hidden" name="transfer" value="batum1" />
+    </div>
 
-  </div>
-  <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="25"></span>&nbsp;ლარი</p>
-  </div>
-  <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
-  <div class = "col-12 col-md-4 col-xl-2 d-flex justify-content-center align-items-start ticket_padding_top">
-    <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
-  </div>
-  </div>
-</form>
-<form class="form-horizontal col-12 row" method="POST" action="">
-  {{ csrf_field() }}
-<div class = "col-12 row d-flex align-self-center" style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
-  <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
-    <p name="kaxeti" style="color:green;font-size:1rem;padding-top:5px;">ბათუმი - Black Sea Arena (ორი გზა)</p>
-    <input type="hidden" name="tourName" value="Cruiser_Airport" />
-  </div>
-  <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end">
-  <p style="color:black;font-size:1.5rem;padding-bottom: 1px;"><button type="button" class="circle minus" style="font-size: 22px;">-</button>
-      <input value="1" name="qty" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
-      <button type="button" class="circle circle2 plus" style="font-size: 15px;">+</button></p>
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
+      <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
+        <button onclick="b1minus()" type="button" class="circle minus" style="font-size: 22px;">-</button>
+        <input value="1" name="raodenoba" id="b1value" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+        <button   onclick="b1plus()" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
+      </p>
+    </div>
 
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
+      <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
+      <input id = "batum1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="25" ></span>&nbsp;ლარი</p>
+    </div>
+    
+    <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
+      <button  type ="button" onclick="bat1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+    </div>
+    </div>
+    <div id="inputT5">
+    <div>
+      <p>სახელი</p>
+      <input name="Name" type="text" placeholder="სახელი" required>
+    </div>
+
+    <div>
+      <p>გვარი</p>
+      <input type="LastName" placeholder="გვარი" required>
+    </div>
+
+    <div>
+      <p>ტელეფონი</p>
+      <input name="Phone" type="text" placeholder="ტელეფონი" required>
+    </div>
+
+    <div>
+      <p>ელ. ფოსტა</p>
+      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
+    </div>
+    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
-  <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top">
-    <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;"><input id = "kaxeti_price" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;" name="cash_f" type="text" value="" placeholder="40"></span>&nbsp;ლარი</p>
+  </form>
+
+  <form class="form-horizontal col-12 row" method="POST" action="{{ route('frontend.payzePost') }}">
+    {{ csrf_field() }}
+    <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+      <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
+        <p  style="color:green;font-size:1rem;padding-top:5px;">ბათუმი - Black Sea Arena (ორი გზა)</p>
+        <input type="hidden" name="transfer" value="tbilisi2" />
+    </div>
+
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
+      <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
+        <button onclick="b2minus()" type="button" class="circle minus" style="font-size: 22px;">-</button>
+        <input value="1" name="raodenoba" id="b2value" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+        <button   onclick="b2plus()" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
+      </p>
+    </div>
+
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
+      <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
+      <input id = "batum2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="40" ></span>&nbsp;ლარი</p>
+    </div>
+    
+    <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
+      <button  type ="button" onclick="bat2()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+    </div>
+    </div>
+    <div id="inputT6">
+    <div>
+      <p>სახელი</p>
+      <input name="Name" type="text" placeholder="სახელი" required>
+    </div>
+
+    <div>
+      <p>გვარი</p>
+      <input type="LastName" placeholder="გვარი" required>
+    </div>
+
+    <div>
+      <p>ტელეფონი</p>
+      <input name="Phone" type="text" placeholder="ტელეფონი" required>
+    </div>
+
+    <div>
+      <p>ელ. ფოსტა</p>
+      <input name="Emanil" type="text" placeholder="ელ. ფოსტა" required>
+    </div>
+    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
   </div>
-  <input type="hidden" name="sec" value="<?=md5(md5(time())."flytaxi");?>">
-  <div class = "col-12 col-md-4 col-xl-2 d-flex justify-content-center align-items-start ticket_padding_top">
-    <button name = "submit" type ="button" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">ყიდვა</button>
-  </div>  </div>
-</form>
+  </form>
 
 </div>
 
@@ -353,7 +416,9 @@ function tb1minus(){
    
   }
   else{
-    document.getElementById('t1value').value = t1val-1;
+    t1val--;
+    document.getElementById('t1value').value = t1val;
+    document.getElementById('tbili1').value=t1val*50;
   }
 }
 function tb1plus(){
@@ -366,30 +431,167 @@ function tb1plus(){
   else{
     t1val ++;
     document.getElementById('t1value').value =t1val ;
+    document.getElementById('tbili1').value=t1val*50;
   }
 }
 
-  const sea = document.getElementById('blackseaButton');
-  const blackSeaInput = document.getElementById('blackseaInput');
+function tb2minus(){
+  var t2val=document.getElementById('t2value').value;
 
-  sea.addEventListener('click', () => {
-    blackSeaInput.classList.toggle('show');
-  });
-
-
+  if(t2val==0 || t2val==1  )
+  {
+   
+  }
+  else{
+    t2val--;
+    document.getElementById('t2value').value = t2val;
+    document.getElementById('tbili2').value=t2val*80;
+  }
+}
+function tb2plus(){
+  var t2val=document.getElementById('t2value').value;
   
-  
-     const sea1 = document.getElementById('blackseaButton1');
-  const blackSeaInput1 = document.getElementById('blackseaInput1');
+  if(t2val>=5)
+  {
+   
+  }
+  else{
+    t2val ++;
+    document.getElementById('t2value').value =t2val ;
+    document.getElementById('tbili2').value=t2val*80;
+  }
+}
+// kutaisi -----------
 
-  sea1.addEventListener('click', () => {
-    blackSeaInput1.classList.toggle('show');
-  });
+function ku1minus(){
+  var k1val=document.getElementById('k1value').value;
+
+  if(k1val==0 || k1val==1  )
+  {
+   
+  }
+  else{
+    k1val--;
+    document.getElementById('k1value').value = k1val;
+    document.getElementById('kutais1').value=k1val*30;
+  }
+}
+function ku1plus(){
+  var k1val=document.getElementById('k1value').value;
+
+  if(k1val>=5)
+  {
+   
+  }
+  else{
+    k1val ++;
+    document.getElementById('k1value').value =k1val ;
+    document.getElementById('kutais1').value=k1val*50;
+  }
+}
+
+function ku2minus(){
+  var k2val=document.getElementById('k2value').value;
+
+  if(k2val==0 || k2val==1  )
+  {
+   
+  }
+  else{
+    k2val--;
+    document.getElementById('k2value').value = k2val;
+    document.getElementById('kutais2').value=k2val*80;
+  }
+}
+function ku2plus(){
+  var k2val=document.getElementById('k2value').value;
   
- 
+  if(k2val>=5)
+  {
+   
+  }
+  else{
+    k2val ++;
+    document.getElementById('k2value').value =k2val ;
+    document.getElementById('kutais2').value=k2val*80;
+  }
+}
+
+// batumi --------------------
+
+function b1minus(){
+  var b1val=document.getElementById('b1value').value;
+
+  if(b1val==0 || b1val==1  )
+  {
+   
+  }
+  else{
+    b1val--;
+    document.getElementById('b1value').value = b1val;
+    document.getElementById('batum1').value=b1val*25;
+  }
+}
+function b1plus(){
+  var b1val=document.getElementById('b1value').value;
+  
+  if(b1val>=5)
+  {
+   
+  }
+  else{
+    b1val ++;
+    document.getElementById('b1value').value =b1val ;
+    document.getElementById('batum1').value=b1val*25;
+  }
+}
+
+function b2minus(){
+  var b2val=document.getElementById('b2value').value;
+
+  if(b2val==0 || b2val==1  )
+  {
+   
+  }
+  else{
+    b2val--;
+    document.getElementById('b2value').value = b2val;
+    document.getElementById('batum2').value=b2val*40;
+  }
+}
+function b2plus(){
+  var b2val=document.getElementById('b2value').value;
+  
+  if(b2val>=5)
+  {
+   
+  }
+  else{
+    b2val ++;
+    document.getElementById('b2value').value =b2val ;
+    document.getElementById('batum2').value=b2val*40;
+  }
+}
+   
     function tbil1(){
       document.getElementById('inputT1').style.display="block";
     }
+    function tbil2(){
+      document.getElementById('inputT2').style.display="block";
+    }
+    function ku1(){
+      document.getElementById('inputT3').style.display="block";
+    }
+    function ku2(){
+      document.getElementById('inputT4').style.display="block";
+    }
+      function bat1(){
+      document.getElementById('inputT5').style.display="block";
+    }
+    function bat2(){
+      document.getElementById('inputT6').style.display="block";
+    }
+    
   </script>
 
 </body>
