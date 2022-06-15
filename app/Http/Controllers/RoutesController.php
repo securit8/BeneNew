@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Redirect;
 use App\Models\ticket;
 use App\Mail\BeneMail;
-
+use Mail;
 
 class RoutesController extends Controller
 {
