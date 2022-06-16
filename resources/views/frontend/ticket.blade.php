@@ -20,7 +20,7 @@
   <h5 class = "p-3" style = "font-weight:bold;"></h5>
    <div class = "col-12 name d-flex justify-content-between p-0">
      <div class = "col-6">
-       <p>სახელი და გვარი :</p>
+       <p>@lang('front.name') @lang('front.Lname')</p>
      <div> {!!$Name!!} {!!$LastName!!} </div>
    </div>
 
@@ -29,27 +29,28 @@
 
   <div class = "col-12 name d-flex justify-content-between p-0 pt-3">
     <div class = "col-6">
-      <p>მეილი :</p>
+      <p>@lang('front.email')</p>
 
     <div >{!!$Email!!} </div>
   </div>
 
   <div class = "col-6">
-    <p>ტელეფონი:</p>
+    <p>@lang('front.phone')</p>
     {!!$Phone!!}
   </div>
  </div>
 
  <div class = "col-12 mt-3">
- <p>მიმართულება:</p>
+ <p>Location</p>
  {!!$transfer!!}
  </div>
 
- <p>ბილეთების რაოდენობა </p>
+ <p>ticket</p>
 <div>{{!!$raodenoba!!}} </div>
- <div class = "col-12 mt-3">
+
+ <div >
  <p>QR code:</p>
- <div class="mb-3">{!! DNS2D::getBarcodeHTML($qr, 'QRCODE') !!}</div>
+ {!! DNS2D::getBarcodeHTML($qr, 'QRCODE') !!}
  </div>
 </div>
 </div>
