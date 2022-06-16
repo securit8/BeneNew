@@ -34,7 +34,8 @@ return [
   'coupe' => 'Coupe',
   'footer-text' => 'Follow us and use the following social media<br> platforms to get in contact with us',
   'fully' => 'Show More',
-
+  'LImperatrice' => 'LImperatrice',
+  
 
 
 // index
@@ -338,7 +339,33 @@ At the end of the course, participants receive a certificate, in accordance with
 'mersedes-business-week' => 'Mercedes-Benz Business Week',
 'mersedes-event' => 'Mercedes-Benz Business EVENT',
 'moiare' => 'Moiare',
+// blacksea 
 
+'abevent' => 'About the event:',
+'tr-det' =>  'As usual, Bene Exclusive will ensure the comfort
+ and safety of the guests at the Black Sea Arena. Buses will depart from Tbilisi, Batumi, and Kutaisi. ',
+      'ticket' => 'Tickets',
+      'ticket-tbilisi'=> 'The bus departs from parking area near Expo Georgia Gallery (118 Akaki Tsereteli Ave.) at 10:00 am.',
+      'ticket-kutaisi'=> 'The bus departs from Chavchavadze bus station (near McDonalds) at 14:00 pm.',
+      'ticket-batumi'=> 'The bus departs from parking area near Batumi Railway Station at 16:00 pm.',
+      'gela'=> 'GEL',
+      'tbilisi_way' =>'Tbilisi – Black Sea Arena (one way)',
+      'tbilisi_2way' =>'Tbilisi – Black Sea Arena (two way)',
+      'kutaisi_way' =>'Kutaisi – Black Sea Arena (one way)',
+      'kutaisi_2way' =>'Kutaisi – Black Sea Arena (two way)',
+      'batumi_way' =>'Batumi – Black Sea Arena (one way)',
+      'batumi_2way' =>'Batumi – Black Sea Arena (two way)',
+'next'=> 'NEXT',
+'kutaisi' => 'Kutaisi',
+'batumi' => 'Batumi',
+'name' => 'Name',
+'Lname' => 'Last Name',
+'phone' => 'Phone',
+'email' => 'Email',
+'buy' => 'buy',
+
+
+     
 
 ];
  ?>

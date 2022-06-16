@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="{{ asset('../front/assets/css/owl.theme.default.min.css') }}">
 <script src="https://kit.fontawesome.com/5c894f6509.js" crossorigin="anonymous"></script>
 <!-- ძველი ექსკლუზივის სტილები -->
-
+<div class="about {{Request::is('LImperatrice') ? 'LImperatrice' : ''}}"> <a href="{{route('frontend.blacksea')}}">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E9CSXFYW6Q"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -68,14 +68,14 @@
       <div id="langbtn">
 
           <div class="Ka">
-            <a href="locale/ka">GE</a>
+            <a href="/locale/ka">GE</a>
           </div>
           <div class="En">
-            <a href="locale/en">EN</a>
+            <a href="/locale/en">EN</a>
           </div>
-          <div class="Ru">
+          <!-- <div class="Ru">
             <a href="locale/ru">RU</a>
-          </div>
+          </div> -->
       </div>
 
     </div>
@@ -95,27 +95,25 @@
 <section id="news" >
 
 <img width="100%" src="{{ asset('../front/assets/images/limperatrice.jpeg') }}" >
-
+<div class="mb-3">{!! DNS2D::getBarcodeHTML('4445645656', 'QRCODE') !!}</div>
 
 <div class="container p-0">
   <h3 class = "mt-5 d-block">L'Impératrice</h3><br>
-   <h4 class = "mt-4 d-block">ღონისძიების შესახებ:</h4>
+   <h4 class = "mt-4 d-block">@lang('front.abevent')</h4>
         <!--<img class="inner_news_image" src="{{ asset('front/assets/images/shuttle.jpg') }}" width="300"  height="500" >-->
     <div class="row ">
       <div class="col-md-8 pt-3 mt-3 ml-3  border_radius_25" style="border-top:1px solid #c7c7c7;">
-      <p>ტრადიციულად, Black Sea Arena-ზე მიმავალი მსმენელის კომფორტსა და უსაფრთხოებაზე Bene Exclusive ზრუნავს.
-       ავტობუსის რეისები შეკვეთილისკენ თბილისიდან, ბათუმიდან და ქუთაისიდან სრულდება.
-       
+      <p>@lang('front.tr-det')
       </div>
     <div class ="row my-5 buy_ticket">
-<h2 class="my-5">ბილეთები</h2>
-<p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">თბილისი </p>        
-<p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის წერეთლიდან, გამოფენის ტერიტორიის პარკინგიდან 10:00 საათზე</p>
+<h2 class="my-5">@lang('front.ticket')</h2>
+<p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">@lang('front.tbilisi') </p>        
+<p style="padding-bottom:20px;padding-left:30px;">@lang('front.ticket-tbilisi')</p>
   <form class="form-horizontal col-12 row" method="POST" action="{{ route('frontend.payzePost') }}">
     {{ csrf_field() }}
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
-        <p  style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ერთი გზა)</p>
+        <p  style="color:green;font-size:1rem;padding-top:5px;">@lang('front.tbilisi_way')</p>
         <input type="hidden" name="transfer" value="tbilisi1" />
     </div>
 
@@ -129,34 +127,33 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "tbili1"  style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;ლარი</p>
+      <input id = "tbili1"  style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
-      <button  type ="button" onclick="tbil1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+      <button  type ="button" onclick="tbil1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">@lang('front.next')</button>
     </div>
     </div>
     <div id="inputT1">
-    <div>
-      <p>სახელი</p>
-      <input name="Name" type="text" placeholder="სახელი" required>
+    <div>      
+      <input name="Name" type="text" placeholder="@lang('front.name')" required>
     </div>
 
     <div>
-      <p>გვარი</p>
-      <input name="LastName" placeholder="გვარი" required>
+    <br>
+      <input name="LastName" placeholder="@lang('front.Lname')" required>
     </div>
 
     <div>
-      <p>ტელეფონი</p>
-      <input name="Phone" type="text" placeholder="ტელეფონი" required>
+     <br>
+      <input name="Phone" type="text" placeholder="@lang('front.phone')" required>
     </div>
 
     <div>
-      <p>ელ. ფოსტა</p>
-      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
+      <br>
+      <input name="Email" type="text" placeholder="@lang('front.email')" required>
     </div>
-    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
+    <button  type ="submit" class = "btn btn-success"> @lang('front.buy') </button>
   </div>
   </form>
 
@@ -164,7 +161,7 @@
     {{ csrf_field() }}
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
-        <p  style="color:green;font-size:1rem;padding-top:5px;">თბილისი - Black Sea Arena (ორი გზა)</p>
+        <p  style="color:green;font-size:1rem;padding-top:5px;">@lang('front.tbilisi_2way')</p>
         <input type="hidden" name="transfer" value="tbilisi2" />
     </div>
 
@@ -178,44 +175,43 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "tbili2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="80" ></span>&nbsp;ლარი</p>
+      <input id = "tbili2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="80" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
-      <button  type ="button" onclick="tbil2()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+      <button  type ="button" onclick="tbil2()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">@lang('front.next')</button>
     </div>
     </div>
     <div id="inputT2">
-    <div>
-      <p>სახელი</p>
-      <input name="Name" type="text" placeholder="სახელი" required>
+    <div>      
+      <input name="Name" type="text" placeholder="@lang('front.name')" required>
     </div>
 
     <div>
-      <p>გვარი</p>
-      <input name="LastName" placeholder="გვარი" required>
+    <br>
+      <input name="LastName" placeholder="@lang('front.Lname')" required>
     </div>
 
     <div>
-      <p>ტელეფონი</p>
-      <input name="Phone" type="text" placeholder="ტელეფონი" required>
+     <br>
+      <input name="Phone" type="text" placeholder="@lang('front.phone')" required>
     </div>
 
     <div>
-      <p>ელ. ფოსტა</p>
-      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
+      <br>
+      <input name="Email" type="text" placeholder="@lang('front.email')" required>
     </div>
-    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
+    <button  type ="submit" class = "btn btn-success"> @lang('front.buy') </button>
   </div>
   </form>
 
-<p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">ქუთაისი </p>        
-<p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის ჭავჭავაძის ავტოსადგურიდან (Mcdonald's ის მიმდებარედ) 14:00 საათზე</p>
+<p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">@lang('front.kutaisi') </p>        
+<p style="padding-bottom:20px;padding-left:30px;">@lang('front.ticket-kutaisi')</p>
 <form class="form-horizontal col-12 row" method="POST" action="{{ route('frontend.payzePost') }}">
     {{ csrf_field() }}
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
-        <p  style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ერთი გზა)</p>
+        <p  style="color:green;font-size:1rem;padding-top:5px;">@lang('front.kutaisi_way')</p>
         <input type="hidden" name="transfer" value="kutais1" />
     </div>
 
@@ -229,34 +225,33 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "kutais1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="30" ></span>&nbsp;ლარი</p>
+      <input id = "kutais1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="30" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
-      <button  type ="button" onclick="ku1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+      <button  type ="button" onclick="ku1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">@lang('front.next')</button>
     </div>
     </div>
     <div id="inputT3">
-    <div>
-      <p>სახელი</p>
-      <input name="Name" type="text" placeholder="სახელი" required>
+    <div>      
+      <input name="Name" type="text" placeholder="@lang('front.name')" required>
     </div>
 
     <div>
-      <p>გვარი</p>
-      <input name="LastName" placeholder="გვარი" required>
+    <br>
+      <input name="LastName" placeholder="@lang('front.Lname')" required>
     </div>
 
     <div>
-      <p>ტელეფონი</p>
-      <input name="Phone" type="text" placeholder="ტელეფონი" required>
+     <br>
+      <input name="Phone" type="text" placeholder="@lang('front.phone')" required>
     </div>
 
     <div>
-      <p>ელ. ფოსტა</p>
-      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
+      <br>
+      <input name="Email" type="text" placeholder="@lang('front.email')" required>
     </div>
-    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
+    <button  type ="submit" class = "btn btn-success"> @lang('front.buy') </button>
   </div>
   </form>
 
@@ -264,7 +259,7 @@
     {{ csrf_field() }}
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
-        <p  style="color:green;font-size:1rem;padding-top:5px;">ქუთაისი - Black Sea Arena (ორი გზა)</p>
+        <p  style="color:green;font-size:1rem;padding-top:5px;">@lang('front.kutaisi_2way')</p>
         <input type="hidden" name="transfer" value="kutais2" />
     </div>
 
@@ -278,45 +273,44 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "kutais2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;ლარი</p>
+      <input id = "kutais2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
-      <button  type ="button" onclick="ku2()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+      <button  type ="button" onclick="ku2()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">@lang('front.next')</button>
     </div>
     </div>
     <div id="inputT4">
-    <div>
-      <p>სახელი</p>
-      <input name="Name" type="text" placeholder="სახელი" required>
+    <div>      
+      <input name="Name" type="text" placeholder="@lang('front.name')" required>
     </div>
 
     <div>
-      <p>გვარი</p>
-      <input name="LastName" placeholder="გვარი" required>
+    <br>
+      <input name="LastName" placeholder="@lang('front.Lname')" required>
     </div>
 
     <div>
-      <p>ტელეფონი</p>
-      <input name="Phone" type="text" placeholder="ტელეფონი" required>
+     <br>
+      <input name="Phone" type="text" placeholder="@lang('front.phone')" required>
     </div>
 
     <div>
-      <p>ელ. ფოსტა</p>
-      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
+      <br>
+      <input name="Email" type="text" placeholder="@lang('front.email')" required>
     </div>
-    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
+    <button  type ="submit" class = "btn btn-success"> @lang('front.buy') </button>
   </div>
   </form>
 
 
-<p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">ბათუმი </p>        
-<p style="padding-bottom:20px;padding-left:30px;">ავტობუსი გადის ბათუმის რკინიგზის პარკინგიდან 16:00 საათზე</p>
+<p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">@lang('front.batumi') </p>        
+<p style="padding-bottom:20px;padding-left:30px;">@lang('front.ticket-batumi')</p>
 <form class="form-horizontal col-12 row" method="POST" action="{{ route('frontend.payzePost') }}">
     {{ csrf_field() }}
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
-        <p  style="color:green;font-size:1rem;padding-top:5px;">ბათუმი - Black Sea Arena (ერთი გზა)</p>
+        <p  style="color:green;font-size:1rem;padding-top:5px;">@lang('front.batumi_way')</p>
         <input type="hidden" name="transfer" value="batum1" />
     </div>
 
@@ -330,34 +324,33 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "batum1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="25" ></span>&nbsp;ლარი</p>
+      <input id = "batum1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="25" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
-      <button  type ="button" onclick="bat1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+      <button  type ="button" onclick="bat1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">@lang('front.next')</button>
     </div>
     </div>
     <div id="inputT5">
-    <div>
-      <p>სახელი</p>
-      <input name="Name" type="text" placeholder="სახელი" required>
+    <div>      
+      <input name="Name" type="text" placeholder="@lang('front.name')" required>
     </div>
 
     <div>
-      <p>გვარი</p>
-      <input name="LastName" placeholder="გვარი" required>
+    <br>
+      <input name="LastName" placeholder="@lang('front.Lname')" required>
     </div>
 
     <div>
-      <p>ტელეფონი</p>
-      <input name="Phone" type="text" placeholder="ტელეფონი" required>
+     <br>
+      <input name="Phone" type="text" placeholder="@lang('front.phone')" required>
     </div>
 
     <div>
-      <p>ელ. ფოსტა</p>
-      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
+      <br>
+      <input name="Email" type="text" placeholder="@lang('front.email')" required>
     </div>
-    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
+    <button  type ="submit" class = "btn btn-success"> @lang('front.buy') </button>
   </div>
   </form>
 
@@ -365,7 +358,7 @@
     {{ csrf_field() }}
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
-        <p  style="color:green;font-size:1rem;padding-top:5px;">ბათუმი - Black Sea Arena (ორი გზა)</p>
+        <p  style="color:green;font-size:1rem;padding-top:5px;">@lang('front.batumi_2way')</p>
         <input type="hidden" name="transfer" value="tbilisi2" />
     </div>
 
@@ -379,34 +372,33 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "batum2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="40" ></span>&nbsp;ლარი</p>
+      <input id = "batum2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="40" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
-      <button  type ="button" onclick="bat2()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">შემდეგი</button>
+      <button  type ="button" onclick="bat2()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">@lang('front.next')</button>
     </div>
     </div>
     <div id="inputT6">
-    <div>
-      <p>სახელი</p>
-      <input name="Name" type="text" placeholder="სახელი" required>
+    <div>      
+      <input name="Name" type="text" placeholder="@lang('front.name')" required>
     </div>
 
     <div>
-      <p>გვარი</p>
-      <input name="LastName" placeholder="გვარი" required>
+    <br>
+      <input name="LastName" placeholder="@lang('front.Lname')" required>
     </div>
 
     <div>
-      <p>ტელეფონი</p>
-      <input name="Phone" type="text" placeholder="ტელეფონი" required>
+     <br>
+      <input name="Phone" type="text" placeholder="@lang('front.phone')" required>
     </div>
 
     <div>
-      <p>ელ. ფოსტა</p>
-      <input name="Email" type="text" placeholder="ელ. ფოსტა" required>
+      <br>
+      <input name="Email" type="text" placeholder="@lang('front.email')" required>
     </div>
-    <button  type ="submit" class = "btn btn-success"> ყიდვა </button>
+    <button  type ="submit" class = "btn btn-success"> @lang('front.buy') </button>
   </div>
   </form>
 

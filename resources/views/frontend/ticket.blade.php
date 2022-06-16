@@ -21,7 +21,7 @@
    <div class = "col-12 name d-flex justify-content-between p-0">
      <div class = "col-6">
        <p>სახელი და გვარი :</p>
-     <input type = "text" value = "{!!$Name!!} {!!$LastName!!} " class = "input" placeholder = "Name" required />
+     <div> {!!$Name!!} {!!$LastName!!} </div>
    </div>
 
    
@@ -30,23 +30,26 @@
   <div class = "col-12 name d-flex justify-content-between p-0 pt-3">
     <div class = "col-6">
       <p>მეილი :</p>
-    <input type = "email" value = "{!!$Email!!}" class = "input" placeholder = "Email" required />
+
+    <div >{!!$Email!!} </div>
   </div>
 
   <div class = "col-6">
     <p>ტელეფონი:</p>
-    <input type = "tel" value = "{!!$Phone!!}" class = "input" placeholder = "Phone" required />
+    {!!$Phone!!}
   </div>
  </div>
 
  <div class = "col-12 mt-3">
  <p>მიმართულება:</p>
-   <input  type = "text" value = "{!!$transfer!!}" class = "input" />
+ {!!$transfer!!}
  </div>
 
+ <p>ბილეთების რაოდენობა </p>
+<div>{{!!$raodenoba!!}} </div>
  <div class = "col-12 mt-3">
  <p>QR code:</p>
-   <input  type = "text" value = "{!!$qr!!}" class = "input" />
+ <div class="mb-3">{!! DNS2D::getBarcodeHTML($qr, 'QRCODE') !!}</div>
  </div>
 </div>
 </div>
