@@ -65,7 +65,8 @@ class RoutesController extends Controller
         $redirUrl=$trurl['transactionUrl'];
         
 
-
+     $strQR=$request->today;
+     
         $data = [
             'Name'=>$request->Name,
             'LastName'=>$request->Lastname,
@@ -74,10 +75,11 @@ class RoutesController extends Controller
             'transfer'=>$request->transfer,
             'Price'=>$request->Price,
             'raodenoba'=>$request->raodenoba,
-            'qr'=>$request->today
+            'qr'=>strval($strQR),
        
         ];
         $toEmail=$request->Email;
+        
             Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
             {
                  $message->to($toEmail, 'Black Sea Tickets')->subject ('Black Sea Tickets');                
