@@ -16,6 +16,7 @@ class RoutesController extends Controller
         $client = new \GuzzleHttp\Client();
  // generating id wich changes tickets status after
            $today=date('YmdHi');
+        
        //adding this data into request, to feed database
          $request->request->add(['given_id' => $today]);
         $request->request->add(['status' => 'pending']);
@@ -65,7 +66,7 @@ class RoutesController extends Controller
         $redirUrl=$trurl['transactionUrl'];
         
 
-     $strQR=$request->today;
+     
      
         $data = [
             'Name'=>$request->Name,
@@ -75,8 +76,7 @@ class RoutesController extends Controller
             'transfer'=>$request->transfer,
             'Price'=>$request->Price,
             'raodenoba'=>$request->raodenoba,
-            'qr'=>strval($strQR),
-       
+            'qr'=>$today,
         ];
         $toEmail=$request->Email;
         
