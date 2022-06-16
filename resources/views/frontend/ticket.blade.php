@@ -49,7 +49,7 @@
 <div>{{!!$raodenoba!!}} </div>
  <div class = "col-12 mt-3">
  <p>QR code:</p>
- <div class="mb-3">{!! DNS2D::getBarcodeHTML($qr, 'QRCODE') !!}</div>
+ <div class="mb-3">{!! DNS1D::getBarcodeSVG($qr, "C39", 1, 25, '#2A3239') !!}</div>
  </div>
 </div>
 </div>

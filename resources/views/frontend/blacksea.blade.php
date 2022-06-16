@@ -95,7 +95,7 @@
 <section id="news" >
 
 <img width="100%" src="{{ asset('../front/assets/images/limperatrice.jpeg') }}" >
-<div class="mb-3">{!! DNS2D::getBarcodeHTML('4445645656', 'QRCODE') !!}</div>
+
 
 <div class="container p-0">
   <h3 class = "mt-5 d-block">L'Impératrice</h3><br>
