@@ -22,21 +22,27 @@ class RoutesController extends Controller
         
        if($request->transfer=="tbilisi1"){
         $price=$request->raodenoba*50;
+        $trans="თბილისი - Black Sea Arena (ერთი გზა)";
        }
        if($request->transfer=="tbilisi2"){
         $price=$request->raodenoba*80;
+        $trans="თბილისი - Black Sea Arena (ერთი გზა)";
        }
        if($request->transfer=="kutais1"){
         $price=$request->raodenoba*30;
+        $trans="ქუთაისი - Black Sea Arena (ერთი გზა)";
        }
        if($request->transfer=="kutais2"){
         $price=$request->raodenoba*50;
+        $trans="ქუთაისი - Black Sea Arena (ერთი გზა)";
        }
        if($request->transfer=="batum1"){
         $price=$request->raodenoba*25;
+        $trans="ბათუმი - Black Sea Arena (ერთი გზა)";
        }
        if($request->transfer=="batum2"){
         $price=$request->raodenoba*40;
+        $trans="ბათუმი - Black Sea Arena (ორი გზა)";
        }
        $request->request->add(['Price' => $price]);
 
@@ -67,14 +73,14 @@ class RoutesController extends Controller
             'Phone'=>$request->Phone,
             'transfer'=>$request->transfer,
             'Price'=>$request->Price,
+            'raodenoba'=>$request->raodenoba,
             'qr'=>$request->today
        
         ];
-       
-            Mail::send('frontend.ticket', $data, function($message) 
+        $toEmail=$request->Email;
+            Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
             {
-                 $message->to('info@bene-exclusive.com', 'Black Sea Tickets')->subject
-                 ('Black Sea Tickets');
+                 $message->to($toEmail, 'Black Sea Tickets')->subject ('Black Sea Tickets');                
                  $message->from('info@bene-exclusive.com' , 'Bene Exclusive' );
                //  $message->setBody('<h3>Hi, {{!!$Name!!}} {{!!$LastName!!}}</h3> <p>you are going from {{!!$transfer!!}} </p><p>show this qr {{!!$qr!!}} </p>  <p>tickets {{!!$raodenoba!!}} </p>', 'text/html');
             
@@ -91,7 +97,7 @@ class RoutesController extends Controller
        
           $ticket->status="success";
        $ticket->save();
-       return view('frontend.blacksea')->with('success', 'payment success'); 
+       return redirect()->back()->with('success', 'payment success'); 
   }
 
   public function failcallback($id){
@@ -99,7 +105,7 @@ class RoutesController extends Controller
 
    $ticket->status="fail";
 $ticket->save();
-return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
+return Redirect::back()->withErrors(['msg' => 'payment has declined']);
   }
    public function index() {
         return view('frontend.home');
