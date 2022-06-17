@@ -83,17 +83,18 @@ class RoutesController extends Controller
        
           $ticket->status="success";
        $ticket->save();
-
+       $tstatus='success';
        $data = [
-        'Name'=>$request->Name,
-        'LastName'=>$request->Lastname,
-        'Email'=>$request->Email,
-        'Phone'=>$request->Phone,
-        'transfer'=>$request->transfer,
-        'Price'=>$request->Price,
-        'raodenoba'=>$request->raodenoba,
-        'qr'=>$today,
-    ];
+           'Name'=>$request->Name,
+           'LastName'=>$request->Lastname,
+           'Email'=>$request->Email,
+           'Phone'=>$request->Phone,
+           'transfer'=>$request->transfer,
+           'Price'=>$request->Price,
+           'raodenoba'=>$request->raodenoba,
+           'qr'=>$today,
+           'status'=>$tstatus,
+       ];
     $toEmail=$request->Email;
     
         Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
@@ -111,7 +112,7 @@ class RoutesController extends Controller
 
    $ticket->status="fail";
 $ticket->save();
-
+$tstatus='fail';
 $data = [
     'Name'=>$request->Name,
     'LastName'=>$request->Lastname,
@@ -121,6 +122,7 @@ $data = [
     'Price'=>$request->Price,
     'raodenoba'=>$request->raodenoba,
     'qr'=>$today,
+    'status'=>$tstatus,
 ];
 $toEmail=$request->Email;
 
