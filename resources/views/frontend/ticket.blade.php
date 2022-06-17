@@ -46,11 +46,11 @@
  </div>
 
  <p>ticket</p>
-<div>{{!!$raodenoba!!}} </div>
+<div>{!!$raodenoba!!} </div>
 
  <div >
  <p>QR code:</p>
- {!! DNS2D::getBarcodeHTML($qr, 'QRCODE') !!}
+ 
  </div>
 </div>
 </div>
