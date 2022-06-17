@@ -48,7 +48,11 @@ class RoutesController extends Controller
        $request->request->add(['Price' => $price]);
 
         $response = $client->request('POST', 'https://payze.io/api/v1', [
-          'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418","apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',"currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok/'.$today.'","callbackError":"https://bene-exclusive.com/events/LImperatrice/fail/'.$today.'","preauthorize":false,"lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
+          'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418",
+            "apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',
+                "currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok/'.$today.'&'.$Name.'&'.$Lastname.'&'.$Email.'&'.$Phone.'&'.$transfer.'&'.$Price.'&'.$raodenoba.'",
+                "callbackError":"https://bene-exclusive.com/events/LImperatrice/fail/'.$today.'&'.$Name.'&'.$Lastname.'&'.$Email.'&'.$Phone.'&'.$transfer.'&'.$Price.'&'.$raodenoba.'","preauthorize":false,
+                "lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
           'headers' => [
             'Accept' => 'application/json',
             'Content-Type' => 'application/json',
@@ -68,27 +72,7 @@ class RoutesController extends Controller
 
      
      
-        $data = [
-            'Name'=>$request->Name,
-            'LastName'=>$request->Lastname,
-            'Email'=>$request->Email,
-            'Phone'=>$request->Phone,
-            'transfer'=>$request->transfer,
-            'Price'=>$request->Price,
-            'raodenoba'=>$request->raodenoba,
-            'qr'=>$today,
-        ];
-        $toEmail=$request->Email;
-        
-            Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
-            {
-                 $message->to($toEmail, 'Black Sea Tickets')->subject ('Black Sea Tickets');                
-                 $message->from('info@bene-exclusive.com' , 'Bene Exclusive' );
-               //  $message->setBody('<h3>Hi, {{!!$Name!!}} {{!!$LastName!!}}</h3> <p>you are going from {{!!$transfer!!}} </p><p>show this qr {{!!$qr!!}} </p>  <p>tickets {{!!$raodenoba!!}} </p>', 'text/html');
-            
-
-         
-            });
+      
 
             return Redirect::intended($redirUrl);
         }
@@ -99,6 +83,26 @@ class RoutesController extends Controller
        
           $ticket->status="success";
        $ticket->save();
+
+       $data = [
+        'Name'=>$request->Name,
+        'LastName'=>$request->Lastname,
+        'Email'=>$request->Email,
+        'Phone'=>$request->Phone,
+        'transfer'=>$request->transfer,
+        'Price'=>$request->Price,
+        'raodenoba'=>$request->raodenoba,
+        'qr'=>$today,
+    ];
+    $toEmail=$request->Email;
+    
+        Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
+        {
+             $message->to($toEmail, 'Black Sea Tickets')->subject ('Black Sea Tickets');                
+             $message->from('info@bene-exclusive.com' , 'Bene Exclusive' );
+      
+     
+        });
        return view('frontend.blacksea')->with('success', 'payment success'); 
   }
 
@@ -107,7 +111,28 @@ class RoutesController extends Controller
 
    $ticket->status="fail";
 $ticket->save();
+
+$data = [
+    'Name'=>$request->Name,
+    'LastName'=>$request->Lastname,
+    'Email'=>$request->Email,
+    'Phone'=>$request->Phone,
+    'transfer'=>$request->transfer,
+    'Price'=>$request->Price,
+    'raodenoba'=>$request->raodenoba,
+    'qr'=>$today,
+];
+$toEmail=$request->Email;
+
+    Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
+    {
+         $message->to($toEmail, 'Black Sea Tickets')->subject ('Black Sea Tickets');                
+         $message->from('info@bene-exclusive.com' , 'Bene Exclusive' );
+  
+ 
+    });
 return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
+
   }
    public function index() {
         return view('frontend.home');
