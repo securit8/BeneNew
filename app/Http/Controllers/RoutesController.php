@@ -46,7 +46,15 @@ class RoutesController extends Controller
         $trans="ბათუმი - Black Sea Arena (ორი გზა)";
        }
        $request->request->add(['Price' => $price]);
-
+       $Name=$request->Name;
+       $LastName=$request->Lastname;
+       $Email=$request->Email;
+       $Phone=$request->Phone;
+       $transfer=$request->transfer;
+       $Price=$request->Price;
+       $raodenoba=$request->raodenoba;
+       $qr=$today;
+       
         $response = $client->request('POST', 'https://payze.io/api/v1', [
           'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418",
             "apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',
