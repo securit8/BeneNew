@@ -12,7 +12,30 @@
     <div class="events-middle">
         <div class="evenrs-inner">
 
+        <div class="project">
+                        <div class="project-image-2">
+                        <a href="{{route('frontend.blacksea')}}">
+                            <img src="{{asset('../front/assets/images/limperatrice.jpeg') }}" alt="">
+                        </a>
+                        </div>
 
+                        <div class="project-info">
+                            <div class="project-title">
+                                <p>L'Impératrice </p>
+                            </div>
+                            <div class="project-text">
+                                <p>@lang('front.tr-det')</p>
+                            </div>
+                            <div class="project-button">
+                                <button> 
+                                    <a href="{{route('frontend.blacksea')}}">
+                                    <p>@lang('front.show-more')</p>
+                                    <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                </div>
 
             <div class= "proeqtebi" >
                 
@@ -51,7 +74,7 @@
 
                         <div class="project-info">
                             <div class="project-title">
-                                <p>NETWORKING GEORGIA</p>
+                                <p>NETWORKING </p>
                             </div>
                             <div class="project-text">
                                 <p>@lang('front.networking-description')</p>

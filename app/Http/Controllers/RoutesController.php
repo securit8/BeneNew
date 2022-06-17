@@ -23,31 +23,31 @@ class RoutesController extends Controller
         
        if($request->transfer=="tbilisi1"){
         $price=$request->raodenoba*50;
-        $trans="თბილისი - Black Sea Arena (ერთი გზა)";
+        $trans="&#4311;&#4305;&#4312;&#4314;&#4312;&#4321;&#4312; - Black Sea Arena (&#4308;&#4320;&#4311;&#4312; &#4306;&#4310;&#4304;)";
        }
        if($request->transfer=="tbilisi2"){
         $price=$request->raodenoba*80;
-        $trans="თბილისი - Black Sea Arena (ერთი გზა)";
+        $trans="&#4311;&#4305;&#4312;&#4314;&#4312;&#4321;&#4312; - Black Sea Arena (&#4308;&#4320;&#4311;&#4312; &#4306;&#4310;&#4304;)";
        }
        if($request->transfer=="kutais1"){
         $price=$request->raodenoba*30;
-        $trans="ქუთაისი - Black Sea Arena (ერთი გზა)";
+        $trans="&#4325;&#4323;&#4311;&#4304;&#4312;&#4321;&#4312; - Black Sea Arena (&#4308;&#4320;&#4311;&#4312; &#4306;&#4310;&#4304;)";
        }
        if($request->transfer=="kutais2"){
         $price=$request->raodenoba*50;
-        $trans="ქუთაისი - Black Sea Arena (ერთი გზა)";
+        $trans="&#4325;&#4323;&#4311;&#4304;&#4312;&#4321;&#4312; - Black Sea Arena (&#4308;&#4320;&#4311;&#4312; &#4306;&#4310;&#4304;)";
        }
        if($request->transfer=="batum1"){
         $price=$request->raodenoba*25;
-        $trans="ბათუმი - Black Sea Arena (ერთი გზა)";
+        $trans="&#4305;&#4304;&#4311;&#4323;&#4315;&#4312; - Black Sea Arena (&#4308;&#4320;&#4311;&#4312; &#4306;&#4310;&#4304;)";
        }
        if($request->transfer=="batum2"){
         $price=$request->raodenoba*40;
-        $trans="ბათუმი - Black Sea Arena (ორი გზა)";
+        $trans="&#4305;&#4304;&#4311;&#4323;&#4315;&#4312; - Black Sea Arena (&#4317;&#4320;&#4312; &#4306;&#4310;&#4304;)";
        }
        $request->request->add(['Price' => $price]);
        $Name=$request->Name;
-       $LastName=$request->Lastname;
+       $LastName=$request->LastName;
        $Email=$request->Email;
        $Phone=$request->Phone;
        $transfer=$request->transfer;
@@ -58,8 +58,8 @@ class RoutesController extends Controller
         $response = $client->request('POST', 'https://payze.io/api/v1', [
           'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418",
             "apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',
-                "currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok/'.$today.'&'.$Name.'&'.$LastName.'&'.$Email.'&'.$Phone.'&'.$transfer.'&'.$Price.'&'.$raodenoba.'&'.$qr.'",
-                "callbackError":"https://bene-exclusive.com/events/LImperatrice/fail/'.$today.'&'.$Name.'&'.$LastName.'&'.$Email.'&'.$Phone.'&'.$transfer.'&'.$Price.'&'.$raodenoba.'&'.$qr.'","preauthorize":false,
+                "currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok/'.$today.'?Name='.$Name.'&LastName='.$LastName.'&Email='.$Email.'&Phone='.$Phone.'&transfer='.$transfer.'&Price='.$Price.'&raodenoba='.$raodenoba.'&qr='.$qr.'",
+                "callbackError":"https://bene-exclusive.com/events/LImperatrice/fail/'.$today.'?Name='.$Name.'&LastName='.$LastName.'&Email='.$Email.'&Phone='.$Phone.'&transfer='.$transfer.'&Price='.$Price.'&raodenoba='.$raodenoba.'&qr='.$qr.'","preauthorize":false,
                 "lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
           'headers' => [
             'Accept' => 'application/json',
@@ -100,7 +100,7 @@ class RoutesController extends Controller
            'transfer'=>$request->transfer,
            'Price'=>$request->Price,
            'raodenoba'=>$request->raodenoba,
-           'qr'=>$today,
+           'qr'=>$id,
            'status'=>$tstatus,
        ];
     $toEmail=$request->Email;
@@ -115,7 +115,7 @@ class RoutesController extends Controller
        return view('frontend.blacksea')->with('success', 'payment success'); 
   }
 
-  public function failcallback($id){
+  public function failcallback(Request $request, $id){
  $ticket = ticket::where('given_id', $id)->first();
 
    $ticket->status="fail";
@@ -129,7 +129,7 @@ $data = [
     'transfer'=>$request->transfer,
     'Price'=>$request->Price,
     'raodenoba'=>$request->raodenoba,
-    'qr'=>$today,
+    'qr'=>$id,
     'status'=>$tstatus,
 ];
 $toEmail=$request->Email;
