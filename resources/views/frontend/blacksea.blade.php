@@ -136,6 +136,7 @@
     </div>
     <div id="inputT1">
     <div>      
+      
       <input name="Name" type="text" placeholder="@lang('front.name')" required>
     </div>
 
