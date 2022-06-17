@@ -45,6 +45,7 @@ class RoutesController extends Controller
         $price=$request->raodenoba*40;
         $trans="&#4305;&#4304;&#4311;&#4323;&#4315;&#4312; - Black Sea Arena (&#4317;&#4320;&#4312; &#4306;&#4310;&#4304;)";
        }
+       dd($price);
        $request->request->add(['Price' => $price]);
        $Name=$request->Name;
        $Name=str_replace(' ', '', $Name);
