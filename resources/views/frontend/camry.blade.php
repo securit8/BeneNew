@@ -36,7 +36,7 @@
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/camry/2.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/camry/3.jpg')}}" class="" alt="...">
     </div>
 
 
