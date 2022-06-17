@@ -58,8 +58,8 @@ class RoutesController extends Controller
         $response = $client->request('POST', 'https://payze.io/api/v1', [
           'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418",
             "apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',
-                "currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok/'.$today.'&'.$Name.'&'.$Lastname.'&'.$Email.'&'.$Phone.'&'.$transfer.'&'.$Price.'&'.$raodenoba.'",
-                "callbackError":"https://bene-exclusive.com/events/LImperatrice/fail/'.$today.'&'.$Name.'&'.$Lastname.'&'.$Email.'&'.$Phone.'&'.$transfer.'&'.$Price.'&'.$raodenoba.'","preauthorize":false,
+                "currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok/'.$today.'&'.$Name.'&'.$LastName.'&'.$Email.'&'.$Phone.'&'.$transfer.'&'.$Price.'&'.$raodenoba.'&'.$qr.'",
+                "callbackError":"https://bene-exclusive.com/events/LImperatrice/fail/'.$today.'&'.$Name.'&'.$Lastname.'&'.$Email.'&'.$Phone.'&'.$transfer.'&'.$Price.'&'.$raodenoba.'&'.$qr.'","preauthorize":false,
                 "lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
           'headers' => [
             'Accept' => 'application/json',
