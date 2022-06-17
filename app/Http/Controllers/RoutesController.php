@@ -45,7 +45,7 @@ class RoutesController extends Controller
         $price=$request->raodenoba*40;
         $trans="&#4305;&#4304;&#4311;&#4323;&#4315;&#4312; - Black Sea Arena (&#4317;&#4320;&#4312; &#4306;&#4310;&#4304;)";
        }
-       dd($price);
+     
        $request->request->add(['Price' => $price]);
        $Name=$request->Name;
        $Name=str_replace(' ', '', $Name);
@@ -61,7 +61,7 @@ class RoutesController extends Controller
         $response = $client->request('POST', 'https://payze.io/api/v1', [
           'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418",
             "apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',
-                "currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok/'.$today.'?Name='.$Name.'&LastName='.$LastName.'&Email='.$Email.'&Phone='.$Phone.'&transfer='.$transfer.'&Price='.$Price.'&raodenoba='.$raodenoba.'&qr='.$qr.'",
+                "currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok/'.$today.'?Name='.$Name.'&LastName='.$LastName.'&Email='.$Email.'&Phone='.$Phone.'&transfer='.$transfer.'&Price='.$price.'&raodenoba='.$raodenoba.'&qr='.$qr.'",
                 "callbackError":"https://bene-exclusive.com/events/LImperatrice/fail/'.$today.'?Name='.$Name.'&LastName='.$LastName.'&Email='.$Email.'&Phone='.$Phone.'&transfer='.$transfer.'&Price='.$Price.'&raodenoba='.$raodenoba.'&qr='.$qr.'","preauthorize":false,
                 "lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
           'headers' => [
