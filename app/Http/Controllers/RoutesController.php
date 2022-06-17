@@ -54,8 +54,8 @@ class RoutesController extends Controller
        $Email=str_replace(' ', '', $Email);
        $Phone=$request->Phone;
        $Phone=str_replace(' ', '', $Phone);
-       $Price=$request->Price;
        $raodenoba=$request->raodenoba;
+       $transfer=$request->transfer;
        $qr=$today;
         $response = $client->request('POST', 'https://payze.io/api/v1', [
           'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418",
