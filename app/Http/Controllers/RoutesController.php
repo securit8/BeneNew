@@ -23,27 +23,27 @@ class RoutesController extends Controller
         
        if($request->transfer=="tbilisi1"){
         $price=$request->raodenoba*50;
-        $trans="&#4311;&#4305;&#4312;&#4314;&#4312;&#4321;&#4312; - Black Sea Arena (&#4308;&#4320;&#4311;&#4312; &#4306;&#4310;&#4304;)";
+        $trans="Tbilisi - Black Sea Arena (one way)";
        }
        if($request->transfer=="tbilisi2"){
         $price=$request->raodenoba*80;
-        $trans="&#4311;&#4305;&#4312;&#4314;&#4312;&#4321;&#4312; - Black Sea Arena (&#4308;&#4320;&#4311;&#4312; &#4306;&#4310;&#4304;)";
+        $trans="Tbilisi - Black Sea Arena (two way)";
        }
        if($request->transfer=="kutais1"){
         $price=$request->raodenoba*30;
-        $trans="&#4325;&#4323;&#4311;&#4304;&#4312;&#4321;&#4312; - Black Sea Arena (&#4308;&#4320;&#4311;&#4312; &#4306;&#4310;&#4304;)";
+        $trans="Kutaisi - Black Sea Arena (one way)";
        }
        if($request->transfer=="kutais2"){
         $price=$request->raodenoba*50;
-        $trans="&#4325;&#4323;&#4311;&#4304;&#4312;&#4321;&#4312; - Black Sea Arena (&#4308;&#4320;&#4311;&#4312; &#4306;&#4310;&#4304;)";
+        $trans="Kutaisi - Black Sea Arena (two way)";
        }
        if($request->transfer=="batum1"){
         $price=$request->raodenoba*25;
-        $trans="&#4305;&#4304;&#4311;&#4323;&#4315;&#4312; - Black Sea Arena (&#4308;&#4320;&#4311;&#4312; &#4306;&#4310;&#4304;)";
+        $trans="Batumi - Black Sea Arena (one way)";
        }
        if($request->transfer=="batum2"){
         $price=$request->raodenoba*40;
-        $trans="&#4305;&#4304;&#4311;&#4323;&#4315;&#4312; - Black Sea Arena (&#4317;&#4320;&#4312; &#4306;&#4310;&#4304;)";
+        $trans="Batumi - Black Sea Arena (two way)";
        }
      
        $request->request->add(['Price' => $price]);
