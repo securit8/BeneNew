@@ -16,8 +16,7 @@ class RoutesController extends Controller
         $client = new \GuzzleHttp\Client();
  // generating id wich changes tickets status after
            $today=date('YmdHi');
-           
-        
+            
        //adding this data into request, to feed database
          $request->request->add(['given_id' => $today]);
         $request->request->add(['status' => 'pending']);
@@ -86,7 +85,7 @@ class RoutesController extends Controller
         }
 
   public function okcallback($id){
-    $linkedqr='../public/qrcodes/'.$id.'.png';
+    $linkedqr='https://bene-exclusive.com/public/qrcodes/'.$id.'.png';
     \QrCode::size(500)
     ->format('png')
     ->generate($id, public_path($linkedqr));
@@ -121,7 +120,7 @@ class RoutesController extends Controller
 
   public function failcallback(Request $request, $id){
     
-    $linkedqr='../public/qrcodes/'.$id.'.png';
+    $linkedqr='https://bene-exclusive.com/public/qrcodes/'.$id.'.png';
     \QrCode::size(500)
     ->format('png')
     ->generate($id, public_path($linkedqr));
