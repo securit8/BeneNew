@@ -309,9 +309,9 @@
                 <p>7 @lang('front.april'), 2022</p>
                 </div>
 
-                <h6>@lang('front.news-article-1-header')</h6>
+                <h6>@lang('front.news-article-6-header')</h6>
 
-                <p>@lang('front.news-article-1-body')</p>
+                <p>@lang('front.news-article-6-body')</p>
 
 
                 <div class="index-read-more">

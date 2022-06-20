@@ -281,6 +281,9 @@ At the end of the course, participants receive a certificate, in accordance with
 'news-article-1-header' => '“Exclusive” members of Bene Exclusive team',
 'news-article-1-body' => 'Lady-drivers at Bene Exclusive are experienced and professional drivers like men.',
 
+'news-article-6-header' => 'Limperatrice ',
+'news-article-6-body' => 'As usual, Bene Exclusive is a partner of Black Sea Arena',
+
 'news-article-2-header' => 'Fleet matching any weather<br><br>',
 'news-article-2-body' => 'Snow and bad weather aren’t an obstacle for Bene Exclusive SUVs.',
 
