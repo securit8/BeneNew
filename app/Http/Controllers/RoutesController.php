@@ -16,9 +16,7 @@ class RoutesController extends Controller
         $client = new \GuzzleHttp\Client();
  // generating id wich changes tickets status after
            $today=date('YmdHi');
-           \QrCode::size(500)
-           ->format('png')
-           ->generate($today, public_path('images/'.$today.'.svg'));
+           
         
        //adding this data into request, to feed database
          $request->request->add(['given_id' => $today]);
@@ -88,6 +86,10 @@ class RoutesController extends Controller
         }
 
   public function okcallback($id){
+    $linkedqr='qrcodes/'.$id.'.png';
+    \QrCode::size(500)
+    ->format('png')
+    ->generate($id, public_path($linkedqr));
 
         $ticket = ticket::where('given_id', $id)->first();
        
@@ -118,6 +120,11 @@ class RoutesController extends Controller
   }
 
   public function failcallback(Request $request, $id){
+    $linkedqr='qrcodes/'.$id.'.png';
+    \QrCode::size(500)
+    ->format('png')
+    ->generate($id, public_path($linkedqr));
+    
  $ticket = ticket::where('given_id', $id)->first();
 
    $ticket->status="fail";
@@ -131,7 +138,7 @@ $data = [
     'transfer'=>$request->transfer,
     'Price'=>$request->Price,
     'raodenoba'=>$request->raodenoba,
-    'qr'=>$id,
+    'qr'=>$linkedqr,
     'status'=>$tstatus,
 ];
 $toEmail=$request->Email;
