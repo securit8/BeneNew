@@ -18,7 +18,7 @@ class RoutesController extends Controller
            $today=date('YmdHi');
            \QrCode::size(500)
            ->format('png')
-           ->generate($today, public_path('images/'.$today.'.png'));
+           ->generate($today, public_path('images/'.$today.'.svg'));
         
        //adding this data into request, to feed database
          $request->request->add(['given_id' => $today]);
