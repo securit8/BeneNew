@@ -78,7 +78,7 @@
         <div class = "col-12 mt-3 d-flex justify-content-center">
             <div class="d-flex flex-column">
                 <p>QR code:</p>
-                <input  type = "text" value = "{!!$qr!!}" class = "input" />
+                <img src="{{$qr}}"   height="150" width="150" alt="">
             </div>
         </div>
     </div>
