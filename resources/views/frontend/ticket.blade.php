@@ -43,7 +43,7 @@
             <div class = "col-12 mt-3 d-flex justify-content-center">
                 <div class="d-flex flex-column">
                     <p>STATUS:</p>
-                    <input  type = "text" value = "{!!$status!!}" class = "input" />
+                    <h3> {!!$status!!} </h3>
                 </div>
             </div>
             <div class = "">
