@@ -85,10 +85,12 @@ class RoutesController extends Controller
         }
 
   public function okcallback($id){
+    $savedqr='../public/qrcodes/'.$id.'.png';
     $linkedqr='https://bene-exclusive.com/public/qrcodes/'.$id.'.png';
     \QrCode::size(500)
     ->format('png')
-    ->generate($id, public_path($linkedqr));
+    ->generate($id, public_path($savedqr));
+    
 
         $ticket = ticket::where('given_id', $id)->first();
        
@@ -120,10 +122,11 @@ class RoutesController extends Controller
 
   public function failcallback(Request $request, $id){
     
+    $savedqr='../public/qrcodes/'.$id.'.png';
     $linkedqr='https://bene-exclusive.com/public/qrcodes/'.$id.'.png';
     \QrCode::size(500)
     ->format('png')
-    ->generate($id, public_path($linkedqr));
+    ->generate($id, public_path($savedqr));
     
  $ticket = ticket::where('given_id', $id)->first();
 
