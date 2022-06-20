@@ -1,13 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
-
-
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
 use Redirect;
 use App\Models\ticket;
 use App\Mail\BeneMail;
 use Mail;
+use QrCodeServiceProvider;
 
 class RoutesController extends Controller
 {
@@ -16,6 +16,9 @@ class RoutesController extends Controller
         $client = new \GuzzleHttp\Client();
  // generating id wich changes tickets status after
            $today=date('YmdHi');
+           \QrCode::size(500)
+           ->format('png')
+           ->generate($today, public_path('images/'.$today.'.png'));
         
        //adding this data into request, to feed database
          $request->request->add(['given_id' => $today]);
@@ -79,11 +82,7 @@ class RoutesController extends Controller
          $json = json_decode($json, true);
          $trurl=$json['response'];
         $redirUrl=$trurl['transactionUrl'];
-        
 
-     
-     
-      
 
             return Redirect::intended($redirUrl);
         }
