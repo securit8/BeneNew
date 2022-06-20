@@ -86,7 +86,7 @@ class RoutesController extends Controller
         }
 
   public function okcallback($id){
-    $linkedqr='qrcodes/'.$id.'.png';
+    $linkedqr='../public/qrcodes/'.$id.'.png';
     \QrCode::size(500)
     ->format('png')
     ->generate($id, public_path($linkedqr));
@@ -104,7 +104,7 @@ class RoutesController extends Controller
            'transfer'=>$request->transfer,
            'Price'=>$request->Price,
            'raodenoba'=>$request->raodenoba,
-           'qr'=>$id,
+           'qr'=>$linkedqr,
            'status'=>$tstatus,
        ];
     $toEmail=$request->Email;
@@ -120,7 +120,8 @@ class RoutesController extends Controller
   }
 
   public function failcallback(Request $request, $id){
-    $linkedqr='qrcodes/'.$id.'.png';
+    
+    $linkedqr='../public/qrcodes/'.$id.'.png';
     \QrCode::size(500)
     ->format('png')
     ->generate($id, public_path($linkedqr));

@@ -318,6 +318,8 @@
                   <a href="{{route('frontend.blacksea')}}">
                   <h5>@lang('front.show-more')</h5></a>
                   <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+
+                  
                 </div>
               </div>
             </div>
