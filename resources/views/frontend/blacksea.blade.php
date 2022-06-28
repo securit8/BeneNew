@@ -362,7 +362,7 @@
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
         <p  style="color:green;font-size:1rem;padding-top:5px;">@lang('front.batumi_2way')</p>
-        <input type="hidden" name="transfer" value="tbilisi2" />
+        <input type="hidden" name="transfer" value="batum2" />
     </div>
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
