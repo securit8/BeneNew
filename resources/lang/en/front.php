@@ -184,13 +184,40 @@ At Bene, our vision is to consistently work to high standards of service for the
                          The car was manufactured in 2018 and is a Toyota economy SUV that allows you to travel safely wherever you want.<br><br>
                          The model is distinguished by high safety standards, a spacious interior and a modern multimedia system.',
 
+'fleet-car-14-outer' => 'Tesla Model Y is a bimotored, four-wheel drive electric jeep and one of the most
+                          distinguished models of our auto park.',     
+'fleet-car-14-inner' => 'Tesla Model Y is based on the design of Model 3 sedan. This particular model has
+                          a long-distance capacity and with full charge it can cover up to 488 km. ',  
+
+
+
+
+
 
 'fleet-creator' => 'MANUFACTURER',
+
+
+
 'fleet-model' => 'MODEL',
+
+
+
 'fleet-color' => 'COLOR',
+
+
+
 'fleet-category' => 'CATEGORY',
+
+
+
 'fleet-year' => 'YEAR',
+
+
+
 'fleet-engine' => 'ENGINE',
+
+
+
 'fleet-fuel' => 'FUEL',
 'fleet-interior' => 'SEAT TRIM',
 'fleet-passanger' => 'SEAT CAPACITY',
