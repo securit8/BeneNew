@@ -50,6 +50,7 @@ Route::get('/land', [RoutesController::class, 'land'])->name('frontend.land');
 Route::get('/land200', [RoutesController::class, 'land200'])->name('frontend.land200');
 Route::get('/prado', [RoutesController::class, 'prado'])->name('frontend.prado');
 Route::get('/rav4', [RoutesController::class, 'rav4'])->name('frontend.rav4');
+Route::get('/MODELY', [RoutesController::class, 'MODELY'])->name('frontend.MODELY');
 
 Route::get('/event-moiare', [RoutesController::class, 'moiare'])->name('frontend.event-moiare');
 Route::get('/networking', [RoutesController::class, 'networking'])->name('frontend.networking');

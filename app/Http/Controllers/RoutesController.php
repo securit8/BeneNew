@@ -280,8 +280,6 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
 
     public function blacksea() {
 
-
-
         return view('frontend.blacksea');
     }
 
@@ -293,6 +291,10 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
         return view('frontend.networking');
     }
 
+    public function MODELY(){
+        return view('frontend.MODELY');
+    }
+    
     
     
 }
