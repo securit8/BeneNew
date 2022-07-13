@@ -354,7 +354,7 @@
 
               <div class="index-news-text">
                 <div class="news-date">
-                <p>7 @lang('front.april'), 2022</p>
+                <p>7 @lang('front.june'), 2022</p>
                 </div>
 
                 <h6>@lang('front.news-article-1-header')</h6>
@@ -406,16 +406,15 @@
 
             <div class="index-news-text">
               <div class="news-date">
-                <p>7 @lang('front.march'), 2022</p>
+                <p>16 @lang('front.june'), 2022</p>
               </div>
-
               <h6>@lang('front.news-article-3-header')</h6>
 
               <p>@lang('front.news-article-3-body') </p>
 
 
               <div class="index-read-more">
-                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/959071804744772/">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/1020451055273513/">
                   <h5>@lang('front.show-more')</h5></a>
                 <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
