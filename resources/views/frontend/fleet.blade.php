@@ -216,6 +216,42 @@
 
                             </div>
 
+                            <div class="fleet-element-14 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>TESLA MODEL Y</p> <img src="{{asset('front/images/fleet-logo2.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>MODEL Y</p> 
+                                        <p>CROSSOVER</p>
+                                        <p>2021</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>@lang('front.fleet-car-14-outer')</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.MODELY')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-5-image">
+                                    <img src="{{asset('front/images/modely/modely.png')}}" alt="">
+                                </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-14-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.camry')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                        </div>
+
 
                             <div class="fleet-element-8 reveal">
                             <div class="fleet-element-info">
@@ -640,41 +676,7 @@
 
 
 
-                        <div class="fleet-element-14 reveal">
-                            <div class="fleet-element-info">
-                                    
-                                    <div class="element-info-header">
-                                        <p>TESLA MODEL Y</p> <img src="{{asset('front/images/fleet-logo2.png')}}" alt="">
-                                    </div>
-                                    
-                                    <div class="element-info-tags">
-                                        <p>MODEL Y</p> 
-                                        <p>CROSSOVER</p>
-                                        <p>2021</p>
-                                    </div>
-                                    
-                                    <div class="element-info-text">
-                                        <p>@lang('front.fleet-car-14-outer')</p>
-                                    </div>
-                                    
-                                    <div class="element-info-button">
-                                    <a href="{{route('frontend.MODELY')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
-                                    </div>
-                                    
-                                </div>
-
-                                <div class="fleet-element-5-image">
-                                    <img src="{{asset('front/images/modely/modely.png')}}" alt="">
-                                </div>
-
-                                    <div id="fleet-query" class="element-info-text">
-                                        <p>@lang('front.fleet-car-14-outer')</p>
-                                    </div>
-                                    
-                                    <div id="fleet-query" class="element-info-button">
-                                    <a href="{{route('frontend.camry')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
-                                    </div>
-                        </div>
+                        
 
 
                       
