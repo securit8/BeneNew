@@ -2518,8 +2518,8 @@ grid-row: 1 / 2;
  color: #00adef;
  background-color: rgba(36, 160, 237, 0.103);
  padding-top: 0.05rem;
- padding-left: 0.5rem;
- padding-right: 0.5rem;
+ padding-left: 0rem;
+ padding-right: 0rem;
  padding-bottom: 0.05rem;
  font-size: 0.95rem;
 }
