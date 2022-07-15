@@ -347,6 +347,30 @@
           </div>
 
           <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/4.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>16 @lang('front.june'), 2022</p>
+              </div>
+              <h6>@lang('front.news-article-3-header')</h6>
+
+              <p>@lang('front.news-article-3-body') </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/1020451055273513/">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="swiper-slide">
             <div class="index-news-article">
               <div class="index-news-image">
                 <img src="{{asset('front/images/article/5.jpg') }}" alt="">
