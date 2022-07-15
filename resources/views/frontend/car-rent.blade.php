@@ -157,7 +157,8 @@
                                         </div>
                                         
                                         </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                     
                                     <div class="car-rent-row1-car2">
@@ -209,7 +210,8 @@
                                         </div>
                                       
                                         </div>
-                                        <button  class="button" >Book Now</button>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
 
                                     <div class="car-rent-row1-car3">
@@ -262,7 +264,8 @@
                                         </div>
                                        
                                         </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                    
                                 </div>
@@ -319,9 +322,10 @@
                                                 </div>
                                                  
                                             </div>
-                                        </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
-                                        </div>
+                                            </div>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
                                     </div>
                                     
                                     <div class="car-rent-row2-car2">
@@ -369,9 +373,10 @@
                                                 </div>
                                                  
                                             </div>
-                                        </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
-                                        </div>
+                                            </div>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
                                     </div>
 
                                     <div class="car-rent-row2-car3">
@@ -423,7 +428,8 @@
                                         </div>
                                         
                                         </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                    
                                 </div>
@@ -482,9 +488,10 @@
                                                 </div>
                                                  
                                             </div>
-                                        </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
-                                        </div>
+                                            </div>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
                                     </div>
                                     
                                     <div class="car-rent-row3-car2">
@@ -537,7 +544,8 @@
                                         </div>
                                         
                                         </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
 
                                     <div class="car-rent-row3-car3">
@@ -586,9 +594,10 @@
                                                 </div>
                                                  
                                             </div>
-                                        </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
-                                        </div>
+                                            </div>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
                                         
                                     </div>
 
@@ -647,7 +656,8 @@
                                         </div>
                                         
                                         </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                     
                                     <div class="car-rent-row1-car2">
@@ -699,8 +709,10 @@
                                         </div>
                                       
                                         </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
+
 
                                     <div class="car-rent-row1-car3">
                                     <p>Van/Minibus</p>
@@ -752,7 +764,8 @@
                                         </div>
                                        
                                         </div>
-                                        <button  class="button" ><a style="text-decoration: none;  padding-right: 2.5rem" href="https://wa.me/+995592000703"><i class="fa fa-whatsapp"></i>Contact</a> Book Now</button>
+                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                    
                                 </div>
