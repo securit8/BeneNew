@@ -709,9 +709,64 @@
                                         </div>
                                       
                                         </div>
-                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <button   class="button " data-bs-toggle="modal" data-bs-target="#exampleModal"><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
+
+<!-- modal cody -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form method = "POST" action = "{{route('send_email')}}">
+                    @csrf
+                    <div class="contact-window-input">
+                        <div class="input-name">
+                           <img src="{{asset('front/images/person-icon.png')}}" alt="">
+                            <input name="fullName" type="text" placeholder="@lang('front.input-name')">
+                        </div>
+
+                        <div class="input-mail">
+                        <i class="fa-solid fa-at"></i>
+                            <input name="email" type="text" placeholder="@lang('front.input-mail')">
+                        </div>
+
+                        <div class="input-phone">
+                        <img src="{{asset('front/images/phone-icon.png')}}" alt="">
+                            <input name="phone" type="text" placeholder="@lang('front.input-number')">
+                        </div>
+
+                        <div class="input-message">
+                        <img src="{{asset('front/images/message-icon.png')}}" alt="">
+                            <input name="aboutText" type="text" placeholder="@lang('front.input-text')">
+                        </div>
+
+                        <div class="input-button">
+                           <button >
+                            <p>@lang('front.input-send')</p>
+                            <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+                           </button>
+                        </div>
+                    </div>
+                </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- modal end -->
 
 
                                     <div class="car-rent-row1-car3">
