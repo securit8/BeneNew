@@ -22,11 +22,11 @@ class RoutesController extends Controller
         $request->request->add(['status' => 'pending']);
         
        if($request->transfer=="tbilisi1"){
-        $price=$request->raodenoba*50;
+        $price=$request->raodenoba*60;
         $trans="Tbilisi - Black Sea Arena (one way)";
        }
        if($request->transfer=="tbilisi2"){
-        $price=$request->raodenoba*80;
+        $price=$request->raodenoba*100;
         $trans="Tbilisi - Black Sea Arena (two way)";
        }
        if($request->transfer=="kutais1"){
