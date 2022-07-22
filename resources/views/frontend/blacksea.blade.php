@@ -131,7 +131,7 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "tbili1"  style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;@lang('front.gela')</p>
+      <input id = "tbili1"  style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="60" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
@@ -180,7 +180,7 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "tbili2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="80" ></span>&nbsp;@lang('front.gela')</p>
+      <input id = "tbili2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="100" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
@@ -425,7 +425,7 @@ function tb1minus(){
   else{
     t1val--;
     document.getElementById('t1value').value = t1val;
-    document.getElementById('tbili1').value=t1val*50;
+    document.getElementById('tbili1').value=t1val*60;
   }
 }
 function tb1plus(){
@@ -438,7 +438,7 @@ function tb1plus(){
   else{
     t1val ++;
     document.getElementById('t1value').value =t1val ;
-    document.getElementById('tbili1').value=t1val*50;
+    document.getElementById('tbili1').value=t1val*60;
   }
 }
 
@@ -452,7 +452,7 @@ function tb2minus(){
   else{
     t2val--;
     document.getElementById('t2value').value = t2val;
-    document.getElementById('tbili2').value=t2val*80;
+    document.getElementById('tbili2').value=t2val*100;
   }
 }
 function tb2plus(){
@@ -465,7 +465,7 @@ function tb2plus(){
   else{
     t2val ++;
     document.getElementById('t2value').value =t2val ;
-    document.getElementById('tbili2').value=t2val*80;
+    document.getElementById('tbili2').value=t2val*100;
   }
 }
 // kutaisi -----------
