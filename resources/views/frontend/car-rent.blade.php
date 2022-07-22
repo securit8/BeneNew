@@ -157,7 +157,7 @@
                                         </div>
                                         
                                         </div>
-                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <button   class="button" data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                     
@@ -210,7 +210,7 @@
                                         </div>
                                       
                                         </div>
-                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <button   class="button "data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
 
@@ -264,7 +264,7 @@
                                         </div>
                                        
                                         </div>
-                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <button   class="button " data-bs-toggle="modal" data-bs-target="#exampleModal"><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                    
@@ -323,7 +323,7 @@
                                                  
                                             </div>
                                             </div>
-                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <button   class="button " data-bs-toggle="modal" data-bs-target="#exampleModal"><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                     </div>
@@ -374,7 +374,7 @@
                                                  
                                             </div>
                                             </div>
-                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <button   class="button "data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                     </div>
@@ -428,7 +428,7 @@
                                         </div>
                                         
                                         </div>
-                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <button   class="button " data-bs-toggle="modal" data-bs-target="#exampleModal"><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                    
@@ -489,7 +489,7 @@
                                                  
                                             </div>
                                             </div>
-                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <button   class="button "data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                     </div>
@@ -544,7 +544,7 @@
                                         </div>
                                         
                                         </div>
-                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <button   class="button " data-bs-toggle="modal" data-bs-target="#exampleModal"><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
 
@@ -595,7 +595,7 @@
                                                  
                                             </div>
                                             </div>
-                                        <button   class="button " ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <button   class="button "data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                         
