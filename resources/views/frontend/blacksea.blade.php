@@ -230,7 +230,7 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "kutais1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="30" ></span>&nbsp;@lang('front.gela')</p>
+      <input id = "kutais1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="40" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
@@ -278,7 +278,7 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "kutais2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;@lang('front.gela')</p>
+      <input id = "kutais2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="60" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
@@ -329,7 +329,7 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "batum1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="25" ></span>&nbsp;@lang('front.gela')</p>
+      <input id = "batum1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="35" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
@@ -377,7 +377,7 @@
 
     <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "batum2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="40" ></span>&nbsp;@lang('front.gela')</p>
+      <input id = "batum2" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="50" ></span>&nbsp;@lang('front.gela')</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
@@ -480,7 +480,7 @@ function ku1minus(){
   else{
     k1val--;
     document.getElementById('k1value').value = k1val;
-    document.getElementById('kutais1').value=k1val*30;
+    document.getElementById('kutais1').value=k1val*40;
   }
 }
 function ku1plus(){
@@ -493,7 +493,7 @@ function ku1plus(){
   else{
     k1val ++;
     document.getElementById('k1value').value =k1val ;
-    document.getElementById('kutais1').value=k1val*30;
+    document.getElementById('kutais1').value=k1val*40;
   }
 }
 
@@ -507,7 +507,7 @@ function ku2minus(){
   else{
     k2val--;
     document.getElementById('k2value').value = k2val;
-    document.getElementById('kutais2').value=k2val*50;
+    document.getElementById('kutais2').value=k2val*60;
   }
 }
 function ku2plus(){
@@ -520,7 +520,7 @@ function ku2plus(){
   else{
     k2val ++;
     document.getElementById('k2value').value =k2val ;
-    document.getElementById('kutais2').value=k2val*50;
+    document.getElementById('kutais2').value=k2val*60;
   }
 }
 
@@ -536,7 +536,7 @@ function b1minus(){
   else{
     b1val--;
     document.getElementById('b1value').value = b1val;
-    document.getElementById('batum1').value=b1val*25;
+    document.getElementById('batum1').value=b1val*35;
   }
 }
 function b1plus(){
@@ -549,7 +549,7 @@ function b1plus(){
   else{
     b1val ++;
     document.getElementById('b1value').value =b1val ;
-    document.getElementById('batum1').value=b1val*25;
+    document.getElementById('batum1').value=b1val*35;
   }
 }
 
@@ -563,7 +563,7 @@ function b2minus(){
   else{
     b2val--;
     document.getElementById('b2value').value = b2val;
-    document.getElementById('batum2').value=b2val*40;
+    document.getElementById('batum2').value=b2val*50;
   }
 }
 function b2plus(){
@@ -576,7 +576,7 @@ function b2plus(){
   else{
     b2val ++;
     document.getElementById('b2value').value =b2val ;
-    document.getElementById('batum2').value=b2val*40;
+    document.getElementById('batum2').value=b2val*50;
   }
 }
    
