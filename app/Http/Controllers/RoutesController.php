@@ -30,19 +30,19 @@ class RoutesController extends Controller
         $trans="Tbilisi - Black Sea Arena (two way)";
        }
        if($request->transfer=="kutais1"){
-        $price=$request->raodenoba*30;
+        $price=$request->raodenoba*40;
         $trans="Kutaisi - Black Sea Arena (one way)";
        }
        if($request->transfer=="kutais2"){
-        $price=$request->raodenoba*50;
+        $price=$request->raodenoba*60;
         $trans="Kutaisi - Black Sea Arena (two way)";
        }
        if($request->transfer=="batum1"){
-        $price=$request->raodenoba*25;
+        $price=$request->raodenoba*35;
         $trans="Batumi - Black Sea Arena (one way)";
        }
        if($request->transfer=="batum2"){
-        $price=$request->raodenoba*40;
+        $price=$request->raodenoba*50;
         $trans="Batumi - Black Sea Arena (two way)";
        }
      
@@ -85,39 +85,74 @@ class RoutesController extends Controller
         }
 
   public function okcallback($id){
+     
     $savedqr='../public/qrcodes/'.$id.'.png';
     $linkedqr='https://bene-exclusive.com/public/qrcodes/'.$id.'.png';
     \QrCode::size(500)
     ->format('png')
     ->generate($id, public_path($savedqr));
     
+ $ticket = ticket::where('given_id', $id)->first();
 
-        $ticket = ticket::where('given_id', $id)->first();
-       
-          $ticket->status="success";
-       $ticket->save();
-       $tstatus='success';
-       $data = [
-           'Name'=>$request->Name,
-           'LastName'=>$request->Lastname,
-           'Email'=>$request->Email,
-           'Phone'=>$request->Phone,
-           'transfer'=>$request->transfer,
-           'Price'=>$request->Price,
-           'raodenoba'=>$request->raodenoba,
-           'qr'=>$linkedqr,
-           'status'=>$tstatus,
-       ];
-    $toEmail=$request->Email;
+   $ticket->status="success";
+$ticket->save();
+$tstatus='success';
+$data = [
+    'Name'=>$request->Name,
+    'LastName'=>$request->Lastname,
+    'Email'=>$request->Email,
+    'Phone'=>$request->Phone,
+    'transfer'=>$request->transfer,
+    'Price'=>$request->Price,
+    'raodenoba'=>$request->raodenoba,
+    'qr'=>$linkedqr,
+    'status'=>$tstatus,
+];
+$toEmail=$request->Email;
+
+    Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
+    {
+         $message->to($toEmail, 'Black Sea Tickets')->subject ('Black Sea Tickets');                
+         $message->from('info@bene-exclusive.com' , 'Bene Exclusive' );
+  
+ 
+    });
+return view('frontend.blacksea')->withErrors(['success', 'payment success']);
+
     
-        Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
-        {
-             $message->to($toEmail, 'Black Sea Tickets')->subject ('Black Sea Tickets');                
-             $message->from('info@bene-exclusive.com' , 'Bene Exclusive' );
+    // $savedqr='../public/qrcodes/'.$id.'.png';
+    // $linkedqr='https://bene-exclusive.com/public/qrcodes/'.$id.'.png';
+    // \QrCode::size(500)
+    // ->format('png')
+    // ->generate($id, public_path($savedqr));
+    
+
+    //     $ticket = ticket::where('given_id', $id)->first();
+       
+    //       $ticket->status="success";
+    //    $ticket->save();
+    //    $tstatus='success';
+    //    $data = [
+    //        'Name'=>$request->Name,
+    //        'LastName'=>$request->Lastname,
+    //        'Email'=>$request->Email,
+    //        'Phone'=>$request->Phone,
+    //        'transfer'=>$request->transfer,
+    //        'Price'=>$request->Price,
+    //        'raodenoba'=>$request->raodenoba,
+    //        'qr'=>$linkedqr,
+    //        'status'=>$tstatus,
+    //    ];
+    // $toEmail=$request->Email;
+    
+    //     Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
+    //     {
+    //          $message->to($toEmail, 'Black Sea Tickets')->subject ('Black Sea Tickets');                
+    //          $message->from('info@bene-exclusive.com' , 'Bene Exclusive' );
       
      
-        });
-       return view('frontend.blacksea')->with('success', 'payment success'); 
+    //     });
+    //    return view('frontend.blacksea')->with('success', 'payment success'); 
   }
 
   public function failcallback(Request $request, $id){
