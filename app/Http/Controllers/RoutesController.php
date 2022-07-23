@@ -84,7 +84,7 @@ class RoutesController extends Controller
             return Redirect::intended($redirUrl);
         }
 
-  public function okcallback($id){
+  public function okcallback(Request $request,$id){
      
     $savedqr='../public/qrcodes/'.$id.'.png';
     $linkedqr='https://bene-exclusive.com/public/qrcodes/'.$id.'.png';
