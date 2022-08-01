@@ -496,7 +496,7 @@
                                     
                                     <div class="car-rent-row3-car2">
                                     <p>SUV</p>
-                                        <img src="{{asset('front/images/Car_Rent/Suzuki Vitara.png')}}" alt="">
+                                        <img src="{{asset('front/images/Car_Rent/Suzuki Grand Vitara.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="rent-vehicle-type">
                                                 
@@ -550,7 +550,7 @@
 
                                     <div class="car-rent-row3-car3">
                                     <p>SUV</p>
-                                        <img src="{{asset('front/images//Car_Rent/Nissan Pathfinder 2014.png')}}" alt="">
+                                        <img src="{{asset('front/images//Car_Rent/Nissan Pathfinder.png')}}" alt="">
                                         <div class="rent-toyota-specs"> 
                                         <div class="rent-vehicle-type">
                                                 
