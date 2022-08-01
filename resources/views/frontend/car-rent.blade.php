@@ -604,6 +604,345 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="car-rent-vehicles-row3 reveal">
+                            <div class="car-rent-vehicles-row3-middle">
+                                <div class="car-rent-vehicles-row3-inner">
+                                    
+                                
+                                    <div class="car-rent-row3-car1">
+                                    <p>Small/Economy</p>
+                                        <img src="{{asset('front/images/Car_Rent/Ford Fiesta.png')}}" alt="">
+                                        <div class="rent-kia-specs">
+                                        <div class="rent-vehicle-type">
+                                                
+                                            </div>
+                                        <div class="car-rent-name">
+                                            <p>FORD FIESTA</p>
+                                        </div>
+                                        <div class="car-rent-vehicle-type">
+                                            <p>Or Similar</p>
+                                        </div>
+                                        <div class="rent-vehicle-specs">
+                                        <div class="vehicle-specs-line-1">
+                                            <div class="car-spec-line">
+                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase"></i><p>1 Small Suitcase</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-snowflake"></i><p>Air Conditioning</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gears"></i><p>Transmission: Automatic</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="vehicle-specs-line-2">
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                </div>
+                                                            
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>2 Large Suitcase</p>
+                                                </div>
+                                                 
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-car"></i><p>4-5 Doors</p>
+                                                </div>
+                                                 
+                                            </div>
+                                            </div>
+                                        <button   class="button "data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
+                                    </div>
+                                    
+                                    <div class="car-rent-row3-car2">
+                                    <p>SUV</p>
+                                        <img src="{{asset('front/images/Car_Rent/Suzuki Grand Vitara.png')}}" alt="">
+                                        <div class="rent-huyndai-specs">
+                                        <div class="rent-vehicle-type">
+                                                
+                                            </div>
+                                        <div class="car-rent-name">
+                                            <p>SUZUKI VITARA</p>
+                                        </div>
+                                        <div class="car-rent-vehicle-type">
+                                            <p>Or Similar</p>
+                                        </div>
+                                        <div class="rent-vehicle-specs">
+                                        <div class="vehicle-specs-line-1">
+                                            <div class="car-spec-line">
+                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase"></i><p>3 Small Suitcases</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-snowflake"></i><p>Air Conditioning</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gears"></i><p>Transmission: Automatic</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="vehicle-specs-line-2">
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                </div>
+                                                            
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>3 Large Suitcase</p>
+                                                </div>
+                                                 
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-car"></i><p>4-5 Doors</p>
+                                                </div>
+                                                 
+                                            </div>
+                                           
+                                        </div>
+                                        
+                                        </div>
+                                        <button   class="button " data-bs-toggle="modal" data-bs-target="#exampleModal"><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
+
+                                    <div class="car-rent-row3-car3">
+                                    <p>SUV</p>
+                                        <img src="{{asset('front/images//Car_Rent/Nissan Pathfinder.png')}}" alt="">
+                                        <div class="rent-toyota-specs"> 
+                                        <div class="rent-vehicle-type">
+                                                
+                                            </div> 
+                                        <div class="car-rent-name">
+                                            <p>NISSAN PATHFINDER</p>
+                                        </div>
+                                        <div class="car-rent-vehicle-type">
+                                            <p>or similar</p>
+                                        </div>
+                                        <div class="rent-vehicle-specs">
+                                        <div class="vehicle-specs-line-1">
+                                            <div class="car-spec-line">
+                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase"></i><p>3 Small Suitcases</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-snowflake"></i><p>Air Conditioning</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gears"></i><p>Transmission: Automatic</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="vehicle-specs-line-2">
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                </div>
+                                                            
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>3 Large Suitcase</p>
+                                                </div>
+                                                 
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-car"></i><p>4-5 Doors</p>
+                                                </div>
+                                                 
+                                            </div>
+                                            </div>
+                                        <button   class="button "data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="car-rent-vehicles-row3 reveal">
+                            <div class="car-rent-vehicles-row3-middle">
+                                <div class="car-rent-vehicles-row3-inner">
+                                    
+                                
+                                    <div class="car-rent-row3-car1">
+                                    <p>Small/Economy</p>
+                                        <img src="{{asset('front/images/Car_Rent/Ford Fiesta.png')}}" alt="">
+                                        <div class="rent-kia-specs">
+                                        <div class="rent-vehicle-type">
+                                                
+                                            </div>
+                                        <div class="car-rent-name">
+                                            <p>FORD FIESTA</p>
+                                        </div>
+                                        <div class="car-rent-vehicle-type">
+                                            <p>Or Similar</p>
+                                        </div>
+                                        <div class="rent-vehicle-specs">
+                                        <div class="vehicle-specs-line-1">
+                                            <div class="car-spec-line">
+                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase"></i><p>1 Small Suitcase</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-snowflake"></i><p>Air Conditioning</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gears"></i><p>Transmission: Automatic</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="vehicle-specs-line-2">
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                </div>
+                                                            
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>2 Large Suitcase</p>
+                                                </div>
+                                                 
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-car"></i><p>4-5 Doors</p>
+                                                </div>
+                                                 
+                                            </div>
+                                            </div>
+                                        <button   class="button "data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
+                                    </div>
+                                    
+                                    <div class="car-rent-row3-car2">
+                                    <p>SUV</p>
+                                        <img src="{{asset('front/images/Car_Rent/Suzuki Grand Vitara.png')}}" alt="">
+                                        <div class="rent-huyndai-specs">
+                                        <div class="rent-vehicle-type">
+                                                
+                                            </div>
+                                        <div class="car-rent-name">
+                                            <p>SUZUKI VITARA</p>
+                                        </div>
+                                        <div class="car-rent-vehicle-type">
+                                            <p>Or Similar</p>
+                                        </div>
+                                        <div class="rent-vehicle-specs">
+                                        <div class="vehicle-specs-line-1">
+                                            <div class="car-spec-line">
+                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase"></i><p>3 Small Suitcases</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-snowflake"></i><p>Air Conditioning</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gears"></i><p>Transmission: Automatic</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="vehicle-specs-line-2">
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                </div>
+                                                            
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>3 Large Suitcase</p>
+                                                </div>
+                                                 
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-car"></i><p>4-5 Doors</p>
+                                                </div>
+                                                 
+                                            </div>
+                                           
+                                        </div>
+                                        
+                                        </div>
+                                        <button   class="button " data-bs-toggle="modal" data-bs-target="#exampleModal"><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
+
+                                    <div class="car-rent-row3-car3">
+                                    <p>SUV</p>
+                                        <img src="{{asset('front/images//Car_Rent/Nissan Pathfinder.png')}}" alt="">
+                                        <div class="rent-toyota-specs"> 
+                                        <div class="rent-vehicle-type">
+                                                
+                                            </div> 
+                                        <div class="car-rent-name">
+                                            <p>NISSAN PATHFINDER</p>
+                                        </div>
+                                        <div class="car-rent-vehicle-type">
+                                            <p>or similar</p>
+                                        </div>
+                                        <div class="rent-vehicle-specs">
+                                        <div class="vehicle-specs-line-1">
+                                            <div class="car-spec-line">
+                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase"></i><p>3 Small Suitcases</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-snowflake"></i><p>Air Conditioning</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gears"></i><p>Transmission: Automatic</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="vehicle-specs-line-2">
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                </div>
+                                                            
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>3 Large Suitcase</p>
+                                                </div>
+                                                 
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-car"></i><p>4-5 Doors</p>
+                                                </div>
+                                                 
+                                            </div>
+                                            </div>
+                                        <button   class="button "data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
                         <div class="car-rent-vehicles-row4">
                             <div class="car-rent-vehicles-row4-middle">
                                 <div class="car-rent-vehicles-row4-inner">
