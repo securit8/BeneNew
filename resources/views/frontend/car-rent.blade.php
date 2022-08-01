@@ -444,7 +444,7 @@
                                 
                                     <div class="car-rent-row3-car1">
                                     <p>Small/Economy</p>
-                                        <img src="{{asset('front/images/Car_Rent/Suzuki Vitara.png')}}" alt="">
+                                        <img src="{{asset('front/images/Car_Rent/Ford Fiesta.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
                                                 
@@ -662,7 +662,7 @@
                                     
                                     <div class="car-rent-row1-car2">
                                     <p>SUV</p>
-                                        <img src="{{asset('front/images/Car_Rent/Subaru XV.png')}}" alt="">
+                                        <img src="{{asset('front/images/Car_Rent/Toyota CH-R.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
                                                                 </div>
