@@ -161,8 +161,8 @@
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                     
-                                    <div class="car-rent-row1-car2">
-                                    <p>Economy</p>
+                                    <div class="car-rent-row1-car3">
+                                    <p>Sedan</p>
                                         <img src="{{asset('front/images/Car_Rent/Toyota Camry.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
@@ -214,7 +214,60 @@
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
 
-                                    <div class="car-rent-row1-car3">
+                                    <div class="car-rent-row1-car2">
+                                    <p>Small/Economy</p>
+                                        <img src="{{asset('front/images/Car_Rent/Ford Fiesta.png')}}" alt="">
+                                        <div class="rent-kia-specs">
+                                        <div class="rent-vehicle-type">
+                                                
+                                            </div>
+                                        <div class="car-rent-name">
+                                            <p>FORD FIESTA</p>
+                                        </div>
+                                        <div class="car-rent-vehicle-type">
+                                            <p>or Similar</p>
+                                        </div>
+                                        <div class="rent-vehicle-specs">
+                                        <div class="vehicle-specs-line-1">
+                                            <div class="car-spec-line">
+                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase"></i><p>1 Small Suitcase</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-snowflake"></i><p>Air Conditioning</p>
+                                                </div>
+
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gears"></i><p>Transmission: Automatic</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="vehicle-specs-line-2">
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                </div>
+                                                            
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>2 Large Suitcase</p>
+                                                </div>
+                                                 
+                                                <div class="car-spec-line">
+                                                <i class="fa-solid fa-car"></i><p>4-5 Doors</p>
+                                                </div>
+                                                 
+                                            </div>
+                                            </div>
+                                        <button   class="button "data-bs-toggle="modal" data-bs-target="#exampleModal" ><a class="rent-button" href="https://wa.me/+995592000703">
+                                        <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
+                                    </div>
+                                    </div>
+                                   
+
+                                    <!-- <div class="car-rent-row1-car3">
                                     <p>Economy</p>
                                         <img src="{{asset('front/images/Car_Rent/Ford Fusion.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
@@ -270,7 +323,7 @@
                                    
                                 </div>
                                 
-                            </div>
+                            </div> -->
                         </div>
 
                         <div class="car-rent-vehicles-row2 reveal">
@@ -278,13 +331,13 @@
                                 <div class="car-rent-vehicles-row2-inner">
                                                                
                                     <div class="car-rent-row2-car1">
-                                    <p>Economy</p>
+                                    <p>sedan</p>
                                         <img src="{{asset('front/images/Car_Rent/Hyundai Sonata.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="rent-vehicle-type">
                                                 </div>
                                         <div class="car-rent-name">
-                                            <p>HYUNDAI SONATA</p>
+                                            <p>Kia Optima</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Or Similar</p>
@@ -329,13 +382,13 @@
                                     </div>
                                     
                                     <div class="car-rent-row2-car2">
-                                    <p>Economy</p>
+                                    <p>Suv</p>
                                         <img src="{{asset('front/images/Car_Rent/Hyundai Elantra.png')}}" alt="">
                                         <div class="rent-toyota-specs">  
                                         <div class="rent-vehicle-type">
                                                                </div>
                                         <div class="car-rent-name">
-                                            <p>HYUNDAI ELANTRA</p>
+                                            <p>Toyota Rav4</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Or Simiral</p>
@@ -347,7 +400,7 @@
                                                 </div>
 
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase"></i><p>1 Small Suitcases</p>
+                                                <i class="fa-solid fa-suitcase"></i><p>3 Small Suitcases</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -361,11 +414,11 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol or Hybrid</p>   
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase-rolling"></i><p>2 Large Suitcase</p>
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>4 Large Suitcase</p>
                                                 </div>
                                                  
                                                 <div class="car-spec-line">
@@ -387,7 +440,7 @@
                                                
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>FORD ESCAPE</p>
+                                            <p>Toyota Land Cruiser Prado</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Or Similar</p>
@@ -395,11 +448,11 @@
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>7 seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase"></i><p>2 Small Suitcases</p>
+                                                <i class="fa-solid fa-suitcase"></i><p>3 Small Suitcases</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -413,11 +466,11 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol or Diesel</p>   
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase-rolling"></i><p>4 Large Suitcases</p>
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>5 Large Suitcases</p>
                                                 </div>
                                                  
                                                 <div class="car-spec-line">
@@ -443,14 +496,14 @@
                                     
                                 
                                     <div class="car-rent-row3-car1">
-                                    <p>Small/Economy</p>
+                                    <p>Suv</p>
                                         <img src="{{asset('front/images/Car_Rent/Ford Fiesta.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
                                                 
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>FORD FIESTA</p>
+                                            <p>Toyota  Land Cruiser 200</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Or Similar</p>
@@ -458,11 +511,11 @@
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>7 seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase"></i><p>1 Small Suitcase</p>
+                                                <i class="fa-solid fa-suitcase"></i><p>3 Small Suitcase</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -476,11 +529,11 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol or Diesel</p>   
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase-rolling"></i><p>2 Large Suitcase</p>
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>5 Large Suitcase</p>
                                                 </div>
                                                  
                                                 <div class="car-spec-line">
@@ -495,14 +548,14 @@
                                     </div>
                                     
                                     <div class="car-rent-row3-car2">
-                                    <p>SUV</p>
+                                    <p>Van/Minibus</p>
                                         <img src="{{asset('front/images/Car_Rent/Suzuki Grand Vitara.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="rent-vehicle-type">
                                                 
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>SUZUKI VITARA</p>
+                                            <p>Mercedes-Benz V-Class</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>Or Similar</p>
@@ -514,7 +567,7 @@
                                                 </div>
 
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase"></i><p>3 Small Suitcases</p>
+                                                <i class="fa-solid fa-suitcase"></i><p>4 Small Suitcases</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -528,11 +581,11 @@
 
                                             <div class="vehicle-specs-line-2">
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-gas-pump"></i><p>Petrol</p>   
+                                                <i class="fa-solid fa-gas-pump"></i><p>Diesel</p>   
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase-rolling"></i><p>3 Large Suitcase</p>
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>6 Large Suitcase</p>
                                                 </div>
                                                  
                                                 <div class="car-spec-line">
@@ -941,7 +994,7 @@
                             </div>
                         </div>
 
-                        
+
 
                         <div class="car-rent-vehicles-row4">
                             <div class="car-rent-vehicles-row4-middle">
@@ -1073,22 +1126,26 @@
                     <div class="contact-window-input">
                         <div class="input-name">
                            <img src="{{asset('front/images/person-icon.png')}}" alt="">
-                            <input name="fullName" type="text" placeholder="@lang('front.input-name')">
+                            <input name="fullName" type="text" placeholder="@lang('front.input-name')" required>
                         </div>
 
                         <div class="input-mail">
                         <i class="fa-solid fa-at"></i>
-                            <input name="email" type="text" placeholder="@lang('front.input-mail')">
+                            <input name="email" type="text" placeholder="@lang('front.input-mail')" required>
                         </div>
 
                         <div class="input-phone">
+                        
                         <img src="{{asset('front/images/phone-icon.png')}}" alt="">
-                            <input name="phone" type="text" placeholder="@lang('front.input-number')">
+                       
+
+<input id="country-prefix" type="text" value="+47">
+                            <input name="phone" type="text" placeholder="@lang('front.input-number')" required>
                         </div>
 
                         <div class="input-message">
                         <img src="{{asset('front/images/message-icon.png')}}" alt="">
-                            <input name="aboutText" type="text" placeholder="@lang('front.input-text')">
+                            <input name="aboutText" type="text" placeholder="@lang('front.input-text')" required>
                         </div>
 
                         <div class="input-button">
