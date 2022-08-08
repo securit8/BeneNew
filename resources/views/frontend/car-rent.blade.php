@@ -116,7 +116,7 @@
                                         <div class="rent-toyota-specs">  
                                            
                                         <div class="car-rent-name">
-                                            <p>TOYOTA PRIUS </p>
+                                            <p>Toyota Prius </p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>or Similar</p>
