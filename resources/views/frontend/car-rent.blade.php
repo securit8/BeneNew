@@ -124,7 +124,7 @@
                                         <div class="rent-vehicle-specs">
                                             <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>5 Seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -168,7 +168,7 @@
                                         <div class="rent-vehicle-type">
                                                                 </div>
                                         <div class="car-rent-name">
-                                            <p>TOYOTA CAMRY</p>
+                                            <p>Toyota Camry</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>or Similar</p>
@@ -176,7 +176,7 @@
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>5 Seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -222,7 +222,7 @@
                                                 
                                             </div>
                                         <div class="car-rent-name">
-                                            <p>FORD FIESTA</p>
+                                            <p>Ford Fiesta</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>or Similar</p>
@@ -230,7 +230,7 @@
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>5 Seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -345,7 +345,7 @@
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>5 Seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -396,7 +396,7 @@
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>5 Seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -448,7 +448,7 @@
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>7 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>7 Seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -511,7 +511,7 @@
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>7 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>7 Seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -563,7 +563,7 @@
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>5 Seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
