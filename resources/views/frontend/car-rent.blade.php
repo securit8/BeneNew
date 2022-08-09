@@ -1132,7 +1132,7 @@
                         </div>
                         <div class="input-mail">
                         <i class="fa-solid fa-calendar-week"></i>
-                            <input name="time" type="time" placeholder="pick date" required>
+                        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
                         </div>
                         <div class="input-mail">
                         <i class="fa-solid fa-car"></i>
