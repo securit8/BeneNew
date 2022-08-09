@@ -1115,10 +1115,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        
       </div>
       <div class="modal-body">
       <form method = "POST" action = "{{route('send_email')}}">
@@ -1126,12 +1123,28 @@
                     <div class="contact-window-input">
                         <div class="input-name">
                            <img src="{{asset('front/images/person-icon.png')}}" alt="">
-                            <input name="fullName" type="text" placeholder="@lang('front.input-name')" required>
+                            <input name="fullName" type="text" placeholder="Name and Surname" required>
                         </div>
 
                         <div class="input-mail">
                         <i class="fa-solid fa-at"></i>
-                            <input name="email" type="text" placeholder="@lang('front.input-mail')" required>
+                            <input name="email" type="text" placeholder="Email" required>
+                        </div>
+                        <div class="input-mail">
+                        <i class="fa-solid fa-calendar-week"></i>
+                            <input name="time" type="time" placeholder="pick date" required>
+                        </div>
+                        <div class="input-mail">
+                        <i class="fa-solid fa-car"></i>
+                        <!-- <label for="cars">Choose a Car Type:</label> -->
+                        <select id="cars" style="margin-left: 40px;margin-top: 16px;margin-right: 11rem;"  name="car_type">
+                        <option value="Small/Economy">Choose a Car Type:</option>
+                        <option value="Small/Economy">Small/Economy</option>
+                        <option value="Sedan">Sedan</option>
+                         <option value="SUV">SUV</option>
+                         <option value="Van">Van</option>
+                        </select>
+
                         </div>
 
                         <div class="input-phone">
@@ -1139,13 +1152,12 @@
                         <img src="{{asset('front/images/phone-icon.png')}}" alt="">
                        
 
-<input id="country-prefix" type="text" value="+47">
-                            <input name="phone" type="text" placeholder="@lang('front.input-number')" required>
+                        <input name="phone" id="country-prefix" type="text" placeholder="Phone" required>
                         </div>
 
                         <div class="input-message">
                         <img src="{{asset('front/images/message-icon.png')}}" alt="">
-                            <input name="aboutText" type="text" placeholder="@lang('front.input-text')" required>
+                            <input name="aboutText" type="text" placeholder="Message" required>
                         </div>
 
                         <div class="input-button">
