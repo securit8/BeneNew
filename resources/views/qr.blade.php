@@ -1,3 +1,4 @@
+
 <!doctype html>
 <!-- The DOCTYPE declaration above will set the     -->
 <!-- browser's rendering engine into                -->
@@ -12,7 +13,7 @@
     <!--                                                               -->
     <!-- Consider inlining CSS to reduce the number of requested files -->
     <!--                                                               -->
-    <link type="text/css" rel="stylesheet" href="JsQRScanner.css">
+    <link type="text/css" rel="stylesheet" href="css/JsQRScanner.css">
 
     <!--                                           -->
     <!-- Any title is fine                         -->
@@ -21,7 +22,7 @@
     
     <!--                                           -->
     <!-- This script loads your compiled module.   -->
-    <script type="text/javascript" src="/JsQRScanner/jsPretty/jsqrscanner.nocache.js"></script>
+    <script type="text/javascript" src="front/assets/js/js/jsqrscanner.nocache.js"></script>
   </head>
   <body>
 
