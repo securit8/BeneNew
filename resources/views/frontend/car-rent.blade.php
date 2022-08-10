@@ -602,14 +602,14 @@
                                     </div>
 
                                     <div class="car-rent-row3-car3">
-                                    <p>SUV</p>
-                                        <img src="{{asset('front/images//Car_Rent/Nissan Pathfinder.png')}}" alt="">
+                                    <p>Sedan</p>
+                                        <img src="{{asset('front/images//Car_Rent/Ford Mustang.png')}}" alt="">
                                         <div class="rent-toyota-specs"> 
                                         <div class="rent-vehicle-type">
                                                 
                                             </div> 
                                         <div class="car-rent-name">
-                                            <p>NISSAN PATHFINDER</p>
+                                            <p>Ford Mustang</p>
                                         </div>
                                         <div class="car-rent-vehicle-type">
                                             <p>or similar</p>
@@ -617,11 +617,11 @@
                                         <div class="rent-vehicle-specs">
                                         <div class="vehicle-specs-line-1">
                                             <div class="car-spec-line">
-                                                <i class="fa-solid fa-user"></i><p>5 seats</p>
+                                                <i class="fa-solid fa-user"></i><p>4 seats</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase"></i><p>3 Small Suitcases</p>
+                                                <i class="fa-solid fa-suitcase"></i><p>2 Small Suitcases</p>
                                                 </div>
 
                                                 <div class="car-spec-line">
@@ -639,7 +639,7 @@
                                                 </div>
                                                             
                                                 <div class="car-spec-line">
-                                                <i class="fa-solid fa-suitcase-rolling"></i><p>3 Large Suitcase</p>
+                                                <i class="fa-solid fa-suitcase-rolling"></i><p>1 Large Suitcase</p>
                                                 </div>
                                                  
                                                 <div class="car-spec-line">
