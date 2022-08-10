@@ -330,6 +330,9 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
         return view('frontend.MODELY');
     }
     
+    public function qrview(){
+        return view('qr');
+    }
     
     
 }
