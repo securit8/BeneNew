@@ -84,6 +84,9 @@ class RoutesController extends Controller
             return Redirect::intended($redirUrl);
         }
 
+
+
+
   public function okcallback(Request $request,$id){
      
     $savedqr='../public/qrcodes/'.$id.'.png';
@@ -155,6 +158,9 @@ return view('frontend.blacksea')->withErrors(['success', 'payment success']);
     //    return view('frontend.blacksea')->with('success', 'payment success'); 
   }
 
+
+
+
   public function failcallback(Request $request, $id){
     
     $savedqr='../public/qrcodes/'.$id.'.png';
@@ -189,6 +195,12 @@ $toEmail=$request->Email;
  
     });
 return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
+
+
+
+
+
+
 
   }
    public function index() {
@@ -331,6 +343,7 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
     }
     
     public function qrview(){
+
         return view('qr');
     }
     
