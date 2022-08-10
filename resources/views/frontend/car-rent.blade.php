@@ -332,7 +332,7 @@
                                                                
                                     <div class="car-rent-row2-car1">
                                     <p>sedan</p>
-                                        <img src="{{asset('front/images/Car_Rent/Hyundai Sonata.png')}}" alt="">
+                                        <img src="{{asset('front/images/Car_Rent/kia-optima.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="rent-vehicle-type">
                                                 </div>
@@ -383,7 +383,7 @@
                                     
                                     <div class="car-rent-row2-car2">
                                     <p>Suv</p>
-                                        <img src="{{asset('front/images/Car_Rent/Hyundai Elantra.png')}}" alt="">
+                                        <img src="{{asset('front/images/Car_Rent/rav4.png')}}" alt="">
                                         <div class="rent-toyota-specs">  
                                         <div class="rent-vehicle-type">
                                                                </div>
@@ -434,7 +434,7 @@
 
                                     <div class="car-rent-row2-car3">
                                     <p>SUV</p>
-                                        <img src="{{asset('front/images/Car_Rent/Ford Escape.png')}}" alt="">
+                                        <img src="{{asset('front/images/Car_Rent/plado.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
                                                
@@ -497,7 +497,7 @@
                                 
                                     <div class="car-rent-row3-car1">
                                     <p>Suv</p>
-                                        <img src="{{asset('front/images/Car_Rent/Ford Fiesta.png')}}" alt="">
+                                        <img src="{{asset('front/images/Car_Rent/Land Cruiser 200.png')}}" alt="">
                                         <div class="rent-kia-specs">
                                         <div class="rent-vehicle-type">
                                                 
@@ -549,7 +549,7 @@
                                     
                                     <div class="car-rent-row3-car2">
                                     <p>Van/Minibus</p>
-                                        <img src="{{asset('front/images/Car_Rent/Suzuki Grand Vitara.png')}}" alt="">
+                                        <img src="{{asset('front/images/Car_Rent/v class.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
                                         <div class="rent-vehicle-type">
                                                 
@@ -658,7 +658,7 @@
                             </div>
                         </div>
 
-                        <div class="car-rent-vehicles-row3 reveal">
+                        <!-- <div class="car-rent-vehicles-row3 reveal">
                             <div class="car-rent-vehicles-row3-middle">
                                 <div class="car-rent-vehicles-row3-inner">
                                     
@@ -824,9 +824,9 @@
 
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="car-rent-vehicles-row3 reveal">
+                        <!-- <div class="car-rent-vehicles-row3 reveal">
                             <div class="car-rent-vehicles-row3-middle">
                                 <div class="car-rent-vehicles-row3-inner">
                                     
@@ -992,11 +992,11 @@
 
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
 
 
-                        <div class="car-rent-vehicles-row4">
+                        <!-- <div class="car-rent-vehicles-row4">
                             <div class="car-rent-vehicles-row4-middle">
                                 <div class="car-rent-vehicles-row4-inner">
                               
@@ -1103,7 +1103,7 @@
                                         </div>
                                         <button   class="button " data-bs-toggle="modal" data-bs-target="#exampleModal"><a class="rent-button" href="https://wa.me/+995592000703">
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
-                                    </div>
+                                    </div> -->
 
 <!-- modal cody -->
 <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -1177,7 +1177,7 @@
 <!-- modal end -->
 
 
-                                    <div class="car-rent-row1-car3">
+                                    <!-- <div class="car-rent-row1-car3">
                                     <p>Van/Minibus</p>
                                         <img src="{{asset('front/images/Car_Rent/Ford Fusion.png')}}" alt="">
                                         <div class="rent-huyndai-specs">
@@ -1231,7 +1231,7 @@
                                         <i  class="fa fa-whatsapp i-rent"></i>Contact</a><i class="brick-line">|</i> Book Now</button>
                                     </div>
                                    
-                                </div>
+                                </div> -->
                                 
                             </div>
                         </div>
