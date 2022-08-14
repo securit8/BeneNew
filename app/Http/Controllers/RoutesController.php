@@ -116,7 +116,7 @@ $toEmail=$request->Email;
     Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
     {
          $message->to($toEmail, 'Black Sea Tickets')->subject ('Black Sea Tickets');                
-         $message->from('info@bene-exclusive.com' , 'Bene Exclusive' )  
+         $message->from('info@bene-exclusive.com' , 'Bene Exclusive' )  ;
  
     });
 return view('frontend.blacksea')->withErrors(['success', 'payment success']);
