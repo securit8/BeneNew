@@ -403,7 +403,7 @@ return [
 'ticket-kutaisi'=> 'ავტობუსი გადის ჭავჭავაძის ავტოსადგურიდან (Mcdonalds ის მიმდებარედ) 14:00 საათზე',
 'ticket-batumi'=> 'ავტობუსი გადის ბათუმის რკინიგზის სადგურის პარკინგიდან 16:00 საათზე',
 'gela'=> 'ლარი',
-'tbilisi_way' =>'თბილისი - Black Sea Arena (ერთი გზა)',
+'tbilisi_way' =>'Black Sea Arena  - თბილისი (ერთი გზა)',
 'tbilisi_2way' =>'თბილისი - Black Sea Arena (ორი გზა)',
 'kutaisi_way' =>'ქუთაისი - Black Sea Arena (ერთი გზა)',
 'kutaisi_2way' =>'ქუთაისი - Black Sea Arena (ორი გზა)',
