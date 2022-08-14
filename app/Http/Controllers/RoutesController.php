@@ -25,18 +25,18 @@ class RoutesController extends Controller
         $price=$request->raodenoba*60;
         $trans="Tbilisi - Black Sea Arena (one way)";
        }
-       if($request->transfer=="tbilisi2"){
-        $price=$request->raodenoba*100;
-        $trans="Tbilisi - Black Sea Arena (two way)";
-       }
-       if($request->transfer=="kutais1"){
-        $price=$request->raodenoba*40;
-        $trans="Kutaisi - Black Sea Arena (one way)";
-       }
-       if($request->transfer=="kutais2"){
-        $price=$request->raodenoba*60;
-        $trans="Kutaisi - Black Sea Arena (two way)";
-       }
+    //    if($request->transfer=="tbilisi2"){
+    //     $price=$request->raodenoba*100;
+    //     $trans="Tbilisi - Black Sea Arena (two way)";
+    //    }
+    //    if($request->transfer=="kutais1"){
+    //     $price=$request->raodenoba*40;
+    //     $trans="Kutaisi - Black Sea Arena (one way)";
+    //    }
+    //    if($request->transfer=="kutais2"){
+    //     $price=$request->raodenoba*60;
+    //     $trans="Kutaisi - Black Sea Arena (two way)";
+    //    }
        if($request->transfer=="batum1"){
         $price=$request->raodenoba*35;
         $trans="Batumi - Black Sea Arena (one way)";
@@ -116,8 +116,7 @@ $toEmail=$request->Email;
     Mail::send('frontend.ticket', $data, function($message) use ($toEmail) 
     {
          $message->to($toEmail, 'Black Sea Tickets')->subject ('Black Sea Tickets');                
-         $message->from('info@bene-exclusive.com' , 'Bene Exclusive' );
-  
+         $message->from('info@bene-exclusive.com' , 'Bene Exclusive' )  
  
     });
 return view('frontend.blacksea')->withErrors(['success', 'payment success']);
