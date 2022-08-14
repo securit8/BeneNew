@@ -657,6 +657,69 @@
                                 </div>
                             </div>
                         </div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+      </div>
+      <div class="modal-body">
+      <form method = "POST" action = "{{route('send_email')}}">
+                    @csrf
+                    <div class="contact-window-input">
+                        <div class="input-name">
+                           <img src="{{asset('front/images/person-icon.png')}}" alt="">
+                            <input name="fullName" type="text" placeholder="Name and Surname" required>
+                        </div>
+
+                        <div class="input-mail">
+                        <i class="fa-solid fa-at"></i>
+                            <input name="email" type="text" placeholder="Email" required>
+                        </div>
+                        <div class="input-mail">
+                        <i class="fa-solid fa-calendar-week"></i>
+                        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                        </div>
+                        <div class="input-mail">
+                        <i class="fa-solid fa-car"></i>
+                        <!-- <label for="cars">Choose a Car Type:</label> -->
+                        <select id="cars" style="margin-left: 40px;margin-top: 16px;margin-right: 11rem;"  name="car_type">
+                        <option value="Small/Economy">Choose a Car Type:</option>
+                        <option value="Small/Economy">Small/Economy</option>
+                        <option value="Sedan">Sedan</option>
+                         <option value="SUV">SUV</option>
+                         <option value="Van">Van</option>
+                        </select>
+
+                        </div>
+
+                        <div class="input-phone">
+                        
+                        <img src="{{asset('front/images/phone-icon.png')}}" alt="">
+                       
+
+                        <input name="phone" id="country-prefix" type="text" placeholder="Phone" required>
+                        </div>
+
+                        <div class="input-message">
+                        <img src="{{asset('front/images/message-icon.png')}}" alt="">
+                            <input name="aboutText" type="text" placeholder="Message" required>
+                        </div>
+
+                        <div class="input-button">
+                           <button >
+                            <p>@lang('front.input-send')</p>
+                            <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+                           </button>
+                        </div>
+                    </div>
+                </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
 
                         <!-- <div class="car-rent-vehicles-row3 reveal">
                             <div class="car-rent-vehicles-row3-middle">
@@ -1110,69 +1173,7 @@
   Launch demo modal
 </button> -->
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        
-      </div>
-      <div class="modal-body">
-      <form method = "POST" action = "{{route('send_email')}}">
-                    @csrf
-                    <div class="contact-window-input">
-                        <div class="input-name">
-                           <img src="{{asset('front/images/person-icon.png')}}" alt="">
-                            <input name="fullName" type="text" placeholder="Name and Surname" required>
-                        </div>
 
-                        <div class="input-mail">
-                        <i class="fa-solid fa-at"></i>
-                            <input name="email" type="text" placeholder="Email" required>
-                        </div>
-                        <div class="input-mail">
-                        <i class="fa-solid fa-calendar-week"></i>
-                        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
-                        </div>
-                        <div class="input-mail">
-                        <i class="fa-solid fa-car"></i>
-                        <!-- <label for="cars">Choose a Car Type:</label> -->
-                        <select id="cars" style="margin-left: 40px;margin-top: 16px;margin-right: 11rem;"  name="car_type">
-                        <option value="Small/Economy">Choose a Car Type:</option>
-                        <option value="Small/Economy">Small/Economy</option>
-                        <option value="Sedan">Sedan</option>
-                         <option value="SUV">SUV</option>
-                         <option value="Van">Van</option>
-                        </select>
-
-                        </div>
-
-                        <div class="input-phone">
-                        
-                        <img src="{{asset('front/images/phone-icon.png')}}" alt="">
-                       
-
-                        <input name="phone" id="country-prefix" type="text" placeholder="Phone" required>
-                        </div>
-
-                        <div class="input-message">
-                        <img src="{{asset('front/images/message-icon.png')}}" alt="">
-                            <input name="aboutText" type="text" placeholder="Message" required>
-                        </div>
-
-                        <div class="input-button">
-                           <button >
-                            <p>@lang('front.input-send')</p>
-                            <img src="{{asset('front/images/arrow-right.png') }}" alt="">
-                           </button>
-                        </div>
-                    </div>
-                </form>
-      </div>
-      
-    </div>
-  </div>
-</div>
 
 <!-- modal end -->
 
