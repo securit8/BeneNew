@@ -116,6 +116,55 @@
  
 <p style="padding-bottom:10px;padding-left:30px;font-size:1.5rem;color:green">@lang('front.batumi') </p>        
 <p style="padding-bottom:20px;padding-left:30px;">@lang('front.ticket-batumi')</p>
+<form class="form-horizontal col-12 row" method="POST" action="{{ route('frontend.sepguzzle') }}">
+    {{ csrf_field() }}
+    <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
+      <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
+        <p  style="color:green;font-size:1rem;padding-top:5px;">@lang('front.batumi_way')</p>
+        <input type="hidden" name="transfer" value="batum1" />
+    </div>
+
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-3 d-flex justify-content-center justify-content-xl-end align-items-center ticket_padding_top">
+      <p style="color:black;font-size:1.5rem;padding-bottom: 1px;">
+        <button onclick="b1minus()" type="button" class="circle minus" style="font-size: 22px;">-</button>
+        <input value="1" name="raodenoba" id="b1value" class="quantity" style="color:black;margin:0px 30px;font-size: 1.1rem;">
+        <button   onclick="b1plus()" type="button" class="circle circle2 plus" style="font-size: 15px;">+</button>
+      </p>
+    </div>
+
+    <div class = "col-12 col-sm-6 col-md-4 col-xl-2 d-flex justify-content-center ticket_padding_top align-items-center">
+      <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
+      <input id = "batum1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="35" ></span>&nbsp;@lang('front.gela')</p>
+    </div>
+    
+    <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
+      <button  type ="button" onclick="bat1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">@lang('front.next')</button>
+    </div>
+    </div>
+    <div id="inputT5">
+    <div>      
+      <input name="Name" type="text" placeholder="@lang('front.name')" required>
+    </div>
+
+    <div>
+    <br>
+      <input name="LastName" placeholder="@lang('front.Lname')" required>
+    </div>
+
+    <div>
+     <br>
+      <input name="Phone" type="text" placeholder="@lang('front.phone')" required>
+    </div>
+
+    <div>
+      <br>
+      <input name="Email" type="text" placeholder="@lang('front.email')" required>
+    </div>
+    <button  type ="submit" class = "btn btn-success"> @lang('front.buy') </button>
+  </div>
+  </form>
+
+ 
 
 </div>
 
@@ -125,114 +174,6 @@
 
 <Script>
 
-function tb1minus(){
-  var t1val=document.getElementById('t1value').value;
-
-  if(t1val==0 || t1val==1  )
-  {
-   
-  }
-  else{
-    t1val--;
-    document.getElementById('t1value').value = t1val;
-    document.getElementById('tbili1').value=t1val*60;
-  }
-}
-function tb1plus(){
-  var t1val=document.getElementById('t1value').value;
-  console.log(t1val);
-  if(t1val>=5)
-  {
-   
-  }
-  else{
-    t1val ++;
-    document.getElementById('t1value').value =t1val ;
-    document.getElementById('tbili1').value=t1val*60;
-  }
-}
-
-function tb2minus(){
-  var t2val=document.getElementById('t2value').value;
-
-  if(t2val==0 || t2val==1  )
-  {
-   
-  }
-  else{
-    t2val--;
-    document.getElementById('t2value').value = t2val;
-    document.getElementById('tbili2').value=t2val*100;
-  }
-}
-function tb2plus(){
-  var t2val=document.getElementById('t2value').value;
-  
-  if(t2val>=5)
-  {
-   
-  }
-  else{
-    t2val ++;
-    document.getElementById('t2value').value =t2val ;
-    document.getElementById('tbili2').value=t2val*100;
-  }
-}
-// kutaisi -----------
-
-function ku1minus(){
-  var k1val=document.getElementById('k1value').value;
-
-  if(k1val==0 || k1val==1  )
-  {
-   
-  }
-  else{
-    k1val--;
-    document.getElementById('k1value').value = k1val;
-    document.getElementById('kutais1').value=k1val*40;
-  }
-}
-function ku1plus(){
-  var k1val=document.getElementById('k1value').value;
-
-  if(k1val>=5)
-  {
-   
-  }
-  else{
-    k1val ++;
-    document.getElementById('k1value').value =k1val ;
-    document.getElementById('kutais1').value=k1val*40;
-  }
-}
-
-function ku2minus(){
-  var k2val=document.getElementById('k2value').value;
-
-  if(k2val==0 || k2val==1  )
-  {
-   
-  }
-  else{
-    k2val--;
-    document.getElementById('k2value').value = k2val;
-    document.getElementById('kutais2').value=k2val*60;
-  }
-}
-function ku2plus(){
-  var k2val=document.getElementById('k2value').value;
-  
-  if(k2val>=5)
-  {
-   
-  }
-  else{
-    k2val ++;
-    document.getElementById('k2value').value =k2val ;
-    document.getElementById('kutais2').value=k2val*60;
-  }
-}
 
 // batumi --------------------
 

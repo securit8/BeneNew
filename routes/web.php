@@ -29,7 +29,9 @@ Route::get('/contact', [RoutesController::class, 'contact'])->name('frontend.con
 Route::get('/electric', [RoutesController::class, 'electric'])->name('frontend.electric');
 Route::get('/events', [RoutesController::class, 'events'])->name('frontend.events');
 Route::get('/events/LImperatrice', [RoutesController::class, 'blacksea'])->name('frontend.blacksea');
+Route::get('/events/pay', [RoutesController::class, 'seppay']);
 Route::post('/events/LImperatrice/postedData', [RoutesController::class, 'payzepost'])->name('frontend.payzePost'); //payze post ის
+Route::post('/events/LImperatrice/postedData', [RoutesController::class, 'sepguzzle'])->name('frontend.sepguzzle');
 Route::get('/events/LImperatrice/ok/{id}', [RoutesController::class, 'okcallback']);
 Route::get('/events/LImperatrice/fail/{id}', [RoutesController::class, 'failcallback']);
 
@@ -64,6 +66,8 @@ Route::get('/brands', [RoutesController::class, 'brands'])->name('frontend.brand
 Route::get('/qr', [RoutesController::class, 'qrview']);
 
 Route::post('/send-email', [SendEmailController::class, 'index'])->name('send_email');
+
+Route::post('/pay', [SendEmailController::class, 'seppay']);
 
 
 

@@ -22,23 +22,7 @@
 
 
 @section('footer')
-<div id="myModal" class="modal fade">
 
-    <div class="modal-dialog">
-        <!-- <div class="modal-content">
-            <div class="modal-body" >
-              <div width="60%"> 
-           
-            </div>
-            </div>
-        </div> -->
-     
-      <img style="padding-top: 20%;"  src="{{ asset('../front/images/popuplimp.jpg') }}" > 
-    </div>
-                      <div style="text-align: center; ">
-           <button style=" background-color: #7878ce;border-radius: 10px;"   type="submit" onclick="location.href='/events/LImperatrice'"> ბილეთის შეძენა </button>
-                     </div>
-</div>
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <div id="index-part1-carousel-indicators">
