@@ -209,7 +209,7 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
    
 //    }
    if($request->transfer=="batum1"){
-    $price=$request->raodenoba*35;
+    $price=450;
     $trans="Batumi - Black Sea Arena (one way)";
    }
   
