@@ -206,6 +206,8 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
    //adding this data into request, to feed database
      $request->request->add(['given_id' => $today]);
     $request->request->add(['status' => 'pending']);
+    $request->request->add(['raodenoba' => '1']);
+    
    
 //    }
    
@@ -220,8 +222,8 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
    $Email=str_replace(' ', '', $Email);
    $Phone=$request->Phone;
    $Phone=str_replace(' ', '', $Phone);
-   $raodenoba="1";
-   $transfer="bat1";
+   
+   
    $qr=$today;
     $response = $client->request('POST', 'https://payze.io/api/v1', [
       'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418",
