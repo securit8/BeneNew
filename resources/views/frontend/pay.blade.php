@@ -118,7 +118,7 @@
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
-      <button  type ="button" onclick="bat1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">PAY</button>
+      <button  type ="button" onclick="bat1()" class = "btn btn-success" data-toggle="modal" data-target="#exampleModalCenter1">NEXT</button>
     </div>
     </div>
     <div id="inputT5">
@@ -140,7 +140,7 @@
       <br>
       <input name="Email" type="text" placeholder="@lang('front.email')" required>
     </div>
-    <button  type ="submit" class = "btn btn-success"> @lang('front.buy') </button>
+    <button  type ="submit" class = "btn btn-success"> PAY </button>
   </div>
   </form>
   <img width="100%" src="{{ asset('../front/assets/images/limp.jpeg') }}" >
