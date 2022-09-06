@@ -207,6 +207,7 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
      $request->request->add(['given_id' => $today]);
     $request->request->add(['status' => 'pending']);
     $request->request->add(['raodenoba' => '1']);
+    $request->request->add(['transfer' => 'bat1']);
     
    
 //    }
