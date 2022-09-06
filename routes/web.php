@@ -31,7 +31,7 @@ Route::get('/events', [RoutesController::class, 'events'])->name('frontend.event
 Route::get('/events/LImperatrice', [RoutesController::class, 'blacksea'])->name('frontend.blacksea');
 Route::get('/events/pay', [RoutesController::class, 'seppay']);
 Route::post('/events/LImperatrice/postedData', [RoutesController::class, 'payzepost'])->name('frontend.payzePost'); //payze post ის
-Route::post('/events/LImperatrice/postedData', [RoutesController::class, 'sepguzzle'])->name('frontend.sepguzzle');
+Route::post('/events/LImperatrice/postedDat', [RoutesController::class, 'sepguzzle'])->name('frontend.sepguzzle');
 Route::get('/events/LImperatrice/ok/{id}', [RoutesController::class, 'okcallback']);
 Route::get('/events/LImperatrice/fail/{id}', [RoutesController::class, 'failcallback']);
 

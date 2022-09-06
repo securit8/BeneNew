@@ -208,11 +208,8 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
     $request->request->add(['status' => 'pending']);
    
 //    }
-   if($request->transfer=="batum1"){
-    $price=450;
-    $trans="Batumi - Black Sea Arena (one way)";
-   }
-  
+   
+   $price=450;
  
    $request->request->add(['Price' => $price]);
    $Name=$request->Name;
@@ -223,7 +220,7 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
    $Email=str_replace(' ', '', $Email);
    $Phone=$request->Phone;
    $Phone=str_replace(' ', '', $Phone);
-   $raodenoba=1;
+   $raodenoba="1";
    $transfer="bat1";
    $qr=$today;
     $response = $client->request('POST', 'https://payze.io/api/v1', [
