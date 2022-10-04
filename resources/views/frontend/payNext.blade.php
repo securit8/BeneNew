@@ -102,7 +102,7 @@
 
 
 
-<form class="form-horizontal col-6 row" style="margin-left: 20rem;    margin-top: 4rem;" method="POST" action="{{ route('frontend.sepguzzle') }}">
+<form class="form-horizontal col-6 row" style="margin-left: 20rem;    margin-top: 4rem;" method="POST" action="{{ route('frontend.sepguzzleNext') }}">
     {{ csrf_field() }}
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
@@ -114,7 +114,7 @@
 
     <div class = "col-6 col-sm-6 col-md-4  d-flex justify-content-center ticket_padding_top align-items-center">
       <p style = "font-size:1rem;padding-top:6px;"><span style="color:black;">
-      <input id = "batum1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="3960" ></span>&nbsp;GEL</p>
+      <input id = "batum1" style = "background-color:#F8F8F8;border:none;display:inline-block;width:50px;"  type="text" value="1415" ></span>&nbsp;GEL</p>
     </div>
     
     <div class = "col-12 col-md-4 col-xl-2 ticket_padding_top d-flex justify-content-center align-items-center">
@@ -143,7 +143,7 @@
     <button  type ="submit" class = "btn btn-success"> PAY </button>
   </div>
   </form>
-  <img width="100%" src="{{ asset('../front/assets/images/1140.jpg') }}" >
+  <img width="100%" src="{{ asset('../front/assets/images/limp.jpeg') }}" >
  
 
 </div>
