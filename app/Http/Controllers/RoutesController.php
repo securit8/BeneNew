@@ -212,7 +212,7 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
    
 //    }
    
-   $price=450;
+   $price=3960;
  
    $request->request->add(['Price' => $price]);
    $Name=$request->Name;
@@ -252,6 +252,60 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
         return Redirect::intended($redirUrl);
     }
 
+public function sepguzzleNext(Request $request){
+
+    $client = new \GuzzleHttp\Client();
+// generating id wich changes tickets status after
+       $today=date('YmdHi');
+        
+   //adding this data into request, to feed database
+     $request->request->add(['given_id' => $today]);
+    $request->request->add(['status' => 'pending']);
+    $request->request->add(['raodenoba' => '1']);
+    $request->request->add(['transfer' => 'bat1']);
+    
+   
+//    }
+   
+   $price=1415;
+ 
+   $request->request->add(['Price' => $price]);
+   $Name=$request->Name;
+   $Name=str_replace(' ', '', $Name);
+   $LastName=$request->LastName;
+   $LastName=str_replace(' ', '', $LastName);
+   $Email=$request->Email;
+   $Email=str_replace(' ', '', $Email);
+   $Phone=$request->Phone;
+   $Phone=str_replace(' ', '', $Phone);
+   $transfer="bat1";
+   $raodenoba=1;
+   $qr=$today;
+    $response = $client->request('POST', 'https://payze.io/api/v1', [
+      'body' => '{"method":"justPay","apiKey":"D385FD3954F640A4860478B47C3FC418",
+        "apiSecret":"3C37E0F457FC4482B67EED4356B1AF3A","data":{"amount":'.$price.',
+            "currency":"GEL","callback":"https://bene-exclusive.com/events/LImperatrice/ok/'.$today.'?Name='.$Name.'&LastName='.$LastName.'&Email='.$Email.'&Phone='.$Phone.'&transfer='."$transfer".'&Price='.$price.'&raodenoba='.$raodenoba.'&qr='.$qr.'",
+            "callbackError":"https://bene-exclusive.com/events/LImperatrice/fail/'.$today.'?Name='.$Name.'&LastName='.$LastName.'&Email='.$Email.'&Phone='.$Phone.'&transfer='.$transfer.'&Price='.$price.'&raodenoba='.$raodenoba.'&qr='.$qr.'","preauthorize":false,
+            "lang":"GE","hookUrl":"https://corp.com/payze_hook?authorization_token=token"}}',
+      'headers' => [
+        'Accept' => 'application/json',
+        'Content-Type' => 'application/json',
+      ],
+    ]);  
+    $input = $request->except('_token');
+    $ticket = new ticket();
+    $ticket->fill($input);
+    $ticket->unguard();
+    $ticket->save();
+
+      $json = $response->getBody();
+     $json = json_decode($json, true);
+     $trurl=$json['response'];
+    $redirUrl=$trurl['transactionUrl'];
+
+
+        return Redirect::intended($redirUrl);
+    }
 
 
    public function index() {
@@ -401,6 +455,10 @@ return view('frontend.blacksea')->withErrors(['msg' => 'payment has declined']);
     public function seppay() {
 
         return view('frontend.pay');
+    }
+    public function seppayNext() {
+
+        return view('frontend.payNext');
     }
 }
 
