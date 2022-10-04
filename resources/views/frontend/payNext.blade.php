@@ -143,7 +143,7 @@
     <button  type ="submit" class = "btn btn-success"> PAY </button>
   </div>
   </form>
-  <img width="100%" src="{{ asset('../front/assets/images/limp.jpeg') }}" >
+  <img width="100%" src="{{ asset('../front/assets/images/1140.jpg') }}" >
  
 
 </div>
