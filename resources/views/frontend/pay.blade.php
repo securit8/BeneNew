@@ -102,7 +102,7 @@
 
 
 
-<form class="form-horizontal col-6 row" style="margin-left: 20rem;    margin-top: 4rem;" method="POST" action="{{ route('frontend.sepguzzle') }}">
+<form class="form-horizontal col-6 row" style="margin-left: 20rem;    margin-top: 4rem;" method="POST" action="{{ route('sepguzzle') }}">
     {{ csrf_field() }}
     <div class = "col-12 row d-flex align-self-center " style = "border:1px solid black;padding:0;border-radius:20px;margin-bottom:20px;">
       <div class = "col-12 col-xl-5 d-flex justify-content-center text-center text-lg-start justify-content-xl-start  ticket_padding_top">
