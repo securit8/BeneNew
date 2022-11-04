@@ -304,6 +304,174 @@
         <div class="swiper-wrapper">
 
         <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/bene-kia.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>16 @lang('front.june'), 2022</p>
+              </div>
+              <h6>@lang('front.news-article-3-header')</h6>
+
+              <p>@lang('front.news-article-3-body') </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/posts/pfbid07VGkpu3QCUGADp65sUipXnAcAVD9T5rdf9hAG4ZngqjjmAsFpr3fTVaBjE5MZ1TBl">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/bene-77.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>16 @lang('front.june'), 2022</p>
+              </div>
+              <h6>@lang('front.news-article-3-header')</h6>
+
+              <p>@lang('front.news-article-3-body') </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/posts/pfbid02J779ZHTG18sR9z8wvtTpdQqUUf7T8fvKkRHBBWfa8so7PNJXEUBUFQTr6SxpSo54l">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/bene-kia.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>16 @lang('front.june'), 2022</p>
+              </div>
+              <h6>@lang('front.news-article-3-header')</h6>
+
+              <p>@lang('front.news-article-3-body') </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/PraimShow/videos/1230313354425303">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/bene-euro.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>16 @lang('front.june'), 2022</p>
+              </div>
+              <h6>@lang('front.news-article-3-header')</h6>
+
+              <p>@lang('front.news-article-3-body') </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/1069234070395211/">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/bene-euro.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>16 @lang('front.june'), 2022</p>
+              </div>
+              <h6>@lang('front.news-article-3-header')</h6>
+
+              <p>@lang('front.news-article-3-body') </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/100065343585633/videos/5084328855008950">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/bene-tesla.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>16 @lang('front.june'), 2022</p>
+              </div>
+              <h6>@lang('front.news-article-3-header')</h6>
+
+              <p>@lang('front.news-article-3-body') </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/1054975928487692/">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/bene-fiba.jpg') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>16 @lang('front.june'), 2022</p>
+              </div>
+              <h6>@lang('front.news-article-3-header')</h6>
+
+              <p>@lang('front.news-article-3-body') </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/1046128726039079/">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
             <div class="index-news-article">
               <div class="index-news-image">
                 <img src="{{asset('front/images/article/6.jpg') }}" alt="">
@@ -379,6 +547,7 @@
             </div>
           </div>
 
+
           <div class="swiper-slide">
             <div class="index-news-article">
             <div class="index-news-image">
@@ -405,6 +574,8 @@
             </div>
           </div>
         </div>
+
+        
 
         <div class="swiper-slide">
           <div class="index-news-article">
