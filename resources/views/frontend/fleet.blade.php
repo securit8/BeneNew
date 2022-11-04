@@ -674,6 +674,43 @@
                         </div>
 
 
+                        <div class="fleet-element-10 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>MERCEDES-BENZ TOURISMO</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>Tourismo</p> 
+                                        <p>Bus</p>
+                                        <p>2019</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>@lang('front.fleet-car-10-outer')</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.tourismo')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-10-image">
+                                    <img src="{{asset('front/images/Mercedes-Bens-Bus-Tourismo-2019.png')}}" alt="">
+                                </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-10-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.tourismo')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                        </div>
+
+
 
 
                         
