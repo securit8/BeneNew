@@ -443,6 +443,10 @@ public function sepguzzleNext(Request $request){
         return view('frontend.networking');
     }
 
+    public function KIAK5(){
+        return view('frontend.KIAK5');
+    }
+
     public function MODELY(){
         return view('frontend.MODELY');
     }

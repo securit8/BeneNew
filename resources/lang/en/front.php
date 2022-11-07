@@ -189,7 +189,10 @@ At Bene, our vision is to consistently work to high standards of service for the
 'fleet-car-14-inner' => 'Tesla Model Y is based on the design of Model 3 sedan. This particular model has
                           a long-distance capacity and with full charge it can cover up to 488 km. ',  
 
-
+'fleet-car-15-outer' => 'The 2022 Kia K5 is a sporty mid-size sedan with a powerful turbo engine, best-in-class torque.',     
+'fleet-car-15-inner' => 'The 2022 Kia K5 is a sporty mid-size sedan with a powerful turbo engine, best-in-class torque.<br><br> The K5 is Kia`s midsize sedan that replaced the Optima in 2021 after it received a redesign. It`s incredibly easy to drive and comfortable on longer trips thanks to a great suspension and an exceptionally quiet cabin.<br><br>
+Like all Kia models, the K5 offers a long list of excellent features. Even the base model includes an 8-inch touchscreen, wireless Apple CarPlay/Android Auto smartphone integration, Bluetooth connectivity, two USB ports, and dual-zone climate control.
+',
 
 
 
@@ -225,6 +228,7 @@ At Bene, our vision is to consistently work to high standards of service for the
 'fleet-black' => 'Black Metallic',
 'fleet-white' => 'White',
 'fleet-silver' => 'Silver',
+'fleet-blue' => 'Dark Blue',
 'fleet-bus' => 'Bus',
 'fleet-minibus' => 'Minibus',
 'fleet-minivan' => 'Minivan',
