@@ -19,7 +19,8 @@
 
 
   <div class="carousel-inner">
-    <div class="carousel-item active">
+  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBeneAcademy%2Fvideos%2F374155714606642%2F&show_text=false&width=560&t=0" width="100%" height="750" style="border:none;overflow:hidden" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+    <!-- <div class="carousel-item active">
       <img src="{{asset('front/images/academy/1.jpg')}}" class="" alt="...">
     </div>
 
@@ -30,13 +31,13 @@
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/academy/6.jpg')}}" class="" alt="...">
-    </div>
+      <img src="{{asset('front/images/academy/6.jpg')}}" class="" alt="..."> -->
+    <!-- </div> -->
 
 
   </div>
 
-    <div class="spec-carousel-buttons d-none">
+    <!-- <div class="spec-carousel-buttons d-none">
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-taxi" data-bs-slide="prev">
     <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
     <span  class="carousel-arrow-icon"><img src="{{asset('front/images/carousel-right.png') }}" alt=""></span>
@@ -49,7 +50,7 @@
   </button>
   </div>
   
-</div>
+</div> -->
 
 
 <div class="academy-page-header">
@@ -119,6 +120,7 @@
 
                 <div class="anything-else-image">
                     <img src="{{asset('front/images/academy/5.jpg') }}" alt="">
+                    
                 </div>
             </div>
 

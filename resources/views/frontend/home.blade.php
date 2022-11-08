@@ -313,7 +313,7 @@
               <div class="news-date">
                 <p>16 @lang('front.june'), 2022</p>
               </div>
-              <h6>@lang('front.news-article-3-header')</h6>
+              <h6>@lang('front.news-article-13-header')</h6>
 
               <p>@lang('front.news-article-3-body') </p>
 
@@ -330,16 +330,16 @@
         <div class="swiper-slide">
           <div class="index-news-article">
             <div class="index-news-image">
-              <img src="{{asset('front/images/article/bene-77.jpg') }}" alt="">
+              <img src="{{asset('front/images/article/exclusive-web-rally.png') }}" alt="">
             </div>
 
             <div class="index-news-text">
               <div class="news-date">
                 <p>16 @lang('front.june'), 2022</p>
               </div>
-              <h6>@lang('front.news-article-3-header')</h6>
+              <h6>@lang('front.news-article-12-header')</h6>
 
-              <p>@lang('front.news-article-3-body') </p>
+              <p>@lang('front.news-article-12-body') </p>
 
 
               <div class="index-read-more">
@@ -354,14 +354,14 @@
         <div class="swiper-slide">
           <div class="index-news-article">
             <div class="index-news-image">
-              <img src="{{asset('front/images/article/bene-kia.jpg') }}" alt="">
+              <img src="{{asset('front/images/article/gogli.jpeg') }}" alt="">
             </div>
 
             <div class="index-news-text">
               <div class="news-date">
                 <p>16 @lang('front.june'), 2022</p>
               </div>
-              <h6>@lang('front.news-article-3-header')</h6>
+              <h6>@lang('front.news-article-11-header')</h6>
 
               <p>@lang('front.news-article-3-body') </p>
 
@@ -378,14 +378,14 @@
         <div class="swiper-slide">
           <div class="index-news-article">
             <div class="index-news-image">
-              <img src="{{asset('front/images/article/bene-euro.jpg') }}" alt="">
+              <img src="{{asset('front/images/article/euro.jpg') }}" alt="">
             </div>
 
             <div class="index-news-text">
               <div class="news-date">
                 <p>16 @lang('front.june'), 2022</p>
               </div>
-              <h6>@lang('front.news-article-3-header')</h6>
+              <h6>@lang('front.news-article-10-header')</h6>
 
               <p>@lang('front.news-article-3-body') </p>
 
@@ -402,20 +402,44 @@
         <div class="swiper-slide">
           <div class="index-news-article">
             <div class="index-news-image">
-              <img src="{{asset('front/images/article/bene-euro.jpg') }}" alt="">
+              <img src="{{asset('front/images/article/gogla.jpeg') }}" alt="">
             </div>
 
             <div class="index-news-text">
               <div class="news-date">
                 <p>16 @lang('front.june'), 2022</p>
               </div>
-              <h6>@lang('front.news-article-3-header')</h6>
+              <h6>@lang('front.news-article-9-header')</h6>
 
               <p>@lang('front.news-article-3-body') </p>
 
 
               <div class="index-read-more">
                 <a href="https://www.facebook.com/100065343585633/videos/5084328855008950">
+                  <h5>@lang('front.show-more')</h5></a>
+                <img src="{{asset('front/images/news-arrow.png') }}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="index-news-article">
+            <div class="index-news-image">
+              <img src="{{asset('front/images/article/exclusive-web-stars.png') }}" alt="">
+            </div>
+
+            <div class="index-news-text">
+              <div class="news-date">
+                <p>16 @lang('front.june'), 2022</p>
+              </div>
+              <h6>@lang('front.news-article-14-header')</h6>
+
+              <p>@lang('front.news-article-14-body') </p>
+
+
+              <div class="index-read-more">
+                <a href="https://www.facebook.com/beneexclusive/photos/a.146175766034384/1046128726039079/">
                   <h5>@lang('front.show-more')</h5></a>
                 <img src="{{asset('front/images/news-arrow.png') }}" alt="">
               </div>
@@ -433,7 +457,7 @@
               <div class="news-date">
                 <p>16 @lang('front.june'), 2022</p>
               </div>
-              <h6>@lang('front.news-article-3-header')</h6>
+              <h6>@lang('front.news-article-8-header')</h6>
 
               <p>@lang('front.news-article-3-body') </p>
 
@@ -450,14 +474,14 @@
         <div class="swiper-slide">
           <div class="index-news-article">
             <div class="index-news-image">
-              <img src="{{asset('front/images/article/bene-fiba.jpg') }}" alt="">
+              <img src="{{asset('front/images/article/exclusive-web-fiba.png') }}" alt="">
             </div>
 
             <div class="index-news-text">
               <div class="news-date">
                 <p>16 @lang('front.june'), 2022</p>
               </div>
-              <h6>@lang('front.news-article-3-header')</h6>
+              <h6>@lang('front.news-article-7-header')</h6>
 
               <p>@lang('front.news-article-3-body') </p>
 
