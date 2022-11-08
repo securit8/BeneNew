@@ -370,7 +370,7 @@
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
-                                        <p>KIA K5</p> <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                        <p>KIA K5</p> <img src="{{asset('front/images/kia-logo-black.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
@@ -706,6 +706,8 @@
                                     <a href="{{route('frontend.tourismo')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                         </div>
+
+                       
 
 
 

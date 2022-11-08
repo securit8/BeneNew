@@ -1,6 +1,6 @@
 @extends('frontend/master')
 
-@section('title', 'Tesla')
+@section('title', 'KIA')
 @section('content')
 
 
@@ -26,20 +26,20 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/modely/2.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/kia-k5/kia-slide-1.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/modely/3.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/kia-k5/ADMIREPH-08281.jpg')}}" class="" alt="...">
     </div>
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/modely/1.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/kia-k5/ADMIREPH-08296.jpg')}}" class="" alt="...">
     </div>
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/modely/4.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/kia-k5/ADMIREPH-08298.jpg')}}" class="" alt="...">
     </div>
 
   </div>
@@ -70,7 +70,7 @@
                 <div class="vehicle-spec-body-text">
                   <div class="vehicle-spec-body-title">
                     <p>KIA K5</p>
-                    <img src="{{asset('front/images/fleet-logo2.png')}}" alt="">
+                    <img src="{{asset('front/images/kia-logo-black.png')}}" alt="">
                   </div>
 
                   <div class="vehicle-spec-body-tags">
