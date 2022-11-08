@@ -390,7 +390,7 @@
                                 </div>
 
                                 <div class="fleet-element-10-image">
-                                    <img src="{{asset('front/images/kia-k5/kia-k5-2022.webp')}}" alt="">
+                                    <img style="width:80%; margin-left:5rem; margin-top:2rem" src="{{asset('front/images/kia-k5/kia-k5-2022.webp')}}" alt="">
                                 </div>
 
                                     <div id="fleet-query" class="element-info-text">
