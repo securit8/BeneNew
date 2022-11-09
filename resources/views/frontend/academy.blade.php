@@ -8,18 +8,19 @@
 
 @section('footer')
 
-<div id="carouselExampleIndicators-taxi" class="carousel slide" data-bs-ride="carousel">
+<!-- <div id="carouselExampleIndicators-taxi" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <div class="taxi-carousel-sliders">
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators-taxitaxi" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-  </div>
+  </div> -->
 
 
   <div class="carousel-inner">
   <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBeneAcademy%2Fvideos%2F374155714606642%2F&show_text=false&width=560&t=0" width="100%" height="750" style="border:none;overflow:hidden" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+  </div>
     <!-- <div class="carousel-item active">
       <img src="{{asset('front/images/academy/1.jpg')}}" class="" alt="...">
     </div>
@@ -35,7 +36,6 @@
     <!-- </div> -->
 
 
-  </div>
 
     <!-- <div class="spec-carousel-buttons d-none">
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-taxi" data-bs-slide="prev">
@@ -53,7 +53,7 @@
 </div> -->
 
 
-<div class="academy-page-header">
+<!-- <div class="academy-page-header">
     <div class="academy-page-header-middle">
         <div class="academy-page-header-inner">
             <div class="academy-page-header-title">
@@ -61,7 +61,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 
