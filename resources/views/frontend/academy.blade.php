@@ -19,7 +19,9 @@
 
 
   <div class="carousel-inner">
-  <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBeneAcademy%2Fvideos%2F374155714606642%2F&show_text=false&width=560&t=0" width="100%" height="750" style="border:none;overflow:hidden" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+    
+  <iframe style="display:block; width:100vw; height: 84vh;" src="https://www.youtube.com/embed/lC7QI6gTH1M?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
   </div>
     <!-- <div class="carousel-item active">
       <img src="{{asset('front/images/academy/1.jpg')}}" class="" alt="...">
