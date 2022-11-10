@@ -314,7 +314,7 @@
                 <p>6 @lang('front.november'), 2022</p>
               </div>
               <h6>@lang('front.news-article-14-header')</h6>
-
+              
               <p>@lang('front.news-article-14-body') </p>
 
 
@@ -362,7 +362,7 @@
                 <p>9 @lang('front.october'), 2022</p>
               </div>
               <h6>@lang('front.news-article-12-header')</h6>
-
+<br>
               <p>@lang('front.news-article-12-body') </p>
 
 
@@ -387,7 +387,7 @@
               </div>
               <h6>@lang('front.news-article-11-header')</h6>
 
-              <p>@lang('front.news-article-3-body') </p>
+              <p>@lang('front.news-article-11-body') </p>
 
 
               <div class="index-read-more">
@@ -410,7 +410,7 @@
                 <p>2 @lang('front.september'), 2022</p>
               </div>
               <h6>@lang('front.news-article-10-header')</h6>
-
+<br>
               <p>@lang('front.news-article-10-body') </p>
 
 
@@ -458,7 +458,7 @@
                 <p>11 @lang('front.august'), 2022</p>
               </div>
               <h6>@lang('front.news-article-8-header')</h6>
-
+<br>
               <p>@lang('front.news-article-8-body') </p>
 
 
@@ -482,7 +482,7 @@
                 <p>26 @lang('front.july'), 2022</p>
               </div>
               <h6>@lang('front.news-article-7-header')</h6>
-
+<br>
               <p>@lang('front.news-article-7-body') </p>
 
 
