@@ -302,7 +302,7 @@ At the end of the course, participants receive a certificate, in accordance with
    'input-position' => 'Position',
 
 
-   'location-1' => 'Al. Kazbegi Av. 15, 0160 Tbilisi, Georgia',
+   'location-1' => 'Petre Kavtaradze st. 60 <br> 0186 Tbilisi, Georgia',
    'location-2' => 'Tbilisi International Airport, Arrivals hall',
    'location-3' => 'Pharnavaz Mephe Str. 41, 6010 Batumi, Georgia',
 
