@@ -327,10 +327,40 @@ At the end of the course, participants receive a certificate, in accordance with
 'news-article-5-header' => 'Fencing World Cup Partner 2022<br>',
 'news-article-5-body' => 'Bene Exclusive provided transportation and logistics support to 600 participants of the Fencing World Cup 2022.<br>',
 
+'news-article-14-header' => 'Bene Exclusive is a partner of the season main TV show “Dancing with the stars”',
+'news-article-14-body' => 'Bene Exclusive provides transportation service to participants of the show “Dancing with the stars”.',
+
+'news-article-13-header' => 'Bene Exclusive presents the latest model of KIA K5',
+'news-article-13-body' => 'Bene Exclusive is constantly expanding its fleet. The latest model - KIA K5 has distinctive design and upscale interior features.',
+
+'news-article-12-header' => 'RALLY ADVENTURE GEORGIA',
+'news-article-12-body' => 'Bene Exclusive supports the principles of equality in sports and wishes success and victory to the women"s team.',
+
+'news-article-11-header' => 'The team of Bene Exclusive continues its activity in the new office',
+'news-article-11-body' => 'Giorgi Goglidze, the founder of Bene Group, spoke future plans of the company.',
+
+'news-article-10-header' => 'EUROBASKET-BENE EXCLUSIVE',
+'news-article-10-body' => 'Logistics of the EUROBASKET championship participants, all teams, journalists, team managements, delegates and referees, were provided by our company.',
+
+'news-article-9-header' => 'TV MONITORING about current projects of our company',
+'news-article-9-body' => 'George Gorgadze, Executive Director of Bene Exclusive, spoke about current projects of our company.',
+
+'news-article-8-header' => 'Bene Exclusive presents the latest model of Tesla Model Y',
+'news-article-8-body' => 'TESLA MODEL Y is the perfect synthesis of modern technology and comfort.',
+
+'news-article-7-header' => 'FIBA-BENE EXCLUSIVE',
+'news-article-7-body' => 'Logistics of U20 basketball Championship participants, all teams, journalists, team managements, delegates and referees, were provided by our company.',
+
 'april' => 'April',
 'march' => 'March',
 'february' => 'February',
 'january' => 'January',
+'november' => 'November',
+'july' => 'July',
+'august' => 'August',
+'september' => 'September',
+'october' => 'October',
+'june' => 'June',
 // taxi page
 
 'taxi-page-text-1' => 'Since 2019 Bene Exclusive has maintained exclusive rights to service Tbilisi International Airport.<br><br> 
