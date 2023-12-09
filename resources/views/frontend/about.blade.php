@@ -12,6 +12,7 @@
         <div class="home-page-header-inner">
             <div class="home-page-header-title">
                 <p>@lang('front.about-company')</p>
+              <!-- hello -->
             </div>
         </div>
     </div>
