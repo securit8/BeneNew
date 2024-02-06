@@ -187,7 +187,7 @@
         </div>
 
         <div class="about-us-video">
-          <embed src="https://www.youtube.com/embed/W7vWuPWh4-Y?autoplay=1&mute=1" frameborder="0"></embed>
+          <embed src="https://www.youtube.com/watch?v=DBvhFqfW44y?autoplay=1&mute=1" frameborder="0"></embed>
         </div>
     </div>
   </div>
