@@ -632,12 +632,12 @@
 
 
 
-                        <div class="fleet-element-11 reveal">
+                        <!-- <div class="fleet-element-11 reveal">
                             <div class="fleet-element-info">
                                     
                                     <div class="element-info-header">
                                         <p>TEMSA PRESTIJ</p> 
-                                        <!-- <img src="{{asset('front/images/fleet-logo4.png')}}" alt=""> -->
+                                         <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
                                     </div>
                                     
                                     <div class="element-info-tags">
@@ -666,6 +666,43 @@
                                     
                                     <div id="fleet-query" class="element-info-button">
                                     <a href="{{route('frontend.temsa')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                        </div> -->
+
+                        <div class="fleet-element-11 reveal">
+                            <div class="fleet-element-info">
+                                    
+                                    <div class="element-info-header">
+                                        <p>MERCEDES-BENZ G-class</p> 
+                                        <img src="{{asset('front/images/fleet-logo4.png')}}" alt="">
+                                    </div>
+                                    
+                                    <div class="element-info-tags">
+                                        <p>G-class</p> 
+                                        <p>Bus</p>
+                                        <p>2019</p>
+                                    </div>
+                                    
+                                    <div class="element-info-text">
+                                        <p>@lang('front.fleet-car-11-outer')</p>
+                                    </div>
+                                    
+                                    <div class="element-info-button">
+                                    <a href="{{route('frontend.temsa')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="fleet-element-11-image">
+                                    <img src="{{asset('front/images/gclass/G.png')}}" alt="">
+                                </div>
+
+                                    <div id="fleet-query" class="element-info-text">
+                                        <p>@lang('front.fleet-car-11-outer')</p>
+                                    </div>
+                                    
+                                    <div id="fleet-query" class="element-info-button">
+                                    <a href="{{route('frontend.g-class')}}"><button><p>@lang('front.fully')</p><img src="{{asset('front/images/arrow-right.png')}}" alt=""></button></a>
                                     </div>
                         </div>
 
