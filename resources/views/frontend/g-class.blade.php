@@ -120,7 +120,7 @@
 
                         <p class="sheet-part-1">@lang('front.fleet-model')</p> 
                         
-                        <p class="sheet-part-2">E-Class W213</p>
+                        <p class="sheet-part-2">G-Class W213</p>
                       </div>
 
                       <div class="sheet-line-3">

@@ -392,6 +392,10 @@ public function sepguzzleNext(Request $request){
         return view('frontend.e-class');
     }
 
+    public function gclass(){
+        return view('frontend.g-class');
+    }
+
     public function land(){
         return view('frontend.land');
     }
