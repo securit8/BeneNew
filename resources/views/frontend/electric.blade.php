@@ -40,7 +40,7 @@
         </div>
 
         <div class="electric-about-us-video">
-          <img src="{{asset('front/images/electro-1.webp')}}" alt="">
+          <img src="{{asset('front/images/tesla1.jpg')}}" alt="">
         </div>
     </div>
   </div>

@@ -170,6 +170,87 @@
                             </div>
                         </div>
                 </div>
+
+
+                    <div class="project">
+                         <div class="project-image-5">
+                         <a href="{{route('frontend.distribution')}}">
+                            <img src="{{asset('front/images/uefa.jpg') }}" alt="">
+                        </a>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-title">
+                                <p>@lang('front.distribution')</p>
+                            </div>
+                            <div class="project-text">
+                                <p>@lang('front.distribution-description')</p>
+                            </div>
+                            
+                            <div class="project-button">
+                                <button> 
+                                     <a href="{{route('frontend.distribution')}}">
+                                    <p>@lang('front.show-more')</p>
+                                    <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="project">
+                         <div class="project-image-5">
+                         <a href="{{route('frontend.distribution')}}">
+                            <img src="{{asset('front/images/bruno.png') }}" alt="">
+                        </a>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-title">
+                                <p>@lang('front.distribution')</p>
+                            </div>
+                            <div class="project-text">
+                                <p>@lang('front.distribution-description')</p>
+                            </div>
+                            
+                            <div class="project-button">
+                                <button> 
+                                     <a href="{{route('frontend.distribution')}}">
+                                    <p>@lang('front.show-more')</p>
+                                    <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                </div>
+
+
+                <div class="project">
+                         <div class="project-image-5">
+                         <a href="{{route('frontend.distribution')}}">
+                            <img src="{{asset('front/images/black-sea.png') }}" alt="">
+                        </a>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-title">
+                                <p>@lang('front.distribution')</p>
+                            </div>
+                            <div class="project-text">
+                                <p>@lang('front.distribution-description')</p>
+                            </div>
+                            
+                            <div class="project-button">
+                                <button> 
+                                     <a href="{{route('frontend.distribution')}}">
+                                    <p>@lang('front.show-more')</p>
+                                    <img src="{{asset('front/images/arrow-right.png') }}" alt="">
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                </div>
             </div>
 
 

@@ -25,22 +25,22 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{asset('front/images/taxi/4.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/taxi/new-2.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/taxi/3.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/taxi/new-3.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-      <img src="{{asset('front/images/taxi/1.jpg')}}" class="" alt="...">
+      <img src="{{asset('front/images/taxi/new-4.jpg')}}" class="" alt="...">
     </div>
 
 
     <div class="carousel-item">
-        <img src="{{asset('front/images/taxi/2.jpg')}}" alt="">
+        <img src="{{asset('front/images/taxi/new-5.jpg')}}" alt="">
     </div>
 
 
@@ -93,7 +93,7 @@
         </div>
 
         <div class="taxi-about-us-video">
-          <img src="{{asset('front/images/taxi/taxi1.jpg')}}" alt="">
+          <img src="{{asset('front/images/taxi/new-1.jpg')}}" alt="">
         </div>
     </div>
   </div>
